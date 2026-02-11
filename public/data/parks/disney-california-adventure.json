@@ -1,0 +1,274 @@
+[
+  {
+    "id": "incredicoaster",
+    "name": "Incredicoaster",
+    "type": "ride",
+    "description": "High-speed roller coaster featuring the Incredibles",
+    "waitTime": 50,
+    "heightRequirement": "48\" (122cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "categories": ["thrill", "coaster", "outdoor"]
+  },
+  {
+    "id": "guardians-dca",
+    "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
+    "type": "ride",
+    "description": "Drop tower ride with the Guardians of the Galaxy",
+    "waitTime": 60,
+    "heightRequirement": "40\" (102cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "categories": ["thrill", "drop", "indoor"]
+  },
+  {
+    "id": "radiator-springs",
+    "name": "Radiator Springs Racers",
+    "type": "ride",
+    "description": "Race through Ornament Valley in Cars Land",
+    "waitTime": 70,
+    "heightRequirement": "40\" (102cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Rope drop or last hour of park operation",
+    "categories": ["family", "outdoor", "cars"]
+  },
+  {
+    "id": "soarin-dca",
+    "name": "Soarin' Around the World",
+    "type": "ride",
+    "description": "Hang gliding experience over world landmarks",
+    "waitTime": 45,
+    "heightRequirement": "40\" (102cm)",
+    "geniePlusEligible": true,
+    "bestTime": "First hour of park opening",
+    "categories": ["family", "thrill", "indoor"]
+  },
+  {
+    "id": "grizzly-river",
+    "name": "Grizzly River Run",
+    "type": "ride",
+    "description": "White-water rafting adventure",
+    "waitTime": 35,
+    "heightRequirement": "42\" (107cm)",
+    "geniePlusEligible": false,
+    "bestTime": "Morning or evening",
+    "categories": ["water", "outdoor", "family"]
+  },
+  {
+    "id": "toy-story-mania-dca",
+    "name": "Toy Story Midway Mania!",
+    "type": "ride",
+    "description": "Interactive 4D shooting game",
+    "waitTime": 40,
+    "heightRequirement": "No height requirement",
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "categories": ["interactive", "family", "toy-story"]
+  },
+  {
+    "id": "little-mermaid-dca",
+    "name": "The Little Mermaid - Ariel's Undersea Adventure",
+    "type": "ride",
+    "description": "Dark ride telling The Little Mermaid story",
+    "waitTime": 20,
+    "heightRequirement": "No height requirement",
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["family", "indoor", "classic"]
+  },
+  {
+    "id": "monsters-inc",
+    "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
+    "type": "ride",
+    "description": "Dark ride through the Monsters, Inc. world",
+    "waitTime": 15,
+    "heightRequirement": "No height requirement",
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["family", "indoor", "classic"]
+  },
+  {
+    "id": "luigis",
+    "name": "Luigi's Rollickin' Roadsters",
+    "type": "ride",
+    "description": "Dancing cars ride in Cars Land",
+    "waitTime": 20,
+    "heightRequirement": "No height requirement",
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["family", "outdoor", "cars"]
+  },
+  {
+    "id": "maters",
+    "name": "Mater's Junkyard Jamboree",
+    "type": "ride",
+    "description": "Spinning tractor ride in Cars Land",
+    "waitTime": 15,
+    "heightRequirement": "No height requirement",
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["family", "outdoor", "cars"]
+  },
+  {
+    "id": "golden-zephyr",
+    "name": "Golden Zephyr",
+    "type": "ride",
+    "description": "Spinning rocket ship ride",
+    "waitTime": 15,
+    "heightRequirement": "No height requirement",
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["family", "outdoor", "relaxing"]
+  },
+  {
+    "id": "jumpin-jellyfish",
+    "name": "Jumpin' Jellyfish",
+    "type": "ride",
+    "description": "Parachute jump ride for kids",
+    "waitTime": 10,
+    "heightRequirement": "No height requirement",
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["kids", "outdoor", "gentle"]
+  },
+  {
+    "id": "world-color",
+    "name": "World of Color",
+    "type": "show",
+    "description": "Nighttime water and light spectacular",
+    "bestTime": "Evening showtimes",
+    "categories": ["show", "water", "nighttime"]
+  },
+  {
+    "id": "frozen-live",
+    "name": "Frozen - Live at the Hyperion",
+    "type": "show",
+    "description": "Broadway-style musical production of Frozen",
+    "waitTime": 30,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["show", "musical", "broadway"]
+  },
+  {
+    "id": "turtle-talk",
+    "name": "Turtle Talk with Crush",
+    "type": "show",
+    "description": "Interactive show with Crush from Finding Nemo",
+    "waitTime": 20,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["show", "interactive", "kids"]
+  },
+  {
+    "id": "pixar-parade",
+    "name": "Pixar Play Parade",
+    "type": "show",
+    "description": "Daytime parade featuring Pixar characters",
+    "bestTime": "Afternoon parade times",
+    "categories": ["parade", "outdoor", "pixar"]
+  },
+  {
+    "id": "cars-characters",
+    "name": "Meet Cars characters in Cars Land",
+    "type": "character",
+    "description": "Meet Lightning McQueen, Mater, and friends",
+    "waitTime": 20,
+    "geniePlusEligible": false,
+    "categories": ["character", "cars", "meet-and-greet"]
+  },
+  {
+    "id": "avengers-characters",
+    "name": "Meet Avengers characters",
+    "type": "character",
+    "description": "Meet Marvel superheroes in Avengers Campus",
+    "waitTime": 30,
+    "geniePlusEligible": true,
+    "categories": ["character", "marvel", "meet-and-greet"]
+  },
+  {
+    "id": "woody-buzz-dca",
+    "name": "Meet Woody and Buzz in Pixar Pier",
+    "type": "character",
+    "description": "Meet Toy Story characters",
+    "waitTime": 25,
+    "geniePlusEligible": false,
+    "categories": ["character", "pixar", "meet-and-greet"]
+  },
+  {
+    "id": "cozy-motel",
+    "name": "Eat at Cozy Cone Motel",
+    "type": "food",
+    "description": "Quick service in Cars Land with cone-themed food",
+    "categories": ["meal", "quick-service", "cars"]
+  },
+  {
+    "id": "flo-v8",
+    "name": "Dine at Flo's V8 Cafe",
+    "type": "food",
+    "description": "Car-themed restaurant in Cars Land",
+    "categories": ["meal", "quick-service", "cars"]
+  },
+  {
+    "id": "lamplight-lounge",
+    "name": "Try Lamplight Lounge",
+    "type": "food",
+    "description": "Pixar-themed restaurant with waterfront views",
+    "categories": ["meal", "themed", "pixar"]
+  },
+  {
+    "id": "pym-test",
+    "name": "Try Pym Test Kitchen in Avengers Campus",
+    "type": "food",
+    "description": "Marvel-themed quick service with unusual food sizes",
+    "categories": ["meal", "quick-service", "marvel"]
+  },
+  {
+    "id": "adventure-land",
+    "name": "Get a pretzel from Boudin Bakery",
+    "type": "food",
+    "description": "Fresh-baked sourdough pretzels",
+    "categories": ["snack", "bakery", "san-francisco"]
+  },
+  {
+    "id": "avengers-campus",
+    "name": "Explore Avengers Campus",
+    "type": "detail",
+    "description": "Walk through the Marvel superhero themed land",
+    "categories": ["themed-area", "walking", "marvel"]
+  },
+  {
+    "id": "cars-land",
+    "name": "Explore Cars Land",
+    "type": "detail",
+    "description": "Walk through the detailed Radiator Springs area",
+    "categories": ["themed-area", "walking", "cars"]
+  },
+  {
+    "id": "pixar-pier",
+    "name": "Walk along Pixar Pier",
+    "type": "detail",
+    "description": "Stroll down the Pixar-themed boardwalk",
+    "categories": ["themed-area", "walking", "pixar"]
+  },
+  {
+    "id": "buena-vista",
+    "name": "Explore Buena Vista Street",
+    "type": "detail",
+    "description": "Walk through 1920s Los Angeles themed entrance",
+    "categories": ["themed-area", "walking", "vintage"]
+  },
+  {
+    "id": "paradise-garden",
+    "name": "Visit Paradise Gardens Park",
+    "type": "detail",
+    "description": "Explore the beautiful garden area",
+    "categories": ["garden", "walking", "relaxing"]
+  },
+  {
+    "id": "grizzly-peak",
+    "name": "Hike around Grizzly Peak",
+    "type": "detail",
+    "description": "Walk through the Redwood-themed area",
+    "categories": ["nature", "walking", "themed"]
+  }
+]

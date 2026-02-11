@@ -1,12 +1,34 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, OnInit, inject } from '@angular/core';
+import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
+import { StatusBar, Style } from '@capacitor/status-bar';
+import { SplashScreen } from '@capacitor/splash-screen';
+import { Capacitor } from '@capacitor/core';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.scss'
+  imports: [IonApp, IonRouterOutlet],
+  template: `
+    <ion-app>
+      <ion-router-outlet></ion-router-outlet>
+    </ion-app>
+  `,
 })
-export class App {
-  protected readonly title = signal('park-bingo');
+export class App implements OnInit {
+  async ngOnInit() {
+    if (Capacitor.isNativePlatform()) {
+      await this.initializeApp();
+    }
+  }
+
+  private async initializeApp() {
+    try {
+      // Set status bar style
+      await StatusBar.setStyle({ style: Style.Dark });
+
+      // Hide splash screen after app is ready
+      await SplashScreen.hide();
+    } catch (error) {
+      console.error('Error initializing app:', error);
+    }
+  }
 }

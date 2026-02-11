@@ -1,0 +1,237 @@
+[
+  {
+    "id": "flight-passage",
+    "name": "Avatar Flight of Passage",
+    "type": "ride",
+    "description": "Fly on a banshee over Pandora in 3D",
+    "waitTime": 90,
+    "heightRequirement": "44\" (112cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Rope drop or last hour of park operation",
+    "categories": ["thrill", "3d", "avatar"]
+  },
+  {
+    "id": "navi-river",
+    "name": "Na'vi River Journey",
+    "type": "ride",
+    "description": "Boat ride through the bioluminescent forests of Pandora",
+    "waitTime": 45,
+    "heightRequirement": "No height requirement",
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "categories": ["family", "boat", "avatar"]
+  },
+  {
+    "id": "kilimanjaro-safaris",
+    "name": "Kilimanjaro Safaris",
+    "type": "ride",
+    "description": "Safari expedition through African savanna with live animals",
+    "waitTime": 40,
+    "geniePlusEligible": true,
+    "bestTime": "Morning or late afternoon",
+    "categories": ["family", "animals", "outdoor"]
+  },
+  {
+    "id": "everest",
+    "name": "Expedition Everest",
+    "type": "ride",
+    "description": "High-speed coaster through the Himalayas with a Yeti encounter",
+    "waitTime": 50,
+    "heightRequirement": "44\" (112cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "categories": ["thrill", "coaster", "outdoor"]
+  },
+  {
+    "id": "kali-river",
+    "name": "Kali River Rapids",
+    "type": "ride",
+    "description": "White-water rafting adventure through the rainforest",
+    "waitTime": 35,
+    "heightRequirement": "38\" (97cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Morning or evening",
+    "categories": ["water", "outdoor", "family"]
+  },
+  {
+    "id": "dinosaur",
+    "name": "DINOSAUR",
+    "type": "ride",
+    "description": "Time travel adventure to rescue a dinosaur",
+    "waitTime": 30,
+    "heightRequirement": "40\" (102cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Anytime",
+    "categories": ["thrill", "indoor", "dinosaurs"]
+  },
+  {
+    "id": "primeval-whirl",
+    "name": "Primeval Whirl",
+    "type": "ride",
+    "description": "Spinning coaster through dinosaur-themed area",
+    "waitTime": 25,
+    "heightRequirement": "48\" (122cm)",
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["spin", "coaster", "dinosaurs"]
+  },
+  {
+    "id": "tricera-top-spin",
+    "name": "TriceraTop Spin",
+    "type": "ride",
+    "description": "Family spinner ride with dinosaur theme",
+    "waitTime": 20,
+    "heightRequirement": "No height requirement",
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["family", "spin", "dinosaurs"]
+  },
+  {
+    "id": "its-tough-to-be-bug",
+    "name": "It's Tough to Be a Bug!",
+    "type": "show",
+    "description": "3D show about life from a bug's perspective",
+    "waitTime": 20,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["show", "3d", "bugs"]
+  },
+  {
+    "id": "festival-lion-king",
+    "name": "Festival of the Lion King",
+    "type": "show",
+    "description": "Acrobatic and musical celebration of The Lion King",
+    "waitTime": 25,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["show", "musical", "classic"]
+  },
+  {
+    "id": "nemo-show",
+    "name": "Finding Nemo - The Musical",
+    "type": "show",
+    "description": "Puppet and musical show telling Finding Nemo story",
+    "waitTime": 20,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["show", "musical", "puppets"]
+  },
+  {
+    "id": "rivers-of-light",
+    "name": "Rivers of Light",
+    "type": "show",
+    "description": "Nighttime water and light show on Discovery River",
+    "bestTime": "Evening",
+    "categories": ["show", "nighttime", "water"]
+  },
+  {
+    "id": "mickey-jammin",
+    "name": "Mickey's Jammin' Jungle Parade",
+    "type": "show",
+    "description": "Daily parade with Mickey and friends in safari outfits",
+    "bestTime": "Afternoon parade times",
+    "categories": ["parade", "outdoor", "characters"]
+  },
+  {
+    "id": "character-groove",
+    "name": "Meet characters at Character Landing",
+    "type": "character",
+    "description": "Meet Mickey, Minnie, and friends in safari outfits",
+    "waitTime": 25,
+    "geniePlusEligible": true,
+    "categories": ["character", "meet-and-greet", "safari"]
+  },
+  {
+    "id": "pandora-characters",
+    "name": "Meet Avatar characters in Pandora",
+    "type": "character",
+    "description": "Meet Na'vi characters from Avatar",
+    "waitTime": 30,
+    "geniePlusEligible": true,
+    "categories": ["character", "avatar", "meet-and-greet"]
+  },
+  {
+    "id": "raffi",
+    "name": "Eat at Rainforest Cafe",
+    "type": "food",
+    "description": "Themed restaurant with rainforest atmosphere",
+    "categories": ["meal", "themed", "family"]
+  },
+  {
+    "id": "tusker-house",
+    "name": "Dine at Tusker House Restaurant",
+    "type": "food",
+    "description": "Character dining with African cuisine",
+    "categories": ["meal", "character-dining", "buffet"]
+  },
+  {
+    "id": "satu-li",
+    "name": "Try Satu'li Canteen in Pandora",
+    "type": "food",
+    "description": "Avatar-themed quick service restaurant",
+    "categories": ["meal", "quick-service", "avatar"]
+  },
+  {
+    "id": "pizzafari",
+    "name": "Eat at Pizzafari",
+    "type": "food",
+    "description": "Quick service pizza restaurant with animal murals",
+    "categories": ["meal", "quick-service", "pizza"]
+  },
+  {
+    "id": "dole-whip-ak",
+    "name": "Get Dole Whip at Tamu Tamu Refreshments",
+    "type": "food",
+    "description": "Dole Whip with optional rum float for adults",
+    "categories": ["snack", "sweet", "alcoholic"]
+  },
+  {
+    "id": "pandora-bioluminescence",
+    "name": "See Pandora at night",
+    "type": "detail",
+    "description": "Experience the bioluminescent beauty of Pandora after dark",
+    "categories": ["photo-op", "nighttime", "avatar"]
+  },
+  {
+    "id": "tree-of-life",
+    "name": "Explore the Tree of Life",
+    "type": "detail",
+    "description": "Walk around and discover animal carvings in the Tree of Life",
+    "categories": ["photo-op", "art", "walking"]
+  },
+  {
+    "id": "discovery-trails",
+    "name": "Walk the Discovery Island Trails",
+    "type": "detail",
+    "description": "Explore the trails around Discovery Island",
+    "categories": ["walking", "nature", "animals"]
+  },
+  {
+    "id": "gorilla-falls",
+    "name": "Visit the Gorilla Falls Exploration Trail",
+    "type": "detail",
+    "description": "Self-guided walking tour to see gorillas and other animals",
+    "categories": ["walking", "animals", "nature"]
+  },
+  {
+    "id": "maharajah-jungle",
+    "name": "Explore Maharajah Jungle Trek",
+    "type": "detail",
+    "description": "Walking trail through Asian animal habitats",
+    "categories": ["walking", "animals", "nature"]
+  },
+  {
+    "id": "affection-section",
+    "name": "Pet animals at the Affection Section",
+    "type": "detail",
+    "description": "Petting zoo area with domestic animals",
+    "categories": ["animals", "kids", "interactive"]
+  },
+  {
+    "id": "wilderness-explorer",
+    "name": "Become a Wilderness Explorer",
+    "type": "detail",
+    "description": "Complete wilderness explorer badge activities throughout the park",
+    "categories": ["kids", "scavenger-hunt", "educational"]
+  }
+]

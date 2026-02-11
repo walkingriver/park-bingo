@@ -1,0 +1,329 @@
+[
+  {
+    "id": "rise-resistance",
+    "name": "Star Wars: Rise of the Resistance",
+    "type": "ride",
+    "description": "Immersive Star Wars experience where you join the Resistance",
+    "waitTime": 120,
+    "heightRequirement": "40\" (102cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Rope drop or last hour of park operation",
+    "categories": [
+      "thrill",
+      "immersive",
+      "star-wars"
+    ],
+    "imageUrl": "/images/parks/hs/rise-resistance.jpg"
+  },
+  {
+    "id": "slinky-dash",
+    "name": "Slinky Dog Dash",
+    "type": "ride",
+    "description": "Family coaster through Andy's backyard",
+    "waitTime": 60,
+    "heightRequirement": "38\" (97cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "categories": [
+      "family",
+      "coaster",
+      "toy-story"
+    ],
+    "imageUrl": "/images/parks/hs/slinky-dash.jpg"
+  },
+  {
+    "id": "rock-n-roller",
+    "name": "Rock 'n' Roller Coaster Starring Aerosmith",
+    "type": "ride",
+    "description": "Indoor launch coaster with Aerosmith soundtrack",
+    "waitTime": 45,
+    "heightRequirement": "48\" (122cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Morning or evening",
+    "categories": [
+      "thrill",
+      "indoor",
+      "coaster"
+    ],
+    "imageUrl": "/images/parks/hs/rock-n-roller.jpg"
+  },
+  {
+    "id": "tower-terror",
+    "name": "The Twilight Zone Tower of Terror",
+    "type": "ride",
+    "description": "Elevator drop ride in a haunted hotel",
+    "waitTime": 50,
+    "heightRequirement": "40\" (102cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "categories": [
+      "thrill",
+      "indoor",
+      "drop"
+    ],
+    "imageUrl": "/images/parks/hs/tower-terror.jpg"
+  },
+  {
+    "id": "millennium-falcon",
+    "name": "Millennium Falcon: Smugglers Run",
+    "type": "ride",
+    "description": "Pilot the Millennium Falcon on a smuggling mission",
+    "waitTime": 60,
+    "heightRequirement": "38\" (97cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "categories": [
+      "interactive",
+      "star-wars",
+      "simulator"
+    ],
+    "imageUrl": "/images/parks/hs/millennium-falcon.jpg"
+  },
+  {
+    "id": "toy-story-mania",
+    "name": "Toy Story Midway Mania!",
+    "type": "ride",
+    "description": "Interactive 4D shooting game",
+    "waitTime": 40,
+    "heightRequirement": "No height requirement",
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "categories": [
+      "interactive",
+      "family",
+      "toy-story"
+    ],
+    "imageUrl": "/images/parks/hs/toy-story-mania.jpg"
+  },
+  {
+    "id": "star-tours",
+    "name": "Star Tours - The Adventures Continue",
+    "type": "ride",
+    "description": "3D motion simulator Star Wars ride",
+    "waitTime": 30,
+    "heightRequirement": "40\" (102cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Anytime",
+    "categories": [
+      "simulator",
+      "star-wars",
+      "3d"
+    ],
+    "imageUrl": "/images/parks/hs/star-tours.jpg"
+  },
+  {
+    "id": "mickey-minnie",
+    "name": "Mickey & Minnie's Runaway Railway",
+    "type": "ride",
+    "description": "Trackless dark ride through a cartoon world",
+    "waitTime": 45,
+    "heightRequirement": "No height requirement",
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "categories": [
+      "family",
+      "trackless",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/hs/mickey-minnie.jpg"
+  },
+  {
+    "id": "fantasmic",
+    "name": "Fantasmic!",
+    "type": "show",
+    "description": "Nighttime show with Mickey Mouse and Disney villains",
+    "bestTime": "Evening showtimes",
+    "categories": [
+      "show",
+      "fireworks",
+      "nighttime"
+    ],
+    "imageUrl": "/images/parks/hs/fantasmic.jpg"
+  },
+  {
+    "id": "beauty-beast",
+    "name": "Beauty and the Beast - Live on Stage",
+    "type": "show",
+    "description": "Live stage show of Beauty and the Beast",
+    "waitTime": 30,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": [
+      "show",
+      "musical",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/hs/beauty-beast.jpg"
+  },
+  {
+    "id": "indiana-jones",
+    "name": "Indiana Jones Epic Stunt Spectacular",
+    "type": "show",
+    "description": "Live stunt show featuring Indiana Jones",
+    "waitTime": 30,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": [
+      "show",
+      "stunts",
+      "adventure"
+    ],
+    "imageUrl": "/images/parks/hs/indiana-jones.jpg"
+  },
+  {
+    "id": "muppet-vision",
+    "name": "Muppet*Vision 3D",
+    "type": "show",
+    "description": "3D show with the Muppets",
+    "waitTime": 20,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": [
+      "show",
+      "3d",
+      "comedy"
+    ],
+    "imageUrl": "/images/parks/hs/muppet-vision.jpg"
+  },
+  {
+    "id": "voyage-mermaid",
+    "name": "Voyage of the Little Mermaid",
+    "type": "show",
+    "description": "Live show and puppetry telling The Little Mermaid story",
+    "waitTime": 20,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": [
+      "show",
+      "musical",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/hs/voyage-mermaid.jpg"
+  },
+  {
+    "id": "lightning-mcqueen",
+    "name": "Meet Lightning McQueen",
+    "type": "character",
+    "description": "Meet Lightning McQueen and Mater from Cars",
+    "waitTime": 20,
+    "geniePlusEligible": false,
+    "categories": [
+      "character",
+      "cars",
+      "meet-and-greet"
+    ],
+    "imageUrl": "/images/parks/hs/lightning-mcqueen.jpg"
+  },
+  {
+    "id": "star-wars-characters",
+    "name": "Meet Star Wars Characters",
+    "type": "character",
+    "description": "Meet Kylo Ren, Chewbacca, and other Star Wars characters",
+    "waitTime": 30,
+    "geniePlusEligible": true,
+    "categories": [
+      "character",
+      "star-wars",
+      "meet-and-greet"
+    ],
+    "imageUrl": "/images/parks/hs/star-wars-characters.jpg"
+  },
+  {
+    "id": "toy-story-characters",
+    "name": "Meet Toy Story Characters",
+    "type": "character",
+    "description": "Meet Woody, Buzz, and friends from Toy Story",
+    "waitTime": 25,
+    "geniePlusEligible": true,
+    "categories": [
+      "character",
+      "toy-story",
+      "meet-and-greet"
+    ],
+    "imageUrl": "/images/parks/hs/toy-story-characters.jpg"
+  },
+  {
+    "id": "woody-lunchbox",
+    "name": "Woody's Lunch Box",
+    "type": "food",
+    "description": "Quick service restaurant in Toy Story Land",
+    "categories": [
+      "meal",
+      "quick-service",
+      "toy-story"
+    ],
+    "imageUrl": "/images/parks/hs/woody-lunchbox.jpg"
+  },
+  {
+    "id": "docking-bay",
+    "name": "Docking Bay 7 Food and Cargo",
+    "type": "food",
+    "description": "Star Wars themed quick service restaurant",
+    "categories": [
+      "meal",
+      "quick-service",
+      "star-wars"
+    ],
+    "imageUrl": "/images/parks/hs/docking-bay.jpg"
+  },
+  {
+    "id": "hollywood-vine",
+    "name": "Hollywood & Vine",
+    "type": "food",
+    "description": "Character dining with Disney Junior characters",
+    "categories": [
+      "meal",
+      "character-dining",
+      "buffet"
+    ],
+    "imageUrl": "/images/parks/hs/hollywood-vine.jpg"
+  },
+  {
+    "id": "blue-milk",
+    "name": "Try Blue Milk or Green Milk",
+    "type": "food",
+    "description": "Star Wars themed milk drinks",
+    "categories": [
+      "snack",
+      "beverage",
+      "star-wars"
+    ],
+    "imageUrl": "/images/parks/hs/blue-milk.jpg"
+  },
+  {
+    "id": "hollywood-boulevard",
+    "name": "Walk down Hollywood Boulevard",
+    "type": "detail",
+    "description": "Stroll down the iconic Hollywood Boulevard",
+    "categories": [
+      "photo-op",
+      "classic",
+      "walking"
+    ],
+    "imageUrl": "/images/parks/hs/hollywood-boulevard.jpg"
+  },
+  {
+    "id": "sunset-boulevard",
+    "name": "Explore Sunset Boulevard",
+    "type": "detail",
+    "description": "Walk through the themed Sunset Boulevard area",
+    "categories": [
+      "themed-area",
+      "walking",
+      "photo-op"
+    ],
+    "imageUrl": "/images/parks/hs/sunset-boulevard.jpg"
+  },
+  {
+    "id": "commissary-lane",
+    "name": "Find the hidden details on Commissary Lane",
+    "type": "detail",
+    "description": "Look for hidden Hollywood references and details",
+    "categories": [
+      "hidden-gem",
+      "scavenger-hunt",
+      "details"
+    ],
+    "imageUrl": "/images/parks/hs/commissary-lane.jpg"
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "associatesTag": "REPLACE_WITH_YOUR_TAG",
+  "enabled": true,
+  "showInCardBanner": true,
+  "bannerRotationSeconds": 60,
+  "products": [
+    {
+      "asin": "1628091533",
+      "name": "The Unofficial Guide to Walt Disney World 2025",
+      "description": "The #1 best-selling guide with touring plans and insider tips",
+      "category": "book",
+      "parks": ["mk", "epcot", "hs", "ak"]
+    },
+    {
+      "asin": "173426523X",
+      "name": "Hidden Mickeys: A Field Guide",
+      "description": "Find every Hidden Mickey in Walt Disney World",
+      "category": "book",
+      "parks": ["mk", "epcot", "hs", "ak"]
+    },
+    {
+      "asin": "B0C5G92S2L",
+      "name": "Simple Modern Disney Mickey 32oz Water Bottle",
+      "description": "Vacuum insulated stainless steel keeps drinks cold all day",
+      "category": "accessory",
+      "parks": ["mk", "epcot", "hs", "ak", "dl", "dca"]
+    },
+    {
+      "asin": "B0BNJYH4BM",
+      "name": "Simple Modern Mickey Summit Water Bottle",
+      "description": "Leak-proof straw lid, perfect for park days",
+      "category": "accessory",
+      "parks": ["mk", "epcot", "hs", "ak", "dl", "dca"]
+    },
+    {
+      "asin": "B0DZSY6T4K",
+      "name": "BreezeBoost Portable Misting Fan",
+      "description": "USB rechargeable cooling fan for hot Florida days",
+      "category": "accessory",
+      "parks": ["mk", "epcot", "hs", "ak"]
+    },
+    {
+      "asin": "B0DYSQ3K6G",
+      "name": "TENDWARE Handheld Misting Fan",
+      "description": "180° foldable, USB rechargeable personal cooling",
+      "category": "accessory",
+      "parks": ["mk", "epcot", "hs", "ak"]
+    },
+    {
+      "asin": "B0CCHPYBFC",
+      "name": "Reusable Rain Poncho 2-Pack",
+      "description": "Perfect for Florida afternoon storms, reusable",
+      "category": "accessory",
+      "parks": ["mk", "epcot", "hs", "ak"]
+    },
+    {
+      "asin": "B07MTSHG46",
+      "name": "Disposable Rain Ponchos Bulk Pack",
+      "description": "Emergency ponchos for the whole family",
+      "category": "accessory",
+      "parks": ["mk", "epcot", "hs", "ak"]
+    },
+    {
+      "asin": "B0BH5CNQH1",
+      "name": "Disney Mickey Mouse Insulated Bottle",
+      "description": "32oz vacuum insulated, keeps drinks cold 24 hours",
+      "category": "accessory",
+      "parks": ["mk", "epcot", "hs", "ak", "dl", "dca"]
+    },
+    {
+      "asin": "B0DT4VJGVY",
+      "name": "Portable Handheld Misting Fan",
+      "description": "4-speed mister with transparent water tank",
+      "category": "accessory",
+      "parks": ["mk", "epcot", "hs", "ak", "dl", "dca"]
+    }
+  ]
+}

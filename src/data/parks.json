@@ -1,0 +1,44 @@
+[
+  {
+    "id": "mk",
+    "name": "Magic Kingdom",
+    "icon": "🏰",
+    "freeSpace": "Cinderella Castle",
+    "itemsFile": "magic-kingdom.json"
+  },
+  {
+    "id": "epcot",
+    "name": "EPCOT",
+    "icon": "🌐",
+    "freeSpace": "Spaceship Earth",
+    "itemsFile": "epcot.json"
+  },
+  {
+    "id": "hs",
+    "name": "Hollywood Studios",
+    "icon": "🎬",
+    "freeSpace": "Chinese Theatre",
+    "itemsFile": "hollywood-studios.json"
+  },
+  {
+    "id": "ak",
+    "name": "Animal Kingdom",
+    "icon": "🌴",
+    "freeSpace": "Tree of Life",
+    "itemsFile": "animal-kingdom.json"
+  },
+  {
+    "id": "dl",
+    "name": "Disneyland",
+    "icon": "🏰",
+    "freeSpace": "Sleeping Beauty Castle",
+    "itemsFile": "disneyland.json"
+  },
+  {
+    "id": "dca",
+    "name": "Disney California Adventure",
+    "icon": "🎢",
+    "freeSpace": "Carthay Circle Restaurant",
+    "itemsFile": "disney-california-adventure.json"
+  }
+]

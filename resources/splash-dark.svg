@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2732 2732">
+  <defs>
+    <linearGradient id="splashBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="50%" style="stop-color:#1e1b4b"/>
+      <stop offset="100%" style="stop-color:#312e81"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="2732" height="2732" fill="url(#splashBgDark)"/>
+  
+  <g fill="#fbbf24" opacity="0.2">
+    <circle cx="400" cy="400" r="4"/>
+    <circle cx="600" cy="300" r="3"/>
+    <circle cx="200" cy="600" r="5"/>
+    <circle cx="2300" cy="500" r="4"/>
+    <circle cx="2500" cy="350" r="3"/>
+    <circle cx="2100" cy="250" r="5"/>
+    <circle cx="500" cy="2300" r="4"/>
+    <circle cx="300" cy="2100" r="3"/>
+    <circle cx="700" cy="2500" r="5"/>
+    <circle cx="2200" cy="2400" r="4"/>
+    <circle cx="2400" cy="2200" r="3"/>
+    <circle cx="2000" cy="2500" r="5"/>
+  </g>
+  
+  <g transform="translate(1366, 1200)">
+    <rect x="-200" y="-150" width="400" height="300" rx="30" fill="#1e293b" opacity="0.95"/>
+    
+    <g stroke="#4f46e5" stroke-width="2" opacity="0.5">
+      <line x1="-120" y1="-150" x2="-120" y2="150"/>
+      <line x1="-40" y1="-150" x2="-40" y2="150"/>
+      <line x1="40" y1="-150" x2="40" y2="150"/>
+      <line x1="120" y1="-150" x2="120" y2="150"/>
+      <line x1="-200" y1="-90" x2="200" y2="-90"/>
+      <line x1="-200" y1="-30" x2="200" y2="-30"/>
+      <line x1="-200" y1="30" x2="200" y2="30"/>
+      <line x1="-200" y1="90" x2="200" y2="90"/>
+    </g>
+    
+    <circle cx="-160" cy="-120" r="25" fill="#22c55e"/>
+    <circle cx="-80" cy="-60" r="25" fill="#22c55e"/>
+    <circle cx="0" cy="0" r="30" fill="url(#goldGrad)"/>
+    <circle cx="80" cy="60" r="25" fill="#22c55e"/>
+    <circle cx="160" cy="120" r="25" fill="#22c55e"/>
+    
+    <path d="M-8 -15 L-8 5 L8 5 L8 -15 L4 -15 L4 -22 L0 -28 L-4 -22 L-4 -15 Z" fill="white"/>
+  </g>
+  
+  <text x="1366" y="1550" font-family="Arial Black, Arial" font-size="120" font-weight="900" fill="white" text-anchor="middle" letter-spacing="8">PARK BINGO</text>
+  
+  <text x="1366" y="1650" font-family="Arial" font-size="48" fill="#64748b" text-anchor="middle">Your Theme Park Adventure Awaits</text>
+  
+  <g transform="translate(1366, 1850)">
+    <circle cx="-40" cy="0" r="10" fill="#6366f1" opacity="0.8"/>
+    <circle cx="0" cy="0" r="10" fill="#818cf8" opacity="0.6"/>
+    <circle cx="40" cy="0" r="10" fill="#a5b4fc" opacity="0.4"/>
+  </g>
+</svg>

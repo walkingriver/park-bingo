@@ -1,1 +1,326 @@
-/* You can add global styles to this file, and also import other style files */
+/* Ionic Core CSS */
+@import '@ionic/angular/css/core.css';
+
+/* Basic CSS for apps built with Ionic */
+@import '@ionic/angular/css/normalize.css';
+@import '@ionic/angular/css/structure.css';
+@import '@ionic/angular/css/typography.css';
+@import '@ionic/angular/css/display.css';
+
+/* Optional CSS utilities that can be commented out */
+@import '@ionic/angular/css/padding.css';
+@import '@ionic/angular/css/float-elements.css';
+@import '@ionic/angular/css/text-alignment.css';
+@import '@ionic/angular/css/text-transformation.css';
+@import '@ionic/angular/css/flex-utils.css';
+
+/* Theme variables */
+:root {
+  /* Primary - Disney-inspired purple/blue */
+  --ion-color-primary: #4f46e5;
+  --ion-color-primary-rgb: 79, 70, 229;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #463eca;
+  --ion-color-primary-tint: #6159e8;
+
+  /* Secondary - Magic Kingdom gold */
+  --ion-color-secondary: #f59e0b;
+  --ion-color-secondary-rgb: 245, 158, 11;
+  --ion-color-secondary-contrast: #000000;
+  --ion-color-secondary-contrast-rgb: 0, 0, 0;
+  --ion-color-secondary-shade: #d88b0a;
+  --ion-color-secondary-tint: #f6a823;
+
+  /* Tertiary - EPCOT teal */
+  --ion-color-tertiary: #06b6d4;
+  --ion-color-tertiary-rgb: 6, 182, 212;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #05a0bb;
+  --ion-color-tertiary-tint: #1fbdd8;
+
+  /* Success - Green for completed */
+  --ion-color-success: #22c55e;
+  --ion-color-success-rgb: 34, 197, 94;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #1eae53;
+  --ion-color-success-tint: #38cb6e;
+
+  /* Warning - In progress */
+  --ion-color-warning: #eab308;
+  --ion-color-warning-rgb: 234, 179, 8;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #ce9e07;
+  --ion-color-warning-tint: #ecbb21;
+
+  /* Danger - Skipped */
+  --ion-color-danger: #ef4444;
+  --ion-color-danger-rgb: 239, 68, 68;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #d23c3c;
+  --ion-color-danger-tint: #f15757;
+
+  /* Background */
+  --ion-background-color: #f8fafc;
+  --ion-background-color-rgb: 248, 250, 252;
+
+  /* Text */
+  --ion-text-color: #1e293b;
+  --ion-text-color-rgb: 30, 41, 59;
+
+  /* Card */
+  --ion-card-background: #ffffff;
+
+  /* Toolbar */
+  --ion-toolbar-background: #4f46e5;
+  --ion-toolbar-color: #ffffff;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-background-color: #0f172a;
+    --ion-background-color-rgb: 15, 23, 42;
+
+    --ion-text-color: #f1f5f9;
+    --ion-text-color-rgb: 241, 245, 249;
+
+    --ion-card-background: #1e293b;
+
+    --ion-toolbar-background: #1e293b;
+
+    --ion-item-background: #1e293b;
+
+    --ion-color-step-50: #1e293b;
+    --ion-color-step-100: #293548;
+    --ion-color-step-150: #334155;
+    --ion-color-step-200: #3e4d62;
+    --ion-color-step-250: #49596f;
+    --ion-color-step-300: #54657c;
+    --ion-color-step-350: #5f7189;
+    --ion-color-step-400: #6a7d96;
+    --ion-color-step-450: #7589a3;
+    --ion-color-step-500: #8095b0;
+    --ion-color-step-550: #8ba1bd;
+    --ion-color-step-600: #96adca;
+    --ion-color-step-650: #a1b9d7;
+    --ion-color-step-700: #acc5e4;
+    --ion-color-step-750: #b7d1f1;
+    --ion-color-step-800: #c2ddfe;
+    --ion-color-step-850: #cde9ff;
+    --ion-color-step-900: #d8f5ff;
+    --ion-color-step-950: #e3ffff;
+  }
+}
+
+/* App-specific styles */
+ion-content {
+  --padding-top: 16px;
+  --padding-bottom: 16px;
+  --padding-start: 16px;
+  --padding-end: 16px;
+}
+
+/* Bingo card styles */
+.bingo-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4px;
+  padding: 8px;
+  background: var(--ion-card-background);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.bingo-square {
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  background: var(--ion-color-light);
+  border: 2px solid transparent;
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  &.completed {
+    background: var(--ion-color-success-tint);
+    border-color: var(--ion-color-success);
+  }
+
+  &.skipped {
+    background: var(--ion-color-danger-tint);
+    border-color: var(--ion-color-danger);
+    opacity: 0.7;
+  }
+
+  &.in-progress {
+    background: var(--ion-color-warning-tint);
+    border-color: var(--ion-color-warning);
+  }
+
+  &.free-space {
+    background: linear-gradient(135deg, var(--ion-color-primary), var(--ion-color-secondary));
+    border-color: var(--ion-color-primary);
+  }
+}
+
+.square-image {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.square-name {
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.1;
+  margin-top: 2px;
+  color: var(--ion-text-color);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.status-badge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Safe area handling for notch devices */
+ion-header ion-toolbar:first-of-type {
+  padding-top: var(--ion-safe-area-top, 0);
+}
+
+ion-footer ion-toolbar:last-of-type {
+  padding-bottom: var(--ion-safe-area-bottom, 0);
+}
+
+/* Confetti canvas */
+#confetti-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Landscape orientation styles */
+@media (orientation: landscape) {
+  ion-content {
+    --padding-top: 8px;
+    --padding-bottom: 8px;
+    --padding-start: 24px;
+    --padding-end: 24px;
+  }
+
+  .bingo-grid {
+    max-width: 50vh;
+    margin: 0 auto;
+    gap: 3px;
+    padding: 6px;
+  }
+
+  .bingo-square {
+    padding: 2px;
+
+    .square-image {
+      height: 50%;
+    }
+
+    .square-name {
+      font-size: 0.5rem;
+      -webkit-line-clamp: 1;
+    }
+  }
+
+  .status-badge {
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    top: 2px;
+    right: 2px;
+  }
+
+  .stats-bar {
+    padding: 8px;
+    margin-bottom: 8px;
+    gap: 16px;
+
+    .stat {
+      font-size: 0.85rem;
+
+      ion-icon {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .action-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+
+    ion-button {
+      flex: 1;
+    }
+  }
+
+  /* Hide footer in landscape to maximize card space */
+  ion-footer {
+    display: none;
+  }
+}
+
+/* Very small screens (iPhone SE in landscape) */
+@media (orientation: landscape) and (max-height: 400px) {
+  .bingo-grid {
+    max-width: 40vh;
+    gap: 2px;
+    padding: 4px;
+  }
+
+  .bingo-square {
+    .square-name {
+      display: none;
+    }
+
+    .placeholder-icon {
+      font-size: 1rem;
+    }
+  }
+
+  .stats-bar {
+    padding: 4px 8px;
+    margin-bottom: 4px;
+  }
+}

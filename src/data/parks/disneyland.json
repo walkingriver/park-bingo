@@ -1,0 +1,398 @@
+[
+  {
+    "id": "matterhorn",
+    "name": "Matterhorn Bobsleds",
+    "type": "ride",
+    "description": "Bobsled ride through the Matterhorn mountain with Yeti encounter",
+    "waitTime": 45,
+    "heightRequirement": "42\" (107cm)",
+    "geniePlusEligible": false,
+    "bestTime": "Morning or evening",
+    "categories": [
+      "thrill",
+      "outdoor",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/dl/matterhorn.jpg"
+  },
+  {
+    "id": "space-mountain-dl",
+    "name": "Space Mountain",
+    "type": "ride",
+    "description": "Indoor roller coaster through outer space",
+    "waitTime": 40,
+    "heightRequirement": "40\" (102cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "categories": [
+      "thrill",
+      "indoor",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/dl/space-mountain-dl.jpg"
+  },
+  {
+    "id": "big-thunder-dl",
+    "name": "Big Thunder Mountain Railroad",
+    "type": "ride",
+    "description": "Wild west roller coaster through mine shafts",
+    "waitTime": 30,
+    "heightRequirement": "40\" (102cm)",
+    "geniePlusEligible": false,
+    "bestTime": "Morning",
+    "categories": [
+      "family",
+      "thrill",
+      "outdoor"
+    ],
+    "imageUrl": "/images/parks/dl/big-thunder-dl.jpg"
+  },
+  {
+    "id": "indiana-jones-dl",
+    "name": "Indiana Jones Adventure",
+    "type": "ride",
+    "description": "Jeep adventure through a cursed temple",
+    "waitTime": 35,
+    "heightRequirement": "46\" (117cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "categories": [
+      "thrill",
+      "indoor",
+      "adventure"
+    ],
+    "imageUrl": "/images/parks/dl/indiana-jones-dl.jpg"
+  },
+  {
+    "id": "splash-dl",
+    "name": "Splash Mountain",
+    "type": "ride",
+    "description": "Log flume ride with Brer Rabbit and friends",
+    "waitTime": 40,
+    "heightRequirement": "40\" (102cm)",
+    "geniePlusEligible": false,
+    "bestTime": "Morning or evening",
+    "categories": [
+      "family",
+      "water",
+      "outdoor"
+    ],
+    "imageUrl": "/images/parks/dl/splash-dl.jpg"
+  },
+  {
+    "id": "pirates-dl",
+    "name": "Pirates of the Caribbean",
+    "type": "ride",
+    "description": "Boat ride through pirate-infested waters",
+    "waitTime": 25,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": [
+      "family",
+      "indoor",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/dl/pirates-dl.jpg"
+  },
+  {
+    "id": "haunted-mansion-dl",
+    "name": "Haunted Mansion",
+    "type": "ride",
+    "description": "Spooky dark ride through a haunted estate",
+    "waitTime": 30,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": [
+      "family",
+      "indoor",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/dl/haunted-mansion-dl.jpg"
+  },
+  {
+    "id": "peter-pan-dl",
+    "name": "Peter Pan's Flight",
+    "type": "ride",
+    "description": "Flying pirate ship over London and Neverland",
+    "waitTime": 50,
+    "geniePlusEligible": true,
+    "bestTime": "First hour of park opening",
+    "categories": [
+      "family",
+      "indoor",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/dl/peter-pan-dl.jpg"
+  },
+  {
+    "id": "small-world-dl",
+    "name": "it's a small world",
+    "type": "ride",
+    "description": "Boat tour of the world's children",
+    "waitTime": 20,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": [
+      "family",
+      "indoor",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/dl/small-world-dl.jpg"
+  },
+  {
+    "id": "dumbo-dl",
+    "name": "Dumbo the Flying Elephant",
+    "type": "ride",
+    "description": "Flying elephant ride",
+    "waitTime": 20,
+    "geniePlusEligible": false,
+    "bestTime": "Morning or evening",
+    "categories": [
+      "family",
+      "outdoor",
+      "kids"
+    ],
+    "imageUrl": "/images/parks/dl/dumbo-dl.jpg"
+  },
+  {
+    "id": "tea-cups-dl",
+    "name": "Mad Tea Party",
+    "type": "ride",
+    "description": "Spinning tea cups",
+    "waitTime": 15,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": [
+      "family",
+      "outdoor",
+      "spin"
+    ],
+    "imageUrl": "/images/parks/dl/tea-cups-dl.jpg"
+  },
+  {
+    "id": "jungle-cruise-dl",
+    "name": "Jungle Cruise",
+    "type": "ride",
+    "description": "Boat tour through tropical rivers with humorous skipper",
+    "waitTime": 25,
+    "geniePlusEligible": false,
+    "bestTime": "Morning",
+    "categories": [
+      "family",
+      "outdoor",
+      "water"
+    ],
+    "imageUrl": "/images/parks/dl/jungle-cruise-dl.jpg"
+  },
+  {
+    "id": "canoes",
+    "name": "Davey Crockett's Explorer Canoes",
+    "type": "ride",
+    "description": "Paddle canoes around the Rivers of America",
+    "waitTime": 20,
+    "geniePlusEligible": false,
+    "bestTime": "Morning",
+    "categories": [
+      "water",
+      "outdoor",
+      "interactive"
+    ],
+    "imageUrl": "/images/parks/dl/canoes.jpg"
+  },
+  {
+    "id": "storybook-land",
+    "name": "Storybook Land Canal Boats",
+    "type": "ride",
+    "description": "Boat tour through miniature storybook scenes",
+    "waitTime": 15,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": [
+      "family",
+      "outdoor",
+      "relaxing"
+    ],
+    "imageUrl": "/images/parks/dl/storybook-land.jpg"
+  },
+  {
+    "id": "fantasmic-dl",
+    "name": "Fantasmic!",
+    "type": "show",
+    "description": "Nighttime show with Mickey Mouse and Disney villains",
+    "bestTime": "Evening showtimes",
+    "categories": [
+      "show",
+      "fireworks",
+      "nighttime"
+    ],
+    "imageUrl": "/images/parks/dl/fantasmic-dl.jpg"
+  },
+  {
+    "id": "fireworks-dl",
+    "name": "Mickey's Mix Magic Fireworks",
+    "type": "show",
+    "description": "Fireworks spectacular over the castle",
+    "bestTime": "Park closing time",
+    "categories": [
+      "fireworks",
+      "outdoor",
+      "show"
+    ],
+    "imageUrl": "/images/parks/dl/fireworks-dl.jpg"
+  },
+  {
+    "id": "tiki-room",
+    "name": "Walt Disney's Enchanted Tiki Room",
+    "type": "show",
+    "description": "Audio-animatronic tropical bird show",
+    "waitTime": 15,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": [
+      "show",
+      "indoor",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/dl/tiki-room.jpg"
+  },
+  {
+    "id": "great-moments",
+    "name": "Great Moments with Mr. Lincoln",
+    "type": "show",
+    "description": "Audio-animatronic Abraham Lincoln presentation",
+    "waitTime": 15,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": [
+      "show",
+      "indoor",
+      "educational"
+    ],
+    "imageUrl": "/images/parks/dl/great-moments.jpg"
+  },
+  {
+    "id": "mickey-house",
+    "name": "Visit Mickey's House in Toontown",
+    "type": "character",
+    "description": "Tour Mickey Mouse's house and meet him",
+    "waitTime": 30,
+    "geniePlusEligible": false,
+    "categories": [
+      "character",
+      "meet-and-greet",
+      "toontown"
+    ],
+    "imageUrl": "/images/parks/dl/mickey-house.jpg"
+  },
+  {
+    "id": "minnie-house",
+    "name": "Visit Minnie's House in Toontown",
+    "type": "character",
+    "description": "Tour Minnie Mouse's house and meet her",
+    "waitTime": 25,
+    "geniePlusEligible": false,
+    "categories": [
+      "character",
+      "meet-and-greet",
+      "toontown"
+    ],
+    "imageUrl": "/images/parks/dl/minnie-house.jpg"
+  },
+  {
+    "id": "princess-faire",
+    "name": "Meet Princesses at Princess Fairytale Hall",
+    "type": "character",
+    "description": "Meet Disney princesses in the castle",
+    "waitTime": 40,
+    "geniePlusEligible": true,
+    "categories": [
+      "character",
+      "meet-and-greet",
+      "princess"
+    ],
+    "imageUrl": "/images/parks/dl/princess-faire.jpg"
+  },
+  {
+    "id": "dole-whip-dl",
+    "name": "Get Dole Whip at Tiki Juice Bar",
+    "type": "food",
+    "description": "Pineapple soft-serve treat",
+    "categories": [
+      "snack",
+      "sweet",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/dl/dole-whip-dl.jpg"
+  },
+  {
+    "id": "mint-julep",
+    "name": "Try Mint Julep from New Orleans Square",
+    "type": "food",
+    "description": "Non-alcoholic mint julep drink",
+    "categories": [
+      "snack",
+      "beverage",
+      "new-orleans"
+    ],
+    "imageUrl": "/images/parks/dl/mint-julep.jpg"
+  },
+  {
+    "id": "churro-dl",
+    "name": "Get a churro from a cart",
+    "type": "food",
+    "description": "Cinnamon sugar coated fried dough",
+    "categories": [
+      "snack",
+      "sweet"
+    ],
+    "imageUrl": "/images/parks/dl/churro-dl.jpg"
+  },
+  {
+    "id": "corn-dog",
+    "name": "Try a corn dog from a cart",
+    "type": "food",
+    "description": "Classic Disneyland corn dog",
+    "categories": [
+      "snack",
+      "savory",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/dl/corn-dog.jpg"
+  },
+  {
+    "id": "sleeping-beauty-castle",
+    "name": "Walk through Sleeping Beauty Castle",
+    "type": "detail",
+    "description": "Tour the walkthrough attraction inside the castle",
+    "categories": [
+      "hidden-gem",
+      "indoor",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/dl/sleeping-beauty-castle.jpg"
+  },
+  {
+    "id": "tarzan-treehouse",
+    "name": "Climb Tarzan's Treehouse",
+    "type": "detail",
+    "description": "Climb through Tarzan's treehouse on Adventure Island",
+    "categories": [
+      "hidden-gem",
+      "outdoor",
+      "climbing"
+    ],
+    "imageUrl": "/images/parks/dl/tarzan-treehouse.jpg"
+  },
+  {
+    "id": "river-america",
+    "name": "Explore the Rivers of America",
+    "type": "detail",
+    "description": "Walk around the Rivers of America waterfront",
+    "categories": [
+      "walking",
+      "nature",
+      "relaxing"
+    ],
+    "imageUrl": "/images/parks/dl/river-america.jpg"
+  }
+]
