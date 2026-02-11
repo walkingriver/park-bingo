@@ -6,11 +6,18 @@
 
 | Feature | Status | Notes |
 |---------|--------|-------|
-| Externalized affiliate config | ✅ Done | `public/data/affiliate-products.json` |
+| Externalized affiliate config | ✅ Done | `public/data/affiliate-products.json` with real ASINs |
 | In-card rotating banner | ✅ Done | Appears after 30s, rotates every 60s |
 | Help/Instructions modal | ✅ Done | Help button in play page header |
 | Landscape orientation styles | ✅ Done | Responsive CSS in `styles.scss` |
 | Bingo state documentation | ✅ Done | Explained in help modal |
+| External attractions loading | ✅ Done | Loads from GitHub with offline fallback |
+| PWA service worker | ✅ Done | Caches parks data and Amazon images |
+| First-launch onboarding | ✅ Done | Auto-shows help on first open |
+| Statistics page | ✅ Done | Tracks games, BINGOs, streaks per park |
+| Sound effects | ✅ Done | Toggle in settings, Web Audio API tones |
+| Offline indicator | ✅ Done | Banner shows when using cached data |
+| Public GitHub repo | ✅ Done | https://github.com/walkingriver/park-bingo |
 
 ---
 
