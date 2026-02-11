@@ -1,4 +1,4 @@
-import { Component, inject, ChangeDetectionStrategy } from '@angular/core';
+import { Component, inject, ChangeDetectionStrategy, signal, effect } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import {
   IonHeader,
@@ -19,8 +19,10 @@ import {
   IonButtons,
 } from '@ionic/angular/standalone';
 import { BingoService } from '../../services/bingo.service';
+import { OnboardingService } from '../../services/onboarding.service';
+import { HelpModalComponent } from '../../components/help-modal/help-modal.component';
 import { addIcons } from 'ionicons';
-import { playCircle, settings, informationCircle } from 'ionicons/icons';
+import { playCircle, settings, helpCircle, cloudOffline } from 'ionicons/icons';
 
 @Component({
   selector: 'app-home',
@@ -43,6 +45,7 @@ import { playCircle, settings, informationCircle } from 'ionicons/icons';
     IonText,
     IonFooter,
     IonButtons,
+    HelpModalComponent,
   ],
   template: `
     <ion-header>
@@ -51,6 +54,9 @@ import { playCircle, settings, informationCircle } from 'ionicons/icons';
           <span class="app-title">Park Bingo</span>
         </ion-title>
         <ion-buttons slot="end">
+          <ion-button (click)="showHelp.set(true)" aria-label="Help">
+            <ion-icon name="help-circle" slot="icon-only"></ion-icon>
+          </ion-button>
           <ion-button routerLink="/settings">
             <ion-icon name="settings" slot="icon-only"></ion-icon>
           </ion-button>
@@ -59,14 +65,25 @@ import { playCircle, settings, informationCircle } from 'ionicons/icons';
     </ion-header>
 
     <ion-content>
+      @if (bingoService.isOffline()) {
+        <div class="offline-banner">
+          <ion-icon name="cloud-offline"></ion-icon>
+          <span>Offline mode - using cached data</span>
+        </div>
+      }
+
       <div class="hero-section">
         <h1>Choose Your Park</h1>
         <p>Select a Disney park to generate your unique BINGO card</p>
       </div>
 
-      @if (bingoService.parks().length === 0) {
+      @if (bingoService.isLoading()) {
         <div class="loading-container">
           <ion-text color="medium">Loading parks...</ion-text>
+        </div>
+      } @else if (bingoService.parks().length === 0) {
+        <div class="loading-container">
+          <ion-text color="danger">Failed to load parks. Please try again.</ion-text>
         </div>
       } @else {
         <ion-grid>
@@ -80,8 +97,8 @@ import { playCircle, settings, informationCircle } from 'ionicons/icons';
                   button
                 >
                   <ion-card-header>
-                    <div class="park-icon">{{ park.icon }}</div>
-                    <ion-card-title>{{ park.name }}</ion-card-title>
+                    <div class="park-icon">{{ getParkIcon(park.icon) }}</div>
+                    <ion-card-title>{{ park.shortName || park.name }}</ion-card-title>
                   </ion-card-header>
                   <ion-card-content>
                     <p class="item-count">{{ park.items.length }} attractions</p>
@@ -102,6 +119,9 @@ import { playCircle, settings, informationCircle } from 'ionicons/icons';
           </ion-row>
         </ion-grid>
       }
+
+      <!-- Onboarding/Help Modal -->
+      <app-help-modal [isOpen]="showHelp()" (closed)="closeHelp()"></app-help-modal>
     </ion-content>
 
     <ion-footer>
@@ -189,15 +209,53 @@ import { playCircle, settings, informationCircle } from 'ionicons/icons';
         font-size: 0.7rem;
         padding: 8px;
       }
+
+      .offline-banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 8px 16px;
+        background: var(--ion-color-warning);
+        color: var(--ion-color-warning-contrast);
+        font-size: 0.85rem;
+
+        ion-icon {
+          font-size: 1.2rem;
+        }
+      }
     `,
   ],
 })
 export class HomePage {
   private router = inject(Router);
   bingoService = inject(BingoService);
+  private onboardingService = inject(OnboardingService);
+
+  readonly showHelp = signal(false);
+
+  // Icon mapping from string to emoji
+  private readonly iconMap: Record<string, string> = {
+    castle: '🏰',
+    globe: '🌐',
+    film: '🎬',
+    leaf: '🌴',
+    sunny: '🎢',
+  };
 
   constructor() {
-    addIcons({ playCircle, settings, informationCircle });
+    addIcons({ playCircle, settings, helpCircle, cloudOffline });
+
+    // Auto-show help on first launch
+    effect(() => {
+      if (this.onboardingService.showOnboarding()) {
+        this.showHelp.set(true);
+      }
+    });
+  }
+
+  getParkIcon(icon: string): string {
+    return this.iconMap[icon] || icon;
   }
 
   hasCardForPark(parkId: string): boolean {
@@ -215,6 +273,14 @@ export class HomePage {
       // Start new game
       this.bingoService.generateCard(parkId);
       this.router.navigate(['/play']);
+    }
+  }
+
+  closeHelp() {
+    this.showHelp.set(false);
+    // Mark onboarding as complete
+    if (this.onboardingService.showOnboarding()) {
+      this.onboardingService.completeOnboarding();
     }
   }
 }

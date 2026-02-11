@@ -1,6 +1,8 @@
 export interface Park {
   id: string;
   name: string;
+  shortName?: string;
+  description?: string;
   icon: string;
   freeSpace: string;
   items: ParkItem[];

@@ -1,4 +1,5 @@
 import { Component, inject, ChangeDetectionStrategy } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import {
   IonHeader,
   IonToolbar,
@@ -17,6 +18,7 @@ import {
   AlertController,
 } from '@ionic/angular/standalone';
 import { ThemeService } from '../../services/theme.service';
+import { SoundService } from '../../services/sound.service';
 import { addIcons } from 'ionicons';
 import {
   moon,
@@ -26,12 +28,16 @@ import {
   logoGithub,
   mail,
   star,
+  statsChart,
+  chevronForward,
+  volumeHigh,
 } from 'ionicons/icons';
 
 @Component({
   selector: 'app-settings',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
+    RouterLink,
     IonHeader,
     IonToolbar,
     IonTitle,
@@ -70,6 +76,25 @@ import {
               [checked]="themeService.isDarkMode()"
               (ionChange)="themeService.toggleDarkMode()"
             ></ion-toggle>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="volume-high" slot="start" color="tertiary"></ion-icon>
+            <ion-label>Sound Effects</ion-label>
+            <ion-toggle
+              [checked]="soundService.isEnabled()"
+              (ionChange)="soundService.toggleSound()"
+            ></ion-toggle>
+          </ion-item>
+        </ion-item-group>
+
+        <ion-item-group>
+          <ion-item-divider>
+            <ion-label>Game</ion-label>
+          </ion-item-divider>
+          <ion-item button routerLink="/stats">
+            <ion-icon name="stats-chart" slot="start" color="success"></ion-icon>
+            <ion-label>Statistics</ion-label>
+            <ion-icon name="chevron-forward" slot="end" color="medium"></ion-icon>
           </ion-item>
         </ion-item-group>
 
@@ -164,6 +189,7 @@ import {
 })
 export class SettingsPage {
   themeService = inject(ThemeService);
+  soundService = inject(SoundService);
   private alertController = inject(AlertController);
 
   constructor() {
@@ -175,6 +201,9 @@ export class SettingsPage {
       logoGithub,
       mail,
       star,
+      statsChart,
+      chevronForward,
+      volumeHigh,
     });
   }
 

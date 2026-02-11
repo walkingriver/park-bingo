@@ -27,6 +27,7 @@ import {
   ToastController,
 } from '@ionic/angular/standalone';
 import { BingoService } from '../../services/bingo.service';
+import { SoundService } from '../../services/sound.service';
 import { BingoSquare } from '../../models/park.model';
 import { Haptics, ImpactStyle, NotificationType } from '@capacitor/haptics';
 import { Capacitor } from '@capacitor/core';
@@ -449,6 +450,7 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
 export class PlayPage {
   private router = inject(Router);
   private bingoService = inject(BingoService);
+  private soundService = inject(SoundService);
   private alertController = inject(AlertController);
   private toastController = inject(ToastController);
 
@@ -534,6 +536,13 @@ export class PlayPage {
       }
     }
 
+    // Sound effects
+    if (newStatus === 'completed') {
+      this.soundService.play('complete');
+    } else {
+      this.soundService.play('tap');
+    }
+
     this.bingoService.updateSquareStatus(row, col, newStatus);
   }
 
@@ -552,6 +561,9 @@ export class PlayPage {
     if (Capacitor.isNativePlatform()) {
       await Haptics.notification({ type: NotificationType.Success });
     }
+
+    // Sound effect
+    this.soundService.play('bingo');
 
     // Confetti animation
     const duration = 3000;

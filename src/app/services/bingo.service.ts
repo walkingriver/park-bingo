@@ -1,56 +1,48 @@
-import { Injectable, signal } from '@angular/core';
-import { Park, BingoCard, BingoSquare, ParkItem } from '../models/park.model';
+import { Injectable, inject, signal, computed } from '@angular/core';
+import { BingoCard, BingoSquare, ParkItem } from '../models/park.model';
 import { v4 as uuidv4 } from 'uuid';
-import { HttpClient } from '@angular/common/http';
-import { Observable, forkJoin, map } from 'rxjs';
+import { ParksDataService } from './parks-data.service';
+
+export interface GameStats {
+  totalGames: number;
+  totalBingos: number;
+  gamesPerPark: Record<string, number>;
+  bingosPerPark: Record<string, number>;
+  currentStreak: number;
+  bestStreak: number;
+  lastPlayedAt?: string;
+}
 
 @Injectable({
   providedIn: 'root',
 })
 export class BingoService {
   private readonly CARD_STORAGE_KEY = 'park-bingo-cards';
-  private readonly PARKS_DATA_URL = './parks.json';
-  private readonly PARK_ITEMS_BASE_URL = './parks/';
+  private readonly STATS_KEY = 'park-bingo-stats';
+
+  private parksDataService = inject(ParksDataService);
 
   readonly currentCard = signal<BingoCard | null>(null);
-  readonly parks = signal<Park[]>([]);
-  private parksData: any[] = [];
 
-  constructor(private http: HttpClient) {
+  // Delegate parks to the parks data service
+  readonly parks = this.parksDataService.parks;
+  readonly isLoading = this.parksDataService.isLoading;
+  readonly isOffline = this.parksDataService.isOffline;
+  readonly dataSource = this.parksDataService.dataSource;
+
+  // Statistics signals
+  readonly stats = signal<GameStats>({
+    totalGames: 0,
+    totalBingos: 0,
+    gamesPerPark: {},
+    bingosPerPark: {},
+    currentStreak: 0,
+    bestStreak: 0,
+  });
+
+  constructor() {
     this.loadSavedCards();
-    this.loadParksData();
-  }
-
-  private loadParksData() {
-    this.http.get<any[]>(this.PARKS_DATA_URL).subscribe({
-      next: (parksData) => {
-        this.parksData = parksData;
-        this.loadAllParkItems();
-      },
-      error: (err) => {
-        console.error('Error loading parks data:', err);
-      },
-    });
-  }
-
-  private loadAllParkItems() {
-    const itemRequests = this.parksData.map((park) =>
-      this.http.get<ParkItem[]>(`${this.PARK_ITEMS_BASE_URL}${park.itemsFile}`).pipe(
-        map((items) => ({
-          ...park,
-          items: items,
-        }))
-      )
-    );
-
-    forkJoin(itemRequests).subscribe({
-      next: (parksWithItems) => {
-        this.parks.set(parksWithItems);
-      },
-      error: (err) => {
-        console.error('Error loading park items:', err);
-      },
-    });
+    this.loadStats();
   }
 
   generateCard(parkId: string): BingoCard {
@@ -125,6 +117,7 @@ export class BingoService {
 
     this.currentCard.set(card);
     this.saveCard(card);
+    this.recordNewGame(parkId);
 
     return card;
   }
@@ -250,5 +243,83 @@ export class BingoService {
       console.error('Error loading saved cards', e);
       return [];
     }
+  }
+
+  // Stats management
+  private loadStats() {
+    const saved = localStorage.getItem(this.STATS_KEY);
+    if (saved) {
+      try {
+        const stats = JSON.parse(saved) as GameStats;
+        this.stats.set(stats);
+      } catch (e) {
+        console.error('Error loading stats', e);
+      }
+    }
+  }
+
+  private saveStats() {
+    localStorage.setItem(this.STATS_KEY, JSON.stringify(this.stats()));
+  }
+
+  recordNewGame(parkId: string) {
+    const current = this.stats();
+    const gamesPerPark = { ...current.gamesPerPark };
+    gamesPerPark[parkId] = (gamesPerPark[parkId] || 0) + 1;
+
+    this.stats.set({
+      ...current,
+      totalGames: current.totalGames + 1,
+      gamesPerPark,
+      lastPlayedAt: new Date().toISOString(),
+    });
+    this.saveStats();
+  }
+
+  recordBingo(parkId: string) {
+    const current = this.stats();
+    const bingosPerPark = { ...current.bingosPerPark };
+    bingosPerPark[parkId] = (bingosPerPark[parkId] || 0) + 1;
+
+    const newStreak = current.currentStreak + 1;
+    const bestStreak = Math.max(current.bestStreak, newStreak);
+
+    this.stats.set({
+      ...current,
+      totalBingos: current.totalBingos + 1,
+      bingosPerPark,
+      currentStreak: newStreak,
+      bestStreak,
+    });
+    this.saveStats();
+  }
+
+  resetStreak() {
+    const current = this.stats();
+    this.stats.set({
+      ...current,
+      currentStreak: 0,
+    });
+    this.saveStats();
+  }
+
+  getStats(): GameStats {
+    return this.stats();
+  }
+
+  clearStats() {
+    this.stats.set({
+      totalGames: 0,
+      totalBingos: 0,
+      gamesPerPark: {},
+      bingosPerPark: {},
+      currentStreak: 0,
+      bestStreak: 0,
+    });
+    localStorage.removeItem(this.STATS_KEY);
+  }
+
+  getAllCards(): BingoCard[] {
+    return this.getSavedCards();
   }
 }

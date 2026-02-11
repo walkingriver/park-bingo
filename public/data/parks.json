@@ -1,44 +1,60 @@
-[
-  {
-    "id": "mk",
-    "name": "Magic Kingdom",
-    "icon": "🏰",
-    "freeSpace": "Cinderella Castle",
-    "itemsFile": "magic-kingdom.json"
-  },
-  {
-    "id": "epcot",
-    "name": "EPCOT",
-    "icon": "🌐",
-    "freeSpace": "Spaceship Earth",
-    "itemsFile": "epcot.json"
-  },
-  {
-    "id": "hs",
-    "name": "Hollywood Studios",
-    "icon": "🎬",
-    "freeSpace": "Chinese Theatre",
-    "itemsFile": "hollywood-studios.json"
-  },
-  {
-    "id": "ak",
-    "name": "Animal Kingdom",
-    "icon": "🌴",
-    "freeSpace": "Tree of Life",
-    "itemsFile": "animal-kingdom.json"
-  },
-  {
-    "id": "dl",
-    "name": "Disneyland",
-    "icon": "🏰",
-    "freeSpace": "Sleeping Beauty Castle",
-    "itemsFile": "disneyland.json"
-  },
-  {
-    "id": "dca",
-    "name": "Disney California Adventure",
-    "icon": "🎢",
-    "freeSpace": "Carthay Circle Restaurant",
-    "itemsFile": "disney-california-adventure.json"
-  }
-]
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-11T00:00:00Z",
+  "parks": [
+    {
+      "id": "mk",
+      "name": "Magic Kingdom",
+      "shortName": "Magic Kingdom",
+      "description": "The most magical place on earth featuring classic Disney attractions",
+      "icon": "castle",
+      "freeSpace": "Cinderella Castle",
+      "itemsFile": "magic-kingdom.json"
+    },
+    {
+      "id": "epcot",
+      "name": "EPCOT",
+      "shortName": "EPCOT",
+      "description": "Explore world cultures and future technology",
+      "icon": "globe",
+      "freeSpace": "Spaceship Earth",
+      "itemsFile": "epcot.json"
+    },
+    {
+      "id": "hs",
+      "name": "Hollywood Studios",
+      "shortName": "Hollywood Studios",
+      "description": "Movies and TV come to life with thrilling attractions",
+      "icon": "film",
+      "freeSpace": "Chinese Theatre",
+      "itemsFile": "hollywood-studios.json"
+    },
+    {
+      "id": "ak",
+      "name": "Animal Kingdom",
+      "shortName": "Animal Kingdom",
+      "description": "Wild adventures with exotic animals and thrilling rides",
+      "icon": "leaf",
+      "freeSpace": "Tree of Life",
+      "itemsFile": "animal-kingdom.json"
+    },
+    {
+      "id": "dl",
+      "name": "Disneyland",
+      "shortName": "Disneyland",
+      "description": "The original Disney theme park where it all started",
+      "icon": "castle",
+      "freeSpace": "Sleeping Beauty Castle",
+      "itemsFile": "disneyland.json"
+    },
+    {
+      "id": "dca",
+      "name": "Disney California Adventure",
+      "shortName": "California Adventure",
+      "description": "California-themed fun with Pixar and Marvel adventures",
+      "icon": "sunny",
+      "freeSpace": "Carthay Circle Restaurant",
+      "itemsFile": "disney-california-adventure.json"
+    }
+  ]
+}
