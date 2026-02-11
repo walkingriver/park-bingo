@@ -29,7 +29,6 @@ import {
   mail,
   star,
   statsChart,
-  chevronForward,
   volumeHigh,
   cart,
 } from 'ionicons/icons';
@@ -92,15 +91,13 @@ import {
           <ion-item-divider>
             <ion-label>Game</ion-label>
           </ion-item-divider>
-          <ion-item button routerLink="/stats">
+          <ion-item button routerLink="/stats" detail>
             <ion-icon name="stats-chart" slot="start" color="success"></ion-icon>
             <ion-label>Statistics</ion-label>
-            <ion-icon name="chevron-forward" slot="end" color="medium"></ion-icon>
           </ion-item>
-          <ion-item button routerLink="/products">
+          <ion-item button routerLink="/products" detail>
             <ion-icon name="cart" slot="start" color="warning"></ion-icon>
             <ion-label>Recommended Products</ion-label>
-            <ion-icon name="chevron-forward" slot="end" color="medium"></ion-icon>
           </ion-item>
         </ion-item-group>
 
@@ -208,7 +205,6 @@ export class SettingsPage {
       mail,
       star,
       statsChart,
-      chevronForward,
       volumeHigh,
       cart,
     });
