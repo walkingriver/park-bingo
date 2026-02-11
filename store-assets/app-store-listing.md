@@ -5,7 +5,7 @@
 **Bundle ID:** com.walkingriver.parkbingo
 **App Name:** Park Bingo
 **Subtitle:** Theme Park Adventure Game
-**Developer Name:** Walking River, Inc.
+**Developer Name:** Michael D. Callaghan
 **Primary Category:** Games > Family
 **Secondary Category:** Entertainment
 **Age Rating:** 4+

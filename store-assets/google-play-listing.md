@@ -4,7 +4,7 @@
 
 **Package Name:** com.walkingriver.parkbingo
 **App Name:** Park Bingo - Theme Park Game
-**Developer Name:** Walking River, Inc.
+**Developer Name:** Michael D. Callaghan
 **Category:** Entertainment / Games
 **Content Rating:** Everyone
 

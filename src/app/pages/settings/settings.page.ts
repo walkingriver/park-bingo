@@ -123,7 +123,7 @@ import {
               <p>Version 1.0.0</p>
             </ion-label>
           </ion-item>
-          <ion-item button href="mailto:support@parkbingo.app">
+          <ion-item button href="mailto:michael@walkingriver.com">
             <ion-icon name="mail" slot="start" color="tertiary"></ion-icon>
             <ion-label>Contact Support</ion-label>
           </ion-item>
@@ -147,7 +147,7 @@ import {
 
       <div class="credits">
         <p>Made with <ion-icon name="heart" color="danger"></ion-icon> for Disney fans</p>
-        <p class="version">© 2026 [YOUR COMPANY NAME]</p>
+        <p class="version">© 2026 Michael D. Callaghan</p>
       </div>
     </ion-content>
   `,

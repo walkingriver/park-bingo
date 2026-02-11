@@ -1,5 +1,5 @@
 {
-  "associatesTag": "REPLACE_WITH_YOUR_TAG",
+  "associatesTag": "walkingriver-20",
   "enabled": true,
   "showInCardBanner": true,
   "bannerRotationSeconds": 60,
@@ -73,6 +73,20 @@
       "description": "4-speed mister with transparent water tank",
       "category": "accessory",
       "parks": ["mk", "epcot", "hs", "ak", "dl", "dca"]
+    },
+    {
+      "asin": "B0C2SG41BX",
+      "name": "Magical Meanderings: Magic Kingdom Scavenger Hunt",
+      "description": "150+ photo clues to discover hidden details at Magic Kingdom",
+      "category": "book",
+      "parks": ["mk"]
+    },
+    {
+      "asin": "B0DH8HMDC8",
+      "name": "Wildlife Wanderings: Animal Kingdom Scavenger Hunt",
+      "description": "Photographic scavenger hunt through Disney's Animal Kingdom",
+      "category": "book",
+      "parks": ["ak"]
     }
   ]
 }

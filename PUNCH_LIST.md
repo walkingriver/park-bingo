@@ -50,16 +50,16 @@
 
 ## 2. Assumptions Made (Need Correction)
 
-| Assumption | Current Value | Action Needed |
-|------------|---------------|---------------|
-| **Company Name** | "Walking River, Inc." | Replace with actual company/developer name |
-| **Support Email** | support@parkbingo.app | Set up actual email or replace |
-| **Privacy Email** | privacy@parkbingo.app | Set up actual email or replace |
-| **Legal Email** | legal@parkbingo.app | Set up actual email or replace |
-| **Domain** | parkbingo.app | Register domain or use actual one |
-| **Bundle ID** | com.walkingriver.parkbingo | Update if different organization |
-| **Copyright Year** | 2026 | Verify correct |
-| **Amazon Affiliate Tag** | parkbingo-20 | Replace with your actual Associates tag |
+| Assumption | Current Value | Status |
+|------------|---------------|--------|
+| **Company Name** | "Michael D. Callaghan" | ✅ Updated |
+| **Support Email** | michael@walkingriver.com | ✅ Updated |
+| **Privacy Email** | michael@walkingriver.com | ✅ Updated |
+| **Legal Email** | michael@walkingriver.com | ✅ Updated |
+| **Domain** | parkbingo.app | ⚠️ Register if needed |
+| **Bundle ID** | com.walkingriver.parkbingo | ✅ Correct |
+| **Copyright Year** | 2026 | ✅ Correct |
+| **Amazon Affiliate Tag** | walkingriver-20 | ✅ Updated |
 
 ### Files to Update
 - `marketing-site/index.html` - Footer company name and copyright
@@ -237,8 +237,8 @@ In `public/data/affiliate-products.json`:
 ## 9. Quick Fixes Checklist
 
 ### Before Beta Testing
-- [ ] Update company name everywhere (search for "Walking River" and "[YOUR COMPANY NAME]")
-- [ ] Set up actual support email (or use personal email)
+- [x] Update company name everywhere (now "Michael D. Callaghan")
+- [x] Set up actual support email (michael@walkingriver.com)
 - [ ] Verify/update Amazon ASINs in `public/data/affiliate-products.json`
 - [x] ~~Add basic in-app instructions~~ ✅ Done
 - [ ] Test on actual devices (iOS + Android)
@@ -277,9 +277,9 @@ In `public/data/affiliate-products.json`:
 ## Summary
 
 **Critical (Must Fix Before Launch):**
-1. ⬜ Company/developer name throughout (replace "Walking River" and placeholders)
-2. ⬜ Amazon affiliate tag (get real one, update JSON)
-3. ⬜ Support email setup
+1. ✅ ~~Company/developer name throughout~~ Done - "Michael D. Callaghan"
+2. ✅ ~~Amazon affiliate tag~~ Done - walkingriver-20
+3. ✅ ~~Support email setup~~ Done - michael@walkingriver.com
 4. ✅ ~~Basic instructions for users~~ Done - Help modal added
 
 **Important (Should Fix):**
