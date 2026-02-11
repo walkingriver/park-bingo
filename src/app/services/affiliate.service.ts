@@ -59,6 +59,7 @@ export class AffiliateService {
       .get<AffiliateConfig>(this.CONFIG_URL)
       .pipe(
         tap((config) => {
+          console.log('Affiliate config loaded:', config);
           // Validate and enrich products
           if (config && config.products) {
             config.products = config.products
@@ -66,6 +67,7 @@ export class AffiliateService {
               .map((p) => this.enrichProduct(p, config.associatesTag));
           }
           this.configSignal.set(config);
+          console.log('Affiliate enabled:', this.isEnabled(), 'showBanner:', this.showBanner());
         }),
         catchError((error) => {
           console.warn('Failed to load affiliate config:', error);
@@ -78,8 +80,8 @@ export class AffiliateService {
   private enrichProduct(product: AffiliateProduct, tag: string): AffiliateProduct {
     return {
       ...product,
-      // Amazon image URL pattern (medium size)
-      imageUrl: `https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=${product.asin}&Format=_SL250_&ID=AsinImage&ServiceVersion=20070822&WS=1&tag=${tag}`,
+      // Amazon direct image URL (more reliable than widget)
+      imageUrl: `https://images-na.ssl-images-amazon.com/images/P/${product.asin}.01._SCLZZZZZZZ_SX100_.jpg`,
       // Amazon product URL with affiliate tag
       amazonUrl: `https://www.amazon.com/dp/${product.asin}?tag=${tag}`,
     };

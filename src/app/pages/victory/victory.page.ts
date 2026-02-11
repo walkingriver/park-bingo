@@ -1,5 +1,5 @@
 import { Component, inject, computed, ChangeDetectionStrategy, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import {
   IonHeader,
   IonToolbar,
@@ -27,6 +27,7 @@ import confetti from 'canvas-confetti';
   selector: 'app-victory',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
+    RouterLink,
     IonHeader,
     IonToolbar,
     IonTitle,

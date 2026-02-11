@@ -156,13 +156,14 @@ export class AffiliateBannerComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    // Delay showing banner for 30 seconds after component mounts
+    // Delay showing banner for 5 seconds after component mounts (reduced for testing)
     setTimeout(() => {
       if (!this.dismissed) {
+        console.log('Affiliate banner: showing first product');
         this.showNextProduct();
         this.startRotation();
       }
-    }, 30000);
+    }, 5000);
   }
 
   ngOnDestroy() {
