@@ -31,6 +31,7 @@ import {
   statsChart,
   chevronForward,
   volumeHigh,
+  cart,
 } from 'ionicons/icons';
 
 @Component({
@@ -94,6 +95,11 @@ import {
           <ion-item button routerLink="/stats">
             <ion-icon name="stats-chart" slot="start" color="success"></ion-icon>
             <ion-label>Statistics</ion-label>
+            <ion-icon name="chevron-forward" slot="end" color="medium"></ion-icon>
+          </ion-item>
+          <ion-item button routerLink="/products">
+            <ion-icon name="cart" slot="start" color="warning"></ion-icon>
+            <ion-label>Recommended Products</ion-label>
             <ion-icon name="chevron-forward" slot="end" color="medium"></ion-icon>
           </ion-item>
         </ion-item-group>
@@ -204,6 +210,7 @@ export class SettingsPage {
       statsChart,
       chevronForward,
       volumeHigh,
+      cart,
     });
   }
 

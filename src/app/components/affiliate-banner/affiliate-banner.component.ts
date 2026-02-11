@@ -22,14 +22,21 @@ import { cart, closeCircle } from 'ionicons/icons';
           <ion-icon name="close-circle"></ion-icon>
         </button>
         <div class="banner-content" (click)="openProduct()">
-          @if (currentProduct()?.imageUrl) {
-            <img
-              [src]="currentProduct()?.imageUrl"
-              [alt]="currentProduct()?.name"
-              class="product-image"
-              loading="lazy"
-            />
-          }
+          <div class="product-image-container">
+            @if (currentProduct()?.imageUrl) {
+              <img
+                [src]="currentProduct()?.imageUrl"
+                [alt]="currentProduct()?.name"
+                class="product-image"
+                loading="lazy"
+                (error)="onImageError($event)"
+              />
+            } @else {
+              <div class="product-placeholder">
+                {{ getCategoryIcon(currentProduct()?.category) }}
+              </div>
+            }
+          </div>
           <div class="product-info">
             <span class="product-name">{{ currentProduct()?.name }}</span>
             <span class="product-cta">
@@ -91,13 +98,29 @@ import { cart, closeCircle } from 'ionicons/icons';
         cursor: pointer;
       }
 
+      .product-image-container {
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+      }
+
       .product-image {
         width: 60px;
         height: 60px;
         object-fit: contain;
         border-radius: 8px;
         background: #f8f9fa;
-        flex-shrink: 0;
+      }
+
+      .product-placeholder {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 8px;
+        font-size: 1.5rem;
       }
 
       .product-info {
@@ -213,5 +236,20 @@ export class AffiliateBannerComponent implements OnInit, OnDestroy {
     setTimeout(() => {
       this.currentProduct.set(null);
     }, 300);
+  }
+
+  getCategoryIcon(category?: string): string {
+    const icons: Record<string, string> = {
+      book: '📚',
+      accessory: '🎒',
+      apparel: '👕',
+      collectible: '✨',
+    };
+    return icons[category || 'accessory'] || '🛒';
+  }
+
+  onImageError(event: Event) {
+    const img = event.target as HTMLImageElement;
+    img.style.display = 'none';
   }
 }

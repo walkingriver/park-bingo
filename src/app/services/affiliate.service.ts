@@ -80,8 +80,8 @@ export class AffiliateService {
   private enrichProduct(product: AffiliateProduct, tag: string): AffiliateProduct {
     return {
       ...product,
-      // Amazon direct image URL (more reliable than widget)
-      imageUrl: `https://images-na.ssl-images-amazon.com/images/P/${product.asin}.01._SCLZZZZZZZ_SX100_.jpg`,
+      // Use manual imageUrl if provided, otherwise leave undefined (component will show placeholder)
+      imageUrl: product.imageUrl || undefined,
       // Amazon product URL with affiliate tag
       amazonUrl: `https://www.amazon.com/dp/${product.asin}?tag=${tag}`,
     };
