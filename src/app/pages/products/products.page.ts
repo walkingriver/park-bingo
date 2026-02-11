@@ -141,6 +141,18 @@ import { signal } from '@angular/core';
   `,
   styles: [
     `
+      ion-segment {
+        --background: var(--ion-color-light);
+      }
+
+      ion-segment-button {
+        --color: var(--ion-color-medium);
+        --color-checked: var(--ion-color-primary-contrast);
+        --background-checked: var(--ion-color-primary);
+        --indicator-color: transparent;
+        font-weight: 600;
+      }
+
       .intro-text {
         color: var(--ion-color-medium);
         font-size: 0.9rem;
