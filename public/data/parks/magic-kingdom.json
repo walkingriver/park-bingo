@@ -9,7 +9,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/its-a-small-world/its-a-small-world-00.jpg?1699630925394"
+    "imageUrl": "/images/parks/mk/its-a-small-world.jpg"
   },
   {
     "id": "pirates-adventures",
@@ -19,7 +19,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/a-pirates-adventure/240824WS-_6602-1-16x9.jpg?2025-08-19T21:19:49+00:00"
+    "imageUrl": "/images/parks/mk/pirates-adventures.jpg"
   },
   {
     "id": "astro-orbiter",
@@ -31,7 +31,7 @@
       "spin",
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/astro-orbiter/astro-orbiter-00.jpg?1756888217678"
+    "imageUrl": "/images/parks/mk/astro-orbiter.jpg"
   },
   {
     "id": "big-thunder-mountain-railroad",
@@ -43,7 +43,7 @@
       "family",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/big-thunder-mountain-railroad/big-thunder-mountain-railroad-00.jpg?1765208789463"
+    "imageUrl": "/images/parks/mk/big-thunder-mountain-railroad.jpg"
   },
   {
     "id": "buzz-lightyear-space-ranger-spin",
@@ -55,7 +55,7 @@
       "spin",
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/buzz-lightyears-space-ranger-spin/Buzz-Lightyear-Rendering-16x9.jpg?2025-12-02T19:24:28+00:00"
+    "imageUrl": "/images/parks/mk/buzz-lightyear-space-ranger-spin.jpg"
   },
   {
     "id": "casey-jr-splash-n-soak-station",
@@ -66,7 +66,7 @@
       "water",
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/casey-jr-splash-n-soak-station/casey-jr-splash-n-soak-station-00.jpg?1658974592688"
+    "imageUrl": "/images/parks/mk/casey-jr-splash-n-soak-station.jpg"
   },
   {
     "id": "caseys-corner-pianist",
@@ -76,7 +76,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/magic-kingdom/caseys-corner-pianist/caseys-corner-pianist-00.jpg?1673631455015"
+    "imageUrl": "/images/parks/mk/caseys-corner-pianist.jpg"
   },
   {
     "id": "cinderella-castle",
@@ -86,7 +86,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/magic-kingdom/cinderella-castle/castle-rainbow-lt-16x9.jpg?1770734619192"
+    "imageUrl": "/images/parks/mk/cinderella-castle.jpg"
   },
   {
     "id": "country-bear-jamboree",
@@ -97,7 +97,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/country-bear-jamboree/240824WS-_6849-1-16x9-16x9.jpg?2025-09-17T20:01:11+00:00"
+    "imageUrl": "/images/parks/mk/country-bear-jamboree.jpg"
   },
   {
     "id": "disney-adventure-friends-cavalcade",
@@ -107,7 +107,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/disney-adventure-cavalcade/0804ZN_0015_JK_JB-16x9.jpg?2025-06-18T20:23:52+00:00"
+    "imageUrl": "/images/parks/mk/disney-adventure-friends-cavalcade.jpg"
   },
   {
     "id": "fab-50-character-collection",
@@ -115,7 +115,7 @@
     "type": "character",
     "description": "A dad takes a selfie while his kids hold lightsabers in front of a statue of Artoo Deetoo",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/lifestyle/0928ZP_2345MS_xak-16x9.jpg?2022-03-10T19:20:54+00:00"
+    "imageUrl": "/images/parks/mk/fab-50-character-collection.jpg"
   },
   {
     "id": "festival-fantasy-parade",
@@ -125,7 +125,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/mickeys-magical-friendship-faire/Mickey_facing_front_New-16x9.jpg?2022-03-10T19:33:14+00:00"
+    "imageUrl": "/images/parks/mk/festival-fantasy-parade.jpg"
   },
   {
     "id": "starlight-dream-night-away-parade",
@@ -133,7 +133,7 @@
     "type": "show",
     "description": "Elsa on a float in the Disney Starlight, Dream the Night Away parade at Magic Kingdom park",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/starlight/0712ZL_0760OK_JB-16x9.jpg?2025-09-02T17:05:06+00:00"
+    "imageUrl": "/images/parks/mk/starlight-dream-night-away-parade.jpg"
   },
   {
     "id": "dumbo-the-flying-elephant",
@@ -146,7 +146,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/dumbo-the-flying-elephant/dumbo-the-flying-elephant-00.jpg?1761054168264"
+    "imageUrl": "/images/parks/mk/dumbo-the-flying-elephant.jpg"
   },
   {
     "id": "enchanted-tales-with-belle",
@@ -156,7 +156,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/magic-kingdom/enchanted-tales-with-belle/mk-belle-enchanted-tales-meet-16x9.jpg?1721820257046"
+    "imageUrl": "/images/parks/mk/enchanted-tales-with-belle.jpg"
   },
   {
     "id": "happily-ever-after-fireworks",
@@ -164,7 +164,7 @@
     "type": "show",
     "description": "Fireworks burst over Cinderella Castle as lights cover it in a stained glass theme",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/cinderella-castle/MK17-HappilyEverAfter0507-263_1-16x9.jpg?2022-03-10T19:31:46+00:00"
+    "imageUrl": "/images/parks/mk/happily-ever-after-fireworks.jpg"
   },
   {
     "id": "haunted-mansion",
@@ -176,7 +176,7 @@
       "dark",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/the-haunted-mansion/haunted-mansion-00.jpg?1701903986636"
+    "imageUrl": "/images/parks/mk/haunted-mansion.jpg"
   },
   {
     "id": "disney-animals-horses",
@@ -184,7 +184,7 @@
     "type": "ride",
     "description": "Horses - Disney Animals",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-horses/disney-animals-horses-00-horses-brown-horse-sunny-ranch-near-road-16x9.jpg?1768364865894"
+    "imageUrl": "/images/parks/mk/disney-animals-horses.jpg"
   },
   {
     "id": "jingle-cruise",
@@ -196,7 +196,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/events/holiday/attraction/jingle-cruise-16x9.jpg?2022-10-17T18:49:58+00:00"
+    "imageUrl": "/images/parks/mk/jingle-cruise.jpg"
   },
   {
     "id": "jungle-cruise",
@@ -208,7 +208,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/jungle-cruise/0826ZP_0049DR-16x9.jpg?2022-05-05T18:25:39+00:00"
+    "imageUrl": "/images/parks/mk/jungle-cruise.jpg"
   },
   {
     "id": "magic-kingdom-welcome",
@@ -218,7 +218,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/cinderella-castle/0724ZQ_0195MS_JLM-16x9.jpg?2023-03-06T17:58:34+00:00"
+    "imageUrl": "/images/parks/mk/magic-kingdom-welcome.jpg"
   },
   {
     "id": "mad-tea-party",
@@ -230,7 +230,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/mad-tea-party/mad-tea-party-00.jpg?1699630936838"
+    "imageUrl": "/images/parks/mk/mad-tea-party.jpg"
   },
   {
     "id": "main-street-vehicles",
@@ -242,7 +242,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/main-street-vehicles/main-street-vehicles-gallery01-1-16x9.jpg?2025-06-18T20:23:53+00:00"
+    "imageUrl": "/images/parks/mk/main-street-vehicles.jpg"
   },
   {
     "id": "character-meet-ariel-grotto-fantasyland",
@@ -253,7 +253,7 @@
       "indoor",
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/character-experience/magic-kingdom/character-meet-ariel-grotto-fantasyland/meet-ariel-character-grotto-16x9.jpg?1705965108254"
+    "imageUrl": "/images/parks/mk/character-meet-ariel-grotto-fantasyland.jpg"
   },
   {
     "id": "character-meet-aladdin",
@@ -263,7 +263,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/character-experience/magic-kingdom/character-meet-aladdin/character-meet-aladdin-02.jpg?1660121930978"
+    "imageUrl": "/images/parks/mk/character-meet-aladdin.jpg"
   },
   {
     "id": "character-meet-princess-fantasyland",
@@ -274,7 +274,7 @@
       "indoor",
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/character-meet-cinderella-fairytale-hall-00-16x9.jpg?2022-04-11T12:40:32+00:00"
+    "imageUrl": "/images/parks/mk/character-meet-princess-fantasyland.jpg"
   },
   {
     "id": "character-meet-goofy-donald",
@@ -284,7 +284,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/character-experience/magic-kingdom/character-meet-goofy-donald/character-meet-and-greet-goofy-donald-petes-silly-slideshow-00.jpg?1766738087728"
+    "imageUrl": "/images/parks/mk/character-meet-goofy-donald.jpg"
   },
   {
     "id": "character-meet-minnie-daisy",
@@ -294,7 +294,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/character-experience/magic-kingdom/character-meet-minnie-daisy-donald-goofy/character-meet-and-greet-minnie-daisy-petes-silly-slideshow-00.jpg?1766738086586"
+    "imageUrl": "/images/parks/mk/character-meet-minnie-daisy.jpg"
   },
   {
     "id": "character-meet-mickey-town-square",
@@ -305,7 +305,7 @@
       "indoor",
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/Meet-Mickey-at-Town-Square-16x9.jpg?2023-09-25T17:03:52+00:00"
+    "imageUrl": "/images/parks/mk/character-meet-mickey-town-square.jpg"
   },
   {
     "id": "character-meet-mirabel",
@@ -313,7 +313,7 @@
     "type": "show",
     "description": "A young girl dressed like Mirabel Madrigal holding hands with Mirabel Madrigal at Fairytale Garden\t",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/mirabel-at-fairtale-garden/1010ZN_0740AS_jrod-16x9.jpg?2025-06-18T20:23:53+00:00"
+    "imageUrl": "/images/parks/mk/character-meet-mirabel.jpg"
   },
   {
     "id": "character-meet-peter-pan",
@@ -323,7 +323,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/peter-pan-fantasyland/0812ZX_0290AN-16x9.jpg?2025-06-18T20:23:53+00:00"
+    "imageUrl": "/images/parks/mk/character-meet-peter-pan.jpg"
   },
   {
     "id": "character-meet-princess-fairytale-hall",
@@ -334,7 +334,7 @@
       "indoor",
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/PFTH-Tiana-no-ropes-tight-16x9.jpg?2022-04-11T12:40:32+00:00"
+    "imageUrl": "/images/parks/mk/character-meet-princess-fairytale-hall.jpg"
   },
   {
     "id": "character-meet-winnie-tigger-fantasyland",
@@ -344,7 +344,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/character-experience/magic-kingdom/character-meet-winnie-tigger-fantasyland/character-meet-winnie-tigger-fantasyland-00.jpg?1692216038845"
+    "imageUrl": "/images/parks/mk/character-meet-winnie-tigger-fantasyland.jpg"
   },
   {
     "id": "mickeys-magical-friendship-faire",
@@ -354,7 +354,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/mickeys-magical-friendship-faire1/0803ZN_2161JK_JB-16x9.jpg?2025-06-18T20:24:25+00:00"
+    "imageUrl": "/images/parks/mk/mickeys-magical-friendship-faire.jpg"
   },
   {
     "id": "mickeys-philharmagic",
@@ -364,7 +364,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/mickeys-philharmagic/mickeys-philharmagic-00.jpg?1763499686705"
+    "imageUrl": "/images/parks/mk/mickeys-philharmagic.jpg"
   },
   {
     "id": "monsters-inc-laugh-floor",
@@ -374,7 +374,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/gallery/attractions/magic-kingdom/monsters-inc-laugh-floor/monsters-inc-laugh-floor-gallery02.jpg?1699630959300"
+    "imageUrl": "/images/parks/mk/monsters-inc-laugh-floor.jpg"
   },
   {
     "id": "peter-pan-flight",
@@ -386,7 +386,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/peter-pans-flight/240824WS-_7106-1-16x9.jpg?2025-09-05T18:52:18+00:00"
+    "imageUrl": "/images/parks/mk/peter-pan-flight.jpg"
   },
   {
     "id": "pirates-of-the-caribbean",
@@ -398,7 +398,7 @@
       "dark",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/pirates-of-the-caribbean/pirates-of-the-caribbean-00.jpg?1727378824698"
+    "imageUrl": "/images/parks/mk/pirates-of-the-caribbean.jpg"
   },
   {
     "id": "prince-charming-regal-carrousel",
@@ -411,7 +411,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/prince-charming-regal-carrousel/prince-charming-regal-carrousel-00.jpg?1749597664401"
+    "imageUrl": "/images/parks/mk/prince-charming-regal-carrousel.jpg"
   },
   {
     "id": "seven-dwarfs-mine-train",
@@ -422,7 +422,7 @@
       "thrill",
       "family"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/events/summer/0514ZV_0721CR_EDIT-2-16x9.jpg?2025-01-30T20:13:12+00:00",
+    "imageUrl": "/images/parks/mk/seven-dwarfs-mine-train.jpg",
     "lightningLane": true
   },
   {
@@ -431,7 +431,7 @@
     "type": "show",
     "description": "A statue of a Pink Elephant from 'Dumbo', painted like a popcorn bucket",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/smellephants-on-parade/Smellephants-on-Parade-16x9.jpg?2024-04-25T22:18:33+00:00"
+    "imageUrl": "/images/parks/mk/smellephants-on-parade.jpg"
   },
   {
     "id": "space-mountain",
@@ -443,7 +443,7 @@
       "dark",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/space-mountain/space-mountain-00.jpg?1699631025440"
+    "imageUrl": "/images/parks/mk/space-mountain.jpg"
   },
   {
     "id": "swiss-family-treehouse",
@@ -454,7 +454,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/swiss-family-treehouse/swiss-family-treehouse-00.jpg?1743752162342"
+    "imageUrl": "/images/parks/mk/swiss-family-treehouse.jpg"
   },
   {
     "id": "barnstormer-starring-great-goofini",
@@ -465,7 +465,7 @@
       "family",
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/barnstormer-starring-the-great-goofini/barnstormer-starring-great-goofini-00.jpg?1658974535135"
+    "imageUrl": "/images/parks/mk/barnstormer-starring-great-goofini.jpg"
   },
   {
     "id": "dapper-dans",
@@ -475,7 +475,7 @@
     "categories": [
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/dapper-dans/DapperDans-16x9.jpg?2025-11-17T19:25:29+00:00"
+    "imageUrl": "/images/parks/mk/dapper-dans.jpg"
   },
   {
     "id": "hall-of-presidents",
@@ -486,7 +486,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/the-hall-of-presidents/hall-of-presidents-04.jpg?1755630549902"
+    "imageUrl": "/images/parks/mk/hall-of-presidents.jpg"
   },
   {
     "id": "magic-carpets-of-aladdin",
@@ -498,7 +498,7 @@
       "spin",
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/the-magic-carpets-of-aladdin/magic-carpets-of-aladdin-00.jpg?1699630941487"
+    "imageUrl": "/images/parks/mk/magic-carpets-of-aladdin.jpg"
   },
   {
     "id": "many-adventures-of-winnie-the-pooh",
@@ -509,7 +509,7 @@
       "family",
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/the-many-adventures-of-winnie-the-pooh/many-adventures-of-winnie-the-pooh-00.jpg?1699630952810"
+    "imageUrl": "/images/parks/mk/many-adventures-of-winnie-the-pooh.jpg"
   },
   {
     "id": "tianas-bayou-adventure",
@@ -520,7 +520,7 @@
       "water",
       "thrill"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-vacation-club/member-benefits/3878153_WDWMK_FY24_TianasBayou_FINAL-Key-Image-16x9.jpg?2024-05-08T04:12:58+00:00"
+    "imageUrl": "/images/parks/mk/tianas-bayou-adventure.jpg"
   },
   {
     "id": "tomorrowland-speedway",
@@ -531,7 +531,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/tomorrowland-speedway/240824WS-_8945-1-16x9.jpg?2025-08-19T21:22:13+00:00"
+    "imageUrl": "/images/parks/mk/tomorrowland-speedway.jpg"
   },
   {
     "id": "tomorrowland-transit-authority-peoplemover",
@@ -543,7 +543,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/tomorrowland-transit-authority-peoplemover/240824WS-_0708-1-16x9.jpg?2025-09-11T01:52:13+00:00"
+    "imageUrl": "/images/parks/mk/tomorrowland-transit-authority-peoplemover.jpg"
   },
   {
     "id": "tron-lightcycle-run",
@@ -554,7 +554,7 @@
       "thrill",
       "dark"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/tron/TRON_KV_Sprint_1280x720-16x9.jpg?2023-01-09T23:50:02+00:00",
+    "imageUrl": "/images/parks/mk/tron-lightcycle-run.jpg",
     "lightningLane": true
   },
   {
@@ -566,7 +566,7 @@
       "family",
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/under-the-sea-journey-of-the-little-mermaid/under-the-sea-journey-of-the-little-mermaid-new-00.jpg?1699630977449"
+    "imageUrl": "/images/parks/mk/under-the-sea-journey-of-the-little-mermaid.jpg"
   },
   {
     "id": "walt-disney-world-railroad-fantasyland",
@@ -578,7 +578,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/fantasyland-railroad/0802ZN_5350JK_JB-16x9.jpg?2025-06-18T20:23:53+00:00"
+    "imageUrl": "/images/parks/mk/walt-disney-world-railroad-fantasyland.jpg"
   },
   {
     "id": "walt-disney-world-railroad-frontierland",
@@ -590,7 +590,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/frontierland-railroads/walt-disney-world-railroad-frontierland-gallery00-16x9.jpg?2025-06-18T20:23:53+00:00"
+    "imageUrl": "/images/parks/mk/walt-disney-world-railroad-frontierland.jpg"
   },
   {
     "id": "walt-disney-world-railroad",
@@ -601,7 +601,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/magic-kingdom-railroad/1028ZN_1854RW_DZ_r1-16x9.jpg?2025-06-18T20:23:53+00:00"
+    "imageUrl": "/images/parks/mk/walt-disney-world-railroad.jpg"
   },
   {
     "id": "walt-disney-carousel-of-progress",
@@ -613,7 +613,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/walt-disneys-carousel-of-progress/walt-disney-carousel-of-progress-00.jpg?1699630967972"
+    "imageUrl": "/images/parks/mk/walt-disney-carousel-of-progress.jpg"
   },
   {
     "id": "enchanted-tiki-room",
@@ -624,6 +624,6 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/magic-kingdom/walt-disneys-enchanted-tiki-room/enchanted-tiki-room-00.jpg?1699630913720"
+    "imageUrl": "/images/parks/mk/enchanted-tiki-room.jpg"
   }
 ]

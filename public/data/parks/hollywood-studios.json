@@ -7,7 +7,7 @@
     "categories": [
       "spin"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/alien-saucer-swirl/240824WS-_3839-1-16x9.jpg?2025-08-19T20:38:19+00:00"
+    "imageUrl": "/images/parks/hs/alien-swirling-saucers.jpg"
   },
   {
     "id": "beauty-and-the-beast-live-on-stage",
@@ -17,7 +17,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/hollywood-studios/beauty-and-the-beast-live-on-stage/beauty-and-the-beast-live-on-stage-06.jpg?1758293003738"
+    "imageUrl": "/images/parks/hs/beauty-and-the-beast-live-on-stage.jpg"
   },
   {
     "id": "disney-jr-mickey-mouse-clubhouse-live",
@@ -25,7 +25,7 @@
     "type": "show",
     "description": "Mickey Mouse and Minnie Mouse dancing in Disney Junior Mickey Mouse Clubhouse Live",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/disney-jr-mickey-mouse-clubhouse-live/HERO-IMAGE-Mickey_Minnie_0022-16x9.jpg?2025-11-07T17:56:32+00:00"
+    "imageUrl": "/images/parks/hs/disney-jr-mickey-mouse-clubhouse-live.jpg"
   },
   {
     "id": "disney-movie-magic",
@@ -33,7 +33,7 @@
     "type": "show",
     "description": "Disney Movie Magic",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/hollywood-studios/disney-movie-magic/new-disney-movie-magic-chinese-theater-16x9.jpg?1757357245541"
+    "imageUrl": "/images/parks/hs/disney-movie-magic.jpg"
   },
   {
     "id": "disney-villains-unfairly-ever-after",
@@ -41,7 +41,7 @@
     "type": "show",
     "description": "Watch Maleficent cast her spell during Disney Villains: Unfairly Ever After at Disney’s Hollywood Studios.",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/disney-villains-unfairly-ever/0616ZL_4209OK_mm_R2-16x9.jpg?2025-09-16T22:13:53+00:00"
+    "imageUrl": "/images/parks/hs/disney-villains-unfairly-ever-after.jpg"
   },
   {
     "id": "character-meet-darth-vader",
@@ -49,7 +49,7 @@
     "type": "show",
     "description": "Prepare to face the might of the Galactic Empire when you find Darth Vader near the Star Tours entrance in Disney’s Hollywood Studios",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/Darth-08812-Final-16x9.jpg?2025-10-06T20:25:30+00:00"
+    "imageUrl": "/images/parks/hs/character-meet-darth-vader.jpg"
   },
   {
     "id": "fantasmic",
@@ -57,7 +57,7 @@
     "type": "show",
     "description": "Mickey Mouse stands on a stage near water jets",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/fantasmic/1024ZO_3792AFN_xak-16x9.jpg?2022-11-29T22:40:18+00:00"
+    "imageUrl": "/images/parks/hs/fantasmic.jpg"
   },
   {
     "id": "first-order-searches-for-the-resistance",
@@ -65,7 +65,7 @@
     "type": "show",
     "description": "Kylo Ren poses on a stage with 2 stormtroopers ",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/mdx/tiles/First-Order-Searches-for-the-Resistance-Media-16x9.jpg?2023-07-25T19:53:47+00:00"
+    "imageUrl": "/images/parks/hs/first-order-searches-for-the-resistance.jpg"
   },
   {
     "id": "frozen-sing-along-celebration",
@@ -73,7 +73,7 @@
     "type": "show",
     "description": "Frozen Sing-Along Celebration",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/hollywood-studios/frozen-sing-along-celebration/summer-update-00.jpg?1762355091232"
+    "imageUrl": "/images/parks/hs/frozen-sing-along-celebration.jpg"
   },
   {
     "id": "green-army-drum-corps",
@@ -81,7 +81,7 @@
     "type": "show",
     "description": "The Green Army Man Drum Corps stand, ready to play, in front of Woody and the Toy Story Land sign",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/entertainment/hollywood-studios/green-army-drum-corps/green-army-men-drum-corps-16x9.jpg?1699631340140"
+    "imageUrl": "/images/parks/hs/green-army-drum-corps.jpg"
   },
   {
     "id": "hollygroove-swingin",
@@ -89,7 +89,7 @@
     "type": "show",
     "description": "Get ready to tap your feet to the beat of The HollyGroove Swinging Band as they perform at Disney’s Hollywood Studios.",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/live-performances/Hollygroove-Swingin-final-16x9.jpg?2025-10-20T21:47:33+00:00"
+    "imageUrl": "/images/parks/hs/hollygroove-swingin.jpg"
   },
   {
     "id": "indiana-jones-epic-stunt-spectacular",
@@ -97,7 +97,7 @@
     "type": "show",
     "description": "Experience Indiana Jones™ Epic Stunt Spectacular!",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/hollywood-studios/indiana-jones-epic-stunt-spectacular/indiana-jones-epic-stunt-spectacular-00.jpg?1751373381016"
+    "imageUrl": "/images/parks/hs/indiana-jones-epic-stunt-spectacular.jpg"
   },
   {
     "id": "character-meet-ariel-walt-disney-presents",
@@ -105,7 +105,7 @@
     "type": "show",
     "description": "Ariel smiles while standing on a balcony over a body of water",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/MDX_TLM-LA_HeroImage_v3-16x9.jpg?2023-05-23T13:04:59+00:00"
+    "imageUrl": "/images/parks/hs/character-meet-ariel-walt-disney-presents.jpg"
   },
   {
     "id": "character-meet-mickey-minnie-red-carpet",
@@ -115,7 +115,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/240824WS-_1985-1-1-16x9.jpg?2025-08-19T20:47:19+00:00"
+    "imageUrl": "/images/parks/hs/character-meet-mickey-minnie-red-carpet.jpg"
   },
   {
     "id": "character-meet-edna-mode-experience",
@@ -123,7 +123,7 @@
     "type": "show",
     "description": "Edna Mode poses for a photo ",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/campaign/pixar/DHS19-Edna0117-1031-16x9.jpg?2023-04-27T03:27:05+00:00"
+    "imageUrl": "/images/parks/hs/character-meet-edna-mode-experience.jpg"
   },
   {
     "id": "character-meet-joy",
@@ -131,7 +131,7 @@
     "type": "show",
     "description": "Joy from the Pixar movie Inside Out skipping at Pixar Plaza",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/events/summer/2024-activations-announcement/Joy_at_Pixar_Plaza-16x9.jpg?2024-03-18T14:32:21+00:00"
+    "imageUrl": "/images/parks/hs/character-meet-joy.jpg"
   },
   {
     "id": "character-meet-olaf-frozen",
@@ -141,7 +141,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/character-experience/hollywood-studios/character-meet-olaf-frozen/character-meet-olaf-frozen-03.jpg?1682085799687"
+    "imageUrl": "/images/parks/hs/character-meet-olaf-frozen.jpg"
   },
   {
     "id": "visa-card-character-experiences",
@@ -151,7 +151,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/character-experience/hollywood-studios/character-meet-olaf-frozen/character-meet-olaf-frozen-03.jpg?1770184418309"
+    "imageUrl": "/images/parks/hs/visa-card-character-experiences.jpg"
   },
   {
     "id": "character-meet-pixar-pals",
@@ -159,7 +159,7 @@
     "type": "show",
     "description": "Mister and Missus Incredible strike Super Hero poses ",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/0513ZN_1266AFN-16x9.jpg?2023-06-09T11:34:22+00:00"
+    "imageUrl": "/images/parks/hs/character-meet-pixar-pals.jpg"
   },
   {
     "id": "character-meet-woody-jessie-buzz-lightyear",
@@ -167,7 +167,7 @@
     "type": "show",
     "description": "Experience Meet the Toys in Toy Story Land",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet/DHS22-TSLCharacters1014-0237-Edit-16x9-16x9.jpg?2025-07-14T15:15:31+00:00"
+    "imageUrl": "/images/parks/hs/character-meet-woody-jessie-buzz-lightyear.jpg"
   },
   {
     "id": "mickey-minnies-runaway-railway",
@@ -177,7 +177,7 @@
     "categories": [
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/hollywood-studios/mickey-minnies-runaway-railway/underwater-mickey-minnie-runaway-16x9.jpg?1758811874589"
+    "imageUrl": "/images/parks/hs/mickey-minnies-runaway-railway.jpg"
   },
   {
     "id": "millennium-falcon-smugglers-run",
@@ -190,7 +190,7 @@
       "dark",
       "loud"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/attractions/disneyland/millennium-falcon-smugglers-run/smugglers-run-interior-16x9.jpg?1744391857421"
+    "imageUrl": "/images/parks/hs/millennium-falcon-smugglers-run.jpg"
   },
   {
     "id": "rock-and-roller-coaster-starring-aerosmith",
@@ -202,7 +202,7 @@
       "loud",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/hollywood-studios/rock-n-roller-coaster-starring-aerosmith/rock-and-roller-coaster-starring-aerosmith-00.jpg?1766136900355"
+    "imageUrl": "/images/parks/hs/rock-and-roller-coaster-starring-aerosmith.jpg"
   },
   {
     "id": "slinky-dog-dash",
@@ -213,7 +213,7 @@
       "thrill",
       "family"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/destinations/hollywood-studios/toy-story-land/toy-story-slinky-dog-ride-16x9.jpg?1767982813913"
+    "imageUrl": "/images/parks/hs/slinky-dog-dash.jpg"
   },
   {
     "id": "star-tours",
@@ -223,7 +223,7 @@
     "categories": [
       "family"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/hollywood-studios/star-tours-the-adventures-continue/star-tours-00.jpg?1764947481263"
+    "imageUrl": "/images/parks/hs/star-tours.jpg"
   },
   {
     "id": "star-wars-rise-of-the-resistance",
@@ -236,7 +236,7 @@
       "dark",
       "loud"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/destinations/hollywood-studios/star-wars-galaxys-edge/rise-resistance-16x9.jpg?1703167709482",
+    "imageUrl": "/images/parks/hs/star-wars-rise-of-the-resistance.jpg",
     "lightningLane": true
   },
   {
@@ -245,7 +245,7 @@
     "type": "ride",
     "description": "Experience Star Wars™ at Walt Disney World Resort",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/hollywood-studios/star-tours-the-adventures-continue/star-tours-00.jpg?1760557085196"
+    "imageUrl": "/images/parks/hs/star-wars-wdw.jpg"
   },
   {
     "id": "little-mermaid-musical-adventure",
@@ -253,7 +253,7 @@
     "type": "show",
     "description": "Marvel at the watery wonders of Ariel’s grotto in The Little Mermaid – A Musical Adventure",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/the-little-mermaid-a-musical-adventure/0520ZL_3204SD_jrod_r2-16x9.jpg?2025-10-07T18:30:25+00:00"
+    "imageUrl": "/images/parks/hs/little-mermaid-musical-adventure.jpg"
   },
   {
     "id": "the-record-setters",
@@ -261,7 +261,7 @@
     "type": "show",
     "description": "Watch The Record Setters perform amazing stunts, topping all challengers—and themselves!",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/live-performances/Record-Setters-final-16x9.jpg?2025-10-20T21:45:42+00:00"
+    "imageUrl": "/images/parks/hs/the-record-setters.jpg"
   },
   {
     "id": "twilight-zone-tower-of-terror",
@@ -274,7 +274,7 @@
       "scary",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/hollywood-studios/the-twilight-zone-tower-of-terror/twilight-zone-tower-of-terror-00.jpg?1699630894724"
+    "imageUrl": "/images/parks/hs/twilight-zone-tower-of-terror.jpg"
   },
   {
     "id": "toy-story-mania",
@@ -284,7 +284,7 @@
     "categories": [
       "spin"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/hollywood-studios/toy-story-mania/toy-story-mania-00.jpg?1738012585920"
+    "imageUrl": "/images/parks/hs/toy-story-mania.jpg"
   },
   {
     "id": "vacation-fun",
@@ -292,7 +292,7 @@
     "type": "ride",
     "description": "An empty theater with a film featuring Mickey and Minnie Mouse projected on the movie screen",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/hollywood-studios/vacation-fun/vacation-fun-theater-16x9.jpg?1766584887841"
+    "imageUrl": "/images/parks/hs/vacation-fun.jpg"
   },
   {
     "id": "walt-disney-presents",
@@ -303,7 +303,7 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/walt-disney-presents/240824WS-_4269-1-16x9.jpg?2025-08-19T20:51:19+00:00"
+    "imageUrl": "/images/parks/hs/walt-disney-presents.jpg"
   },
   {
     "id": "wonderful-world-of-animation",
@@ -311,6 +311,6 @@
     "type": "show",
     "description": "Mickey Mouse in the spotlight in front of a recreation of Grauman's Chinese Theater",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/entertainment/hollywood-studios/wonderful-world-of-animation/wonderful-world-of-animation-16x9_1.jpg?1758810475196"
+    "imageUrl": "/images/parks/hs/wonderful-world-of-animation.jpg"
   }
 ]
