@@ -1,365 +1,530 @@
 [
   {
-    "id": "flight-passage",
+    "id": "affection-section",
+    "name": "Affection Section",
+    "type": "ride",
+    "description": "Affection Section",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/affection-section/affection-section-00.jpg?1770337049621"
+  },
+  {
+    "id": "disney-animals-african-birds",
+    "name": "African Birds - Disney Animals",
+    "type": "ride",
+    "description": "A bird resting near a nest on a tree",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/birds/Weaver-1-copy-Jess-16x9.jpg?2023-01-18T17:03:14+00:00"
+  },
+  {
+    "id": "disney-animals-african-elephants",
+    "name": "African Elephants - Disney Animals",
+    "type": "ride",
+    "description": "Experience African Elephants - Disney Animals",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-african-elephants/disney-animals-african-elephants-00-b.jpg?1658956536868"
+  },
+  {
+    "id": "disney-animals-african-hogs",
+    "name": "African Hogs - Disney Animals",
+    "type": "ride",
+    "description": "When you see our warthogs in person at Walt Disney World Resort, you’re sure to love them, warts and all.",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/animal-kingdom/disney-animals-african-hogs/warthog-pair-in-burrow-16x9.jpg?1658956561834"
+  },
+  {
+    "id": "disney-animals-lions",
+    "name": "African Lions - Disney Animals",
+    "type": "ride",
+    "description": "Experience African Lions - Disney Animals",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/lion/disney-animals-lions-00-b-16x9.jpg?2025-06-16T17:07:07+00:00"
+  },
+  {
+    "id": "winged-encounters",
+    "name": "Animal Encounters: Winged Encounters – The Kingdom Takes Flight",
+    "type": "show",
+    "description": "Experience Animal Encounters: Winged Encounters – The Kingdom Takes Flight",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/animal-kingdom/winged-encounters/wdw-kingdom-flight-00.jpg?1699631095239"
+  },
+  {
+    "id": "disney-animals-ankole",
+    "name": "Ankole Cattle - Disney Animals",
+    "type": "ride",
+    "description": "Ankole cattle horns help the animals cool down as blood circulates—like having an internal air conditioner!",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/animal-kingdom/disney-animals-ankole-watusi/wild-africa-trek-cattle-16x9.jpg?1658956597115"
+  },
+  {
+    "id": "disney-animals-anteaters",
+    "name": "Anteaters - Disney Animals",
+    "type": "ride",
+    "description": "A southern giant anteater walking through its habitat at Disney’s Animal Kingdom theme park",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/anteater/Giant-Anteater-Annie-16x9.jpg?2023-01-31T15:39:14+00:00"
+  },
+  {
+    "id": "disney-animals-asian-birds",
+    "name": "Asian Birds - Disney Animals",
+    "type": "ride",
+    "description": "A Malayan great argus pheasant with its wings tucked against its body",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/birds/Great-Argus-Pheasant-16x9.jpg?2023-01-19T16:24:20+00:00"
+  },
+  {
+    "id": "disney-animals-asian-small-clawed-otters",
+    "name": "Asian Small-Clawed Otters - Disney Animals",
+    "type": "ride",
+    "description": "An Asian small-clawed otter rests its head on another otter by the edge of the water",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/animal-kingdom/disney-animals-otters/two-otthers-water-16x9.jpg?1756854364607"
+  },
+  {
+    "id": "avatar-flight-of-passage",
     "name": "Avatar Flight of Passage",
     "type": "ride",
-    "description": "Fly on a banshee over the breathtaking world of Pandora",
-    "waitTime": 90,
-    "heightRequirement": "44\" (112cm)",
-    "geniePlusEligible": true,
-    "bestTime": "Rope drop or last hour of park operation",
-    "imageUrl": "/images/parks/ak/flight-passage.jpg",
-    "categories": ["thrill", "3d", "avatar", "simulator"]
+    "description": "Avatar - Flight of Passage",
+    "categories": [
+      "thrill"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/flight-of-passage/flight-of-passage-in-ride-16x9.jpg?1710279669923",
+    "lightningLane": true
   },
   {
-    "id": "everest",
+    "id": "disney-animals-babirusas",
+    "name": "Babirusas - Disney Animals",
+    "type": "ride",
+    "description": "A baby babirusa with its mother at Disney’s Animal Kingdom theme park",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/babirusa/Babirusa-Baby-Kirana-and-Mom-Onstage-Aug-17-2020_03-16x9.jpg?2023-01-31T15:39:11+00:00"
+  },
+  {
+    "id": "disney-animals-bats",
+    "name": "Bats - Disney Animals",
+    "type": "ride",
+    "description": "A large flying fox sleeps upside down, wrapped in its own wings",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/birds/Malayan-flying-fox-closeup-16x9.jpg?2023-01-19T16:24:20+00:00"
+  },
+  {
+    "id": "disney-animals-butterflies",
+    "name": "Butterflies - Disney Animals",
+    "type": "ride",
+    "description": "A butterfly perched atop a flower",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/butterfly/428654847_0613AV_937GD-16x9.jpg?2022-08-10T19:49:46+00:00"
+  },
+  {
+    "id": "conservation-station",
+    "name": "Conservation Station",
+    "type": "ride",
+    "description": "Conservation Station",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/conservation-station/conservation-station-00.jpg?1770337096772"
+  },
+  {
+    "id": "disney-animals-cotton-top-tamarins",
+    "name": "Cotton-Top Tamarins - Disney Animals",
+    "type": "ride",
+    "description": "Experience Cotton-Top Tamarins - Disney Animals",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-cotton-top-tamarins/disney-animals-cotton-top-tamarins-00.jpg?1692192542235"
+  },
+  {
+    "id": "discovery-island-trails",
+    "name": "Discovery Island Trails",
+    "type": "ride",
+    "description": "Experience Discovery Island Trails",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/discovery-trail/240824WS-308784-1-16x9.jpg?2025-08-19T01:00:04+00:00"
+  },
+  {
+    "id": "disney-animals",
+    "name": "Disney Animals",
+    "type": "ride",
+    "description": "Two Guests watch elephants while enjoying Kilimanjaro Safaris",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/kilimanjaro-safaris/0821ZS_3334MS_BRO_JB-16x9.jpg?2022-04-22T22:33:02+00:00"
+  },
+  {
+    "id": "expedition-everest",
     "name": "Expedition Everest - Legend of the Forbidden Mountain",
     "type": "ride",
-    "description": "High-speed coaster through the Himalayas with a Yeti encounter",
-    "waitTime": 50,
-    "heightRequirement": "44\" (112cm)",
-    "geniePlusEligible": true,
-    "bestTime": "Morning",
-    "imageUrl": "/images/parks/ak/everest.jpg",
-    "categories": ["thrill", "coaster", "outdoor"]
-  },
-  {
-    "id": "kilimanjaro-safaris",
-    "name": "Kilimanjaro Safaris",
-    "type": "ride",
-    "description": "Open-air safari expedition through African savanna with live animals",
-    "waitTime": 45,
-    "geniePlusEligible": true,
-    "bestTime": "Morning or late afternoon",
-    "imageUrl": "/images/parks/ak/kilimanjaro-safaris.jpg",
-    "categories": ["family", "animals", "outdoor", "safari"]
-  },
-  {
-    "id": "navi-river",
-    "name": "Na'vi River Journey",
-    "type": "ride",
-    "description": "Gentle boat ride through the bioluminescent rainforests of Pandora",
-    "waitTime": 45,
-    "geniePlusEligible": true,
-    "bestTime": "Evening for best lighting effects",
-    "imageUrl": "/images/parks/ak/navi-river.jpg",
-    "categories": ["family", "boat", "avatar", "indoor"]
-  },
-  {
-    "id": "dinosaur",
-    "name": "DINOSAUR",
-    "type": "ride",
-    "description": "Time-traveling adventure to rescue an iguanodon before the asteroid",
-    "waitTime": 35,
-    "heightRequirement": "40\" (102cm)",
-    "geniePlusEligible": true,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/ak/dinosaur.jpg",
-    "categories": ["thrill", "indoor", "dinosaurs"]
-  },
-  {
-    "id": "kali-river",
-    "name": "Kali River Rapids",
-    "type": "ride",
-    "description": "White-water rafting adventure through the Asian rainforest",
-    "waitTime": 35,
-    "heightRequirement": "38\" (97cm)",
-    "geniePlusEligible": true,
-    "bestTime": "Hot afternoon",
-    "imageUrl": "/images/parks/ak/kali-river.jpg",
-    "categories": ["water", "outdoor", "family"]
-  },
-  {
-    "id": "tricera-top-spin",
-    "name": "TriceraTop Spin",
-    "type": "ride",
-    "description": "Family spinner ride with friendly dinosaurs in DinoLand U.S.A.",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/ak/tricera-top-spin.jpg",
-    "categories": ["family", "spinner", "dinosaurs", "kids"]
-  },
-  {
-    "id": "wildlife-express",
-    "name": "Wildlife Express Train",
-    "type": "transportation",
-    "description": "Train ride to Rafiki's Planet Watch and Conservation Station",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Midday",
-    "imageUrl": "/images/parks/ak/wildlife-express.jpg",
-    "categories": ["transportation", "outdoor", "train"]
-  },
-  {
-    "id": "festival-lion-king",
-    "name": "Festival of the Lion King",
-    "type": "show",
-    "description": "Broadway-caliber musical celebration with acrobatics and audience participation",
-    "waitTime": 25,
-    "geniePlusEligible": false,
-    "bestTime": "Check times guide",
-    "imageUrl": "/images/parks/ak/festival-lion-king.jpg",
-    "categories": ["show", "musical", "classic"]
-  },
-  {
-    "id": "nemo-big-blue",
-    "name": "Finding Nemo: The Big Blue... and Beyond!",
-    "type": "show",
-    "description": "Live musical retelling of Finding Nemo with puppets and actors",
-    "waitTime": 20,
-    "geniePlusEligible": false,
-    "bestTime": "Check times guide",
-    "categories": ["show", "musical", "puppets"]
+    "description": "Experience Expedition Everest - Legend of the Forbidden Mountain",
+    "categories": [
+      "thrill",
+      "dark"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/expedition-everest/expedition-everest-day-00.jpg?1746604132769"
   },
   {
     "id": "feathered-friends",
     "name": "Feathered Friends in Flight!",
     "type": "show",
-    "description": "Live bird show with macaws, hawks, and other exotic birds",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Check times guide",
-    "categories": ["show", "animals", "outdoor", "birds"]
+    "description": "Feathered Friends in Flight!",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/entertainment/animal-kingdom/new-entertainment/vulture-16x9.jpg?1699631072125"
   },
   {
-    "id": "its-tough-to-be-bug",
-    "name": "It's Tough to Be a Bug!",
+    "id": "festival-of-the-lion-king",
+    "name": "Festival of the Lion King",
     "type": "show",
-    "description": "3D/4D show about life from a bug's perspective inside the Tree of Life",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/ak/its-tough-to-be-bug.jpg",
-    "categories": ["show", "3d", "bugs", "indoor"]
+    "description": "Experience Festival of the Lion King",
+    "categories": [
+      "indoor",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/animal-kingdom/festival-of-the-lion-king/festival-of-the-lion-king-gallery00.jpg?1716196135833"
+  },
+  {
+    "id": "finding-nemo-big-blue-and-beyond",
+    "name": "Finding Nemo: The Big Blue... and Beyond!",
+    "type": "show",
+    "description": "Cast members on stage use puppets during Finding Nemo The Big Blue and Beyond show in DinoLand USA at Disney's Animal Kingdom theme park",
+    "categories": [
+      "indoor",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/live-performances/Nemo_Hero-16x9.jpg?2022-08-02T20:00:11+00:00"
+  },
+  {
+    "id": "disney-animals-flamingos",
+    "name": "Flamingos at Discovery Island - Disney Animals",
+    "type": "ride",
+    "description": "Flamingos - Disney Animals",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-flamingos/disney-animals-flamingos-flock-gathering-water-16x9.jpg?1675235982690"
+  },
+  {
+    "id": "disney-animals-gibbons",
+    "name": "Gibbons - Disney Animals",
+    "type": "ride",
+    "description": "Gibbons - Disney Animals",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-gibbons/disney-animals-gibbons-white-cheeked-baby-16x9.jpg?1740635831895"
+  },
+  {
+    "id": "disney-animals-giraffes",
+    "name": "Giraffes - Disney Animals",
+    "type": "ride",
+    "description": "3 giraffes standing in a grassy field",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/giraffe/Three-giraffes-standing-03.19-16x9.jpg?2022-04-13T16:49:53+00:00"
+  },
+  {
+    "id": "gorilla-falls-forest-exploration-trail",
+    "name": "Gorilla Falls Exploration Trail",
+    "type": "ride",
+    "description": "Experience Gorilla Falls Exploration Trail",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/gorilla-falls-exploration-trail/DAK22-Gorillas0223-4909-16x9.jpg?2025-09-18T20:33:45+00:00"
+  },
+  {
+    "id": "disney-animals-gorillas",
+    "name": "Gorillas - Disney Animals",
+    "type": "ride",
+    "description": "A gorilla surrounded by shrubbery",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/gorillas/Gorilla-Looking-into-Distance-16x9.jpg?2022-07-11T15:13:59+00:00"
+  },
+  {
+    "id": "burudika",
+    "name": "Harambe Village Street Band – Burudika",
+    "type": "show",
+    "description": "Burudika",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/animal-kingdom/burudika/burudika-03.jpg?1744821688621"
+  },
+  {
+    "id": "disney-animals-hippos",
+    "name": "Hippopotamuses - Disney Animals",
+    "type": "ride",
+    "description": "Hippos - Disney Animals",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-hippos/disney-animals-hippos-00.jpg?1658996281175"
+  },
+  {
+    "id": "disney-animals-invertebrates",
+    "name": "Invertebrates - Disney Animals",
+    "type": "ride",
+    "description": "Invertebrates - Disney Animals",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-invertebrates/invertebrates-mexican-red-knee-tarantula-16x9.jpg?1765203560480"
+  },
+  {
+    "id": "kali-river-rapids",
+    "name": "Kali River Rapids",
+    "type": "ride",
+    "description": "Kali River Rapids",
+    "categories": [
+      "thrill",
+      "water",
+      "family",
+      "spin"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/kali-river-rapids/kali-river-rapids-07.jpg?1765549312189"
+  },
+  {
+    "id": "disney-animals-kangaroos",
+    "name": "Kangaroos - Disney Animals",
+    "type": "ride",
+    "description": "A red kangaroo mid jump in Disney’s Animal Kingdom Theme Park",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/red-kangaroo/Red-Kangaroo-hop-DAK-Feb-2021-Photographer-David-Roark-04-16x9.jpg?2023-01-31T17:03:26+00:00"
+  },
+  {
+    "id": "kilimanjaro-safaris",
+    "name": "Kilimanjaro Safaris",
+    "type": "ride",
+    "description": "Experience Kilimanjaro Safaris",
+    "categories": [
+      "family",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/kilimanjaro-safaris/kilimanjaro-safaris-00.jpg?1700515152432"
+  },
+  {
+    "id": "disney-animals-komodo-dragons",
+    "name": "Komodo Dragons - Disney Animals",
+    "type": "ride",
+    "description": "A Komodo dragon looks around",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/animal-kingdom/disney-animals-komodo-dragons/komodo-dragon-close-up-16x9.jpg?1658996535372"
+  },
+  {
+    "id": "disney-animals-lemurs",
+    "name": "Lemurs - Disney Animals",
+    "type": "ride",
+    "description": "A ring-tailed lemur in a tree at Disney’s Animal Kingdom theme park ",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/lemur/DSC_2331-16x9.jpg?2023-03-20T13:49:49+00:00"
+  },
+  {
+    "id": "maharajah-jungle-trek",
+    "name": "Maharajah Jungle Trek",
+    "type": "ride",
+    "description": "Experience Maharajah Jungle Trek",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/tiger/DSC_0005-16x9.jpg?2023-11-06T19:47:27+00:00"
+  },
+  {
+    "id": "disney-animals-meerkats",
+    "name": "Meerkats - Disney Animals",
+    "type": "ride",
+    "description": "A curious meerkat inspects the surroundings as 3 other meerkats huddle behind it",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/animal-kingdom/disney-animals-meerkats/meerkat-closeup-16x9.jpg?1665547757038"
+  },
+  {
+    "id": "character-meet-disney-pals-adventurers-outpost",
+    "name": "Meet Favorite Disney Pals at Adventurers Outpost",
+    "type": "show",
+    "description": "Mickey Mouse and Minnie Mouse safari attire at Adventurers Outpost inside Disney's Animal Kingdom theme park in Florida",
+    "categories": [
+      "indoor",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/entertainment/animal-kingdom/character-meet-disney-pals-adventurers-outpost/adventurers-outpost-mickey-minnie-16x9.jpg?1762355151185"
+  },
+  {
+    "id": "character-meet-moana-character-landing",
+    "name": "Meet Moana at Character Landing",
+    "type": "show",
+    "description": "Moana smiles in front of the Tree of Life",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/Moana-at-DAK-16x9.jpg?2023-04-05T16:05:22+00:00"
+  },
+  {
+    "id": "character-meet-timon-rafiki",
+    "name": "Meet Timon and Rafiki at Conservation Station",
+    "type": "show",
+    "description": "A little boy in Mickey Mouse ears being carried by his father while playing with Rafiki and Timon from the Disney movie The Lion King",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/events/summer/2024-activations-announcement/Timon_and_Rafiki-16x9.jpg?2024-03-18T14:32:54+00:00"
+  },
+  {
+    "id": "disney-animals-migratory-birds",
+    "name": "Migratory Birds - Disney Animals",
+    "type": "ride",
+    "description": "Migratory Birds - 'bar-headed geese group'",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/animals/goose-bar-head/Goose-Bar-headed-group1.jpg?2022-07-15T20:03:58+00:00"
+  },
+  {
+    "id": "navi-river-journey",
+    "name": "Na'vi River Journey",
+    "type": "ride",
+    "description": "Experience Na'vi River Journey",
+    "categories": [
+      "family"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/navi-river-journey/240824WS-_8751-1-1-16x9.jpg?2025-08-19T01:07:25+00:00"
+  },
+  {
+    "id": "disney-animals-okapis",
+    "name": "Okapis - Disney Animals",
+    "type": "ride",
+    "description": "Okapis - Disney Animals",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-okapis/disney-animals-okapis-00.jpg?1726025129519"
+  },
+  {
+    "id": "disney-animals-white-black-rhinos",
+    "name": "Rhinos - Disney Animals",
+    "type": "ride",
+    "description": "Rhinos - Disney Animals",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-white-black-rhinos/disney-animals-white-black-rhinos-00.jpg?1658997287718"
+  },
+  {
+    "id": "tam-tam-congo",
+    "name": "Tam Tam Drummers of Harambe",
+    "type": "show",
+    "description": "Experience Tam Tam Drummers of Harambe",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/animal-kingdom/tam-tam-congo/tam-tam-congo-00.jpg?1699631100052"
   },
   {
     "id": "animation-experience",
     "name": "The Animation Experience at Conservation Station",
-    "type": "show",
-    "description": "Learn to draw a Disney character with a real animator",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Check times guide",
-    "imageUrl": "/images/parks/ak/animation-experience.jpg",
-    "categories": ["educational", "interactive", "drawing", "indoor"]
-  },
-  {
-    "id": "tree-awakening",
-    "name": "Tree of Life Awakenings",
-    "type": "show",
-    "description": "Nighttime projection show on the Tree of Life with animal stories",
-    "bestTime": "After dark",
-    "imageUrl": "/images/parks/ak/tree-awakening.jpg",
-    "categories": ["show", "nighttime", "projection"]
-  },
-  {
-    "id": "winged-encounters",
-    "name": "Winged Encounters – The Kingdom Takes Flight",
-    "type": "show",
-    "description": "Live macaws fly over guests near the Tree of Life",
-    "bestTime": "Check times guide",
-    "imageUrl": "/images/parks/ak/winged-encounters.jpg",
-    "categories": ["show", "animals", "outdoor", "birds"]
-  },
-  {
-    "id": "gorilla-falls",
-    "name": "Gorilla Falls Exploration Trail",
-    "type": "detail",
-    "description": "Self-guided walking trail to see gorillas, hippos, and African wildlife",
-    "imageUrl": "/images/parks/ak/gorilla-falls.jpg",
-    "categories": ["walking", "animals", "nature"]
-  },
-  {
-    "id": "maharajah-jungle",
-    "name": "Maharajah Jungle Trek",
-    "type": "detail",
-    "description": "Walking trail through Asian wildlife habitats with tigers and bats",
-    "imageUrl": "/images/parks/ak/maharajah-jungle.jpg",
-    "categories": ["walking", "animals", "nature"]
-  },
-  {
-    "id": "discovery-trails",
-    "name": "Discovery Island Trails",
-    "type": "detail",
-    "description": "Paths around the Tree of Life with exotic animal exhibits",
-    "imageUrl": "/images/parks/ak/discovery-trails.jpg",
-    "categories": ["walking", "nature", "animals"]
+    "type": "ride",
+    "description": "Walt Disney drew inspiration for some of his most beloved characters from real animals.",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/animal-kingdom/animation-experience/walt-bambi-short-16x9.jpg?1770337073952"
   },
   {
     "id": "oasis-exhibits",
     "name": "The Oasis Exhibits",
-    "type": "detail",
-    "description": "Lush entry area with animal habitats including anteaters and wallabies",
-    "imageUrl": "/images/parks/ak/oasis-exhibits.jpg",
-    "categories": ["walking", "animals", "nature"]
+    "type": "ride",
+    "description": "A brightly colored roseate spoonbill bird stands on a rock in the water",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/animal-kingdom/roseate-spoonbill-16x9.jpg?1699631023145"
+  },
+  {
+    "id": "disney-animals-asian-sumatran-tigers",
+    "name": "Tigers - Disney Animals",
+    "type": "ride",
+    "description": "Experience Tigers - Disney Animals",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-asian-sumatran-tigers/disney-animals-asian-sumatran-tigers-00.jpg?1658996208764"
   },
   {
     "id": "tree-of-life",
     "name": "Tree of Life",
-    "type": "detail",
-    "description": "Iconic 145-foot tree with 300+ animal carvings",
-    "imageUrl": "/images/parks/ak/tree-of-life.jpg",
-    "categories": ["photo-op", "art", "icon"]
+    "type": "ride",
+    "description": "The Tree of Life at Disney’s Animal Kingdom theme park",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/tree-of-life/tree-of-life-00.jpg?1767864382665"
   },
   {
-    "id": "pandora-explore",
-    "name": "Explore Pandora - The World of Avatar",
-    "type": "detail",
-    "description": "Immersive Avatar land with floating mountains and bioluminescent plants",
-    "imageUrl": "/images/parks/ak/pandora-explore.jpg",
-    "categories": ["themed-area", "avatar", "immersive"]
+    "id": "tree-of-life-nighttime-awakenings",
+    "name": "Tree of Life Awakenings",
+    "type": "show",
+    "description": "A group of people, some in Mickey Mouse ears, watch as animal images are projected onto the Tree of Life at night",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/tree-of-life/0926ZP_2586DR_xak-16x9.jpg?2022-03-10T19:20:44+00:00"
   },
   {
-    "id": "pandora-night",
-    "name": "See Pandora at Night",
-    "type": "detail",
-    "description": "Experience the bioluminescent beauty of Pandora after dark",
-    "categories": ["photo-op", "nighttime", "avatar"]
+    "id": "viva-gaia-street-band",
+    "name": "Viva Gaia Street Band!",
+    "type": "show",
+    "description": "6 male performers from Viva Gaia Street Band posing for a photo on a stage at Disney's Animal Kingdom theme park",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/performers/Viva-Gaia-16x9.jpg?2022-02-07T18:09:39+00:00"
   },
   {
-    "id": "conservation-station",
-    "name": "Conservation Station",
-    "type": "detail",
-    "description": "Behind-the-scenes look at animal care with veterinary windows",
-    "imageUrl": "/images/parks/ak/conservation-station.jpg",
-    "categories": ["animals", "educational", "interactive"]
+    "id": "disney-animals-vultures",
+    "name": "Vultures - Disney Animals",
+    "type": "ride",
+    "description": "Vultures at Tree of Life - Disney Animals",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-vultures/disney-animals-vultures-00-vultures-walking-at-DAKL-with-wings-out-16x9.jpg?1687346872584"
   },
   {
-    "id": "affection-section",
-    "name": "Affection Section",
-    "type": "detail",
-    "description": "Petting zoo with friendly domestic animals at Rafiki's Planet Watch",
-    "imageUrl": "/images/parks/ak/affection-section.jpg",
-    "categories": ["animals", "kids", "interactive"]
-  },
-  {
-    "id": "boneyard",
-    "name": "The Boneyard",
-    "type": "detail",
-    "description": "Massive dinosaur dig site playground in DinoLand U.S.A.",
-    "imageUrl": "/images/parks/ak/boneyard.jpg",
-    "categories": ["kids", "play-area", "dinosaurs", "interactive"]
-  },
-  {
-    "id": "wilderness-explorer",
+    "id": "wilderness-explorers",
     "name": "Wilderness Explorers",
-    "type": "detail",
-    "description": "Park-wide scavenger hunt to earn badges like Russell from Up",
-    "imageUrl": "/images/parks/ak/wilderness-explorer.jpg",
-    "categories": ["kids", "scavenger-hunt", "educational"]
+    "type": "ride",
+    "description": "Join the Wilderness Explorers and follow in the footsteps of Russell and Dug at Disney’s Animal Kingdom theme park.",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/wilderness-explorers/240824WS-308320-1-16x9.jpg?2025-08-19T01:09:13+00:00"
   },
   {
-    "id": "wild-africa-trek",
-    "name": "Wild Africa Trek",
-    "type": "detail",
-    "description": "Premium 3-hour VIP safari with rope bridges and closer animal views",
-    "imageUrl": "/images/parks/ak/wild-africa-trek.jpg",
-    "categories": ["tour", "paid", "adventure", "animals"]
+    "id": "wildlife-express-train",
+    "name": "Wildlife Express Train",
+    "type": "ride",
+    "description": "Experience Wildlife Express Train",
+    "categories": [
+      "family",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/wildlife-express-train/wildlife-express-train-00.jpg?1770337103491"
   },
   {
-    "id": "caring-for-giants",
-    "name": "Caring for Giants",
-    "type": "detail",
-    "description": "60-minute backstage tour to get closer to the African elephants",
-    "categories": ["tour", "paid", "animals", "elephants"]
+    "id": "disney-animals-zebras",
+    "name": "Zebras - Disney Animals",
+    "type": "ride",
+    "description": "Zebras - Disney Animals",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-zebras/disney-animals-zebras-00-zebra-face-close-up-grass-16x9.jpg?1756854345611"
   },
   {
-    "id": "character-safari",
-    "name": "Meet Safari Mickey and Friends",
-    "type": "character",
-    "description": "Meet Mickey, Minnie, Donald, Goofy, and Daisy in safari outfits",
-    "waitTime": 25,
-    "geniePlusEligible": true,
-    "categories": ["character", "meet-and-greet", "safari"]
+    "id": "character-meet-zoogether-day-gathering-spot",
+    "name": "Zoogether Day Gathering Spot",
+    "type": "show",
+    "description": "Judy Hopps and Nick Wilde posing together in front of a Zoogether Day sign",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/zootopia-better-zoogether/DAK-Zootopia-Nick-Judy-11.12.25-19-1-16x9.jpg?2025-12-05T20:09:19+00:00"
   },
   {
-    "id": "russell-dug",
-    "name": "Meet Russell and Dug",
-    "type": "character",
-    "description": "Meet Russell and Dug from Up near the bird show",
-    "waitTime": 25,
-    "geniePlusEligible": true,
-    "categories": ["character", "meet-and-greet", "pixar"]
-  },
-  {
-    "id": "satu-li",
-    "name": "Satu'li Canteen",
-    "type": "food",
-    "description": "Quick service with customizable bowls and unique Avatar-themed cuisine",
-    "imageUrl": "/images/parks/ak/satu-li.jpg",
-    "categories": ["meal", "quick-service", "avatar"]
-  },
-  {
-    "id": "flame-tree",
-    "name": "Flame Tree Barbecue",
-    "type": "food",
-    "description": "Best barbecue in Animal Kingdom with beautiful riverside seating",
-    "imageUrl": "/images/parks/ak/flame-tree.jpg",
-    "categories": ["meal", "quick-service", "bbq", "outdoor-seating"]
-  },
-  {
-    "id": "yak-yeti",
-    "name": "Yak & Yeti Restaurant",
-    "type": "food",
-    "description": "Pan-Asian table-service restaurant with excellent theming",
-    "imageUrl": "/images/parks/ak/yak-yeti.jpg",
-    "categories": ["meal", "table-service", "asian"]
-  },
-  {
-    "id": "tusker-house",
-    "name": "Tusker House Restaurant",
-    "type": "food",
-    "description": "Character dining with Donald and friends in safari outfits",
-    "imageUrl": "/images/parks/ak/tusker-house.jpg",
-    "categories": ["meal", "character-dining", "buffet"]
-  },
-  {
-    "id": "nomad-lounge",
-    "name": "Nomad Lounge",
-    "type": "food",
-    "description": "Upscale outdoor lounge with craft cocktails and small plates",
-    "imageUrl": "/images/parks/ak/nomad-lounge.jpg",
-    "categories": ["drink", "lounge", "alcoholic", "relax"]
-  },
-  {
-    "id": "rainforest-cafe",
-    "name": "Rainforest Cafe",
-    "type": "food",
-    "description": "Themed restaurant with rainforest atmosphere and animatronic animals",
-    "imageUrl": "/images/parks/ak/rainforest-cafe.jpg",
-    "categories": ["meal", "themed", "family"]
-  },
-  {
-    "id": "dole-whip-ak",
-    "name": "Dole Whip at Tamu Tamu Refreshments",
-    "type": "food",
-    "description": "Dole Whip with optional rum float for adults",
-    "imageUrl": "/images/parks/ak/dole-whip-ak.jpg",
-    "categories": ["snack", "sweet"]
-  },
-  {
-    "id": "pongu-lumpia",
-    "name": "Pongu Lumpia",
-    "type": "food",
-    "description": "Famous pineapple-cream cheese spring roll from Pongu Pongu",
-    "imageUrl": "/images/parks/ak/pongu-lumpia.jpg",
-    "categories": ["snack", "sweet", "avatar"]
-  },
-  {
-    "id": "night-blossom",
-    "name": "Night Blossom",
-    "type": "food",
-    "description": "Iconic layered non-alcoholic Pandora drink with boba pearls",
-    "imageUrl": "/images/parks/ak/night-blossom.jpg",
-    "categories": ["drink", "non-alcoholic", "avatar", "photo-op"]
-  },
-  {
-    "id": "pizzafari",
-    "name": "Pizzafari",
-    "type": "food",
-    "description": "Quick service pizza restaurant with colorful animal murals",
-    "imageUrl": "/images/parks/ak/pizzafari.jpg",
-    "categories": ["meal", "quick-service", "pizza"]
+    "id": "zootopia-better-zoogether",
+    "name": "Zootopia: Better Zoogether! - NEW!",
+    "type": "ride",
+    "description": "A promotional tile for Zootopia, Better Zoogether at Disney’s Animal Kingdom featuring Judy Hopps, Nick Wilde and other characters from Zootopia at the Tree of Life",
+    "categories": [
+      "dark",
+      "loud"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/zootopia-better-zoogether/4853600_Zootopia_BETTER_TOGETHER_Key_Visual_jrod_16x9-16x9.jpg?2025-10-16T18:59:45+00:00"
   }
 ]
