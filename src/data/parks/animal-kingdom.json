@@ -3,564 +3,363 @@
     "id": "flight-passage",
     "name": "Avatar Flight of Passage",
     "type": "ride",
-    "description": "Fly on a banshee over Pandora in 3D",
+    "description": "Fly on a banshee over the breathtaking world of Pandora",
     "waitTime": 90,
     "heightRequirement": "44\" (112cm)",
     "geniePlusEligible": true,
     "bestTime": "Rope drop or last hour of park operation",
-    "categories": [
-      "thrill",
-      "3d",
-      "avatar"
-    ],
-    "imageUrl": "/images/parks/ak/flight-passage.jpg"
-  },
-  {
-    "id": "navi-river",
-    "name": "Na'vi River Journey",
-    "type": "ride",
-    "description": "Boat ride through the bioluminescent forests of Pandora",
-    "waitTime": 45,
-    "heightRequirement": "No height requirement",
-    "geniePlusEligible": true,
-    "bestTime": "Morning",
-    "categories": [
-      "family",
-      "boat",
-      "avatar"
-    ],
-    "imageUrl": "/images/parks/ak/navi-river.jpg"
-  },
-  {
-    "id": "kilimanjaro-safaris",
-    "name": "Kilimanjaro Safaris",
-    "type": "ride",
-    "description": "Safari expedition through African savanna with live animals",
-    "waitTime": 40,
-    "geniePlusEligible": true,
-    "bestTime": "Morning or late afternoon",
-    "categories": [
-      "family",
-      "animals",
-      "outdoor"
-    ],
-    "imageUrl": "/images/parks/ak/kilimanjaro-safaris.jpg"
+    "imageUrl": "/images/parks/ak/flight-passage.jpg",
+    "categories": ["thrill", "3d", "avatar", "simulator"]
   },
   {
     "id": "everest",
-    "name": "Expedition Everest",
+    "name": "Expedition Everest - Legend of the Forbidden Mountain",
     "type": "ride",
     "description": "High-speed coaster through the Himalayas with a Yeti encounter",
     "waitTime": 50,
     "heightRequirement": "44\" (112cm)",
     "geniePlusEligible": true,
     "bestTime": "Morning",
-    "categories": [
-      "thrill",
-      "coaster",
-      "outdoor"
-    ],
-    "imageUrl": "/images/parks/ak/everest.jpg"
+    "imageUrl": "/images/parks/ak/everest.jpg",
+    "categories": ["thrill", "coaster", "outdoor"]
   },
   {
-    "id": "kali-river",
-    "name": "Kali River Rapids",
+    "id": "kilimanjaro-safaris",
+    "name": "Kilimanjaro Safaris",
     "type": "ride",
-    "description": "White-water rafting adventure through the rainforest",
-    "waitTime": 35,
-    "heightRequirement": "38\" (97cm)",
+    "description": "Open-air safari expedition through African savanna with live animals",
+    "waitTime": 45,
     "geniePlusEligible": true,
-    "bestTime": "Morning or evening",
-    "categories": [
-      "water",
-      "outdoor",
-      "family"
-    ],
-    "imageUrl": "/images/parks/ak/kali-river.jpg"
+    "bestTime": "Morning or late afternoon",
+    "imageUrl": "/images/parks/ak/kilimanjaro-safaris.jpg",
+    "categories": ["family", "animals", "outdoor", "safari"]
+  },
+  {
+    "id": "navi-river",
+    "name": "Na'vi River Journey",
+    "type": "ride",
+    "description": "Gentle boat ride through the bioluminescent rainforests of Pandora",
+    "waitTime": 45,
+    "geniePlusEligible": true,
+    "bestTime": "Evening for best lighting effects",
+    "imageUrl": "/images/parks/ak/navi-river.jpg",
+    "categories": ["family", "boat", "avatar", "indoor"]
   },
   {
     "id": "dinosaur",
     "name": "DINOSAUR",
     "type": "ride",
-    "description": "Time travel adventure to rescue a dinosaur",
-    "waitTime": 30,
+    "description": "Time-traveling adventure to rescue an iguanodon before the asteroid",
+    "waitTime": 35,
     "heightRequirement": "40\" (102cm)",
     "geniePlusEligible": true,
     "bestTime": "Anytime",
-    "categories": [
-      "thrill",
-      "indoor",
-      "dinosaurs"
-    ],
-    "imageUrl": "/images/parks/ak/dinosaur.jpg"
+    "imageUrl": "/images/parks/ak/dinosaur.jpg",
+    "categories": ["thrill", "indoor", "dinosaurs"]
   },
   {
-    "id": "primeval-whirl",
-    "name": "Primeval Whirl",
+    "id": "kali-river",
+    "name": "Kali River Rapids",
     "type": "ride",
-    "description": "Spinning coaster through dinosaur-themed area",
-    "waitTime": 25,
-    "heightRequirement": "48\" (122cm)",
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "categories": [
-      "spin",
-      "coaster",
-      "dinosaurs"
-    ],
-    "imageUrl": "/images/parks/ak/primeval-whirl.jpg"
+    "description": "White-water rafting adventure through the Asian rainforest",
+    "waitTime": 35,
+    "heightRequirement": "38\" (97cm)",
+    "geniePlusEligible": true,
+    "bestTime": "Hot afternoon",
+    "imageUrl": "/images/parks/ak/kali-river.jpg",
+    "categories": ["water", "outdoor", "family"]
   },
   {
     "id": "tricera-top-spin",
     "name": "TriceraTop Spin",
     "type": "ride",
-    "description": "Family spinner ride with dinosaur theme",
-    "waitTime": 20,
-    "heightRequirement": "No height requirement",
+    "description": "Family spinner ride with friendly dinosaurs in DinoLand U.S.A.",
+    "waitTime": 15,
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": [
-      "family",
-      "spin",
-      "dinosaurs"
-    ],
-    "imageUrl": "/images/parks/ak/tricera-top-spin.jpg"
+    "imageUrl": "/images/parks/ak/tricera-top-spin.jpg",
+    "categories": ["family", "spinner", "dinosaurs", "kids"]
   },
   {
-    "id": "its-tough-to-be-bug",
-    "name": "It's Tough to Be a Bug!",
-    "type": "show",
-    "description": "3D show about life from a bug's perspective",
-    "waitTime": 20,
+    "id": "wildlife-express",
+    "name": "Wildlife Express Train",
+    "type": "transportation",
+    "description": "Train ride to Rafiki's Planet Watch and Conservation Station",
+    "waitTime": 15,
     "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "categories": [
-      "show",
-      "3d",
-      "bugs"
-    ],
-    "imageUrl": "/images/parks/ak/its-tough-to-be-bug.jpg"
+    "bestTime": "Midday",
+    "imageUrl": "/images/parks/ak/wildlife-express.jpg",
+    "categories": ["transportation", "outdoor", "train"]
   },
   {
     "id": "festival-lion-king",
     "name": "Festival of the Lion King",
     "type": "show",
-    "description": "Acrobatic and musical celebration of The Lion King",
+    "description": "Broadway-caliber musical celebration with acrobatics and audience participation",
     "waitTime": 25,
     "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "categories": [
-      "show",
-      "musical",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/ak/festival-lion-king.jpg"
+    "bestTime": "Check times guide",
+    "imageUrl": "/images/parks/ak/festival-lion-king.jpg",
+    "categories": ["show", "musical", "classic"]
   },
   {
-    "id": "nemo-show",
-    "name": "Finding Nemo - The Musical",
+    "id": "nemo-big-blue",
+    "name": "Finding Nemo: The Big Blue... and Beyond!",
     "type": "show",
-    "description": "Puppet and musical show telling Finding Nemo story",
+    "description": "Live musical retelling of Finding Nemo with puppets and actors",
     "waitTime": 20,
     "geniePlusEligible": false,
+    "bestTime": "Check times guide",
+    "categories": ["show", "musical", "puppets"]
+  },
+  {
+    "id": "feathered-friends",
+    "name": "Feathered Friends in Flight!",
+    "type": "show",
+    "description": "Live bird show with macaws, hawks, and other exotic birds",
+    "waitTime": 15,
+    "geniePlusEligible": false,
+    "bestTime": "Check times guide",
+    "categories": ["show", "animals", "outdoor", "birds"]
+  },
+  {
+    "id": "its-tough-to-be-bug",
+    "name": "It's Tough to Be a Bug!",
+    "type": "show",
+    "description": "3D/4D show about life from a bug's perspective inside the Tree of Life",
+    "waitTime": 15,
+    "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": [
-      "show",
-      "musical",
-      "puppets"
-    ],
-    "imageUrl": "/images/parks/ak/nemo-show.jpg"
-  },
-  {
-    "id": "rivers-of-light",
-    "name": "Rivers of Light",
-    "type": "show",
-    "description": "Nighttime water and light show on Discovery River",
-    "bestTime": "Evening",
-    "categories": [
-      "show",
-      "nighttime",
-      "water"
-    ],
-    "imageUrl": "/images/parks/ak/rivers-of-light.jpg"
-  },
-  {
-    "id": "mickey-jammin",
-    "name": "Mickey's Jammin' Jungle Parade",
-    "type": "show",
-    "description": "Daily parade with Mickey and friends in safari outfits",
-    "bestTime": "Afternoon parade times",
-    "categories": [
-      "parade",
-      "outdoor",
-      "characters"
-    ],
-    "imageUrl": "/images/parks/ak/mickey-jammin.jpg"
-  },
-  {
-    "id": "character-groove",
-    "name": "Meet characters at Character Landing",
-    "type": "character",
-    "description": "Meet Mickey, Minnie, and friends in safari outfits",
-    "waitTime": 25,
-    "geniePlusEligible": true,
-    "categories": [
-      "character",
-      "meet-and-greet",
-      "safari"
-    ],
-    "imageUrl": "/images/parks/ak/character-groove.jpg"
-  },
-  {
-    "id": "pandora-characters",
-    "name": "Meet Avatar characters in Pandora",
-    "type": "character",
-    "description": "Meet Na'vi characters from Avatar",
-    "waitTime": 30,
-    "geniePlusEligible": true,
-    "categories": [
-      "character",
-      "avatar",
-      "meet-and-greet"
-    ],
-    "imageUrl": "/images/parks/ak/pandora-characters.jpg"
-  },
-  {
-    "id": "raffi",
-    "name": "Eat at Rainforest Cafe",
-    "type": "food",
-    "description": "Themed restaurant with rainforest atmosphere",
-    "categories": [
-      "meal",
-      "themed",
-      "family"
-    ],
-    "imageUrl": "/images/parks/ak/raffi.jpg"
-  },
-  {
-    "id": "tusker-house",
-    "name": "Dine at Tusker House Restaurant",
-    "type": "food",
-    "description": "Character dining with African cuisine",
-    "categories": [
-      "meal",
-      "character-dining",
-      "buffet"
-    ],
-    "imageUrl": "/images/parks/ak/tusker-house.jpg"
-  },
-  {
-    "id": "satu-li",
-    "name": "Try Satu'li Canteen in Pandora",
-    "type": "food",
-    "description": "Avatar-themed quick service restaurant",
-    "categories": [
-      "meal",
-      "quick-service",
-      "avatar"
-    ],
-    "imageUrl": "/images/parks/ak/satu-li.jpg"
-  },
-  {
-    "id": "pizzafari",
-    "name": "Eat at Pizzafari",
-    "type": "food",
-    "description": "Quick service pizza restaurant with animal murals",
-    "categories": [
-      "meal",
-      "quick-service",
-      "pizza"
-    ],
-    "imageUrl": "/images/parks/ak/pizzafari.jpg"
-  },
-  {
-    "id": "dole-whip-ak",
-    "name": "Get Dole Whip at Tamu Tamu Refreshments",
-    "type": "food",
-    "description": "Dole Whip with optional rum float for adults",
-    "categories": [
-      "snack",
-      "sweet",
-      "alcoholic"
-    ],
-    "imageUrl": "/images/parks/ak/dole-whip-ak.jpg"
-  },
-  {
-    "id": "pandora-bioluminescence",
-    "name": "See Pandora at night",
-    "type": "detail",
-    "description": "Experience the bioluminescent beauty of Pandora after dark",
-    "categories": [
-      "photo-op",
-      "nighttime",
-      "avatar"
-    ],
-    "imageUrl": "/images/parks/ak/pandora-bioluminescence.jpg"
-  },
-  {
-    "id": "tree-of-life",
-    "name": "Explore the Tree of Life",
-    "type": "detail",
-    "description": "Walk around and discover animal carvings in the Tree of Life",
-    "categories": [
-      "photo-op",
-      "art",
-      "walking"
-    ],
-    "imageUrl": "/images/parks/ak/tree-of-life.jpg"
-  },
-  {
-    "id": "discovery-trails",
-    "name": "Walk the Discovery Island Trails",
-    "type": "detail",
-    "description": "Explore the trails around Discovery Island",
-    "categories": [
-      "walking",
-      "nature",
-      "animals"
-    ],
-    "imageUrl": "/images/parks/ak/discovery-trails.jpg"
-  },
-  {
-    "id": "gorilla-falls",
-    "name": "Visit the Gorilla Falls Exploration Trail",
-    "type": "detail",
-    "description": "Self-guided walking tour to see gorillas and other animals",
-    "categories": [
-      "walking",
-      "animals",
-      "nature"
-    ],
-    "imageUrl": "/images/parks/ak/gorilla-falls.jpg"
-  },
-  {
-    "id": "maharajah-jungle",
-    "name": "Explore Maharajah Jungle Trek",
-    "type": "detail",
-    "description": "Walking trail through Asian animal habitats",
-    "categories": [
-      "walking",
-      "animals",
-      "nature"
-    ],
-    "imageUrl": "/images/parks/ak/maharajah-jungle.jpg"
-  },
-  {
-    "id": "affection-section",
-    "name": "Pet animals at the Affection Section",
-    "type": "detail",
-    "description": "Petting zoo area with domestic animals",
-    "categories": [
-      "animals",
-      "kids",
-      "interactive"
-    ],
-    "imageUrl": "/images/parks/ak/affection-section.jpg"
-  },
-  {
-    "id": "wilderness-explorer",
-    "name": "Become a Wilderness Explorer",
-    "type": "detail",
-    "description": "Complete wilderness explorer badge activities throughout the park",
-    "categories": [
-      "kids",
-      "scavenger-hunt",
-      "educational"
-    ],
-    "imageUrl": "/images/parks/ak/wilderness-explorer.jpg"
+    "imageUrl": "/images/parks/ak/its-tough-to-be-bug.jpg",
+    "categories": ["show", "3d", "bugs", "indoor"]
   },
   {
     "id": "animation-experience",
     "name": "The Animation Experience at Conservation Station",
     "type": "show",
-    "description": "Learn to draw a Disney animal character with a real animator",
+    "description": "Learn to draw a Disney character with a real animator",
     "waitTime": 15,
     "geniePlusEligible": false,
-    "bestTime": "Anytime (check showtimes)",
-    "categories": [
-      "educational",
-      "interactive",
-      "drawing",
-      "indoor"
-    ],
-    "imageUrl": "/images/parks/ak/animation-experience.jpg"
+    "bestTime": "Check times guide",
+    "imageUrl": "/images/parks/ak/animation-experience.jpg",
+    "categories": ["educational", "interactive", "drawing", "indoor"]
   },
   {
-    "id": "conservation-station",
-    "name": "Conservation Station & Affection Section (via Wildlife Express Train)",
-    "type": "detail",
-    "description": "Take the train to Rafiki's Planet Watch, see veterinary windows, animal care, and pet goats",
-    "waitTime": 20,
-    "bestTime": "Midday",
-    "categories": [
-      "animals",
-      "train",
-      "educational",
-      "interactive"
-    ],
-    "imageUrl": "/images/parks/ak/conservation-station.jpg"
+    "id": "tree-awakening",
+    "name": "Tree of Life Awakenings",
+    "type": "show",
+    "description": "Nighttime projection show on the Tree of Life with animal stories",
+    "bestTime": "After dark",
+    "imageUrl": "/images/parks/ak/tree-awakening.jpg",
+    "categories": ["show", "nighttime", "projection"]
   },
   {
     "id": "winged-encounters",
     "name": "Winged Encounters – The Kingdom Takes Flight",
     "type": "show",
-    "description": "Live macaws and other birds fly over guests near the Tree of Life (multiple times daily)",
-    "waitTime": 0,
-    "bestTime": "Check Times Guide",
-    "categories": [
-      "show",
-      "animals",
-      "outdoor",
-      "birds"
-    ],
-    "imageUrl": "/images/parks/ak/winged-encounters.jpg"
+    "description": "Live macaws fly over guests near the Tree of Life",
+    "bestTime": "Check times guide",
+    "imageUrl": "/images/parks/ak/winged-encounters.jpg",
+    "categories": ["show", "animals", "outdoor", "birds"]
   },
   {
-    "id": "up-close-guides",
-    "name": "Caring for Giants (elephant tour)",
+    "id": "gorilla-falls",
+    "name": "Gorilla Falls Exploration Trail",
     "type": "detail",
-    "description": "Paid 60-minute backstage tour to get closer to the elephants",
-    "waitTime": 0,
-    "bestTime": "Book in advance",
-    "categories": [
-      "tour",
-      "paid",
-      "animals",
-      "elephants"
-    ],
-    "imageUrl": "/images/parks/ak/up-close-guides.jpg"
+    "description": "Self-guided walking trail to see gorillas, hippos, and African wildlife",
+    "imageUrl": "/images/parks/ak/gorilla-falls.jpg",
+    "categories": ["walking", "animals", "nature"]
+  },
+  {
+    "id": "maharajah-jungle",
+    "name": "Maharajah Jungle Trek",
+    "type": "detail",
+    "description": "Walking trail through Asian wildlife habitats with tigers and bats",
+    "imageUrl": "/images/parks/ak/maharajah-jungle.jpg",
+    "categories": ["walking", "animals", "nature"]
+  },
+  {
+    "id": "discovery-trails",
+    "name": "Discovery Island Trails",
+    "type": "detail",
+    "description": "Paths around the Tree of Life with exotic animal exhibits",
+    "imageUrl": "/images/parks/ak/discovery-trails.jpg",
+    "categories": ["walking", "nature", "animals"]
+  },
+  {
+    "id": "oasis-exhibits",
+    "name": "The Oasis Exhibits",
+    "type": "detail",
+    "description": "Lush entry area with animal habitats including anteaters and wallabies",
+    "imageUrl": "/images/parks/ak/oasis-exhibits.jpg",
+    "categories": ["walking", "animals", "nature"]
+  },
+  {
+    "id": "tree-of-life",
+    "name": "Tree of Life",
+    "type": "detail",
+    "description": "Iconic 145-foot tree with 300+ animal carvings",
+    "imageUrl": "/images/parks/ak/tree-of-life.jpg",
+    "categories": ["photo-op", "art", "icon"]
+  },
+  {
+    "id": "pandora-explore",
+    "name": "Explore Pandora - The World of Avatar",
+    "type": "detail",
+    "description": "Immersive Avatar land with floating mountains and bioluminescent plants",
+    "imageUrl": "/images/parks/ak/pandora-explore.jpg",
+    "categories": ["themed-area", "avatar", "immersive"]
+  },
+  {
+    "id": "pandora-night",
+    "name": "See Pandora at Night",
+    "type": "detail",
+    "description": "Experience the bioluminescent beauty of Pandora after dark",
+    "categories": ["photo-op", "nighttime", "avatar"]
+  },
+  {
+    "id": "conservation-station",
+    "name": "Conservation Station",
+    "type": "detail",
+    "description": "Behind-the-scenes look at animal care with veterinary windows",
+    "imageUrl": "/images/parks/ak/conservation-station.jpg",
+    "categories": ["animals", "educational", "interactive"]
+  },
+  {
+    "id": "affection-section",
+    "name": "Affection Section",
+    "type": "detail",
+    "description": "Petting zoo with friendly domestic animals at Rafiki's Planet Watch",
+    "imageUrl": "/images/parks/ak/affection-section.jpg",
+    "categories": ["animals", "kids", "interactive"]
+  },
+  {
+    "id": "boneyard",
+    "name": "The Boneyard",
+    "type": "detail",
+    "description": "Massive dinosaur dig site playground in DinoLand U.S.A.",
+    "imageUrl": "/images/parks/ak/boneyard.jpg",
+    "categories": ["kids", "play-area", "dinosaurs", "interactive"]
+  },
+  {
+    "id": "wilderness-explorer",
+    "name": "Wilderness Explorers",
+    "type": "detail",
+    "description": "Park-wide scavenger hunt to earn badges like Russell from Up",
+    "imageUrl": "/images/parks/ak/wilderness-explorer.jpg",
+    "categories": ["kids", "scavenger-hunt", "educational"]
   },
   {
     "id": "wild-africa-trek",
     "name": "Wild Africa Trek",
     "type": "detail",
-    "description": "Premium 3-hour private safari with rope bridges and closer animal views",
-    "waitTime": 0,
-    "bestTime": "Morning tours",
-    "categories": [
-      "tour",
-      "paid",
-      "adventure",
-      "animals"
-    ],
-    "imageUrl": "/images/parks/ak/wild-africa-trek.jpg"
+    "description": "Premium 3-hour VIP safari with rope bridges and closer animal views",
+    "imageUrl": "/images/parks/ak/wild-africa-trek.jpg",
+    "categories": ["tour", "paid", "adventure", "animals"]
   },
   {
-    "id": "yak-yeti",
-    "name": "Eat at Yak & Yeti Restaurant",
+    "id": "caring-for-giants",
+    "name": "Caring for Giants",
+    "type": "detail",
+    "description": "60-minute backstage tour to get closer to the African elephants",
+    "categories": ["tour", "paid", "animals", "elephants"]
+  },
+  {
+    "id": "character-safari",
+    "name": "Meet Safari Mickey and Friends",
+    "type": "character",
+    "description": "Meet Mickey, Minnie, Donald, Goofy, and Daisy in safari outfits",
+    "waitTime": 25,
+    "geniePlusEligible": true,
+    "categories": ["character", "meet-and-greet", "safari"]
+  },
+  {
+    "id": "russell-dug",
+    "name": "Meet Russell and Dug",
+    "type": "character",
+    "description": "Meet Russell and Dug from Up near the bird show",
+    "waitTime": 25,
+    "geniePlusEligible": true,
+    "categories": ["character", "meet-and-greet", "pixar"]
+  },
+  {
+    "id": "satu-li",
+    "name": "Satu'li Canteen",
     "type": "food",
-    "description": "Pan-Asian table-service restaurant with great theming",
-    "categories": [
-      "meal",
-      "table-service",
-      "asian"
-    ],
-    "imageUrl": "/images/parks/ak/yak-yeti.jpg"
+    "description": "Quick service with customizable bowls and unique Avatar-themed cuisine",
+    "imageUrl": "/images/parks/ak/satu-li.jpg",
+    "categories": ["meal", "quick-service", "avatar"]
   },
   {
     "id": "flame-tree",
-    "name": "Eat at Flame Tree Barbecue",
+    "name": "Flame Tree Barbecue",
     "type": "food",
-    "description": "Best barbecue in Animal Kingdom, great riverside seating",
-    "categories": [
-      "meal",
-      "quick-service",
-      "bbq",
-      "outdoor-seating"
-    ],
-    "imageUrl": "/images/parks/ak/flame-tree.jpg"
+    "description": "Best barbecue in Animal Kingdom with beautiful riverside seating",
+    "imageUrl": "/images/parks/ak/flame-tree.jpg",
+    "categories": ["meal", "quick-service", "bbq", "outdoor-seating"]
+  },
+  {
+    "id": "yak-yeti",
+    "name": "Yak & Yeti Restaurant",
+    "type": "food",
+    "description": "Pan-Asian table-service restaurant with excellent theming",
+    "imageUrl": "/images/parks/ak/yak-yeti.jpg",
+    "categories": ["meal", "table-service", "asian"]
+  },
+  {
+    "id": "tusker-house",
+    "name": "Tusker House Restaurant",
+    "type": "food",
+    "description": "Character dining with Donald and friends in safari outfits",
+    "imageUrl": "/images/parks/ak/tusker-house.jpg",
+    "categories": ["meal", "character-dining", "buffet"]
   },
   {
     "id": "nomad-lounge",
-    "name": "Relax at Nomad Lounge",
+    "name": "Nomad Lounge",
     "type": "food",
     "description": "Upscale outdoor lounge with craft cocktails and small plates",
-    "categories": [
-      "drink",
-      "lounge",
-      "alcoholic",
-      "relax"
-    ],
-    "imageUrl": "/images/parks/ak/nomad-lounge.jpg"
+    "imageUrl": "/images/parks/ak/nomad-lounge.jpg",
+    "categories": ["drink", "lounge", "alcoholic", "relax"]
   },
   {
-    "id": "nighttime-awakening",
-    "name": "Tree of Life Awakenings",
-    "type": "show",
-    "description": "Nighttime projection show on the Tree of Life with animal stories",
-    "bestTime": "After dark",
-    "categories": [
-      "show",
-      "nighttime",
-      "projection"
-    ],
-    "imageUrl": "/images/parks/ak/nighttime-awakening.jpg"
+    "id": "rainforest-cafe",
+    "name": "Rainforest Cafe",
+    "type": "food",
+    "description": "Themed restaurant with rainforest atmosphere and animatronic animals",
+    "imageUrl": "/images/parks/ak/rainforest-cafe.jpg",
+    "categories": ["meal", "themed", "family"]
   },
   {
-    "id": "discovery-river",
-    "name": "Discovery River character boats",
-    "type": "detail",
-    "description": "Character flotillas with Mickey, Timon, or holiday overlays sail by periodically",
-    "bestTime": "Check Times Guide",
-    "categories": [
-      "character",
-      "boat",
-      "outdoor"
-    ],
-    "imageUrl": "/images/parks/ak/discovery-river.jpg"
+    "id": "dole-whip-ak",
+    "name": "Dole Whip at Tamu Tamu Refreshments",
+    "type": "food",
+    "description": "Dole Whip with optional rum float for adults",
+    "imageUrl": "/images/parks/ak/dole-whip-ak.jpg",
+    "categories": ["snack", "sweet"]
   },
   {
     "id": "pongu-lumpia",
-    "name": "Grab Pongu Pongu Lumpia",
+    "name": "Pongu Lumpia",
     "type": "food",
-    "description": "Famous pineapple-cream cheese spring roll in Pandora",
-    "categories": [
-      "snack",
-      "sweet",
-      "avatar"
-    ],
-    "imageUrl": "/images/parks/ak/pongu-lumpia.jpg"
+    "description": "Famous pineapple-cream cheese spring roll from Pongu Pongu",
+    "imageUrl": "/images/parks/ak/pongu-lumpia.jpg",
+    "categories": ["snack", "sweet", "avatar"]
   },
   {
     "id": "night-blossom",
-    "name": "Drink a Night Blossom",
+    "name": "Night Blossom",
     "type": "food",
-    "description": "Iconic layered non-alcoholic Pandora drink from Pongu Pongu",
-    "categories": [
-      "drink",
-      "non-alcoholic",
-      "avatar",
-      "photo-op"
-    ],
-    "imageUrl": "/images/parks/ak/night-blossom.jpg"
+    "description": "Iconic layered non-alcoholic Pandora drink with boba pearls",
+    "imageUrl": "/images/parks/ak/night-blossom.jpg",
+    "categories": ["drink", "non-alcoholic", "avatar", "photo-op"]
   },
   {
-    "id": "boneyard",
-    "name": "Play in The Boneyard",
-    "type": "detail",
-    "description": "Massive dinosaur dig site playground in DinoLand U.S.A.",
-    "waitTime": 0,
-    "bestTime": "Anytime",
-    "categories": [
-      "kids",
-      "play-area",
-      "dinosaurs",
-      "interactive"
-    ],
-    "imageUrl": "/images/parks/ak/boneyard.jpg"
-  },
-  {
-    "id": "creatures-up-close",
-    "name": "Meet Russell & Dug (Up! characters)",
-    "type": "character",
-    "description": "Regular meet-and-greet with Russell and Dug near Up! bird show area",
-    "waitTime": 25,
-    "geniePlusEligible": true,
-    "categories": [
-      "character",
-      "meet-and-greet",
-      "pixar"
-    ],
-    "imageUrl": "/images/parks/ak/creatures-up-close.jpg"
+    "id": "pizzafari",
+    "name": "Pizzafari",
+    "type": "food",
+    "description": "Quick service pizza restaurant with colorful animal murals",
+    "imageUrl": "/images/parks/ak/pizzafari.jpg",
+    "categories": ["meal", "quick-service", "pizza"]
   }
 ]

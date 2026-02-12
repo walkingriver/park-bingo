@@ -57,33 +57,42 @@ export class ParksDataService {
   async loadParksData(): Promise<void> {
     this.isLoading.set(true);
 
-    try {
-      // Try remote first
-      const remoteData = await this.loadFromRemote();
-      if (remoteData) {
-        this.parks.set(remoteData);
-        this.dataSource.set('remote');
-        this.isOffline.set(false);
-        await this.cacheParksData(remoteData);
-        this.isLoading.set(false);
-        return;
+    // Skip remote loading in development to use local bundled data
+    const isDev = window.location.hostname === 'localhost';
+    
+    if (!isDev) {
+      try {
+        // Try remote first (production only)
+        const remoteData = await this.loadFromRemote();
+        if (remoteData) {
+          this.parks.set(remoteData);
+          this.dataSource.set('remote');
+          this.isOffline.set(false);
+          await this.cacheParksData(remoteData);
+          this.isLoading.set(false);
+          return;
+        }
+      } catch (error) {
+        console.log('Remote load failed, trying cache...', error);
       }
-    } catch (error) {
-      console.log('Remote load failed, trying cache...', error);
+    } else {
+      console.log('Dev mode: skipping remote and cache, using bundled data directly');
     }
 
-    try {
-      // Try cache next
-      const cachedData = await this.loadFromCache();
-      if (cachedData && cachedData.length > 0) {
-        this.parks.set(cachedData);
-        this.dataSource.set('cache');
-        this.isOffline.set(true);
-        this.isLoading.set(false);
-        return;
+    if (!isDev) {
+      try {
+        // Try cache next (production only)
+        const cachedData = await this.loadFromCache();
+        if (cachedData && cachedData.length > 0) {
+          this.parks.set(cachedData);
+          this.dataSource.set('cache');
+          this.isOffline.set(true);
+          this.isLoading.set(false);
+          return;
+        }
+      } catch (error) {
+        console.log('Cache load failed, using bundled...', error);
       }
-    } catch (error) {
-      console.log('Cache load failed, using bundled...', error);
     }
 
     // Fall back to bundled data
@@ -163,15 +172,26 @@ export class ParksDataService {
   }
 
   private async loadFromBundled(): Promise<void> {
+    console.log('Loading bundled data from:', this.LOCAL_CONFIG_URL);
     return new Promise((resolve) => {
-      this.http.get<ParkMetadata[]>(this.LOCAL_CONFIG_URL).subscribe({
-        next: (parksData) => {
-          const itemRequests = parksData.map((park) =>
-            this.http.get<ParkItem[]>(`${this.LOCAL_PARKS_BASE_URL}${park.itemsFile}`).pipe(
-              map((items) => this.mapParkMetadataToFull(park, items)),
-              catchError(() => of(null))
-            )
-          );
+      this.http.get<ParksConfig>(this.LOCAL_CONFIG_URL).subscribe({
+        next: (config) => {
+          console.log('Loaded config with', config.parks?.length, 'parks');
+          const parksData = config.parks;
+          const itemRequests = parksData.map((park) => {
+            const url = `${this.LOCAL_PARKS_BASE_URL}${park.itemsFile}`;
+            console.log('Loading park items from:', url);
+            return this.http.get<ParkItem[]>(url).pipe(
+              map((items) => {
+                console.log(`Loaded ${items.length} items for ${park.name}, first item imageUrl:`, items[0]?.imageUrl);
+                return this.mapParkMetadataToFull(park, items);
+              }),
+              catchError((err) => {
+                console.error('Failed to load park items:', err);
+                return of(null);
+              })
+            );
+          });
 
           forkJoin(itemRequests).subscribe({
             next: (parks) => {

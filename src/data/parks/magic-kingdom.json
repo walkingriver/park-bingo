@@ -1,228 +1,398 @@
 [
   {
+    "id": "tron-lightcycle",
+    "name": "TRON Lightcycle / Run",
+    "type": "ride",
+    "description": "High-speed motorcycle-style coaster through the Grid",
+    "waitTime": 80,
+    "heightRequirement": "48\" (122cm)",
+    "geniePlusEligible": true,
+    "bestTime": "First hour of park opening or late evening",
+    "imageUrl": "/images/parks/mk/tron-lightcycle.jpg",
+    "categories": ["thrill", "indoor", "coaster"]
+  },
+  {
     "id": "space-mountain",
     "name": "Space Mountain",
     "type": "ride",
-    "description": "High-speed roller coaster in the dark through outer space",
+    "description": "Indoor space-themed roller coaster in the dark",
     "waitTime": 60,
     "heightRequirement": "44\" (112cm)",
     "geniePlusEligible": true,
     "bestTime": "Early morning or late evening",
     "imageUrl": "/images/parks/mk/space-mountain.jpg",
-    "categories": [
-      "thrill",
-      "indoor",
-      "mountain"
-    ]
-  },
-  {
-    "id": "pirates",
-    "name": "Pirates of the Caribbean",
-    "type": "ride",
-    "description": "Boat ride through pirate-infested waters",
-    "waitTime": 30,
-    "geniePlusEligible": true,
-    "bestTime": "Afternoon",
-    "imageUrl": "/images/parks/mk/pirates.jpg",
-    "categories": [
-      "family",
-      "indoor",
-      "classic"
-    ]
-  },
-  {
-    "id": "haunted-mansion",
-    "name": "Haunted Mansion",
-    "type": "ride",
-    "description": "Spooky dark ride through a haunted estate",
-    "waitTime": 45,
-    "geniePlusEligible": true,
-    "bestTime": "Evening",
-    "imageUrl": "/images/parks/mk/haunted-mansion.jpg",
-    "categories": [
-      "family",
-      "indoor",
-      "themed"
-    ]
-  },
-  {
-    "id": "seven-dwarfs",
-    "name": "Seven Dwarfs Mine Train",
-    "type": "ride",
-    "description": "Family coaster through the dwarfs' diamond mine",
-    "waitTime": 70,
-    "heightRequirement": "38\" (97cm)",
-    "geniePlusEligible": true,
-    "bestTime": "First hour of park opening",
-    "imageUrl": "/images/parks/mk/seven-dwarfs.jpg",
-    "categories": [
-      "family",
-      "thrill",
-      "outdoor"
-    ]
-  },
-  {
-    "id": "splash-mountain",
-    "name": "Splash Mountain",
-    "type": "ride",
-    "description": "Log flume ride with a 50-foot drop",
-    "waitTime": 45,
-    "heightRequirement": "40\" (102cm)",
-    "geniePlusEligible": true,
-    "bestTime": "Morning or evening",
-    "categories": [
-      "family",
-      "water",
-      "outdoor"
-    ],
-    "imageUrl": "/images/parks/mk/splash-mountain.jpg"
+    "categories": ["thrill", "indoor", "coaster"]
   },
   {
     "id": "big-thunder",
     "name": "Big Thunder Mountain Railroad",
     "type": "ride",
-    "description": "Wild west roller coaster through mine shafts",
-    "waitTime": 35,
+    "description": "Runaway mine train through the Old West",
+    "waitTime": 45,
     "heightRequirement": "40\" (102cm)",
     "geniePlusEligible": true,
-    "bestTime": "Morning",
-    "categories": [
-      "family",
-      "thrill",
-      "outdoor"
-    ],
-    "imageUrl": "/images/parks/mk/big-thunder.jpg"
+    "bestTime": "Morning or evening",
+    "imageUrl": "/images/parks/mk/big-thunder.jpg",
+    "categories": ["family", "thrill", "outdoor", "coaster"]
   },
   {
-    "id": "its-a-small-world",
-    "name": "it's a small world",
+    "id": "seven-dwarfs",
+    "name": "Seven Dwarfs Mine Train",
     "type": "ride",
-    "description": "Boat tour of the world's children",
-    "waitTime": 20,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "categories": [
-      "family",
-      "indoor",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/mk/its-a-small-world.jpg"
-  },
-  {
-    "id": "peter-pan",
-    "name": "Peter Pan's Flight",
-    "type": "ride",
-    "description": "Flying pirate ship over London and Neverland",
-    "waitTime": 60,
+    "description": "Family coaster through the diamond mine with swaying cars",
+    "waitTime": 70,
+    "heightRequirement": "38\" (97cm)",
     "geniePlusEligible": true,
     "bestTime": "First hour of park opening",
-    "categories": [
-      "family",
-      "indoor",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/mk/peter-pan.jpg"
+    "imageUrl": "/images/parks/mk/seven-dwarfs.jpg",
+    "categories": ["family", "thrill", "coaster"]
   },
   {
-    "id": "dumbo",
-    "name": "Dumbo the Flying Elephant",
+    "id": "tianas-bayou",
+    "name": "Tiana's Bayou Adventure",
     "type": "ride",
-    "description": "Flying elephant ride",
-    "waitTime": 25,
-    "geniePlusEligible": false,
+    "description": "Water ride through the bayou with Princess Tiana and friends",
+    "waitTime": 60,
+    "heightRequirement": "40\" (102cm)",
+    "geniePlusEligible": true,
     "bestTime": "Morning or evening",
-    "categories": [
-      "family",
-      "outdoor",
-      "kids"
-    ],
-    "imageUrl": "/images/parks/mk/dumbo.jpg"
+    "imageUrl": "/images/parks/mk/tianas-bayou.jpg",
+    "categories": ["family", "water", "outdoor", "flume"]
   },
   {
-    "id": "mad-tea-party",
-    "name": "Mad Tea Party",
+    "id": "pirates",
+    "name": "Pirates of the Caribbean",
     "type": "ride",
-    "description": "Spinning tea cups",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "categories": [
-      "family",
-      "outdoor",
-      "spin"
-    ],
-    "imageUrl": "/images/parks/mk/mad-tea-party.jpg"
+    "description": "Sail through pirate battles and treasure on this classic boat ride",
+    "waitTime": 30,
+    "geniePlusEligible": true,
+    "bestTime": "Afternoon",
+    "imageUrl": "/images/parks/mk/pirates.jpg",
+    "categories": ["family", "indoor", "classic", "boat"]
+  },
+  {
+    "id": "haunted-mansion",
+    "name": "Haunted Mansion",
+    "type": "ride",
+    "description": "Spooky mansion filled with 999 happy haunts",
+    "waitTime": 45,
+    "geniePlusEligible": true,
+    "bestTime": "Evening",
+    "imageUrl": "/images/parks/mk/haunted-mansion.jpg",
+    "categories": ["family", "indoor", "classic", "themed"]
   },
   {
     "id": "jungle-cruise",
     "name": "Jungle Cruise",
     "type": "ride",
-    "description": "Boat tour through tropical rivers with humorous skipper",
+    "description": "Comedic boat tour through exotic rivers with skipper jokes",
+    "waitTime": 35,
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "imageUrl": "/images/parks/mk/jungle-cruise.jpg",
+    "categories": ["family", "outdoor", "water", "classic"]
+  },
+  {
+    "id": "peter-pan",
+    "name": "Peter Pan's Flight",
+    "type": "ride",
+    "description": "Fly over London to Never Land in a pirate ship",
+    "waitTime": 60,
+    "geniePlusEligible": true,
+    "bestTime": "First hour of park opening",
+    "imageUrl": "/images/parks/mk/peter-pan.jpg",
+    "categories": ["family", "indoor", "classic"]
+  },
+  {
+    "id": "its-a-small-world",
+    "name": "it's a small world",
+    "type": "ride",
+    "description": "Singing dolls from around the world on this gentle boat ride",
+    "waitTime": 20,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/mk/its-a-small-world.jpg",
+    "categories": ["family", "indoor", "classic", "boat"]
+  },
+  {
+    "id": "buzz-lightyear",
+    "name": "Buzz Lightyear's Space Ranger Spin",
+    "type": "ride",
+    "description": "Interactive shooting ride through space to defeat Zurg",
     "waitTime": 30,
     "geniePlusEligible": true,
     "bestTime": "Morning",
-    "categories": [
-      "family",
-      "outdoor",
-      "water"
-    ],
-    "imageUrl": "/images/parks/mk/jungle-cruise.jpg"
+    "imageUrl": "/images/parks/mk/buzz-lightyear.jpg",
+    "categories": ["family", "indoor", "interactive"]
+  },
+  {
+    "id": "little-mermaid",
+    "name": "Under the Sea - Journey of The Little Mermaid",
+    "type": "ride",
+    "description": "Join Ariel on an underwater adventure through her story",
+    "waitTime": 20,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/mk/little-mermaid.jpg",
+    "categories": ["family", "indoor", "dark-ride"]
+  },
+  {
+    "id": "winnie-the-pooh",
+    "name": "The Many Adventures of Winnie the Pooh",
+    "type": "ride",
+    "description": "Journey through the Hundred Acre Wood",
+    "waitTime": 25,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/mk/winnie-the-pooh.jpg",
+    "categories": ["family", "indoor", "classic"]
+  },
+  {
+    "id": "dumbo",
+    "name": "Dumbo the Flying Elephant",
+    "type": "ride",
+    "description": "Classic flying elephant spinner ride",
+    "waitTime": 25,
+    "geniePlusEligible": false,
+    "bestTime": "Morning or evening",
+    "imageUrl": "/images/parks/mk/dumbo.jpg",
+    "categories": ["family", "outdoor", "kids", "spinner"]
+  },
+  {
+    "id": "mad-tea-party",
+    "name": "Mad Tea Party",
+    "type": "ride",
+    "description": "Spinning teacups inspired by Alice in Wonderland",
+    "waitTime": 15,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/mk/mad-tea-party.jpg",
+    "categories": ["family", "outdoor", "spinner"]
+  },
+  {
+    "id": "magic-carpets",
+    "name": "The Magic Carpets of Aladdin",
+    "type": "ride",
+    "description": "Flying carpets over Agrabah with water-spitting camels",
+    "waitTime": 15,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/mk/magic-carpets.jpg",
+    "categories": ["family", "outdoor", "spinner"]
+  },
+  {
+    "id": "astro-orbiter",
+    "name": "Astro Orbiter",
+    "type": "ride",
+    "description": "Spinning rockets high above Tomorrowland",
+    "waitTime": 25,
+    "geniePlusEligible": false,
+    "bestTime": "Evening for views",
+    "imageUrl": "/images/parks/mk/astro-orbiter.jpg",
+    "categories": ["family", "outdoor", "spinner"]
+  },
+  {
+    "id": "barnstormer",
+    "name": "The Barnstormer",
+    "type": "ride",
+    "description": "Goofy's kiddie coaster through the circus",
+    "waitTime": 20,
+    "heightRequirement": "35\" (89cm)",
+    "geniePlusEligible": false,
+    "bestTime": "Morning",
+    "categories": ["family", "outdoor", "kids", "coaster"]
+  },
+  {
+    "id": "tomorrowland-speedway",
+    "name": "Tomorrowland Speedway",
+    "type": "ride",
+    "description": "Drive gas-powered cars on a guided track",
+    "waitTime": 25,
+    "heightRequirement": "32\" (81cm) to ride, 54\" (137cm) to drive alone",
+    "geniePlusEligible": false,
+    "bestTime": "Morning",
+    "imageUrl": "/images/parks/mk/tomorrowland-speedway.jpg",
+    "categories": ["family", "outdoor", "kids"]
+  },
+  {
+    "id": "prince-charming-carrousel",
+    "name": "Prince Charming Regal Carrousel",
+    "type": "ride",
+    "description": "Classic carousel in the heart of Fantasyland",
+    "waitTime": 10,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/mk/prince-charming-carrousel.jpg",
+    "categories": ["family", "classic", "kids"]
+  },
+  {
+    "id": "philharmagic",
+    "name": "Mickey's PhilharMagic",
+    "type": "show",
+    "description": "3D concert featuring Donald Duck and Disney music",
+    "waitTime": 15,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/mk/philharmagic.jpg",
+    "categories": ["show", "indoor", "3d", "family"]
+  },
+  {
+    "id": "carousel-of-progress",
+    "name": "Walt Disney's Carousel of Progress",
+    "type": "show",
+    "description": "Rotating theater showing progress through the 20th century",
+    "waitTime": 15,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/mk/carousel-of-progress.jpg",
+    "categories": ["show", "indoor", "classic"]
+  },
+  {
+    "id": "monsters-laugh-floor",
+    "name": "Monsters, Inc. Laugh Floor",
+    "type": "show",
+    "description": "Interactive comedy show with monsters from Monstropolis",
+    "waitTime": 15,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/mk/monsters-laugh-floor.jpg",
+    "categories": ["show", "indoor", "interactive", "comedy"]
+  },
+  {
+    "id": "country-bears",
+    "name": "Country Bear Musical Jamboree",
+    "type": "show",
+    "description": "Musical show with singing animatronic bears",
+    "waitTime": 15,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/mk/country-bears.jpg",
+    "categories": ["show", "indoor", "classic"]
   },
   {
     "id": "hall-of-presidents",
     "name": "The Hall of Presidents",
     "type": "show",
-    "description": "Audio-animatronic presentation of US presidents",
+    "description": "Audio-animatronic presentation of all U.S. presidents",
     "waitTime": 20,
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": [
-      "educational",
-      "indoor",
-      "show"
-    ],
-    "imageUrl": "/images/parks/mk/hall-of-presidents.jpg"
+    "imageUrl": "/images/parks/mk/hall-of-presidents.jpg",
+    "categories": ["educational", "indoor", "show"]
   },
   {
-    "id": "country-bears",
-    "name": "Country Bear Jamboree",
+    "id": "tiki-room",
+    "name": "Walt Disney's Enchanted Tiki Room",
     "type": "show",
-    "description": "Musical show with singing bears",
-    "waitTime": 20,
+    "description": "Singing tropical birds and tikis in this classic attraction",
+    "waitTime": 10,
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": [
-      "show",
-      "indoor",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/mk/country-bears.jpg"
+    "imageUrl": "/images/parks/mk/tiki-room.jpg",
+    "categories": ["show", "indoor", "classic"]
   },
   {
-    "id": "festival-fantasy",
-    "name": "Festival of Fantasy Parade",
+    "id": "enchanted-tales-belle",
+    "name": "Enchanted Tales with Belle",
     "type": "show",
-    "description": "Daytime parade featuring Disney characters",
+    "description": "Interactive storytelling experience with Belle",
+    "waitTime": 30,
+    "geniePlusEligible": true,
+    "bestTime": "Morning",
+    "imageUrl": "/images/parks/mk/enchanted-tales-belle.jpg",
+    "categories": ["show", "indoor", "interactive", "princess"]
+  },
+  {
+    "id": "royal-friendship-faire",
+    "name": "Mickey's Royal Friendship Faire",
+    "type": "show",
+    "description": "Castle stage show with Mickey and Disney friends",
     "bestTime": "Check times guide",
-    "categories": [
-      "parade",
-      "outdoor",
-      "characters"
-    ],
-    "imageUrl": "/images/parks/mk/festival-fantasy.jpg"
+    "categories": ["show", "outdoor", "characters"]
   },
   {
     "id": "happily-ever-after",
     "name": "Happily Ever After Fireworks",
     "type": "show",
-    "description": "Nighttime fireworks spectacular over the castle",
+    "description": "Nighttime fireworks and projection spectacular on Cinderella Castle",
     "bestTime": "Park closing time",
-    "categories": [
-      "fireworks",
-      "outdoor",
-      "show"
-    ],
-    "imageUrl": "/images/parks/mk/happily-ever-after.jpg"
+    "imageUrl": "/images/parks/mk/happily-ever-after.jpg",
+    "categories": ["fireworks", "outdoor", "show"]
+  },
+  {
+    "id": "festival-fantasy",
+    "name": "Festival of Fantasy Parade",
+    "type": "show",
+    "description": "Daytime parade featuring elaborate floats and Disney characters",
+    "bestTime": "Check times guide",
+    "imageUrl": "/images/parks/mk/festival-fantasy.jpg",
+    "categories": ["parade", "outdoor", "characters"]
+  },
+  {
+    "id": "tomorrowland-transit",
+    "name": "Tomorrowland Transit Authority PeopleMover",
+    "type": "transportation",
+    "description": "Relaxing elevated tour of Tomorrowland with no wait",
+    "waitTime": 10,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/mk/tomorrowland-transit.jpg",
+    "categories": ["transportation", "outdoor", "relaxing"]
+  },
+  {
+    "id": "railroad",
+    "name": "Walt Disney World Railroad",
+    "type": "transportation",
+    "description": "Vintage steam train that circles the Magic Kingdom",
+    "waitTime": 15,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/mk/railroad.jpg",
+    "categories": ["transportation", "outdoor", "relaxing"]
+  },
+  {
+    "id": "main-street-vehicles",
+    "name": "Main Street Vehicles",
+    "type": "transportation",
+    "description": "Horse-drawn streetcars, omnibuses, and vintage fire engines",
+    "waitTime": 10,
+    "geniePlusEligible": false,
+    "bestTime": "Morning",
+    "imageUrl": "/images/parks/mk/main-street-vehicles.jpg",
+    "categories": ["transportation", "outdoor", "classic"]
+  },
+  {
+    "id": "liberty-square-riverboat",
+    "name": "Liberty Square Riverboat",
+    "type": "transportation",
+    "description": "Steamboat cruise around Rivers of America",
+    "waitTime": 10,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["transportation", "outdoor", "relaxing", "boat"]
+  },
+  {
+    "id": "swiss-family-treehouse",
+    "name": "Swiss Family Treehouse",
+    "type": "detail",
+    "description": "Explore the Swiss Family Robinson's treehouse",
+    "imageUrl": "/images/parks/mk/swiss-family-treehouse.jpg",
+    "categories": ["walkthrough", "outdoor", "classic"]
+  },
+  {
+    "id": "pirates-adventure",
+    "name": "A Pirate's Adventure ~ Treasures of the Seven Seas",
+    "type": "detail",
+    "description": "Interactive treasure hunt around Adventureland",
+    "categories": ["interactive", "outdoor", "game"]
+  },
+  {
+    "id": "casey-jr-splash",
+    "name": "Casey Jr. Splash 'N' Soak Station",
+    "type": "detail",
+    "description": "Circus-themed water play area for kids",
+    "imageUrl": "/images/parks/mk/casey-jr-splash.jpg",
+    "categories": ["kids", "water", "outdoor"]
   },
   {
     "id": "mickey-main-street",
@@ -231,162 +401,74 @@
     "description": "Meet Mickey Mouse in his magician outfit",
     "waitTime": 30,
     "geniePlusEligible": true,
-    "categories": [
-      "character",
-      "meet-and-greet"
-    ],
-    "imageUrl": "/images/parks/mk/mickey-main-street.jpg"
+    "imageUrl": "/images/parks/mk/mickey-main-street.jpg",
+    "categories": ["character", "meet-and-greet"]
   },
   {
-    "id": "cinderella-castle",
-    "name": "Meet Cinderella at Royal Hall",
+    "id": "princess-fairytale-hall",
+    "name": "Princess Fairytale Hall",
     "type": "character",
-    "description": "Meet Cinderella and other princesses",
+    "description": "Meet Cinderella, Rapunzel, Tiana, and other princesses",
     "waitTime": 40,
     "geniePlusEligible": true,
-    "categories": [
-      "character",
-      "meet-and-greet",
-      "princess"
-    ],
-    "imageUrl": "/images/parks/mk/cinderella-castle.jpg"
+    "categories": ["character", "meet-and-greet", "princess"]
   },
   {
     "id": "tinker-bell",
     "name": "Meet Tinker Bell at Town Square",
     "type": "character",
     "description": "Meet Tinker Bell and other fairies",
-    "waitTime": 35,
+    "waitTime": 30,
     "geniePlusEligible": true,
-    "categories": [
-      "character",
-      "meet-and-greet",
-      "fairy"
-    ],
-    "imageUrl": "/images/parks/mk/tinker-bell.jpg"
+    "imageUrl": "/images/parks/mk/tinker-bell.jpg",
+    "categories": ["character", "meet-and-greet", "fairy"]
   },
   {
     "id": "dole-whip",
     "name": "Dole Whip",
     "type": "food",
-    "description": "Pineapple soft-serve treat",
-    "categories": [
-      "snack",
-      "sweet"
-    ],
-    "imageUrl": "/images/parks/mk/dole-whip.jpg"
+    "description": "Iconic pineapple soft-serve treat at Aloha Isle",
+    "imageUrl": "/images/parks/mk/dole-whip.jpg",
+    "categories": ["snack", "sweet"]
   },
   {
     "id": "mickey-bar",
     "name": "Mickey's Premium Ice Cream Bar",
     "type": "food",
     "description": "Mickey-shaped chocolate-covered ice cream bar",
-    "categories": [
-      "snack",
-      "sweet",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/mk/mickey-bar.jpg"
+    "imageUrl": "/images/parks/mk/mickey-bar.jpg",
+    "categories": ["snack", "sweet", "classic"]
   },
   {
     "id": "turkey-leg",
     "name": "Turkey Leg",
     "type": "food",
-    "description": "Large smoked turkey leg",
-    "categories": [
-      "snack",
-      "savory"
-    ],
-    "imageUrl": "/images/parks/mk/turkey-leg.jpg"
+    "description": "Large smoked turkey leg from Frontierland",
+    "imageUrl": "/images/parks/mk/turkey-leg.jpg",
+    "categories": ["snack", "savory"]
   },
   {
     "id": "churro",
     "name": "Churro",
     "type": "food",
     "description": "Cinnamon sugar coated fried dough",
-    "categories": [
-      "snack",
-      "sweet"
-    ],
-    "imageUrl": "/images/parks/mk/churro.jpg"
+    "imageUrl": "/images/parks/mk/churro.jpg",
+    "categories": ["snack", "sweet"]
   },
   {
     "id": "wishing-well",
-    "name": "Make a wish at Cinderella's Wishing Well",
+    "name": "Cinderella's Wishing Well",
     "type": "detail",
-    "description": "Quiet spot near the castle to make a wish",
-    "categories": [
-      "hidden-gem",
-      "photo-op"
-    ],
-    "imageUrl": "/images/parks/mk/wishing-well.jpg"
+    "description": "Quiet spot near the castle to make a wish (donations go to charity)",
+    "imageUrl": "/images/parks/mk/wishing-well.jpg",
+    "categories": ["hidden-gem", "photo-op"]
   },
   {
     "id": "liberty-bell",
-    "name": "Ring the Liberty Bell",
+    "name": "Liberty Bell",
     "type": "detail",
-    "description": "Ring the replica Liberty Bell in Liberty Square",
-    "categories": [
-      "hidden-gem",
-      "interactive"
-    ],
-    "imageUrl": "/images/parks/mk/liberty-bell.jpg"
-  },
-  {
-    "id": "swiss-family-treehouse",
-    "name": "Swiss Family Treehouse",
-    "type": "detail",
-    "description": "Climb through the Swiss Family Robinson's treehouse",
-    "categories": [
-      "hidden-gem",
-      "outdoor",
-      "walkthrough"
-    ],
-    "imageUrl": "/images/parks/mk/swiss-family-treehouse.jpg"
-  },
-  {
-    "id": "tomorrowland-transit",
-    "name": "Tomorrowland Transit Authority PeopleMover",
-    "type": "transportation",
-    "description": "Ride through Tomorrowland on an elevated track",
-    "waitTime": 20,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "categories": [
-      "transportation",
-      "outdoor",
-      "relaxing"
-    ],
-    "imageUrl": "/images/parks/mk/tomorrowland-transit.jpg"
-  },
-  {
-    "id": "railroad",
-    "name": "Walt Disney World Railroad",
-    "type": "transportation",
-    "description": "Steam train that circles the park",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "categories": [
-      "transportation",
-      "outdoor",
-      "relaxing"
-    ],
-    "imageUrl": "/images/parks/mk/railroad.jpg"
-  },
-  {
-    "id": "main-street-vehicles",
-    "name": "Main Street Vehicles",
-    "type": "transportation",
-    "description": "Horse-drawn streetcars, omnibuses, and fire engines",
-    "waitTime": 10,
-    "geniePlusEligible": false,
-    "bestTime": "Morning",
-    "categories": [
-      "transportation",
-      "outdoor",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/mk/main-street-vehicles.jpg"
+    "description": "Replica Liberty Bell in Liberty Square that you can ring",
+    "imageUrl": "/images/parks/mk/liberty-bell.jpg",
+    "categories": ["hidden-gem", "interactive"]
   }
 ]

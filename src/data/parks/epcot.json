@@ -1,338 +1,355 @@
 [
   {
-    "id": "spaceship-earth",
-    "name": "Spaceship Earth",
+    "id": "guardians",
+    "name": "Guardians of the Galaxy: Cosmic Rewind",
     "type": "ride",
-    "description": "Journey through the history of communication in the giant geosphere",
-    "waitTime": 25,
-    "geniePlusEligible": false,
-    "bestTime": "Morning or evening",
-    "categories": [
-      "family",
-      "indoor",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/epcot/spaceship-earth.jpg"
+    "description": "Reverse-launch roller coaster through space with the Guardians",
+    "waitTime": 70,
+    "heightRequirement": "42\" (107cm)",
+    "geniePlusEligible": true,
+    "bestTime": "First hour of park opening or virtual queue",
+    "imageUrl": "/images/parks/epcot/guardians.jpg",
+    "categories": ["thrill", "indoor", "coaster"]
   },
   {
     "id": "test-track",
     "name": "Test Track",
     "type": "ride",
-    "description": "Design a virtual vehicle and test it on a high-speed track",
+    "description": "Design a virtual vehicle and test it at high speeds up to 65 mph",
     "waitTime": 50,
     "heightRequirement": "40\" (102cm)",
     "geniePlusEligible": true,
     "bestTime": "Morning",
-    "categories": [
-      "thrill",
-      "outdoor",
-      "interactive"
-    ],
-    "imageUrl": "/images/parks/epcot/test-track.jpg"
-  },
-  {
-    "id": "soarin",
-    "name": "Soarin' Around the World",
-    "type": "ride",
-    "description": "Hang gliding experience over world landmarks",
-    "waitTime": 45,
-    "heightRequirement": "40\" (102cm)",
-    "geniePlusEligible": true,
-    "bestTime": "First hour of park opening",
-    "categories": [
-      "family",
-      "thrill",
-      "indoor"
-    ],
-    "imageUrl": "/images/parks/epcot/soarin.jpg"
+    "imageUrl": "/images/parks/epcot/test-track.jpg",
+    "categories": ["thrill", "outdoor", "interactive"]
   },
   {
     "id": "mission-space",
     "name": "Mission: SPACE",
     "type": "ride",
-    "description": "Simulated space mission to Mars",
+    "description": "Space flight simulator with Green (mild) and Orange (intense) missions",
     "waitTime": 40,
-    "heightRequirement": "44\" (112cm)",
+    "heightRequirement": "44\" (112cm) Orange, 40\" (102cm) Green",
     "geniePlusEligible": true,
     "bestTime": "Morning",
-    "categories": [
-      "thrill",
-      "indoor",
-      "simulator"
-    ],
-    "imageUrl": "/images/parks/epcot/mission-space.jpg"
+    "imageUrl": "/images/parks/epcot/mission-space.jpg",
+    "categories": ["thrill", "indoor", "simulator"]
   },
   {
-    "id": "guardians",
-    "name": "Guardians of the Galaxy: Cosmic Rewind",
+    "id": "soarin",
+    "name": "Soarin' Around the World",
     "type": "ride",
-    "description": "Indoor coaster through space with the Guardians",
-    "waitTime": 70,
-    "heightRequirement": "42\" (107cm)",
+    "description": "Hang gliding simulator over world landmarks",
+    "waitTime": 45,
+    "heightRequirement": "40\" (102cm)",
     "geniePlusEligible": true,
     "bestTime": "First hour of park opening",
-    "categories": [
-      "thrill",
-      "indoor",
-      "coaster"
-    ],
-    "imageUrl": "/images/parks/epcot/guardians.jpg"
+    "imageUrl": "/images/parks/epcot/soarin.jpg",
+    "categories": ["family", "thrill", "indoor", "simulator"]
   },
   {
     "id": "frozen-ever-after",
     "name": "Frozen Ever After",
     "type": "ride",
-    "description": "Boat ride through Arendelle with Anna and Elsa",
+    "description": "Boat ride through Arendelle with Anna, Elsa, and Olaf",
     "waitTime": 50,
     "geniePlusEligible": true,
-    "bestTime": "Morning",
-    "categories": [
-      "family",
-      "indoor",
-      "water"
-    ],
-    "imageUrl": "/images/parks/epcot/frozen-ever-after.jpg"
+    "bestTime": "Morning or evening",
+    "imageUrl": "/images/parks/epcot/frozen-ever-after.jpg",
+    "categories": ["family", "indoor", "boat"]
   },
   {
     "id": "ratatouille",
     "name": "Remy's Ratatouille Adventure",
     "type": "ride",
-    "description": "Shrink down to rat size for a culinary adventure",
+    "description": "Shrink to the size of a rat for a culinary adventure through Gusteau's restaurant",
     "waitTime": 40,
-    "heightRequirement": "No height requirement",
     "geniePlusEligible": true,
     "bestTime": "Morning",
-    "categories": [
-      "family",
-      "indoor",
-      "trackless"
-    ],
-    "imageUrl": "/images/parks/epcot/ratatouille.jpg"
+    "imageUrl": "/images/parks/epcot/ratatouille.jpg",
+    "categories": ["family", "indoor", "trackless"]
+  },
+  {
+    "id": "spaceship-earth",
+    "name": "Spaceship Earth",
+    "type": "ride",
+    "description": "Journey through the history of human communication inside the iconic geosphere",
+    "waitTime": 25,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/epcot/spaceship-earth.jpg",
+    "categories": ["family", "indoor", "classic"]
   },
   {
     "id": "living-land-boat",
     "name": "Living with the Land",
     "type": "ride",
     "description": "Boat tour through greenhouses and agricultural exhibits",
-    "waitTime": 20,
+    "waitTime": 15,
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": [
-      "educational",
-      "indoor",
-      "relaxing"
-    ],
-    "imageUrl": "/images/parks/epcot/living-land-boat.jpg"
+    "imageUrl": "/images/parks/epcot/living-land-boat.jpg",
+    "categories": ["educational", "indoor", "relaxing", "boat"]
   },
   {
     "id": "imagination",
     "name": "Journey into Imagination with Figment",
     "type": "ride",
-    "description": "Tour the Imagination Institute with Figment the dragon",
+    "description": "Tour the Imagination Institute with Figment the purple dragon",
     "waitTime": 15,
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": [
-      "family",
-      "indoor",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/epcot/imagination.jpg"
+    "imageUrl": "/images/parks/epcot/imagination.jpg",
+    "categories": ["family", "indoor", "classic"]
   },
   {
     "id": "nemo",
     "name": "The Seas with Nemo & Friends",
     "type": "ride",
-    "description": "Underwater adventure with Nemo and friends",
-    "waitTime": 20,
+    "description": "Underwater clamobile adventure to find Nemo",
+    "waitTime": 15,
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": [
-      "family",
-      "indoor",
-      "dark ride"
-    ],
-    "imageUrl": "/images/parks/epcot/nemo.jpg"
+    "imageUrl": "/images/parks/epcot/nemo.jpg",
+    "categories": ["family", "indoor", "dark-ride"]
   },
   {
     "id": "gran-fiesta",
     "name": "Gran Fiesta Tour Starring The Three Caballeros",
     "type": "ride",
-    "description": "Boat tour through Mexico with Donald Duck",
+    "description": "Boat ride through Mexico with Donald Duck and The Three Caballeros",
     "waitTime": 15,
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": [
-      "family",
-      "indoor",
-      "boat"
-    ],
-    "imageUrl": "/images/parks/epcot/gran-fiesta.jpg"
+    "imageUrl": "/images/parks/epcot/gran-fiesta.jpg",
+    "categories": ["family", "indoor", "boat"]
   },
   {
-    "id": "impressions-de-france",
-    "name": "Impressions de France",
-    "type": "show",
-    "description": "Film tour of France in the Palais du Cinéma",
+    "id": "journey-of-water",
+    "name": "Journey of Water, Inspired by Moana",
+    "type": "detail",
+    "description": "Interactive outdoor trail celebrating the beauty and importance of water",
     "waitTime": 15,
+    "bestTime": "Daytime or evening (for lighting)",
+    "categories": ["walkthrough", "outdoor", "interactive"]
+  },
+  {
+    "id": "turtle-talk-crush",
+    "name": "Turtle Talk with Crush",
+    "type": "show",
+    "description": "Interactive conversation with Crush the sea turtle from Finding Nemo",
+    "waitTime": 20,
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": [
-      "show",
-      "indoor",
-      "film"
-    ],
-    "imageUrl": "/images/parks/epcot/impressions-de-france.jpg"
+    "imageUrl": "/images/parks/epcot/turtle-talk-crush.jpg",
+    "categories": ["show", "indoor", "interactive", "kids"]
   },
   {
     "id": "american-adventure",
     "name": "The American Adventure",
     "type": "show",
-    "description": "Audio-animatronic show about American history",
+    "description": "Spectacular audio-animatronic show celebrating American history",
     "waitTime": 20,
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": [
-      "show",
-      "indoor",
-      "educational"
-    ],
-    "imageUrl": "/images/parks/epcot/american-adventure.jpg"
+    "imageUrl": "/images/parks/epcot/american-adventure.jpg",
+    "categories": ["show", "indoor", "educational"]
   },
   {
-    "id": "harmonious",
-    "name": "Harmonious",
+    "id": "impressions-de-france",
+    "name": "Impressions de France",
     "type": "show",
-    "description": "Nighttime spectacular with fireworks, fountains, and music",
-    "bestTime": "Park closing time",
-    "categories": [
-      "fireworks",
-      "outdoor",
-      "show"
-    ],
-    "imageUrl": "/images/parks/epcot/harmonious.jpg"
+    "description": "Film showcase of France's beauty in the Palais du Cinéma",
+    "waitTime": 10,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/epcot/impressions-de-france.jpg",
+    "categories": ["show", "indoor", "film"]
   },
   {
-    "id": "illuminations",
-    "name": "IllumiNations: Reflections of Earth",
+    "id": "beauty-beast-singalong",
+    "name": "Beauty and the Beast Sing-Along",
     "type": "show",
-    "description": "Classic fireworks and laser show over World Showcase Lagoon",
+    "description": "Sing-along film experience in the France pavilion",
+    "waitTime": 10,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/epcot/beauty-beast-singalong.jpg",
+    "categories": ["show", "indoor", "film", "musical"]
+  },
+  {
+    "id": "canada-far-wide",
+    "name": "Canada Far and Wide in Circle-Vision 360",
+    "type": "show",
+    "description": "360-degree film showcasing Canada's stunning landscapes",
+    "waitTime": 10,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/epcot/canada-far-wide.jpg",
+    "categories": ["show", "indoor", "film"]
+  },
+  {
+    "id": "reflections-china",
+    "name": "Reflections of China",
+    "type": "show",
+    "description": "360-degree film tour of China's iconic landmarks",
+    "waitTime": 10,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/epcot/reflections-china.jpg",
+    "categories": ["show", "indoor", "film"]
+  },
+  {
+    "id": "awesome-planet",
+    "name": "Awesome Planet",
+    "type": "show",
+    "description": "Film about Earth's beauty and environmental diversity in The Land",
+    "waitTime": 10,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "categories": ["show", "indoor", "film", "educational"]
+  },
+  {
+    "id": "pixar-short-film",
+    "name": "Disney & Pixar Short Film Festival",
+    "type": "show",
+    "description": "Collection of Pixar shorts in 4D with special effects",
+    "waitTime": 10,
+    "geniePlusEligible": false,
+    "bestTime": "Anytime",
+    "imageUrl": "/images/parks/epcot/pixar-short-film.jpg",
+    "categories": ["show", "indoor", "3d", "family"]
+  },
+  {
+    "id": "luminous",
+    "name": "Luminous The Symphony of Us",
+    "type": "show",
+    "description": "Nighttime spectacular with fireworks, fountains, and lasers on World Showcase Lagoon",
     "bestTime": "Park closing time",
-    "categories": [
-      "fireworks",
-      "outdoor",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/epcot/illuminations.jpg"
+    "categories": ["fireworks", "outdoor", "show"]
+  },
+  {
+    "id": "imageworks",
+    "name": "ImageWorks - The What-If Labs",
+    "type": "detail",
+    "description": "Hands-on imagination activities after Journey Into Imagination",
+    "categories": ["interactive", "indoor", "kids"]
+  },
+  {
+    "id": "mission-space-lab",
+    "name": "Mission: SPACE Advanced Training Lab",
+    "type": "detail",
+    "description": "Space-themed games and interactive activities",
+    "categories": ["interactive", "indoor", "games"]
+  },
+  {
+    "id": "sea-base",
+    "name": "SeaBase",
+    "type": "detail",
+    "description": "Explore aquariums with sea life including dolphins, sharks, and manatees",
+    "categories": ["aquarium", "indoor", "animals"]
+  },
+  {
+    "id": "anna-elsa-norway",
+    "name": "Meet Anna and Elsa at Royal Sommerhus",
+    "type": "character",
+    "description": "Meet Anna and Elsa in their summer cabin in Norway",
+    "waitTime": 45,
+    "geniePlusEligible": true,
+    "categories": ["character", "meet-and-greet", "princess"]
   },
   {
     "id": "character-spotting",
     "name": "Meet Characters in World Showcase",
     "type": "character",
-    "description": "Find and meet Disney characters from around the world",
+    "description": "Find Disney characters from around the world in their home pavilions",
     "waitTime": 30,
     "geniePlusEligible": true,
-    "categories": [
-      "character",
-      "meet-and-greet",
-      "international"
-    ],
-    "imageUrl": "/images/parks/epcot/character-spotting.jpg"
+    "imageUrl": "/images/parks/epcot/character-spotting.jpg",
+    "categories": ["character", "meet-and-greet", "international"]
   },
   {
     "id": "club-cool",
-    "name": "Try Beverages at Club Cool",
+    "name": "Club Cool",
     "type": "food",
-    "description": "Sample sodas from around the world",
-    "categories": [
-      "snack",
-      "beverage",
-      "international"
-    ],
-    "imageUrl": "/images/parks/epcot/club-cool.jpg"
+    "description": "Sample free Coca-Cola beverages from around the world",
+    "imageUrl": "/images/parks/epcot/club-cool.jpg",
+    "categories": ["snack", "beverage", "free"]
   },
   {
     "id": "school-bakery",
-    "name": "Get a pastry from Les Halles Boulangerie Patisserie",
+    "name": "Les Halles Boulangerie-Patisserie",
     "type": "food",
-    "description": "French pastries and baked goods in France pavilion",
-    "categories": [
-      "snack",
-      "bakery",
-      "french"
-    ],
-    "imageUrl": "/images/parks/epcot/school-bakery.jpg"
+    "description": "Authentic French pastries and baked goods in France pavilion",
+    "imageUrl": "/images/parks/epcot/school-bakery.jpg",
+    "categories": ["snack", "bakery", "french"]
   },
   {
     "id": "karamell-kuche",
-    "name": "Caramel treats from Karamell-Küche",
+    "name": "Karamell-Küche",
     "type": "food",
-    "description": "German caramel shop in Germany pavilion",
-    "categories": [
-      "snack",
-      "sweet",
-      "german"
-    ],
-    "imageUrl": "/images/parks/epcot/karamell-kuche.jpg"
+    "description": "German caramel treats in Germany pavilion",
+    "imageUrl": "/images/parks/epcot/karamell-kuche.jpg",
+    "categories": ["snack", "sweet", "german"]
   },
   {
     "id": "tangierine-cafe",
-    "name": "Eat at Tangierine Cafe",
+    "name": "Tangierine Café",
     "type": "food",
     "description": "Moroccan cuisine in Morocco pavilion",
-    "categories": [
-      "meal",
-      "moroccan",
-      "international"
-    ],
-    "imageUrl": "/images/parks/epcot/tangierine-cafe.jpg"
+    "imageUrl": "/images/parks/epcot/tangierine-cafe.jpg",
+    "categories": ["meal", "moroccan", "international"]
   },
   {
-    "id": "jumping-fountain",
-    "name": "Watch the jumping fountains",
-    "type": "detail",
-    "description": "Synchronized water fountains between Future World and World Showcase",
-    "categories": [
-      "hidden-gem",
-      "outdoor",
-      "entertainment"
-    ],
-    "imageUrl": "/images/parks/epcot/jumping-fountain.jpg"
+    "id": "la-cantina-san-angel",
+    "name": "La Cantina de San Angel",
+    "type": "food",
+    "description": "Mexican fare with lagoon-side outdoor seating",
+    "categories": ["meal", "mexican", "outdoor-seating"]
+  },
+  {
+    "id": "kringla-bakeri",
+    "name": "Kringla Bakeri og Kafe",
+    "type": "food",
+    "description": "Norwegian pastries and school bread in Norway pavilion",
+    "categories": ["snack", "bakery", "norwegian"]
+  },
+  {
+    "id": "crepes-chefs-france",
+    "name": "Crêpes à Emporter by La Crêperie de Paris",
+    "type": "food",
+    "description": "Sweet and savory French crêpes at the France pavilion",
+    "categories": ["snack", "meal", "french"]
   },
   {
     "id": "world-showcase",
-    "name": "Visit all 11 World Showcase countries",
+    "name": "Visit all 11 World Showcase Countries",
     "type": "detail",
-    "description": "Walk around the World Showcase Lagoon and visit each pavilion",
-    "categories": [
-      "challenge",
-      "outdoor",
-      "international"
-    ],
-    "imageUrl": "/images/parks/epcot/world-showcase.jpg"
+    "description": "Walk around the World Showcase Lagoon and visit each unique pavilion",
+    "imageUrl": "/images/parks/epcot/world-showcase.jpg",
+    "categories": ["challenge", "outdoor", "international"]
   },
   {
     "id": "kidcot-fun-stops",
-    "name": "Complete Kidcot Fun Stops",
+    "name": "Kidcot Fun Stops",
     "type": "detail",
     "description": "Craft activities for kids at each World Showcase country",
-    "categories": [
-      "kids",
-      "craft",
-      "international"
-    ],
-    "imageUrl": "/images/parks/epcot/kidcot-fun-stops.jpg"
+    "imageUrl": "/images/parks/epcot/kidcot-fun-stops.jpg",
+    "categories": ["kids", "craft", "international"]
   },
   {
-    "id": "garden-exhibit",
-    "name": "Explore the Epcot International Flower & Garden Festival",
+    "id": "jumping-fountain",
+    "name": "Jumping Fountains",
     "type": "detail",
-    "description": "Seasonal topiaries and garden displays",
-    "categories": [
-      "seasonal",
-      "outdoor",
-      "garden"
-    ],
-    "imageUrl": "/images/parks/epcot/garden-exhibit.jpg"
+    "description": "Synchronized water fountains that leap between pools",
+    "imageUrl": "/images/parks/epcot/jumping-fountain.jpg",
+    "categories": ["hidden-gem", "outdoor", "entertainment"]
+  },
+  {
+    "id": "drinking-around-world",
+    "name": "Drink Around the World",
+    "type": "detail",
+    "description": "Sample adult beverages from each World Showcase pavilion",
+    "categories": ["challenge", "alcoholic", "international"]
   }
 ]

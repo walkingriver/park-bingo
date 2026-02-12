@@ -19,6 +19,7 @@ import {
 } from '@ionic/angular/standalone';
 import { ThemeService } from '../../services/theme.service';
 import { SoundService } from '../../services/sound.service';
+import { ParksDataService } from '../../services/parks-data.service';
 import { addIcons } from 'ionicons';
 import {
   moon,
@@ -30,6 +31,7 @@ import {
   star,
   statsChart,
   volumeHigh,
+  refresh,
   cart,
 } from 'ionicons/icons';
 
@@ -105,6 +107,13 @@ import {
           <ion-item-divider>
             <ion-label>Data</ion-label>
           </ion-item-divider>
+          <ion-item button (click)="refreshParksData()">
+            <ion-icon name="refresh" slot="start" color="primary"></ion-icon>
+            <ion-label>
+              <h2>Refresh Parks Data</h2>
+              <p>Clear cache and reload fresh data</p>
+            </ion-label>
+          </ion-item>
           <ion-item button (click)="clearData()">
             <ion-icon name="trash" slot="start" color="danger"></ion-icon>
             <ion-label color="danger">Clear All Game Data</ion-label>
@@ -193,6 +202,7 @@ import {
 export class SettingsPage {
   themeService = inject(ThemeService);
   soundService = inject(SoundService);
+  private parksDataService = inject(ParksDataService);
   private alertController = inject(AlertController);
 
   constructor() {
@@ -207,7 +217,34 @@ export class SettingsPage {
       statsChart,
       volumeHigh,
       cart,
+      refresh,
     });
+  }
+
+  async refreshParksData() {
+    const alert = await this.alertController.create({
+      header: 'Refresh Parks Data?',
+      message:
+        'This will clear the cached parks data and reload fresh data with updated images. Your saved games will not be affected.',
+      buttons: [
+        { text: 'Cancel', role: 'cancel' },
+        {
+          text: 'Refresh',
+          handler: async () => {
+            await this.parksDataService.clearCache();
+            await this.parksDataService.loadParksData();
+            
+            const successAlert = await this.alertController.create({
+              header: 'Success',
+              message: 'Parks data refreshed successfully! Images should now load.',
+              buttons: ['OK'],
+            });
+            await successAlert.present();
+          },
+        },
+      ],
+    });
+    await alert.present();
   }
 
   async clearData() {

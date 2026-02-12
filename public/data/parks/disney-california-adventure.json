@@ -8,7 +8,12 @@
     "heightRequirement": "48\" (122cm)",
     "geniePlusEligible": true,
     "bestTime": "Morning",
-    "categories": ["thrill", "coaster", "outdoor"]
+    "categories": [
+      "thrill",
+      "coaster",
+      "outdoor"
+    ],
+    "imageUrl": "/images/parks/dca/incredicoaster.jpg"
   },
   {
     "id": "guardians-dca",
@@ -19,7 +24,12 @@
     "heightRequirement": "40\" (102cm)",
     "geniePlusEligible": true,
     "bestTime": "Morning",
-    "categories": ["thrill", "drop", "indoor"]
+    "categories": [
+      "thrill",
+      "drop",
+      "indoor"
+    ],
+    "imageUrl": "/images/parks/dca/guardians-dca.jpg"
   },
   {
     "id": "radiator-springs",
@@ -30,7 +40,12 @@
     "heightRequirement": "40\" (102cm)",
     "geniePlusEligible": true,
     "bestTime": "Rope drop or last hour of park operation",
-    "categories": ["family", "outdoor", "cars"]
+    "categories": [
+      "family",
+      "outdoor",
+      "cars"
+    ],
+    "imageUrl": "/images/parks/dca/radiator-springs.jpg"
   },
   {
     "id": "soarin-dca",
@@ -41,7 +56,12 @@
     "heightRequirement": "40\" (102cm)",
     "geniePlusEligible": true,
     "bestTime": "First hour of park opening",
-    "categories": ["family", "thrill", "indoor"]
+    "categories": [
+      "family",
+      "thrill",
+      "indoor"
+    ],
+    "imageUrl": "/images/parks/dca/soarin-dca.jpg"
   },
   {
     "id": "grizzly-river",
@@ -52,7 +72,12 @@
     "heightRequirement": "42\" (107cm)",
     "geniePlusEligible": false,
     "bestTime": "Morning or evening",
-    "categories": ["water", "outdoor", "family"]
+    "categories": [
+      "water",
+      "outdoor",
+      "family"
+    ],
+    "imageUrl": "/images/parks/dca/grizzly-river.jpg"
   },
   {
     "id": "toy-story-mania-dca",
@@ -63,7 +88,12 @@
     "heightRequirement": "No height requirement",
     "geniePlusEligible": true,
     "bestTime": "Morning",
-    "categories": ["interactive", "family", "toy-story"]
+    "categories": [
+      "interactive",
+      "family",
+      "toy-story"
+    ],
+    "imageUrl": "/images/parks/dca/toy-story-mania-dca.jpg"
   },
   {
     "id": "little-mermaid-dca",
@@ -74,7 +104,12 @@
     "heightRequirement": "No height requirement",
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": ["family", "indoor", "classic"]
+    "categories": [
+      "family",
+      "indoor",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/dca/little-mermaid-dca.jpg"
   },
   {
     "id": "monsters-inc",
@@ -85,7 +120,12 @@
     "heightRequirement": "No height requirement",
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": ["family", "indoor", "classic"]
+    "categories": [
+      "family",
+      "indoor",
+      "classic"
+    ],
+    "imageUrl": "/images/parks/dca/monsters-inc.jpg"
   },
   {
     "id": "luigis",
@@ -96,7 +136,12 @@
     "heightRequirement": "No height requirement",
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": ["family", "outdoor", "cars"]
+    "categories": [
+      "family",
+      "outdoor",
+      "cars"
+    ],
+    "imageUrl": "/images/parks/dca/luigis.jpg"
   },
   {
     "id": "maters",
@@ -107,7 +152,12 @@
     "heightRequirement": "No height requirement",
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": ["family", "outdoor", "cars"]
+    "categories": [
+      "family",
+      "outdoor",
+      "cars"
+    ],
+    "imageUrl": "/images/parks/dca/maters.jpg"
   },
   {
     "id": "golden-zephyr",
@@ -118,7 +168,12 @@
     "heightRequirement": "No height requirement",
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": ["family", "outdoor", "relaxing"]
+    "categories": [
+      "family",
+      "outdoor",
+      "relaxing"
+    ],
+    "imageUrl": "/images/parks/dca/golden-zephyr.jpg"
   },
   {
     "id": "jumpin-jellyfish",
@@ -129,7 +184,12 @@
     "heightRequirement": "No height requirement",
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": ["kids", "outdoor", "gentle"]
+    "categories": [
+      "kids",
+      "outdoor",
+      "gentle"
+    ],
+    "imageUrl": "/images/parks/dca/jumpin-jellyfish.jpg"
   },
   {
     "id": "world-color",
@@ -137,7 +197,12 @@
     "type": "show",
     "description": "Nighttime water and light spectacular",
     "bestTime": "Evening showtimes",
-    "categories": ["show", "water", "nighttime"]
+    "categories": [
+      "show",
+      "water",
+      "nighttime"
+    ],
+    "imageUrl": "/images/parks/dca/world-color.jpg"
   },
   {
     "id": "frozen-live",
@@ -147,7 +212,12 @@
     "waitTime": 30,
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": ["show", "musical", "broadway"]
+    "categories": [
+      "show",
+      "musical",
+      "broadway"
+    ],
+    "imageUrl": "/images/parks/dca/frozen-live.jpg"
   },
   {
     "id": "turtle-talk",
@@ -157,7 +227,12 @@
     "waitTime": 20,
     "geniePlusEligible": false,
     "bestTime": "Anytime",
-    "categories": ["show", "interactive", "kids"]
+    "categories": [
+      "show",
+      "interactive",
+      "kids"
+    ],
+    "imageUrl": "/images/parks/dca/turtle-talk.jpg"
   },
   {
     "id": "pixar-parade",
@@ -165,7 +240,12 @@
     "type": "show",
     "description": "Daytime parade featuring Pixar characters",
     "bestTime": "Afternoon parade times",
-    "categories": ["parade", "outdoor", "pixar"]
+    "categories": [
+      "parade",
+      "outdoor",
+      "pixar"
+    ],
+    "imageUrl": "/images/parks/dca/pixar-parade.jpg"
   },
   {
     "id": "cars-characters",
@@ -174,7 +254,12 @@
     "description": "Meet Lightning McQueen, Mater, and friends",
     "waitTime": 20,
     "geniePlusEligible": false,
-    "categories": ["character", "cars", "meet-and-greet"]
+    "categories": [
+      "character",
+      "cars",
+      "meet-and-greet"
+    ],
+    "imageUrl": "/images/parks/dca/cars-characters.jpg"
   },
   {
     "id": "avengers-characters",
@@ -183,7 +268,12 @@
     "description": "Meet Marvel superheroes in Avengers Campus",
     "waitTime": 30,
     "geniePlusEligible": true,
-    "categories": ["character", "marvel", "meet-and-greet"]
+    "categories": [
+      "character",
+      "marvel",
+      "meet-and-greet"
+    ],
+    "imageUrl": "/images/parks/dca/avengers-characters.jpg"
   },
   {
     "id": "woody-buzz-dca",
@@ -192,83 +282,143 @@
     "description": "Meet Toy Story characters",
     "waitTime": 25,
     "geniePlusEligible": false,
-    "categories": ["character", "pixar", "meet-and-greet"]
+    "categories": [
+      "character",
+      "pixar",
+      "meet-and-greet"
+    ],
+    "imageUrl": "/images/parks/dca/woody-buzz-dca.jpg"
   },
   {
     "id": "cozy-motel",
     "name": "Eat at Cozy Cone Motel",
     "type": "food",
     "description": "Quick service in Cars Land with cone-themed food",
-    "categories": ["meal", "quick-service", "cars"]
+    "categories": [
+      "meal",
+      "quick-service",
+      "cars"
+    ],
+    "imageUrl": "/images/parks/dca/cozy-motel.jpg"
   },
   {
     "id": "flo-v8",
     "name": "Dine at Flo's V8 Cafe",
     "type": "food",
     "description": "Car-themed restaurant in Cars Land",
-    "categories": ["meal", "quick-service", "cars"]
+    "categories": [
+      "meal",
+      "quick-service",
+      "cars"
+    ],
+    "imageUrl": "/images/parks/dca/flo-v8.jpg"
   },
   {
     "id": "lamplight-lounge",
     "name": "Try Lamplight Lounge",
     "type": "food",
     "description": "Pixar-themed restaurant with waterfront views",
-    "categories": ["meal", "themed", "pixar"]
+    "categories": [
+      "meal",
+      "themed",
+      "pixar"
+    ],
+    "imageUrl": "/images/parks/dca/lamplight-lounge.jpg"
   },
   {
     "id": "pym-test",
     "name": "Try Pym Test Kitchen in Avengers Campus",
     "type": "food",
     "description": "Marvel-themed quick service with unusual food sizes",
-    "categories": ["meal", "quick-service", "marvel"]
+    "categories": [
+      "meal",
+      "quick-service",
+      "marvel"
+    ],
+    "imageUrl": "/images/parks/dca/pym-test.jpg"
   },
   {
     "id": "adventure-land",
     "name": "Get a pretzel from Boudin Bakery",
     "type": "food",
     "description": "Fresh-baked sourdough pretzels",
-    "categories": ["snack", "bakery", "san-francisco"]
+    "categories": [
+      "snack",
+      "bakery",
+      "san-francisco"
+    ],
+    "imageUrl": "/images/parks/dca/adventure-land.jpg"
   },
   {
     "id": "avengers-campus",
     "name": "Explore Avengers Campus",
     "type": "detail",
     "description": "Walk through the Marvel superhero themed land",
-    "categories": ["themed-area", "walking", "marvel"]
+    "categories": [
+      "themed-area",
+      "walking",
+      "marvel"
+    ],
+    "imageUrl": "/images/parks/dca/avengers-campus.jpg"
   },
   {
     "id": "cars-land",
     "name": "Explore Cars Land",
     "type": "detail",
     "description": "Walk through the detailed Radiator Springs area",
-    "categories": ["themed-area", "walking", "cars"]
+    "categories": [
+      "themed-area",
+      "walking",
+      "cars"
+    ],
+    "imageUrl": "/images/parks/dca/cars-land.jpg"
   },
   {
     "id": "pixar-pier",
     "name": "Walk along Pixar Pier",
     "type": "detail",
     "description": "Stroll down the Pixar-themed boardwalk",
-    "categories": ["themed-area", "walking", "pixar"]
+    "categories": [
+      "themed-area",
+      "walking",
+      "pixar"
+    ],
+    "imageUrl": "/images/parks/dca/pixar-pier.jpg"
   },
   {
     "id": "buena-vista",
     "name": "Explore Buena Vista Street",
     "type": "detail",
     "description": "Walk through 1920s Los Angeles themed entrance",
-    "categories": ["themed-area", "walking", "vintage"]
+    "categories": [
+      "themed-area",
+      "walking",
+      "vintage"
+    ],
+    "imageUrl": "/images/parks/dca/buena-vista.jpg"
   },
   {
     "id": "paradise-garden",
     "name": "Visit Paradise Gardens Park",
     "type": "detail",
     "description": "Explore the beautiful garden area",
-    "categories": ["garden", "walking", "relaxing"]
+    "categories": [
+      "garden",
+      "walking",
+      "relaxing"
+    ],
+    "imageUrl": "/images/parks/dca/paradise-garden.jpg"
   },
   {
     "id": "grizzly-peak",
     "name": "Hike around Grizzly Peak",
     "type": "detail",
     "description": "Walk through the Redwood-themed area",
-    "categories": ["nature", "walking", "themed"]
+    "categories": [
+      "nature",
+      "walking",
+      "themed"
+    ],
+    "imageUrl": "/images/parks/dca/grizzly-peak.jpg"
   }
 ]
