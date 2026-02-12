@@ -333,9 +333,7 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         width: 100%;
         height: 100%;
-        max-width: min(100%, 600px);
-        max-height: min(100%, 600px);
-        aspect-ratio: 1;
+        max-width: 100%;
       }
 
       /* Banner container - fixed at bottom */
@@ -358,6 +356,7 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
         background: var(--ion-color-light);
         border: 2px solid transparent;
         min-height: 0; /* Allow shrinking */
+        container-type: size; /* Enable container queries */
 
         &:active {
           transform: scale(0.95);
@@ -396,8 +395,8 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
 
       .square-image {
         width: 100%;
-        flex: 1;
-        min-height: 0;
+        height: 60%;
+        flex-shrink: 0;
         object-fit: cover;
         object-position: top center;
         border-radius: 4px;
@@ -405,30 +404,32 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
 
       .placeholder-icon {
         width: 100%;
-        flex: 1;
-        min-height: 0;
+        height: 60%;
+        flex-shrink: 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: clamp(0.8rem, 3vw, 1.5rem);
+        font-size: clamp(1rem, 25cqi, 2rem);
         background: var(--ion-color-light-shade, #e0e0e0);
         border-radius: 4px;
       }
 
       .square-name {
-        font-size: clamp(0.4rem, 1.5vw, 0.6rem);
+        /* Use container query units - scales with cell size */
+        font-size: clamp(0.5rem, 12cqi, 0.75rem);
         font-weight: 600;
         text-align: center;
-        line-height: 1.1;
-        padding: 2px 1px;
+        line-height: 1.2;
+        padding: 2px 2px;
         color: var(--ion-color-light-contrast, #333);
         overflow: hidden;
         text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
         width: 100%;
+        min-height: 0;
       }
 
       .status-badge {
