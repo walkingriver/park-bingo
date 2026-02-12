@@ -10,13 +10,16 @@
         (press)="onSquarePress(square)"
       >
         @if (square.parkItem.imageUrl) {
-          <img
-            [src]="square.parkItem.imageUrl"
-            [alt]="square.parkItem.name"
-            class="square-image"
-            loading="lazy"
-            (error)="onImageError($event)"
-          />
+          <div class="image-wrapper">
+            <img
+              [ngSrc]="square.parkItem.imageUrl"
+              [alt]="square.parkItem.name"
+              class="square-image"
+              fill
+              sizes="(max-width: 600px) 60px, 100px"
+              (error)="onImageError($event)"
+            />
+          </div>
         } @else {
           <div class="placeholder-icon">
             {{ getTypeIcon(square.parkItem.type) }}

@@ -1,4 +1,5 @@
 import { Component, inject, computed, ChangeDetectionStrategy, signal } from '@angular/core';
+import { NgOptimizedImage } from '@angular/common';
 import {
   IonHeader,
   IonToolbar,
@@ -25,6 +26,7 @@ import { ParkItem } from '../../models/park.model';
   selector: 'app-attractions',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
+    NgOptimizedImage,
     IonHeader,
     IonToolbar,
     IonTitle,
@@ -90,10 +92,11 @@ import { ParkItem } from '../../models/park.model';
                   <div class="attraction-image-container">
                     @if (item.imageUrl) {
                       <img
-                        [src]="item.imageUrl"
+                        [ngSrc]="item.imageUrl"
                         [alt]="item.name"
                         class="attraction-image"
-                        loading="lazy"
+                        fill
+                        sizes="200px"
                         (error)="onImageError($event, item)"
                       />
                     } @else {
@@ -127,10 +130,11 @@ import { ParkItem } from '../../models/park.model';
               <div class="attraction-image-container">
                 @if (item.imageUrl) {
                   <img
-                    [src]="item.imageUrl"
+                    [ngSrc]="item.imageUrl"
                     [alt]="item.name"
                     class="attraction-image"
-                    loading="lazy"
+                    fill
+                    sizes="200px"
                     (error)="onImageError($event, item)"
                   />
                 } @else {

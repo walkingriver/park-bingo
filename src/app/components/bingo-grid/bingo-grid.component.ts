@@ -1,9 +1,11 @@
 import { Component, input, output, ChangeDetectionStrategy } from '@angular/core';
+import { NgOptimizedImage } from '@angular/common';
 import { BingoSquare } from '../../models/park.model';
 
 @Component({
   selector: 'app-bingo-grid',
   standalone: true,
+  imports: [NgOptimizedImage],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './bingo-grid.component.html',
   styleUrls: ['./bingo-grid.component.scss'],
