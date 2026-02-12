@@ -15,10 +15,10 @@ import {
   IonButtons,
   IonButton,
   IonIcon,
-  IonFooter,
   IonText,
   IonBackButton,
   IonModal,
+  IonPopover,
   IonList,
   IonItem,
   IonLabel,
@@ -42,6 +42,8 @@ import {
   informationCircle,
   trophy,
   helpCircle,
+  ellipsisVertical,
+  fingerPrint,
 } from 'ionicons/icons';
 import confetti from 'canvas-confetti';
 import { AffiliateBannerComponent } from '../../components/affiliate-banner/affiliate-banner.component';
@@ -59,10 +61,10 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
     IonButtons,
     IonButton,
     IonIcon,
-    IonFooter,
     IonText,
     IonBackButton,
     IonModal,
+    IonPopover,
     IonList,
     IonItem,
     IonLabel,
@@ -78,89 +80,108 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
         </ion-buttons>
         <ion-title>{{ parkName() }}</ion-title>
         <ion-buttons slot="end">
-          <ion-button (click)="showHelp.set(true)" aria-label="Help">
-            <ion-icon name="help-circle" slot="icon-only"></ion-icon>
+          @if ((card()?.bingos || 0) > 0) {
+            <ion-button routerLink="/victory" color="success">
+              <ion-icon name="trophy" slot="icon-only"></ion-icon>
+            </ion-button>
+          }
+          <ion-button (click)="newCard()">
+            <ion-icon name="refresh" slot="icon-only"></ion-icon>
           </ion-button>
-          <ion-button (click)="shareCard()">
-            <ion-icon name="share" slot="icon-only"></ion-icon>
+          <ion-button id="more-options">
+            <ion-icon name="ellipsis-vertical" slot="icon-only"></ion-icon>
           </ion-button>
+          <ion-popover trigger="more-options" [dismissOnSelect]="true">
+            <ng-template>
+              <ion-list>
+                <ion-item button (click)="shareCard()">
+                  <ion-icon name="share" slot="start"></ion-icon>
+                  <ion-label>Share</ion-label>
+                </ion-item>
+                <ion-item button (click)="showHelp.set(true)">
+                  <ion-icon name="help-circle" slot="start"></ion-icon>
+                  <ion-label>Help</ion-label>
+                </ion-item>
+                <ion-item button lines="none">
+                  <ion-icon name="finger-print" slot="start"></ion-icon>
+                  <ion-label>
+                    <p>Game: {{ gameCode() }}</p>
+                  </ion-label>
+                </ion-item>
+              </ion-list>
+            </ng-template>
+          </ion-popover>
         </ion-buttons>
       </ion-toolbar>
     </ion-header>
 
-    <ion-content>
+    <ion-content [fullscreen]="true" class="play-content">
       @if (card()) {
-        <div class="stats-bar">
-          <div class="stat">
-            <ion-icon name="trophy" color="warning"></ion-icon>
-            <span>{{ card()?.bingos || 0 }} BINGOs</span>
+        <div class="play-layout">
+          <!-- Stats bar - compact -->
+          <div class="stats-bar">
+            <div class="stat">
+              <ion-icon name="trophy" color="warning"></ion-icon>
+              <span>{{ card()?.bingos || 0 }}</span>
+            </div>
+            <div class="stat">
+              <ion-icon name="checkmark-circle" color="success"></ion-icon>
+              <span>{{ completedCount() }}/25</span>
+            </div>
           </div>
-          <div class="stat">
-            <ion-icon name="checkmark-circle" color="success"></ion-icon>
-            <span>{{ completedCount() }}/25</span>
-          </div>
-        </div>
 
-        <div class="bingo-grid" id="bingo-card">
-          @for (row of card()?.squares; track rowIdx; let rowIdx = $index) {
-            @for (square of row; track square.id; let colIdx = $index) {
-              <div
-                class="bingo-square"
-                [class.completed]="square.status === 'completed'"
-                [class.skipped]="square.status === 'skipped'"
-                [class.in-progress]="square.status === 'in-progress'"
-                [class.free-space]="square.id === 'free'"
-                (click)="cycleStatus(rowIdx, colIdx)"
-                (press)="showDetails(square)"
-              >
-                @if (square.parkItem.imageUrl) {
-                  <img
-                    [src]="square.parkItem.imageUrl"
-                    [alt]="square.parkItem.name"
-                    class="square-image"
-                    loading="lazy"
-                    (error)="onImageError($event)"
-                  />
-                } @else {
-                  <div class="placeholder-icon">
-                    {{ getTypeIcon(square.parkItem.type) }}
-                  </div>
-                }
-                <span class="square-name">{{ square.parkItem.name }}</span>
-                @if (square.status !== 'unmarked') {
-                  <div class="status-badge">
-                    @switch (square.status) {
-                      @case ('completed') {
-                        <span class="badge-icon completed">✓</span>
-                      }
-                      @case ('skipped') {
-                        <span class="badge-icon skipped">✕</span>
-                      }
-                      @case ('in-progress') {
-                        <span class="badge-icon in-progress">⏳</span>
-                      }
+          <!-- Bingo grid - fills available space -->
+          <div class="bingo-grid-container">
+            <div class="bingo-grid" id="bingo-card">
+              @for (row of card()?.squares; track rowIdx; let rowIdx = $index) {
+                @for (square of row; track square.id; let colIdx = $index) {
+                  <div
+                    class="bingo-square"
+                    [class.completed]="square.status === 'completed'"
+                    [class.skipped]="square.status === 'skipped'"
+                    [class.in-progress]="square.status === 'in-progress'"
+                    (click)="cycleStatus(rowIdx, colIdx)"
+                    (press)="showDetails(square)"
+                  >
+                    @if (square.parkItem.imageUrl) {
+                      <img
+                        [src]="square.parkItem.imageUrl"
+                        [alt]="square.parkItem.name"
+                        class="square-image"
+                        loading="lazy"
+                        (error)="onImageError($event)"
+                      />
+                    } @else {
+                      <div class="placeholder-icon">
+                        {{ getTypeIcon(square.parkItem.type) }}
+                      </div>
+                    }
+                    <span class="square-name">{{ square.parkItem.name }}</span>
+                    @if (square.status !== 'unmarked') {
+                      <div class="status-badge">
+                        @switch (square.status) {
+                          @case ('completed') {
+                            <span class="badge-icon completed">✓</span>
+                          }
+                          @case ('skipped') {
+                            <span class="badge-icon skipped">✕</span>
+                          }
+                          @case ('in-progress') {
+                            <span class="badge-icon in-progress">⏳</span>
+                          }
+                        }
+                      </div>
                     }
                   </div>
                 }
-              </div>
-            }
-          }
-        </div>
+              }
+            </div>
+          </div>
 
-        <!-- Affiliate Banner (rotates every 60s, appears after 30s delay) -->
-        <app-affiliate-banner></app-affiliate-banner>
-
-        <div class="action-buttons">
-          @if ((card()?.bingos || 0) > 0) {
-            <ion-button expand="block" routerLink="/victory" color="success">
-              <ion-icon name="trophy" slot="start"></ion-icon>
-              View Victory ({{ card()?.bingos }} BINGO{{ (card()?.bingos || 0) > 1 ? 's' : '' }})
-            </ion-button>
-          }
-          <ion-button expand="block" (click)="newCard()" fill="outline">
-            <ion-icon name="refresh" slot="start"></ion-icon>
-            New Card
-          </ion-button>
+          <!-- Affiliate Banner - fixed at bottom -->
+          <div class="banner-container">
+            <app-affiliate-banner></app-affiliate-banner>
+          </div>
         </div>
       } @else {
         <div class="no-card">
@@ -246,64 +267,97 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
         </ng-template>
       </ion-modal>
     </ion-content>
-
-    <ion-footer>
-      <ion-toolbar class="footer-toolbar">
-        <ion-text color="medium" class="game-code">
-          Game: {{ gameCode() }}
-        </ion-text>
-      </ion-toolbar>
-    </ion-footer>
   `,
   styles: [
     `
+      /* Main play layout - flexbox for portrait mode */
+      .play-content {
+        --padding-start: 0;
+        --padding-end: 0;
+        --padding-top: 0;
+        --padding-bottom: 0;
+      }
+
+      .play-layout {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 8px;
+        padding-top: calc(8px + var(--ion-safe-area-top, 0px));
+        padding-bottom: calc(8px + var(--ion-safe-area-bottom, 0px));
+        box-sizing: border-box;
+      }
+
+      /* Stats bar - compact fixed height */
       .stats-bar {
         display: flex;
         justify-content: center;
         gap: 24px;
-        padding: 12px;
+        padding: 8px 12px;
         background: var(--ion-card-background);
-        border-radius: 12px;
-        margin-bottom: 12px;
+        border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        flex-shrink: 0;
       }
 
       .stat {
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: 6px;
         font-weight: 600;
-        font-size: 0.95rem;
+        font-size: 0.9rem;
 
         ion-icon {
-          font-size: 1.2rem;
+          font-size: 1.1rem;
         }
+      }
+
+      /* Grid container - grows to fill available space */
+      .bingo-grid-container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 0; /* Important for flexbox to shrink */
+        padding: 8px 0;
       }
 
       .bingo-grid {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         gap: 4px;
-        padding: 8px;
+        padding: 6px;
         background: var(--ion-card-background);
         border-radius: 12px;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 100%;
+        max-width: min(100%, 600px);
+        max-height: min(100%, 600px);
+        aspect-ratio: 1;
+      }
+
+      /* Banner container - fixed at bottom */
+      .banner-container {
+        flex-shrink: 0;
+        margin-top: auto;
       }
 
       .bingo-square {
-        aspect-ratio: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        border-radius: 8px;
-        padding: 4px;
+        border-radius: 6px;
+        padding: 2px;
         cursor: pointer;
         transition: all 0.2s ease;
         position: relative;
         overflow: hidden;
         background: var(--ion-color-light);
         border: 2px solid transparent;
+        min-height: 0; /* Allow shrinking */
 
         &:active {
           transform: scale(0.95);
@@ -342,35 +396,39 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
 
       .square-image {
         width: 100%;
-        height: 55%;
+        flex: 1;
+        min-height: 0;
         object-fit: cover;
+        object-position: top center;
         border-radius: 4px;
       }
 
       .placeholder-icon {
         width: 100%;
-        height: 55%;
+        flex: 1;
+        min-height: 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.5rem;
+        font-size: clamp(0.8rem, 3vw, 1.5rem);
         background: var(--ion-color-light-shade, #e0e0e0);
         border-radius: 4px;
       }
 
       .square-name {
-        font-size: 0.55rem;
+        font-size: clamp(0.4rem, 1.5vw, 0.6rem);
         font-weight: 600;
         text-align: center;
         line-height: 1.1;
-        margin-top: 2px;
+        padding: 2px 1px;
         color: var(--ion-color-light-contrast, #333);
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
-        flex: 1;
+        flex-shrink: 0;
+        width: 100%;
       }
 
       .status-badge {
@@ -430,19 +488,6 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
         flex-wrap: wrap;
         gap: 4px;
         margin-top: 4px;
-      }
-
-      .footer-toolbar {
-        --background: transparent;
-        --border-width: 0;
-      }
-
-      .game-code {
-        display: block;
-        text-align: center;
-        font-size: 0.75rem;
-        font-family: monospace;
-        padding: 8px;
       }
 
       /* Dark mode adjustments */
@@ -508,6 +553,8 @@ export class PlayPage {
       informationCircle,
       trophy,
       helpCircle,
+      ellipsisVertical,
+      fingerPrint,
     });
 
     // Watch for new bingos
