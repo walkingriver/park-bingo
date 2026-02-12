@@ -96,7 +96,7 @@ import { ParkItem } from '../../models/park.model';
                         [alt]="item.name"
                         class="attraction-image"
                         fill
-                        sizes="200px"
+                        sizes="(max-width: 600px) 45vw, 25vw"
                         (error)="onImageError($event, item)"
                       />
                     } @else {
@@ -134,7 +134,7 @@ import { ParkItem } from '../../models/park.model';
                     [alt]="item.name"
                     class="attraction-image"
                     fill
-                    sizes="200px"
+                    sizes="(max-width: 600px) 45vw, 25vw"
                     (error)="onImageError($event, item)"
                   />
                 } @else {
