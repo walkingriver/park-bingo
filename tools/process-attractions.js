@@ -117,20 +117,24 @@ function determineType(attraction) {
   return 'ride';
 }
 
-// Get image URL from media object
+// Get image URL - use local bundled images
 function getImageUrl(media, parkSlug, urlFriendlyId) {
-  // Use finderStandardThumb for good quality
+  // Always use local bundled images
+  return `/images/parks/${parkSlug}/${urlFriendlyId}.jpg`;
+}
+
+// Get CDN URL for downloading (used by download script)
+function getCdnUrl(media) {
   if (media?.finderStandardThumb?.transcodeTemplate) {
-    // Use 400x300 size
+    // Use 800x600 for higher quality
     return media.finderStandardThumb.transcodeTemplate
-      .replace('{width}', '400')
-      .replace('{height}', '300');
+      .replace('{width}', '800')
+      .replace('{height}', '600');
   }
   if (media?.finderStandardThumb?.url) {
     return media.finderStandardThumb.url;
   }
-  // Fallback to local image if exists
-  return `/images/parks/${parkSlug}/${urlFriendlyId}.jpg`;
+  return null;
 }
 
 // Get height requirement from facets
