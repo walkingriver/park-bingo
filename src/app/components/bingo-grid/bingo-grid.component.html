@@ -1,0 +1,44 @@
+<div class="bingo-grid" id="bingo-card">
+  @for (row of squares(); track rowIdx; let rowIdx = $index) {
+    @for (square of row; track square.id; let colIdx = $index) {
+      <div
+        class="bingo-square"
+        [class.completed]="square.status === 'completed'"
+        [class.skipped]="square.status === 'skipped'"
+        [class.in-progress]="square.status === 'in-progress'"
+        (click)="onSquareClick(rowIdx, colIdx)"
+        (press)="onSquarePress(square)"
+      >
+        @if (square.parkItem.imageUrl) {
+          <img
+            [src]="square.parkItem.imageUrl"
+            [alt]="square.parkItem.name"
+            class="square-image"
+            loading="lazy"
+            (error)="onImageError($event)"
+          />
+        } @else {
+          <div class="placeholder-icon">
+            {{ getTypeIcon(square.parkItem.type) }}
+          </div>
+        }
+        <span class="square-name">{{ square.parkItem.name }}</span>
+        @if (square.status !== 'unmarked') {
+          <div class="status-badge">
+            @switch (square.status) {
+              @case ('completed') {
+                <span class="badge-icon completed">✓</span>
+              }
+              @case ('skipped') {
+                <span class="badge-icon skipped">✕</span>
+              }
+              @case ('in-progress') {
+                <span class="badge-icon in-progress">⏳</span>
+              }
+            }
+          </div>
+        }
+      </div>
+    }
+  }
+</div>

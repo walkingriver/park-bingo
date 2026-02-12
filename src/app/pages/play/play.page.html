@@ -1,0 +1,156 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ parkName() }}</ion-title>
+    <ion-buttons slot="end">
+      @if ((card()?.bingos || 0) > 0) {
+        <ion-button routerLink="/victory" color="success">
+          <ion-icon name="trophy" slot="icon-only"></ion-icon>
+        </ion-button>
+      }
+      <ion-button id="more-options">
+        <ion-icon name="ellipsis-vertical" slot="icon-only"></ion-icon>
+      </ion-button>
+      <ion-popover trigger="more-options" [dismissOnSelect]="true">
+        <ng-template>
+          <ion-list>
+            <ion-item button [detail]="false" (click)="newCard()">
+              <ion-icon name="refresh" slot="start"></ion-icon>
+              <ion-label>New Card</ion-label>
+            </ion-item>
+            <ion-item button [detail]="false" (click)="shareCard()">
+              <ion-icon name="share" slot="start"></ion-icon>
+              <ion-label>Share</ion-label>
+            </ion-item>
+            <ion-item button [detail]="false" (click)="showHelp.set(true)">
+              <ion-icon name="help-circle" slot="start"></ion-icon>
+              <ion-label>Help</ion-label>
+            </ion-item>
+            <ion-item [detail]="false" lines="none">
+              <ion-icon name="finger-print" slot="start"></ion-icon>
+              <ion-label>
+                <p>Game: {{ gameCode() }}</p>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+        </ng-template>
+      </ion-popover>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="play-content">
+  @if (card()) {
+    <div class="play-layout">
+      <!-- Stats bar - compact -->
+      <div class="stats-bar">
+        <div class="stat">
+          <ion-icon name="trophy" color="warning"></ion-icon>
+          <span>{{ card()?.bingos || 0 }}</span>
+        </div>
+        <div class="stat">
+          <ion-icon name="checkmark-circle" color="success"></ion-icon>
+          <span>{{ completedCount() }}/25</span>
+        </div>
+      </div>
+
+      <!-- Bingo grid - fills available space -->
+      <div class="bingo-grid-container">
+        <app-bingo-grid
+          [squares]="card()!.squares"
+          (squareClick)="cycleStatus($event.row, $event.col)"
+          (squarePress)="showDetails($event)"
+        />
+      </div>
+
+      <!-- Affiliate Banner - fixed at bottom -->
+      <div class="banner-container">
+        <app-affiliate-banner></app-affiliate-banner>
+      </div>
+    </div>
+  } @else {
+    <div class="no-card">
+      <ion-text color="medium">
+        <p>No active game. Go back and select a park!</p>
+      </ion-text>
+      <ion-button routerLink="/">
+        <ion-icon name="home" slot="start"></ion-icon>
+        Choose Park
+      </ion-button>
+    </div>
+  }
+
+  <!-- Help Modal -->
+  <app-help-modal [isOpen]="showHelp()" (closed)="showHelp.set(false)"></app-help-modal>
+
+  <!-- Item Details Modal -->
+  <ion-modal [isOpen]="showModal()" (didDismiss)="closeModal()">
+    <ng-template>
+      @if (selectedSquare(); as square) {
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>{{ square.parkItem.name }}</ion-title>
+            <ion-buttons slot="end">
+              <ion-button (click)="closeModal()">Done</ion-button>
+            </ion-buttons>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content class="ion-padding">
+          @if (square.parkItem.imageUrl) {
+            <img
+              [src]="square.parkItem.imageUrl"
+              [alt]="square.parkItem.name"
+              class="modal-image"
+            />
+          }
+          <ion-list>
+            <ion-item>
+              <ion-label>
+                <h3>Description</h3>
+                <p>{{ square.parkItem.description }}</p>
+              </ion-label>
+            </ion-item>
+            @if (square.parkItem.waitTime) {
+              <ion-item>
+                <ion-label>
+                  <h3>Typical Wait</h3>
+                  <p>{{ square.parkItem.waitTime }} minutes</p>
+                </ion-label>
+              </ion-item>
+            }
+            @if (square.parkItem.heightRequirement) {
+              <ion-item>
+                <ion-label>
+                  <h3>Height Requirement</h3>
+                  <p>{{ square.parkItem.heightRequirement }}</p>
+                </ion-label>
+              </ion-item>
+            }
+            @if (square.parkItem.bestTime) {
+              <ion-item>
+                <ion-label>
+                  <h3>Best Time to Visit</h3>
+                  <p>{{ square.parkItem.bestTime }}</p>
+                </ion-label>
+              </ion-item>
+            }
+            @if (square.parkItem.categories.length) {
+              <ion-item>
+                <ion-label>
+                  <h3>Categories</h3>
+                  <div class="chip-container">
+                    @for (cat of square.parkItem.categories; track cat) {
+                      <ion-chip size="small">{{ cat }}</ion-chip>
+                    }
+                  </div>
+                </ion-label>
+              </ion-item>
+            }
+          </ion-list>
+        </ion-content>
+      }
+    </ng-template>
+  </ion-modal>
+</ion-content>
