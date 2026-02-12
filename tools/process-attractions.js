@@ -298,7 +298,7 @@ function processFile(inputPath, resort) {
 function main() {
   const toolsDir = path.dirname(__filename);
   const dataDir = path.join(toolsDir, 'data');
-  const outputDir = path.join(toolsDir, '..', 'src', 'data', 'parks');
+  const outputDir = path.join(toolsDir, '..', 'public', 'data', 'parks');
   
   // Ensure output directory exists
   if (!fs.existsSync(outputDir)) {

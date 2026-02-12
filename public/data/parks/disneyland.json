@@ -1,398 +1,880 @@
 [
   {
-    "id": "matterhorn",
-    "name": "Matterhorn Bobsleds",
+    "id": "its-a-small-world",
+    "name": "\"it's a small world\"",
     "type": "ride",
-    "description": "Bobsled ride through the Matterhorn mountain with Yeti encounter",
-    "waitTime": 45,
-    "heightRequirement": "42\" (107cm)",
-    "geniePlusEligible": false,
-    "bestTime": "Morning or evening",
-    "categories": [
-      "thrill",
-      "outdoor",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/dl/matterhorn.jpg"
-  },
-  {
-    "id": "space-mountain-dl",
-    "name": "Space Mountain",
-    "type": "ride",
-    "description": "Indoor roller coaster through outer space",
-    "waitTime": 40,
-    "heightRequirement": "40\" (102cm)",
-    "geniePlusEligible": true,
-    "bestTime": "Morning",
-    "categories": [
-      "thrill",
-      "indoor",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/dl/space-mountain-dl.jpg"
-  },
-  {
-    "id": "big-thunder-dl",
-    "name": "Big Thunder Mountain Railroad",
-    "type": "ride",
-    "description": "Wild west roller coaster through mine shafts",
-    "waitTime": 30,
-    "heightRequirement": "40\" (102cm)",
-    "geniePlusEligible": false,
-    "bestTime": "Morning",
-    "categories": [
-      "family",
-      "thrill",
-      "outdoor"
-    ],
-    "imageUrl": "/images/parks/dl/big-thunder-dl.jpg"
-  },
-  {
-    "id": "indiana-jones-dl",
-    "name": "Indiana Jones Adventure",
-    "type": "ride",
-    "description": "Jeep adventure through a cursed temple",
-    "waitTime": 35,
-    "heightRequirement": "46\" (117cm)",
-    "geniePlusEligible": true,
-    "bestTime": "Morning",
-    "categories": [
-      "thrill",
-      "indoor",
-      "adventure"
-    ],
-    "imageUrl": "/images/parks/dl/indiana-jones-dl.jpg"
-  },
-  {
-    "id": "splash-dl",
-    "name": "Splash Mountain",
-    "type": "ride",
-    "description": "Log flume ride with Brer Rabbit and friends",
-    "waitTime": 40,
-    "heightRequirement": "40\" (102cm)",
-    "geniePlusEligible": false,
-    "bestTime": "Morning or evening",
+    "description": "The fanciful it’s a small world facade is full of whimsical detail",
     "categories": [
       "family",
       "water",
-      "outdoor"
-    ],
-    "imageUrl": "/images/parks/dl/splash-dl.jpg"
-  },
-  {
-    "id": "pirates-dl",
-    "name": "Pirates of the Caribbean",
-    "type": "ride",
-    "description": "Boat ride through pirate-infested waters",
-    "waitTime": 25,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "categories": [
-      "family",
+      "loud",
       "indoor",
+      "kids",
       "classic"
     ],
-    "imageUrl": "/images/parks/dl/pirates-dl.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/attractions/disneyland/its-a-small-world/small-world-exterior-16x9.jpg?1764109946290"
   },
   {
-    "id": "haunted-mansion-dl",
-    "name": "Haunted Mansion",
+    "id": "adventureland-treehouse",
+    "name": "Adventureland Treehouse inspired by Walt Disney’s Swiss Family Robinson",
     "type": "ride",
-    "description": "Spooky dark ride through a haunted estate",
-    "waitTime": 30,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
+    "description": "Visit the Adventureland Treehouse, where a new family has moved in and created an oasis among the trees!",
     "categories": [
       "family",
-      "indoor",
+      "kids",
       "classic"
     ],
-    "imageUrl": "/images/parks/dl/haunted-mansion-dl.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/adventureland-treehouse/adventureland-treehouse-16x9.jpg?2023-11-28T17:51:36+00:00"
   },
   {
-    "id": "peter-pan-dl",
-    "name": "Peter Pan's Flight",
+    "id": "alice-in-wonderland",
+    "name": "Alice in Wonderland",
     "type": "ride",
-    "description": "Flying pirate ship over London and Neverland",
-    "waitTime": 50,
-    "geniePlusEligible": true,
-    "bestTime": "First hour of park opening",
+    "description": "Enjoy views of Disneyland Park as you wind your way through Alice in Wonderland.",
     "categories": [
       "family",
-      "indoor",
+      "dark",
+      "loud",
+      "kids",
       "classic"
     ],
-    "imageUrl": "/images/parks/dl/peter-pan-dl.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/alice-in-wonderland/20240917_RH_231-16x9.jpg?2025-08-19T02:19:55+00:00"
   },
   {
-    "id": "small-world-dl",
-    "name": "it's a small world",
+    "id": "astro-orbitor",
+    "name": "Astro Orbitor",
     "type": "ride",
-    "description": "Boat tour of the world's children",
-    "waitTime": 20,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
+    "description": "Astro Orbitor retro rocket",
     "categories": [
+      "spin",
       "family",
-      "indoor",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/dl/small-world-dl.jpg"
-  },
-  {
-    "id": "dumbo-dl",
-    "name": "Dumbo the Flying Elephant",
-    "type": "ride",
-    "description": "Flying elephant ride",
-    "waitTime": 20,
-    "geniePlusEligible": false,
-    "bestTime": "Morning or evening",
-    "categories": [
-      "family",
-      "outdoor",
       "kids"
     ],
-    "imageUrl": "/images/parks/dl/dumbo-dl.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/astro-orbitor/astro-orbitor-00.jpg?1763620850989"
   },
   {
-    "id": "tea-cups-dl",
-    "name": "Mad Tea Party",
+    "id": "autopia",
+    "name": "Autopia",
     "type": "ride",
-    "description": "Spinning tea cups",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
+    "description": "autopia-09",
+    "categories": [
+      "loud",
+      "family",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/autopia/autopia-09.jpg?1721799841350"
+  },
+  {
+    "id": "big-thunder-mountain-railroad",
+    "name": "Big Thunder Mountain Railroad",
+    "type": "ride",
+    "description": "big-thunder-mountain-railroad-00",
     "categories": [
       "family",
-      "outdoor",
-      "spin"
+      "thrill",
+      "dark",
+      "loud",
+      "classic"
     ],
-    "imageUrl": "/images/parks/dl/tea-cups-dl.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/big-thunder-mountain-railroad/big-thunder-mountain-railroad-00.jpg?1726239725975"
   },
   {
-    "id": "jungle-cruise-dl",
-    "name": "Jungle Cruise",
+    "id": "buzz-lightyear-astro-blasters",
+    "name": "Buzz Lightyear Astro Blasters",
     "type": "ride",
-    "description": "Boat tour through tropical rivers with humorous skipper",
-    "waitTime": 25,
-    "geniePlusEligible": false,
-    "bestTime": "Morning",
+    "description": "Buzz Lightyear Astro Blasters",
     "categories": [
       "family",
-      "outdoor",
-      "water"
+      "spin",
+      "dark",
+      "loud",
+      "indoor",
+      "kids"
     ],
-    "imageUrl": "/images/parks/dl/jungle-cruise-dl.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/buzz-lightyear-astro-blaster/buzz-lightyear-astro-blasters-00.jpg?1721800058477"
   },
   {
-    "id": "canoes",
-    "name": "Davey Crockett's Explorer Canoes",
+    "id": "casey-jr-circus-train",
+    "name": "Casey Jr. Circus Train",
     "type": "ride",
-    "description": "Paddle canoes around the Rivers of America",
-    "waitTime": 20,
-    "geniePlusEligible": false,
-    "bestTime": "Morning",
+    "description": "Casey Jr. Circus Train",
+    "categories": [
+      "family",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/casey-jr-circus-train/casey-jr-circus-train-00.jpg?1692278517962"
+  },
+  {
+    "id": "centoonial-park",
+    "name": "CenTOONial Park",
+    "type": "ride",
+    "description": "A tree with lanterns hanging from the branches at Centoonial Park in Mickey’s Toontown",
+    "categories": [
+      "family"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/centoonial-park/CenTOONial-Park-16x9.jpg?2023-04-03T16:31:57+00:00"
+  },
+  {
+    "id": "chip-n-dales-gadget-coaster",
+    "name": "Chip 'n' Dale's GADGETcoaster",
+    "type": "ride",
+    "description": "Chip and Dale’s Gadget Coaster in Mickey’s Toontown at Disneyland Park",
+    "categories": [
+      "family",
+      "thrill"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/chip-n-dale-gadgetcoaster/Chip-n-Dale-GADGETcoaster-16x9.jpg?2023-04-03T16:34:27+00:00"
+  },
+  {
+    "id": "davy-crocketts-explorer-canoes",
+    "name": "Davy Crockett's Explorer Canoes",
+    "type": "ride",
+    "description": "Davy Crockett's Explorer Canoes",
     "categories": [
       "water",
-      "outdoor",
-      "interactive"
+      "family",
+      "classic"
     ],
-    "imageUrl": "/images/parks/dl/canoes.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/davy-crocketts-explorer-canoes/davy-crocketts-explorer-canoes-00.jpg?1762851485340"
   },
   {
-    "id": "storybook-land",
-    "name": "Storybook Land Canal Boats",
+    "id": "visa-card-star-wars-character-experience",
+    "name": "Disney® Visa® Cardmember Star Wars Photo Opportunity",
+    "type": "show",
+    "description": "Experience Disney® Visa® Cardmember Star Wars Photo Opportunity",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/launch-bay/star-wars-launch-bay-sign-16x9.jpg?2021-04-26T20:46:29+00:00"
+  },
+  {
+    "id": "disneyland-monorail",
+    "name": "Disneyland Monorail",
     "type": "ride",
-    "description": "Boat tour through miniature storybook scenes",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
+    "description": "na",
     "categories": [
       "family",
-      "outdoor",
-      "relaxing"
+      "kids"
     ],
-    "imageUrl": "/images/parks/dl/storybook-land.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/disneyland-monorail/disneyland-monorail-00.jpg?1764100839617"
   },
   {
-    "id": "fantasmic-dl",
+    "id": "disneyland-railroad",
+    "name": "Disneyland Railroad",
+    "type": "ride",
+    "description": "Disneyland Railroad train stopped at the Main Street Station with Guests in open air passenger cars",
+    "categories": [
+      "family",
+      "dark",
+      "loud",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/disneyland-railroad/disneyland-railroad-06.jpg?1731590461543"
+  },
+  {
+    "id": "donalds-duck-pond",
+    "name": "Donald's Duck Pond",
+    "type": "ride",
+    "description": "Donald Duck’s Pond featuring a splash area around Donald’s Boat in Mickey’s Toontown",
+    "categories": [
+      "family",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/donalds-duck-pond/Donalds-Duck-Pond-16x9.jpg?2023-04-03T16:36:57+00:00"
+  },
+  {
+    "id": "dumbo-the-flying-elephant",
+    "name": "Dumbo the Flying Elephant",
+    "type": "ride",
+    "description": "A little boy wearing Mickey Ears rides Dumbo the Flying Elephant with his mom and sister",
+    "categories": [
+      "family",
+      "spin",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/attractions/disneyland/dumbo-the-flying-elephant/dumbo-mom-kids-16x9.jpg?1699622188887"
+  },
+  {
+    "id": "fantasmic",
     "name": "Fantasmic!",
     "type": "show",
-    "description": "Nighttime show with Mickey Mouse and Disney villains",
-    "bestTime": "Evening showtimes",
+    "description": "Fantasmic! at Disneyland Resorts",
     "categories": [
-      "show",
-      "fireworks",
-      "nighttime"
+      "kids"
     ],
-    "imageUrl": "/images/parks/dl/fantasmic-dl.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/entertainment/disneyland/fantasmic/fantasmic-detail-hero-sorcerer-mickey-16x9.jpg?1753318297724"
   },
   {
-    "id": "fireworks-dl",
-    "name": "Mickey's Mix Magic Fireworks",
+    "id": "fantasy-faire",
+    "name": "Fantasy Faire",
     "type": "show",
-    "description": "Fireworks spectacular over the castle",
-    "bestTime": "Park closing time",
+    "description": "FantasyeFaire",
     "categories": [
-      "fireworks",
-      "outdoor",
-      "show"
-    ],
-    "imageUrl": "/images/parks/dl/fireworks-dl.jpg"
-  },
-  {
-    "id": "tiki-room",
-    "name": "Walt Disney's Enchanted Tiki Room",
-    "type": "show",
-    "description": "Audio-animatronic tropical bird show",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "categories": [
-      "show",
       "indoor",
-      "classic"
+      "kids"
     ],
-    "imageUrl": "/images/parks/dl/tiki-room.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/entertainment/disneyland/fantasy-faire/fantasy-faire-00.jpg?1727379077806"
   },
   {
-    "id": "great-moments",
+    "id": "finding-nemo-submarine-voyage",
+    "name": "Finding Nemo Submarine Voyage",
+    "type": "ride",
+    "description": "The Argonaut, one of the Finding Nemo Submarine Voyage vehicles, floats on the water",
+    "categories": [
+      "family",
+      "water",
+      "dark",
+      "loud"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/finding-nemo-submarine-voyage/finding-nemo-submarine-voyage-00.jpg?1699624467036"
+  },
+  {
+    "id": "fire-of-the-rising-moons-fireworks",
+    "name": "Fire of the Rising Moons",
+    "type": "show",
+    "description": "Experience Fire of the Rising Moons",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/events/season-of-the-force/022524CT2MB-0358-16x9.jpg?2024-03-20T18:09:36+00:00"
+  },
+  {
+    "id": "fireworks",
+    "name": "Fireworks at Disneyland Park",
+    "type": "show",
+    "description": "Sleeping Beauty Castle illuminated at night with lighting and fireworks",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/events/d100/hub/WJ_Pyro1-16x9.jpg?2023-02-09T18:57:00+00:00"
+  },
+  {
+    "id": "fortune-tellers",
+    "name": "Fortune Tellers",
+    "type": "ride",
+    "description": "A fortune telling machine features a stern looking woman in flashy clothing named Esmeralda",
+    "categories": [
+      "family"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/attractions/disneyland/fortune-tellers/esmeralda-fortune-teller-16x9.jpg?1761847678100"
+  },
+  {
+    "id": "frontierland-shootin-exposition",
+    "name": "Frontierland Shootin' Exposition",
+    "type": "ride",
+    "description": "na",
+    "categories": [
+      "loud",
+      "family"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/frontierland-shootin-exposition/frontierland-shootin-exposition-00.jpg?1699623590847"
+  },
+  {
+    "id": "goofys-how-to-play-yard",
+    "name": "Goofy's How-to-Play Yard",
+    "type": "ride",
+    "description": "Goofy’s How to Play Yard featuring a playground in Mickey’s Toontown at Disneyland Park",
+    "categories": [
+      "family",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/goofys-how-to-play-yard/Goofys-How-to-Play-Yard-16x9.jpg?2023-04-03T16:37:21+00:00"
+  },
+  {
+    "id": "disneyland-story",
     "name": "Great Moments with Mr. Lincoln",
+    "type": "ride",
+    "description": "Disneyland Story",
+    "categories": [
+      "dark",
+      "indoor",
+      "family",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/disneyland-story/disneyland-story-00.jpg?1770910210233"
+  },
+  {
+    "id": "haunted-mansion",
+    "name": "Haunted Mansion",
+    "type": "ride",
+    "description": "Enter if you dare—prepare for a grim, grinning good time with ghost hosts from another realm!",
+    "categories": [
+      "family",
+      "dark",
+      "loud",
+      "scary",
+      "indoor",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/haunted-mansion/haunted-mansion-exterior-16x9.jpg?2025-09-22T16:17:34+00:00",
+    "lightningLane": true
+  },
+  {
+    "id": "hyperspace-mountain",
+    "name": "Hyperspace Mountain",
+    "type": "ride",
+    "description": "Hyperspace Mountain",
+    "categories": [
+      "family",
+      "thrill",
+      "dark",
+      "loud",
+      "scary",
+      "indoor"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/hyperspace-mountain/hyperspace-mountain-02.jpg?1747061489094"
+  },
+  {
+    "id": "indiana-jones-adventure",
+    "name": "Indiana Jones™ Adventure",
+    "type": "ride",
+    "description": "Experience Indiana Jones™ Adventure",
+    "categories": [
+      "family",
+      "thrill",
+      "dark",
+      "loud",
+      "scary",
+      "indoor"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/indiana-jones/2207WPS-07127-16x9.jpg?2025-08-19T01:16:55+00:00"
+  },
+  {
+    "id": "jungle-cruise",
+    "name": "Jungle Cruise",
+    "type": "ride",
+    "description": "Jungle Cruise",
+    "categories": [
+      "family",
+      "water",
+      "loud",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/jungle-cruise/jungle-cruise-00.jpg?1730409004558"
+  },
+  {
+    "id": "key-to-disneyland",
+    "name": "Key to Disneyland",
+    "type": "ride",
+    "description": "A girl wearing a Disneyland 70th anniversary ear headband and her mother, both playing with a bubble blower near Sleeping Beauty Castle",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/events/70th-anniversary/experience/Key-16x9.jpg?2025-03-25T20:33:59+00:00"
+  },
+  {
+    "id": "king-arthur-carrousel",
+    "name": "King Arthur Carrousel",
+    "type": "ride",
+    "description": "King Arthur Carrousel",
+    "categories": [
+      "family",
+      "spin",
+      "loud",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/king-arthur-carrousel/king-arthur-carrousel-00.jpg?1699623714789"
+  },
+  {
+    "id": "mad-tea-party",
+    "name": "Mad Tea Party",
+    "type": "ride",
+    "description": "A dad and his 2 young daughters laugh while riding the Mad Tea Party attraction",
+    "categories": [
+      "spin",
+      "family",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/attractions/disneyland/mad-tea-party/tea-cup-ride-father-daughters-16x9.jpg?1699623608074"
+  },
+  {
+    "id": "main-street-cinema",
+    "name": "Main Street Cinema",
+    "type": "ride",
+    "description": "Main Street Cinema",
+    "categories": [
+      "dark",
+      "indoor",
+      "family",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/main-street-cinema/main-street-cinema-00.jpg?1752759027545"
+  },
+  {
+    "id": "main-street-vehicles",
+    "name": "Main Street Vehicles",
+    "type": "ride",
+    "description": "Main Street Vehicles",
+    "categories": [
+      "family",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/main-street-vehicles/main-street-vehicles-00.jpg?1699623974465"
+  },
+  {
+    "id": "mark-twain-riverboat",
+    "name": "Mark Twain Riverboat",
+    "type": "ride",
+    "description": "Mark Twain Rriverboat",
+    "categories": [
+      "family",
+      "water",
+      "loud",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/mark-twain-riverboat/mark-twain-riverboat-00.jpg?1699624432276"
+  },
+  {
+    "id": "matterhorn-bobsleds",
+    "name": "Matterhorn Bobsleds",
+    "type": "ride",
+    "description": "Matterhorn Bobsleds",
+    "categories": [
+      "family",
+      "thrill",
+      "water",
+      "dark",
+      "loud",
+      "scary",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/matterhorn-bobsleds/matterhorn-bobsleds-00.jpg?1726240582368"
+  },
+  {
+    "id": "character-meet-princesses-royal-hall",
+    "name": "Meet Disney Princesses at Royal Hall",
     "type": "show",
-    "description": "Audio-animatronic Abraham Lincoln presentation",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
+    "description": "Character Meet Princesses Royal Hall",
     "categories": [
-      "show",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/entertainment/disneyland/character-meet-princesses-royal-hall/hero-fantasy-faire-meet-disney-princesses-royal-hall-16x9.jpg?1700667946927"
+  },
+  {
+    "id": "pixie-hollow-tinkerbell-fairy-friends",
+    "name": "Meet Tinker Bell in Pixie Hollow",
+    "type": "show",
+    "description": "Tinker Bell laughing",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/entertainment/see-tinker-bell-in-pixie-hollow/tinkerbell-pixie-hallow-16x9.jpg?2022-02-28T22:33:19+00:00"
+  },
+  {
+    "id": "mickey-minnies-runaway-railway",
+    "name": "Mickey & Minnie's Runaway Railway",
+    "type": "ride",
+    "description": "Hop on for an unpredictable adventure through an anything-can-happen, animated world.",
+    "categories": [
+      "dark",
+      "loud",
+      "family"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/mickey-minnies-runaway-railway/MMRR-Exterior-16x9.jpg?2023-02-03T17:34:52+00:00"
+  },
+  {
+    "id": "mickeys-mix-magic",
+    "name": "Mickey's Mix Magic",
+    "type": "show",
+    "description": "Hearts and an image of Mickey Mouse and Minnie Mouse, projected onto Crystal Arcade",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/entertainment/disneyland/mickeys-mix-magic/mix-magic-crystal-arcade-16x9.jpg?1705445437668"
+  },
+  {
+    "id": "mickeys-mix-magic-with-fireworks",
+    "name": "Mickey's Mix Magic with Fireworks",
+    "type": "show",
+    "description": "Projected images of Mickey Mouse and Minnie Mouse on Crystal Arcade with fireworks in the background",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/entertainment/disneyland/mickeys-mix-magic/mix-magic-mainstreet-16x9.jpg?1747401171355"
+  },
+  {
+    "id": "millennium-falcon-smugglers-run",
+    "name": "Millennium Falcon: Smugglers Run",
+    "type": "ride",
+    "description": "The cockpit of the Millennium Falcon",
+    "categories": [
+      "family",
+      "thrill",
+      "dark",
+      "loud"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/attractions/disneyland/millennium-falcon-smugglers-run/smugglers-run-interior-16x9.jpg?1726239762400"
+  },
+  {
+    "id": "minnies-house",
+    "name": "Minnie's House",
+    "type": "ride",
+    "description": "The outside of Minnie’s House in Mickey’s Toontown at Disneyland Park",
+    "categories": [
       "indoor",
-      "educational"
+      "family",
+      "kids"
     ],
-    "imageUrl": "/images/parks/dl/great-moments.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/minnies-house/Minnies-House-16x9.jpg?2023-04-03T16:40:43+00:00"
   },
   {
-    "id": "mickey-house",
-    "name": "Visit Mickey's House in Toontown",
-    "type": "character",
-    "description": "Tour Mickey Mouse's house and meet him",
-    "waitTime": 30,
-    "geniePlusEligible": false,
+    "id": "mr-toads-wild-ride",
+    "name": "Mr. Toad's Wild Ride",
+    "type": "ride",
+    "description": "Mr. Toads Wild Ride",
     "categories": [
-      "character",
-      "meet-and-greet",
-      "toontown"
-    ],
-    "imageUrl": "/images/parks/dl/mickey-house.jpg"
-  },
-  {
-    "id": "minnie-house",
-    "name": "Visit Minnie's House in Toontown",
-    "type": "character",
-    "description": "Tour Minnie Mouse's house and meet her",
-    "waitTime": 25,
-    "geniePlusEligible": false,
-    "categories": [
-      "character",
-      "meet-and-greet",
-      "toontown"
-    ],
-    "imageUrl": "/images/parks/dl/minnie-house.jpg"
-  },
-  {
-    "id": "princess-faire",
-    "name": "Meet Princesses at Princess Fairytale Hall",
-    "type": "character",
-    "description": "Meet Disney princesses in the castle",
-    "waitTime": 40,
-    "geniePlusEligible": true,
-    "categories": [
-      "character",
-      "meet-and-greet",
-      "princess"
-    ],
-    "imageUrl": "/images/parks/dl/princess-faire.jpg"
-  },
-  {
-    "id": "dole-whip-dl",
-    "name": "Get Dole Whip at Tiki Juice Bar",
-    "type": "food",
-    "description": "Pineapple soft-serve treat",
-    "categories": [
-      "snack",
-      "sweet",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/dl/dole-whip-dl.jpg"
-  },
-  {
-    "id": "mint-julep",
-    "name": "Try Mint Julep from New Orleans Square",
-    "type": "food",
-    "description": "Non-alcoholic mint julep drink",
-    "categories": [
-      "snack",
-      "beverage",
-      "new-orleans"
-    ],
-    "imageUrl": "/images/parks/dl/mint-julep.jpg"
-  },
-  {
-    "id": "churro-dl",
-    "name": "Get a churro from a cart",
-    "type": "food",
-    "description": "Cinnamon sugar coated fried dough",
-    "categories": [
-      "snack",
-      "sweet"
-    ],
-    "imageUrl": "/images/parks/dl/churro-dl.jpg"
-  },
-  {
-    "id": "corn-dog",
-    "name": "Try a corn dog from a cart",
-    "type": "food",
-    "description": "Classic Disneyland corn dog",
-    "categories": [
-      "snack",
-      "savory",
-      "classic"
-    ],
-    "imageUrl": "/images/parks/dl/corn-dog.jpg"
-  },
-  {
-    "id": "sleeping-beauty-castle",
-    "name": "Walk through Sleeping Beauty Castle",
-    "type": "detail",
-    "description": "Tour the walkthrough attraction inside the castle",
-    "categories": [
-      "hidden-gem",
+      "family",
+      "dark",
+      "loud",
+      "scary",
       "indoor",
       "classic"
     ],
-    "imageUrl": "/images/parks/dl/sleeping-beauty-castle.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/mr-toads-wild-ride/mr-toads-wild-ride-00.jpg?1699624781782"
   },
   {
-    "id": "tarzan-treehouse",
-    "name": "Climb Tarzan's Treehouse",
-    "type": "detail",
-    "description": "Climb through Tarzan's treehouse on Adventure Island",
+    "id": "main-street-opera-house",
+    "name": "Opera House",
+    "type": "ride",
+    "description": "The façade and entrance of the Opera House on Main Street, USA at Disneyland Park",
     "categories": [
-      "hidden-gem",
-      "outdoor",
-      "climbing"
+      "classic"
     ],
-    "imageUrl": "/images/parks/dl/tarzan-treehouse.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/opera-house/070925CT2MB-2-16x9.jpg?2025-07-11T21:45:51+00:00"
   },
   {
-    "id": "river-america",
-    "name": "Explore the Rivers of America",
-    "type": "detail",
-    "description": "Walk around the Rivers of America waterfront",
+    "id": "paint-the-night-parade",
+    "name": "Paint the Night",
+    "type": "show",
+    "description": "Mack illuminated near Main Street, USA at the Paint the Night Parade",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/events/70th-anniversary/entertainment/DLR-PainttheNight-AB0526-137-16x9.jpg?2024-11-26T15:32:38+00:00"
+  },
+  {
+    "id": "peter-pans-flight",
+    "name": "Peter Pan's Flight",
+    "type": "ride",
+    "description": "Experience Peter Pan's Flight",
     "categories": [
-      "walking",
-      "nature",
-      "relaxing"
+      "family",
+      "dark",
+      "loud",
+      "indoor",
+      "kids",
+      "classic"
     ],
-    "imageUrl": "/images/parks/dl/river-america.jpg"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/peter-pan-s-flight/20240917_RH_213-16x9.jpg?2025-08-19T02:29:55+00:00"
+  },
+  {
+    "id": "pinocchios-daring-journey",
+    "name": "Pinocchio's Daring Journey",
+    "type": "ride",
+    "description": "Pinocchios Daring Journey",
+    "categories": [
+      "family",
+      "dark",
+      "loud",
+      "scary",
+      "indoor",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/pinocchios-daring-journey/pinocchios-daring-journey-03.jpg?1699623605824"
+  },
+  {
+    "id": "pirates-lair-on-tom-sawyer-island",
+    "name": "Pirate's Lair on Tom Sawyer Island",
+    "type": "ride",
+    "description": "Experience Pirate's Lair on Tom Sawyer Island",
+    "categories": [
+      "family",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/pirate-s-lair/240916WS-2943-1-16x9.jpg?2025-08-19T02:15:34+00:00"
+  },
+  {
+    "id": "pirates-of-the-caribbean",
+    "name": "Pirates of the Caribbean",
+    "type": "ride",
+    "description": "Watch as crafty prisoners try to escape their cell at Pirates of the Caribbean.",
+    "categories": [
+      "family",
+      "water",
+      "dark",
+      "loud",
+      "scary",
+      "indoor",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/pirates-of-the-caribbean/20240916_RH_122-16x9.jpg?2025-09-11T01:47:28+00:00"
+  },
+  {
+    "id": "pixar-pals-playtime-party",
+    "name": "Pixar Pals Playtime Party",
+    "type": "show",
+    "description": "Sadness and Joy from ′Inside Out′ posing in front of a singer performing on a stage\t",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/entertainment/pixar-pals-playtime-party/0423ZM_4021MS_xak-1-16x9.jpg?2025-05-16T16:46:03+00:00"
+  },
+  {
+    "id": "roger-rabbits-car-toon-spin",
+    "name": "Roger Rabbit's Car Toon Spin",
+    "type": "ride",
+    "description": "Roger Rabbits Car Toon Spin",
+    "categories": [
+      "family",
+      "spin",
+      "dark",
+      "loud",
+      "indoor",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/roger-rabbits-car-toon-spin/roger-rabbits-car-toon-spin-00.jpg?1721799740477"
+  },
+  {
+    "id": "sailing-ship-columbia",
+    "name": "Sailing Ship Columbia",
+    "type": "ride",
+    "description": "Sailing Ship Columbia",
+    "categories": [
+      "family",
+      "water",
+      "loud",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/sailing-ship-columbia/sailing-ship-columbia-00.jpg?1731681041400"
+  },
+  {
+    "id": "shadows-of-memory-skywalker-saga",
+    "name": "Shadows of Memory: A Skywalker Saga",
+    "type": "show",
+    "description": "The Millennium Falcon in front of the spires of Batuu in Star Wars Galaxy's Edge at the Disneyland Resort at nighttime",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/batuu/032525CT2MB-0827b-16x9.jpg?2025-04-02T19:04:24+00:00"
+  },
+  {
+    "id": "sleeping-beauty-castle-walkthrough",
+    "name": "Sleeping Beauty Castle Walkthrough",
+    "type": "ride",
+    "description": "Surrounded by water, Sleeping Beauty Castle features a flag lined bridge leading up to its entrance",
+    "categories": [
+      "dark",
+      "indoor",
+      "family",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/attractions/disneyland/sleeping-beauty-castle-walkthrough/disneyland-sleeping-beauty-castle-day-16x9.jpg?1699621847498"
+  },
+  {
+    "id": "snow-whites-enchanted-wish",
+    "name": "Snow White's Enchanted Wish",
+    "type": "ride",
+    "description": "Dopey the Dwarf waves hello from behind a mining car filled with gems in the Snow White’s Enchanted Wish attraction at Disneyland Park in California",
+    "categories": [
+      "family",
+      "dark",
+      "loud",
+      "indoor"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/snow-whites-enchanted-wish/08SWEW_-4632-16x9.jpg?2021-04-07T21:31:52+00:00"
+  },
+  {
+    "id": "space-mountain",
+    "name": "Space Mountain",
+    "type": "ride",
+    "description": "Space Mountain",
+    "categories": [
+      "family",
+      "thrill",
+      "dark",
+      "loud",
+      "scary",
+      "indoor",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/space-mountain/space-mountain-00.jpg?1747061483717"
+  },
+  {
+    "id": "original-attractions-quest",
+    "name": "Special MagicBand+ Interactions During the 70th Celebration",
+    "type": "ride",
+    "description": "A Guest wearing a Disneyland Resort 70th Celebration Magic Band Plus",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/events/70th-anniversary/shopping/0217ZL_2519SD_D_R3_xak-16x9.jpg?2025-04-29T21:26:55+00:00"
+  },
+  {
+    "id": "star-tours",
+    "name": "Star Tours - The Adventures Continue",
+    "type": "ride",
+    "description": "Star Tours",
+    "categories": [
+      "family",
+      "thrill",
+      "dark",
+      "loud",
+      "indoor"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/star-tours/star-tours-06.jpg?1764837380627"
+  },
+  {
+    "id": "star-wars-galaxys-edge-play-app",
+    "name": "Star Wars: Datapad on Play Disney Parks Mobile App",
+    "type": "ride",
+    "description": "Experience Star Wars: Datapad on Play Disney Parks Mobile App",
+    "categories": [
+      "family"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/attractions/disneyland/star-wars-galaxys-edge-play-app/family-data-pad-play-app-16x9.jpg?1762859792592"
+  },
+  {
+    "id": "star-wars-rise-of-the-resistance",
+    "name": "Star Wars: Rise of the Resistance",
+    "type": "ride",
+    "description": "People in a transport vehicle inside a hanger bay look up at 2 towering AT-AT walkers",
+    "categories": [
+      "family",
+      "thrill",
+      "dark",
+      "loud",
+      "scary"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/attractions/disneyland/star-wars-rise-of-the-resistance/rise-of-the-resisstance-interior-16x9.jpg?1768936301988",
+    "lightningLane": true
+  },
+  {
+    "id": "storybook-land-canal-boats",
+    "name": "Storybook Land Canal Boats",
+    "type": "ride",
+    "description": "Storybook Land Canal Boats",
+    "categories": [
+      "family",
+      "water",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/storybook-land-canal-boats/storybook-land-canal-boats-00.jpg?1764170183328"
+  },
+  {
+    "id": "storytelling-royal-theatre",
+    "name": "Storytelling at Royal Theatre",
+    "type": "show",
+    "description": "Storytelling Royal Theater",
+    "categories": [
+      "indoor",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/entertainment/disneyland/storytelling-royal-theater/storytelling-royal-theatre-00.jpg?1732206566771"
+  },
+  {
+    "id": "tapestry-of-happiness",
+    "name": "Tapestry of Happiness",
+    "type": "show",
+    "description": "Illuminations projected onto the façade of ‘it’s a small world’ during the Tapestry of Happiness nighttime show",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/events/70th-anniversary/entertainment/HERO_IMAGE_TOH_Walt_Mickey_3165-16x9.jpg?2025-06-04T20:39:15+00:00"
+  },
+  {
+    "id": "celebrate-happy-cavalcade",
+    "name": "The Celebrate Happy Cavalcade",
+    "type": "show",
+    "description": "Mickey Mouse, Minnie Mouse, Donald Duck and Pluto on a float in the Celebrate Happy Cavalcade",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/events/70th-anniversary/entertainment/HERO_IMAGE_Cavalcade_0223_1-16x9.jpg?2025-07-01T16:37:42+00:00"
+  },
+  {
+    "id": "dapper-dans",
+    "name": "The Dapper Dans",
+    "type": "show",
+    "description": "The Dapper Dans",
+    "categories": [
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/entertainment/disneyland/dapper-dans/dapper-dans-00.jpg?1699624395102"
+  },
+  {
+    "id": "disney-gallery",
+    "name": "The Disney Gallery",
+    "type": "ride",
+    "description": "The Disney Gallery",
+    "categories": [
+      "indoor",
+      "family",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/disney-gallery/disney-gallery-09.jpg?1752761161788"
+  },
+  {
+    "id": "many-adventures-of-winnie-the-pooh",
+    "name": "The Many Adventures of Winnie the Pooh",
+    "type": "ride",
+    "description": "The Many Adventures of Winnie the Pooh",
+    "categories": [
+      "family",
+      "dark",
+      "loud",
+      "indoor",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/many-adventures-of-winnie-the-pooh/many-adventures-of-winnie-the-pooh-00.jpg?1731681818050"
+  },
+  {
+    "id": "tianas-bayou-adventure",
+    "name": "Tiana's Bayou Adventure",
+    "type": "ride",
+    "description": "Experience Tiana's Bayou Adventure",
+    "categories": [
+      "thrill",
+      "water"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/tianas-bayou-adventure/Meta_Descriptor_Header-16x9.jpg?2024-09-27T20:32:38+00:00"
+  },
+  {
+    "id": "pixar-fest-together-forever",
+    "name": "Together Forever - A Pixar Nighttime Spectacular",
+    "type": "show",
+    "description": "Fireworks and a dazzling projection of Coco on Sleeping Beauty Castle during the Together Forever a Pixar Nighttime Spectacular at Disneyland",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/events/pixar-fest/attractions-entertainment/Together-Forever-A-Pixar-Nighttime-Spectacular-3_2018_DL.0543-16x9.jpg?2024-02-29T19:26:41+00:00"
+  },
+  {
+    "id": "walt-disney-a-magical-life",
+    "name": "Walt Disney - A Magical Life",
+    "type": "ride",
+    "description": "Walt Disney speaking to Guests from his office at Walt Disney, A Magical Life",
+    "categories": [
+      "dark"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/staged-assets/accenture/vlad/dlr-72530/RH4_0054_2-16x9.jpg?2025-07-30T12:01:49+00:00"
+  },
+  {
+    "id": "enchanted-tiki-room",
+    "name": "Walt Disney's Enchanted Tiki Room",
+    "type": "ride",
+    "description": "Walt Disney's Enchanted Tiki Room",
+    "categories": [
+      "dark",
+      "loud",
+      "indoor",
+      "family",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/enchanted-tiki-room/enchanted-tiki-room-00.jpg?1699621648574"
+  },
+  {
+    "id": "wintertime-enchantment-sleeping-beauty-castle",
+    "name": "Wintertime Enchantment at Sleeping Beauty's Winter Castle",
+    "type": "show",
+    "description": "The façade of Sleeping Beauty Castle decorated with icicle lights and illuminated at night",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/entertainment/disneyland/wintertime-enchantment-sleeping-beauty-castle/wintertime-enchantment-castle-hero-16x9.jpg?1767854194785"
+  },
+  {
+    "id": "wondrous-journeys",
+    "name": "Wondrous Journeys",
+    "type": "show",
+    "description": "Sleeping Beauty Castle illuminated with a projection of Peter Pan while fireworks burst above during the Wondrous Journeys nighttime show",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/events/70th-anniversary/attraction/HERO_IMAGE_WJ_Peter_Pan-16x9.jpg?2025-06-04T20:39:15+00:00"
   }
 ]

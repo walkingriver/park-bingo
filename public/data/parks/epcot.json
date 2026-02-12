@@ -1,508 +1,689 @@
 [
   {
-    "id": "guardians",
-    "name": "Guardians of the Galaxy: Cosmic Rewind",
+    "id": "mission-space-advanced-training-lab",
+    "name": "Advanced Training Lab",
     "type": "ride",
-    "description": "Reverse-launch roller coaster through space with the Guardians",
-    "waitTime": 70,
-    "heightRequirement": "42\" (107cm)",
-    "geniePlusEligible": true,
-    "bestTime": "First hour of park opening or virtual queue",
-    "imageUrl": "/images/parks/epcot/guardians.jpg",
+    "description": "Experience Advanced Training Lab",
     "categories": [
-      "thrill",
-      "indoor",
-      "coaster"
-    ]
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/epcot/mission-space-advanced-training-lab/mission-space-advanced-training-lab-00.jpg?1699630842502"
   },
   {
-    "id": "test-track",
-    "name": "Test Track",
+    "id": "american-heritage-gallery",
+    "name": "American Heritage Gallery",
     "type": "ride",
-    "description": "Design a virtual vehicle and test it at high speeds up to 65 mph",
-    "waitTime": 50,
-    "heightRequirement": "40\" (102cm)",
-    "geniePlusEligible": true,
-    "bestTime": "Morning",
-    "imageUrl": "/images/parks/epcot/test-track.jpg",
+    "description": "Experience American Heritage Gallery",
     "categories": [
-      "thrill",
-      "outdoor",
-      "interactive"
-    ]
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/epcot/american-heritage-gallery/american-heritage-gallery-00.jpg?1674017934812"
   },
   {
-    "id": "mission-space",
-    "name": "Mission: SPACE",
+    "id": "the-land-awesome-planet",
+    "name": "Awesome Planet",
     "type": "ride",
-    "description": "Space flight simulator with Green (mild) and Orange (intense) missions",
-    "waitTime": 40,
-    "heightRequirement": "44\" (112cm) Orange, 40\" (102cm) Green",
-    "geniePlusEligible": true,
-    "bestTime": "Morning",
-    "imageUrl": "/images/parks/epcot/mission-space.jpg",
+    "description": "Family stands on a mountain looking at a beautiful blue and yellow night sky",
     "categories": [
-      "thrill",
-      "indoor",
-      "simulator"
-    ]
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/epcot/the-land-awesome-planet/Awesome-Planet-16x9.jpg?1699630856532"
   },
   {
-    "id": "soarin",
-    "name": "Soarin' Around the World",
+    "id": "beauty-and-the-beast-sing-along",
+    "name": "Beauty and the Beast Sing-Along",
     "type": "ride",
-    "description": "Hang gliding simulator over world landmarks",
-    "waitTime": 45,
-    "heightRequirement": "40\" (102cm)",
-    "geniePlusEligible": true,
-    "bestTime": "First hour of park opening",
-    "imageUrl": "/images/parks/epcot/soarin.jpg",
+    "description": "Candles and books surround a gold framed image of Beauty and the Beast's LeFou character",
     "categories": [
-      "family",
-      "thrill",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/epcot/beauty-and-the-beast-sing-along/Beauty-and-the-Beast-Sing-Along-16x9.jpg?1770050282629"
+  },
+  {
+    "id": "bijutsu-kan-gallery",
+    "name": "Bijutsu-kan Gallery",
+    "type": "ride",
+    "description": "Experience Bijutsu-kan Gallery",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/gallery/attractions/epcot/bijutsu-kan-gallery/bijutsu-kan-gallery-gallery00.jpg?1658970934833"
+  },
+  {
+    "id": "bruces-shark-world",
+    "name": "Bruce's Shark World",
+    "type": "ride",
+    "description": "Bruces Shark World",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/epcot/bruces-shark-world/bruces-shark-world-01.jpg?1682017655397"
+  },
+  {
+    "id": "canada-far-and-wide",
+    "name": "Canada Far and Wide in Circle-Vision 360",
+    "type": "ride",
+    "description": "Visit the theater inside the Canada Pavilion to see a Circle-Vision 360° movie, Canada Far and Wide.",
+    "categories": [
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/epcot/canada-far-and-wide/canada-far-and-wide-16x9.jpg?1658971008555"
+  },
+  {
+    "id": "command-performance",
+    "name": "Command Performance",
+    "type": "show",
+    "description": "4 musicians from The Hooligans, a British rock band, standing by the United Kingdom gazebo at EPCOT",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-springs/entertainment/live-performances/The-Hooligans-845657371-16x9.jpg?2024-07-02T13:38:06+00:00"
+  },
+  {
+    "id": "disney-animals-coral-reefs",
+    "name": "Coral Reefs - Disney Animals",
+    "type": "ride",
+    "description": "Experience Coral Reefs - Disney Animals",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-coral-reefs/disney-animals-coral-reefs-00.jpg?1658997296557"
+  },
+  {
+    "id": "disney-pixar-short-film-festival",
+    "name": "Disney and Pixar Short Film Festival",
+    "type": "ride",
+    "description": "Experience Disney and Pixar Short Film Festival",
+    "categories": [
+      "dark",
       "indoor",
-      "simulator"
-    ]
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/epcot/disney-pixar-short-film-festival/disney-pixar-short-film-festival-00.jpg?1701358609040"
+  },
+  {
+    "id": "ducktales-play-app",
+    "name": "Disney’s DuckTales World Showcase Adventure",
+    "type": "ride",
+    "description": "2 Guests hold a cellphone to make a Donald Duck figurine to appear during the DuckTales World Showcase Adventure",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/disneys-ducktales-world-showcase-adventure/1201ZO_0549MS-16x9.jpg?2022-12-14T18:35:25+00:00"
+  },
+  {
+    "id": "visa-card-character-experience",
+    "name": "Disney® Visa® Cardmember Photo Opportunity at EPCOT",
+    "type": "show",
+    "description": "A Guest posing for a picture with Pluto and Mickey Mouse in the Disney Visa photo spot at Epcot",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/240216_DVR_CM_33292RT3-16x9.jpg?2025-11-17T18:41:54+00:00"
+  },
+  {
+    "id": "dreamers-point",
+    "name": "Dreamers Point",
+    "type": "ride",
+    "description": "Experience Dreamers Point",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/dreamers-point/1121ZN_0232KP_R2_xak-16x9.jpg?2024-05-17T18:42:36+00:00"
+  },
+  {
+    "id": "canada-pavilion-entertainment",
+    "name": "Entertainment at Canada Mill Stage",
+    "type": "show",
+    "description": "Catch lively performances from Les Raftsmen—a Canadian folk band performing at Canada Mill Stage in EPCOT.",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/live-performances/2023-Les-Raftsmen-MDX-Final-16x9.jpg?2025-12-23T21:49:45+00:00"
+  },
+  {
+    "id": "communicore-plaza-stage",
+    "name": "Entertainment at CommuniCore Plaza Stage",
+    "type": "show",
+    "description": "The band La Calle performing on the CommuniCore Plaza Stage at Epcot",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/communicore-plaza-stage/2024_La_Calle_MDX_Final-16x9.jpg?2025-06-27T17:11:04+00:00"
+  },
+  {
+    "id": "germany-pavilion-entertainment",
+    "name": "Entertainment at Germany Gazebo",
+    "type": "show",
+    "description": "A trio of musicians performing with a guitar, fiddle and upright bass on a cozy stage in the Germany Pavilion at EPCOT",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/live-performances/2022-Die-Couchies-NonHoliday-2-16x9.jpg?2025-12-18T17:41:55+00:00"
+  },
+  {
+    "id": "broadway-concert-series",
+    "name": "EPCOT International Festival of the Arts: DISNEY ON BROADWAY Concert Series",
+    "type": "show",
+    "description": "A seated family and a projector on stage with the words, ‘Disney on Broadway’",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/events/festival-of-the-arts/experience/202813042-0215ZM_15977MS_R2_xak-16x9.jpg?2024-11-07T19:16:31+00:00"
+  },
+  {
+    "id": "frozen",
+    "name": "Frozen at Walt Disney World Resort",
+    "type": "ride",
+    "description": "Anna and Elsa smile at each other at Royal Sommerhus in EPCOT",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/1118ZR_1475AFN_ckp-16x9.jpg?2023-03-13T14:58:45+00:00"
   },
   {
     "id": "frozen-ever-after",
     "name": "Frozen Ever After",
     "type": "ride",
-    "description": "Boat ride through Arendelle with Anna, Elsa, and Olaf",
-    "waitTime": 50,
-    "geniePlusEligible": true,
-    "bestTime": "Morning or evening",
-    "imageUrl": "/images/parks/epcot/frozen-ever-after.jpg",
+    "description": "Wave hello to Elsa, Anna and Olaf as you journey through a frozen willow forest.",
     "categories": [
       "family",
-      "indoor",
-      "boat"
-    ]
+      "dark",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/frozen-ever-after/HKDL_World-of-Frozen_Frozen-Ever-After_Hero-16x9.jpg?2026-02-09T15:52:43+00:00"
   },
   {
-    "id": "ratatouille",
-    "name": "Remy's Ratatouille Adventure",
+    "id": "gallery-arts-and-history",
+    "name": "Gallery of Arts and History",
     "type": "ride",
-    "description": "Shrink to the size of a rat for a culinary adventure through Gusteau's restaurant",
-    "waitTime": 40,
-    "geniePlusEligible": true,
-    "bestTime": "Morning",
-    "imageUrl": "/images/parks/epcot/ratatouille.jpg",
+    "description": "Experience Gallery of Arts and History",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/epcot/gallery-arts-and-history/gallery-of-arts-history-race-the-sun-sign-16x9.jpg?1699630821331"
+  },
+  {
+    "id": "gran-fiesta-tour-starring-three-caballeros",
+    "name": "Gran Fiesta Tour Starring The Three Caballeros",
+    "type": "ride",
+    "description": "Experience Gran Fiesta Tour Starring The Three Caballeros",
     "categories": [
       "family",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/gran-fiesta-tour/240824WS-_5880-1-1-16x9.jpg?2025-08-19T21:00:43+00:00"
+  },
+  {
+    "id": "guardians-of-the-galaxy-cosmic-rewind",
+    "name": "Guardians of the Galaxy: Cosmic Rewind",
+    "type": "ride",
+    "description": "Guardians of the Galaxy: Cosmic Rewind Attraction Photos",
+    "categories": [
+      "dark",
+      "thrill"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/guest-services/photopass/memory-maker/output_v1_831691417-16x9.jpg?2022-05-20T14:23:28+00:00",
+    "lightningLane": true
+  },
+  {
+    "id": "house-of-the-whispering-willows-gallery",
+    "name": "House of the Whispering Willows",
+    "type": "ride",
+    "description": "The interior of House of Whispering Willows at Shanghai Disney Resort featuring display cases with Disney artwork and 4 mannequins in vintage costumes",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/house-of-the-whispering-willows/House-of-the-Whispering-Willows-16x9.jpg?2025-10-27T17:46:06+00:00"
+  },
+  {
+    "id": "imageworks",
+    "name": "ImageWorks - The \"What If\" Labs",
+    "type": "ride",
+    "description": "Experience ImageWorks - The \"What If\" Labs",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/epcot/imageworks/imageworks-00.jpg?1699630830366"
+  },
+  {
+    "id": "impressions-de-france",
+    "name": "Impressions de France",
+    "type": "ride",
+    "description": "Watch Impressions de France, an 18-minute film about France at the France Pavilion.",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/gallery/attractions/epcot/impressions-de-france/impressions-de-france-gallery01.jpg?1770050275952"
+  },
+  {
+    "id": "jammitors",
+    "name": "JAMMitors",
+    "type": "show",
+    "description": "Percussion ensemble The Jammitors using stainless steel trash cans to perform music at Epcot",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/jammin-gardeners/2025_JAMMitors_MDX_Final-16x9.jpg?2025-06-27T17:12:26+00:00"
+  },
+  {
+    "id": "journey-into-imagination-with-figment",
+    "name": "Journey Into Imagination With Figment",
+    "type": "ride",
+    "description": "Journey Into Imagination With Figment",
+    "categories": [
+      "family",
+      "dark",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/epcot/journey-into-imagination-with-figment/journey-into-imagination-with-figment-00.jpg?1699630840073"
+  },
+  {
+    "id": "journey-of-water",
+    "name": "Journey of Water, Inspired by Moana",
+    "type": "ride",
+    "description": "A small waterfall over a rock formation that features the Heart of Te Fiti symbol on the Journey of Water, Inspired by Moana trail",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/moana-journey-of-water/0809ZN_1863AS-16x9.jpg?2023-09-21T22:57:49+00:00"
+  },
+  {
+    "id": "kidcot-fun-stops",
+    "name": "Kidcot Fun Stops",
+    "type": "ride",
+    "description": "A sign that reads Kidcot Fun Stop",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/epcot/kidcot/kidcot-fun-stops/american-adventure-kidcot-sign-16x9-16x9.jpg?2024-07-05T15:56:55+00:00"
+  },
+  {
+    "id": "leave-a-legacy",
+    "name": "Leave A Legacy",
+    "type": "ride",
+    "description": "Experience Leave A Legacy",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/epcot/leave-a-legacy/lal-lrg-16x9.jpg?1756860325859"
+  },
+  {
+    "id": "living-with-the-land",
+    "name": "Living with the Land",
+    "type": "ride",
+    "description": "Experience Living with the Land",
+    "categories": [
+      "family",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/epcot/living-with-the-land/living-with-the-land-00.jpg?1770440073178"
+  },
+  {
+    "id": "glimmering-greenhouses",
+    "name": "Living with the Land – Glimmering Greenhouses",
+    "type": "ride",
+    "description": "Trees decorated with Christmas lights and 3 snowmen inside the Living with the Land attraction",
+    "categories": [
+      "family",
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/events/festival-of-the-holidays/entertainment/1201ZO_2865AFN-16x9.jpg?2023-09-15T21:41:45+00:00"
+  },
+  {
+    "id": "luminous-the-symphony-us",
+    "name": "Luminous The Symphony of Us",
+    "type": "show",
+    "description": "Two parents hold their young daughter as they watch a fireworks show over Epcot",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/luminous-the-symphony-of-us/0215ZM_0426SD_R2_xak-16x9.jpg?2024-04-05T14:52:53+00:00"
+  },
+  {
+    "id": "disney-animals-manatees",
+    "name": "Manatees - Disney Animals",
+    "type": "ride",
+    "description": "A manatee eats lettuce underwater",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/attractions/epcot/disney-animals-manatees/west-indian-manatee-littlejoe-1-16x9.jpg?1737497661369"
+  },
+  {
+    "id": "matsuriza",
+    "name": "Matsuriza",
+    "type": "show",
+    "description": "Experience Matsuriza",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/epcot/matsuriza/matsuriza-00.jpg?1699631134065"
+  },
+  {
+    "id": "max-and-aydar",
+    "name": "Max & Aydar",
+    "type": "show",
+    "description": "Variety performers Max & Aydar holding horns and standing next to a podium and touring tricycle at Epcot\t",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/max-aydar/2025_Max_and_Aydar_FINAL_MDX-16x9.jpg?2025-06-27T17:54:40+00:00"
+  },
+  {
+    "id": "character-meet-winnie-the-pooh",
+    "name": "Meet a Friend from the Hundred Acre Wood in the United Kingdom",
+    "type": "show",
+    "description": "Winnie the Pooh standing in the middle of a bedroom with many toys, books and pillows",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disney-world/entertainment/epcot/character-meet-winnie-the-pooh/christopher-robin-winnie-the-pooh-16x9.jpg?1756854646735"
+  },
+  {
+    "id": "character-meet-alice-in-wonderland-uk",
+    "name": "Meet Alice in the United Kingdom",
+    "type": "show",
+    "description": "Alice strikes a pose in a garden",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/Alice-2-16x9.jpg?2022-03-10T19:24:11+00:00"
+  },
+  {
+    "id": "character-meet-anna-elsa-royal-sommerhus",
+    "name": "Meet Anna and Elsa at Royal Sommerhus",
+    "type": "show",
+    "description": "Anna smiles at Elsa as they stand in the Norway Pavilion in EPCOT",
+    "categories": [
       "indoor",
-      "trackless"
-    ]
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/Anna-and-Elsa-New-Look-02-full-outside-16x9.jpg?2022-03-10T19:24:17+00:00"
+  },
+  {
+    "id": "character-meet-asha",
+    "name": "Meet Asha Near World Showcase Plaza",
+    "type": "show",
+    "description": "Asha poses in front of a brick wall surrounded by plants and lanterns",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/1101ZN_0417AFN-16x9.jpg?2023-11-03T15:55:18+00:00"
+  },
+  {
+    "id": "character-meet-belle",
+    "name": "Meet Belle in France",
+    "type": "show",
+    "description": "Belle, wearing her village dress, clasps her hands to her chest",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/Belle-close-outside-02-16x9.jpg?2022-03-10T19:24:29+00:00"
+  },
+  {
+    "id": "character-meet-disney-pals-communicore-hall",
+    "name": "Meet Beloved Disney Pals at Mickey & Friends",
+    "type": "show",
+    "description": "Experience Meet Beloved Disney Pals at Mickey & Friends",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/240824WS-_9305-1-16x9.jpg?2025-08-19T21:02:43+00:00"
+  },
+  {
+    "id": "character-meet-donald-duck-mexico",
+    "name": "Meet Donald Duck in Mexico",
+    "type": "show",
+    "description": "Experience Meet Donald Duck in Mexico",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/character-experience/epcot/character-meet-donald-duck-mexico/character-meet-donald-duck-mexico-00.jpg?1758291031018"
+  },
+  {
+    "id": "character-meet-figment",
+    "name": "Meet Figment Inside ImageWorks",
+    "type": "show",
+    "description": "Figment the dragon gives high fives to 2 young children while their father watches them and smiles",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/imageworks/Figment-16x9.jpg?2023-09-08T20:12:42+00:00"
+  },
+  {
+    "id": "character-meet-mulan",
+    "name": "Meet Mulan in China",
+    "type": "show",
+    "description": "Meet Mulan in China Pavilion",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/character-experience/epcot/character-meet-mulan/character-meet-mulan-02.jpg?1680797219477"
+  },
+  {
+    "id": "character-meet-disney-pals-main-entrance",
+    "name": "Meet Pluto Near EPCOT Main Entrance",
+    "type": "show",
+    "description": "Pluto posing and pulling his ears at the Main Entrance of Epcot",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/Pluto_02-16x9.jpg?2024-06-07T23:25:29+00:00"
+  },
+  {
+    "id": "character-meet-aurora-france",
+    "name": "Meet Princess Aurora in France",
+    "type": "show",
+    "description": "Meet Aurora in the Gardens of France",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/character-experience/epcot/character-meet-aurora-france/character-meet-aurora-france-00.jpg?1679619416766"
+  },
+  {
+    "id": "character-meet-jasmine",
+    "name": "Meet Princess Jasmine in Morocco",
+    "type": "show",
+    "description": "Meet Princess Jasmine in Morocco",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/character-experience/epcot/character-meet-aladdin-jasmine/meet-princess-jasmine-02.jpg?1663173848325"
+  },
+  {
+    "id": "character-meet-snow-white",
+    "name": "Meet Snow White in Germany",
+    "type": "show",
+    "description": "Experience Meet Snow White in Germany",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/entertainment/character-experience/epcot/character-meet-snow-white/character-meet-snow-white-00.jpg?1663175960511"
+  },
+  {
+    "id": "character-meet-star-lord",
+    "name": "Meet Star-Lord near Guardians of the Galaxy: Cosmic Rewind",
+    "type": "show",
+    "description": "Star Lord standing in front of Guardians of the Galaxy Cosmic Rewind at Epcot",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/meet-greet/Star-Lord_WDW_EPCOT-16x9.jpg?2024-09-30T15:54:02+00:00"
+  },
+  {
+    "id": "mexican-folk-art-gallery",
+    "name": "Mexico Folk Art Gallery",
+    "type": "ride",
+    "description": "Celebrate the traditions of Día de Muertos at the Mexican Pavilion in Epcot.",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/epcot/mexican-folk-art-gallery/sign-16x9.jpg?1699630834845"
+  },
+  {
+    "id": "mission-space",
+    "name": "Mission: SPACE",
+    "type": "ride",
+    "description": "Experience Mission: SPACE",
+    "categories": [
+      "thrill",
+      "spin",
+      "dark",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/epcot/mission-space/mission-space-00.jpg?1699630832509"
+  },
+  {
+    "id": "music-of-mexico",
+    "name": "Music of Mexico",
+    "type": "show",
+    "description": "A singer, violinist and 2 other musicians perform outside",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/performers/DSC_2208-16x9.jpg?2022-02-03T15:09:36+00:00"
+  },
+  {
+    "id": "project-tomorrow-inventing-the-wonders-of-the-future",
+    "name": "Project Tomorrow: Inventing the Wonders of the Future",
+    "type": "ride",
+    "description": "A father holding his smiling young daughter in his arms as he walks towards Spaceship Earth at Epcot",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/spaceship-earth/Project-Tomorrow-Inventing-the-Wonders-of-the-Future-16x9.jpg?2025-09-17T19:43:20+00:00"
+  },
+  {
+    "id": "disney-animals-reef-fish",
+    "name": "Reef Fish - Disney Animals",
+    "type": "ride",
+    "description": "Experience Reef Fish - Disney Animals",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/sea-base/School-of-porkfish-swimming-near-reef-close-up-16x9.jpg?2022-04-18T21:20:17+00:00"
+  },
+  {
+    "id": "reflections-of-china",
+    "name": "Reflections of China",
+    "type": "ride",
+    "description": "Experience Reflections of China",
+    "categories": [
+      "kids",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/epcot/reflections-of-china/reflections-of-china-00.jpg?1699630851868"
+  },
+  {
+    "id": "remys-ratatouille-adventure",
+    "name": "Remy's Ratatouille Adventure",
+    "type": "ride",
+    "description": "Get whisked away on an exciting culinary caper at Remy’s Ratatouille Adventure, located in the France Pavilion at Epcot.",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/remy-s-ratatouille-adventure/0629ZP_1967CM_xak-1-16x9.jpg?2025-10-03T00:01:03+00:00"
+  },
+  {
+    "id": "rose-crown-pub-music",
+    "name": "Rose & Crown Pub Musician",
+    "type": "show",
+    "description": "Experience Rose & Crown Pub Musician",
+    "categories": [
+      "indoor"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/dining/rose-crown/2022_Rose_Crown_Kelly_Richards_MDX_FINAL-16x9.jpg?2025-07-08T16:53:13+00:00"
+  },
+  {
+    "id": "disney-animals-sea-turtles",
+    "name": "Sea Turtles - Disney Animals",
+    "type": "ride",
+    "description": "Experience Sea Turtles - Disney Animals",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-sea-turtles/disney-animals-sea-turtles-00.jpg?1741751189203"
+  },
+  {
+    "id": "sea-base-aquarium",
+    "name": "SeaBase Aquarium",
+    "type": "ride",
+    "description": "Get up close and personal with various fish at The Seas with Nemo & Friends Pavilion at Epcot.",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/gallery/attractions/epcot/sea-base/seabase-gallery06.jpg?1768218476401"
+  },
+  {
+    "id": "sergio-italian-juggler",
+    "name": "Sergio",
+    "type": "show",
+    "description": "A performer juggling in the Italy Pavilion in World Showcase",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/performers/image-2022-01-04-16-42-57-540-16x9.jpg?2022-01-10T15:54:07+00:00"
+  },
+  {
+    "id": "disney-animals-sharks-and-rays",
+    "name": "Sharks and Rays - Disney Animals",
+    "type": "ride",
+    "description": "Experience Sharks and Rays - Disney Animals",
+    "categories": [
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/disney-animals/disney-animals-sharks/disney-animals-sharks-00.jpg?1738214697098"
+  },
+  {
+    "id": "soarin-around-world",
+    "name": "Soarin' Around the World",
+    "type": "ride",
+    "description": "Take a journey above stunning international wonders at Soarin’ Around the World.",
+    "categories": [
+      "family"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/attractions/soarin-around-the-world/LL1_0039-16x9.jpg?2025-10-06T20:42:58+00:00"
   },
   {
     "id": "spaceship-earth",
     "name": "Spaceship Earth",
     "type": "ride",
-    "description": "Journey through the history of human communication inside the iconic geosphere",
-    "waitTime": 25,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/epcot/spaceship-earth.jpg",
+    "description": "The prism pylon fountain in front of an illuminated Spaceship Earth at Epcot.",
     "categories": [
       "family",
-      "indoor",
+      "dark",
+      "kids",
       "classic"
-    ]
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/spaceship-earth/Spaceship-Earth-16x9.jpg?2025-09-17T19:43:20+00:00"
   },
   {
-    "id": "living-land-boat",
-    "name": "Living with the Land",
+    "id": "stave-church-gallery",
+    "name": "Stave Church Gallery",
     "type": "ride",
-    "description": "Boat tour through greenhouses and agricultural exhibits",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/epcot/living-land-boat.jpg",
+    "description": "Experience Stave Church Gallery",
     "categories": [
-      "educational",
-      "indoor",
-      "relaxing",
-      "boat"
-    ]
-  },
-  {
-    "id": "imagination",
-    "name": "Journey into Imagination with Figment",
-    "type": "ride",
-    "description": "Tour the Imagination Institute with Figment the purple dragon",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/epcot/imagination.jpg",
-    "categories": [
-      "family",
-      "indoor",
-      "classic"
-    ]
-  },
-  {
-    "id": "nemo",
-    "name": "The Seas with Nemo & Friends",
-    "type": "ride",
-    "description": "Underwater clamobile adventure to find Nemo",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/epcot/nemo.jpg",
-    "categories": [
-      "family",
-      "indoor",
-      "dark-ride"
-    ]
-  },
-  {
-    "id": "gran-fiesta",
-    "name": "Gran Fiesta Tour Starring The Three Caballeros",
-    "type": "ride",
-    "description": "Boat ride through Mexico with Donald Duck and The Three Caballeros",
-    "waitTime": 15,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "categories": [
-      "family",
-      "indoor",
-      "boat"
-    ]
-  },
-  {
-    "id": "journey-of-water",
-    "name": "Journey of Water, Inspired by Moana",
-    "type": "detail",
-    "description": "Interactive outdoor trail celebrating the beauty and importance of water",
-    "waitTime": 15,
-    "bestTime": "Daytime or evening (for lighting)",
-    "categories": [
-      "walkthrough",
-      "outdoor",
-      "interactive"
-    ]
-  },
-  {
-    "id": "turtle-talk-crush",
-    "name": "Turtle Talk with Crush",
-    "type": "show",
-    "description": "Interactive conversation with Crush the sea turtle from Finding Nemo",
-    "waitTime": 20,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/epcot/turtle-talk-crush.jpg",
-    "categories": [
-      "show",
-      "indoor",
-      "interactive",
       "kids"
-    ]
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/epcot/stave-church-gallery/stave-church-gallery-05.jpg?1699630858547"
+  },
+  {
+    "id": "test-track",
+    "name": "Test Track",
+    "type": "ride",
+    "description": "Buckle up and get ready for high speeds and exhilarating bends while riding Test Track!",
+    "categories": [
+      "thrill",
+      "family",
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/test-track/0926ZL_07796OK_xak-16x9.jpg?2025-11-14T18:00:16+00:00"
   },
   {
     "id": "american-adventure",
     "name": "The American Adventure",
-    "type": "show",
-    "description": "Spectacular audio-animatronic show celebrating American history",
-    "waitTime": 20,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/epcot/american-adventure.jpg",
-    "categories": [
-      "show",
-      "indoor",
-      "educational"
-    ]
-  },
-  {
-    "id": "impressions-de-france",
-    "name": "Impressions de France",
-    "type": "show",
-    "description": "Film showcase of France's beauty in the Palais du Cin\u00e9ma",
-    "waitTime": 10,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/epcot/impressions-de-france.jpg",
-    "categories": [
-      "show",
-      "indoor",
-      "film"
-    ]
-  },
-  {
-    "id": "beauty-beast-singalong",
-    "name": "Beauty and the Beast Sing-Along",
-    "type": "show",
-    "description": "Sing-along film experience in the France pavilion",
-    "waitTime": 10,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/epcot/beauty-beast-singalong.jpg",
-    "categories": [
-      "show",
-      "indoor",
-      "film",
-      "musical"
-    ]
-  },
-  {
-    "id": "canada-far-wide",
-    "name": "Canada Far and Wide in Circle-Vision 360",
-    "type": "show",
-    "description": "360-degree film showcasing Canada's stunning landscapes",
-    "waitTime": 10,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/epcot/canada-far-wide.jpg",
-    "categories": [
-      "show",
-      "indoor",
-      "film"
-    ]
-  },
-  {
-    "id": "reflections-china",
-    "name": "Reflections of China",
-    "type": "show",
-    "description": "360-degree film tour of China's iconic landmarks",
-    "waitTime": 10,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/epcot/reflections-china.jpg",
-    "categories": [
-      "show",
-      "indoor",
-      "film"
-    ]
-  },
-  {
-    "id": "awesome-planet",
-    "name": "Awesome Planet",
-    "type": "show",
-    "description": "Film about Earth's beauty and environmental diversity in The Land",
-    "waitTime": 10,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "categories": [
-      "show",
-      "indoor",
-      "film",
-      "educational"
-    ]
-  },
-  {
-    "id": "pixar-short-film",
-    "name": "Disney & Pixar Short Film Festival",
-    "type": "show",
-    "description": "Collection of Pixar shorts in 4D with special effects",
-    "waitTime": 10,
-    "geniePlusEligible": false,
-    "bestTime": "Anytime",
-    "imageUrl": "/images/parks/epcot/pixar-short-film.jpg",
-    "categories": [
-      "show",
-      "indoor",
-      "3d",
-      "family"
-    ]
-  },
-  {
-    "id": "luminous",
-    "name": "Luminous The Symphony of Us",
-    "type": "show",
-    "description": "Nighttime spectacular with fireworks, fountains, and lasers on World Showcase Lagoon",
-    "bestTime": "Park closing time",
-    "categories": [
-      "fireworks",
-      "outdoor",
-      "show"
-    ]
-  },
-  {
-    "id": "imageworks",
-    "name": "ImageWorks - The What-If Labs",
-    "type": "detail",
-    "description": "Hands-on imagination activities after Journey Into Imagination",
-    "categories": [
-      "interactive",
-      "indoor",
-      "kids"
-    ]
-  },
-  {
-    "id": "mission-space-lab",
-    "name": "Mission: SPACE Advanced Training Lab",
-    "type": "detail",
-    "description": "Space-themed games and interactive activities",
-    "categories": [
-      "interactive",
-      "indoor",
-      "games"
-    ]
-  },
-  {
-    "id": "sea-base",
-    "name": "SeaBase",
-    "type": "detail",
-    "description": "Explore aquariums with sea life including dolphins, sharks, and manatees",
-    "categories": [
-      "aquarium",
-      "indoor",
-      "animals"
-    ]
-  },
-  {
-    "id": "anna-elsa-norway",
-    "name": "Meet Anna and Elsa at Royal Sommerhus",
-    "type": "character",
-    "description": "Meet Anna and Elsa in their summer cabin in Norway",
-    "waitTime": 45,
-    "geniePlusEligible": true,
-    "categories": [
-      "character",
-      "meet-and-greet",
-      "princess"
-    ]
-  },
-  {
-    "id": "character-spotting",
-    "name": "Meet Characters in World Showcase",
-    "type": "character",
-    "description": "Find Disney characters from around the world in their home pavilions",
-    "waitTime": 30,
-    "geniePlusEligible": true,
-    "imageUrl": "/images/parks/epcot/character-spotting.jpg",
-    "categories": [
-      "character",
-      "meet-and-greet",
-      "international"
-    ]
-  },
-  {
-    "id": "club-cool",
-    "name": "Club Cool",
-    "type": "food",
-    "description": "Sample free Coca-Cola beverages from around the world",
-    "imageUrl": "/images/parks/epcot/club-cool.jpg",
-    "categories": [
-      "snack",
-      "beverage",
-      "free"
-    ]
-  },
-  {
-    "id": "school-bakery",
-    "name": "Les Halles Boulangerie-Patisserie",
-    "type": "food",
-    "description": "Authentic French pastries and baked goods in France pavilion",
-    "imageUrl": "/images/parks/epcot/school-bakery.jpg",
-    "categories": [
-      "snack",
-      "bakery",
-      "french"
-    ]
-  },
-  {
-    "id": "karamell-kuche",
-    "name": "Karamell-K\u00fcche",
-    "type": "food",
-    "description": "German caramel treats in Germany pavilion",
-    "imageUrl": "/images/parks/epcot/karamell-kuche.jpg",
-    "categories": [
-      "snack",
-      "sweet",
-      "german"
-    ]
-  },
-  {
-    "id": "tangierine-cafe",
-    "name": "Tangierine Caf\u00e9",
-    "type": "food",
-    "description": "Moroccan cuisine in Morocco pavilion",
-    "imageUrl": "/images/parks/epcot/tangierine-cafe.jpg",
-    "categories": [
-      "meal",
-      "moroccan",
-      "international"
-    ]
-  },
-  {
-    "id": "la-cantina-san-angel",
-    "name": "La Cantina de San Angel",
-    "type": "food",
-    "description": "Mexican fare with lagoon-side outdoor seating",
-    "categories": [
-      "meal",
-      "mexican",
-      "outdoor-seating"
-    ]
-  },
-  {
-    "id": "kringla-bakeri",
-    "name": "Kringla Bakeri og Kafe",
-    "type": "food",
-    "description": "Norwegian pastries and school bread in Norway pavilion",
-    "categories": [
-      "snack",
-      "bakery",
-      "norwegian"
-    ]
-  },
-  {
-    "id": "crepes-chefs-france",
-    "name": "Cr\u00eapes \u00e0 Emporter by La Cr\u00eaperie de Paris",
-    "type": "food",
-    "description": "Sweet and savory French cr\u00eapes at the France pavilion",
-    "categories": [
-      "snack",
-      "meal",
-      "french"
-    ]
-  },
-  {
-    "id": "world-showcase",
-    "name": "Visit all 11 World Showcase Countries",
-    "type": "detail",
-    "description": "Walk around the World Showcase Lagoon and visit each unique pavilion",
-    "imageUrl": "/images/parks/epcot/world-showcase.jpg",
-    "categories": [
-      "challenge",
-      "outdoor",
-      "international"
-    ]
-  },
-  {
-    "id": "kidcot-fun-stops",
-    "name": "Kidcot Fun Stops",
-    "type": "detail",
-    "description": "Craft activities for kids at each World Showcase country",
-    "imageUrl": "/images/parks/epcot/kidcot-fun-stops.jpg",
+    "type": "ride",
+    "description": "Experience The American Adventure",
     "categories": [
       "kids",
-      "craft",
-      "international"
-    ]
+      "classic"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/parks-and-tickets/attractions/epcot/american-adventure/american-adventure-00.jpg?1671812857279"
   },
   {
-    "id": "jumping-fountain",
-    "name": "Jumping Fountains",
-    "type": "detail",
-    "description": "Synchronized water fountains that leap between pools",
-    "imageUrl": "/images/parks/epcot/jumping-fountain.jpg",
+    "id": "seas-with-nemo-and-friends",
+    "name": "The Seas with Nemo & Friends",
+    "type": "ride",
+    "description": "Journey into the ocean in a “clamobile” and explore The Seas with Nemo & Friends.",
     "categories": [
-      "hidden-gem",
-      "outdoor",
-      "entertainment"
-    ]
+      "family",
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/the-sea-with-nemo-and-friends/240824WS-300219-1-1-16x9.jpg?2025-09-15T21:58:04+00:00"
   },
   {
-    "id": "drinking-around-world",
-    "name": "Drink Around the World",
-    "type": "detail",
-    "description": "Sample adult beverages from each World Showcase pavilion",
+    "id": "turtle-talk-with-crush",
+    "name": "Turtle Talk With Crush",
+    "type": "ride",
+    "description": "Say hello to Crush, who waves to you with an enthusiastic welcome at Turtle Talk with Crush at Epcot.",
     "categories": [
-      "challenge",
-      "alcoholic",
-      "international"
-    ]
+      "kids"
+    ],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/gallery/attractions/epcot/turtle-talk-with-crush/turtle-talk-with-crush-gallery01.jpg?1768218498689"
+  },
+  {
+    "id": "voices-of-liberty",
+    "name": "Voices of Liberty",
+    "type": "show",
+    "description": "Un groupe de choristes de Dickens s'est réuni pour le Epcot’s Festival of Holidays au pavillon American Adventure",
+    "categories": [],
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/entertainment/voices-of-liberty/VoicesofLiberty-Amy-011725-8-16x9.jpg?2025-02-07T22:23:20+00:00"
   }
 ]
