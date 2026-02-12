@@ -2,7 +2,7 @@
   {
     "id": "ancient-sanctum",
     "name": "Ancient Sanctum",
-    "type": "show",
+    "type": "character",
     "description": "Experience Ancient Sanctum",
     "categories": [],
     "imageUrl": "/images/parks/dca/ancient-sanctum.jpg"
@@ -10,7 +10,7 @@
   {
     "id": "animation-academy",
     "name": "Animation Academy",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience Animation Academy",
     "categories": [
       "indoor",
@@ -22,7 +22,7 @@
   {
     "id": "character-meet-anna-and-elsa-frozen",
     "name": "Anna & Elsa's Royal Welcome",
-    "type": "show",
+    "type": "character",
     "description": "Anna crouches to hug a child as Elsa smiles at them",
     "categories": [
       "kids"
@@ -32,7 +32,7 @@
   {
     "id": "avengers-headquarters",
     "name": "Avengers Headquarters",
-    "type": "show",
+    "type": "character",
     "description": "Experience Avengers Headquarters",
     "categories": [],
     "imageUrl": "/images/parks/dca/avengers-headquarters.jpg"
@@ -76,7 +76,7 @@
   {
     "id": "visa-card-super-hero-character-experience",
     "name": "Disney® Visa® Cardmember Heroic Encounter",
-    "type": "show",
+    "type": "character",
     "description": "The Disney Visa card comes with great photo opportunities to meet your favorite heroes!",
     "categories": [],
     "imageUrl": "/images/parks/dca/visa-card-super-hero-character-experience.jpg"
@@ -84,7 +84,7 @@
   {
     "id": "visa-card-character-experience",
     "name": "Disney® Visa® Cardmember Photo Opportunity",
-    "type": "show",
+    "type": "character",
     "description": "Hang out with your favorite little monster and take advantage of the exclusive Disney Visa photo spot",
     "categories": [],
     "imageUrl": "/images/parks/dca/visa-card-character-experience.jpg"
@@ -102,7 +102,7 @@
   {
     "id": "games-pixar-pier",
     "name": "Games of Pixar Pier",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience Games of Pixar Pier",
     "categories": [
       "family",
@@ -165,7 +165,7 @@
   {
     "id": "guardians-galaxy-dance",
     "name": "Guardians of the Galaxy: Awesome Dance Off!",
-    "type": "show",
+    "type": "character",
     "description": "A girl dances with Star Lord, Gamora and other characters from Guardians of the Galaxy",
     "categories": [],
     "imageUrl": "/images/parks/dca/guardians-galaxy-dance.jpg"
@@ -269,7 +269,7 @@
   {
     "id": "meet-chef-goofy",
     "name": "Meet Chef Goofy",
-    "type": "show",
+    "type": "character",
     "description": "Experience Meet Chef Goofy",
     "categories": [
       "kids"
@@ -279,7 +279,7 @@
   {
     "id": "disney-pals-on-buena-vista-street",
     "name": "Meet Disney Pals on Buena Vista Street",
-    "type": "show",
+    "type": "character",
     "description": "Experience Meet Disney Pals on Buena Vista Street",
     "categories": [
       "kids"
@@ -289,7 +289,7 @@
   {
     "id": "meet-mickey-mouse-and-disney-friends",
     "name": "Meet Mickey Mouse and Disney Friends",
-    "type": "show",
+    "type": "character",
     "description": "Mickey Mouse and Minnie Mouse in festive costumes, welcoming Guests to a Lunar New Year celebration",
     "categories": [],
     "imageUrl": "/images/parks/dca/meet-mickey-mouse-and-disney-friends.jpg"
@@ -297,7 +297,7 @@
   {
     "id": "meet-mulan-and-mushu",
     "name": "Meet Mulan and Mushu",
-    "type": "show",
+    "type": "character",
     "description": "Mulan's New Year Procession with Mulan, costumed performers and a Chinese dragon puppet.",
     "categories": [],
     "imageUrl": "/images/parks/dca/meet-mulan-and-mushu.jpg"
@@ -305,7 +305,7 @@
   {
     "id": "character-meet-pixar-pals-pixar-pier",
     "name": "Meet Pixar Pals at Pixar Pier",
-    "type": "show",
+    "type": "character",
     "description": "A family takes photos with the characters Joy and Sadness from the Disney and Pixar film Inside Out",
     "categories": [],
     "imageUrl": "/images/parks/dca/character-meet-pixar-pals-pixar-pier.jpg"
@@ -313,7 +313,7 @@
   {
     "id": "character-meet-and-greet-turning-red",
     "name": "Meet Red Panda Mei from Turning Red",
-    "type": "show",
+    "type": "character",
     "description": "Experience Meet Red Panda Mei from Turning Red",
     "categories": [
       "kids"
@@ -323,7 +323,7 @@
   {
     "id": "character-meet-mater-mcqueen-cozy-cone-motel",
     "name": "Meet the Residents of Radiator Springs in Cars Land",
-    "type": "show",
+    "type": "character",
     "description": "Experience Meet the Residents of Radiator Springs in Cars Land",
     "categories": [
       "kids"
@@ -333,7 +333,7 @@
   {
     "id": "mickeys-philharmagic",
     "name": "Mickey's PhilharMagic",
-    "type": "ride",
+    "type": "show",
     "description": "Mickey Mouse casts a spell that sends Donald Duck flying with an array of musical instruments",
     "categories": [
       "family"
@@ -450,7 +450,7 @@
   {
     "id": "redwood-creek-challenge-trail",
     "name": "Redwood Creek Challenge Trail",
-    "type": "ride",
+    "type": "exhibit",
     "description": "Redwood Creek Challenge Trail",
     "categories": [
       "family",
@@ -498,7 +498,7 @@
   {
     "id": "sorcerers-workshop",
     "name": "Sorcerer's Workshop",
-    "type": "ride",
+    "type": "experience",
     "description": "Sorcerers Workshop",
     "categories": [
       "dark",
@@ -511,7 +511,7 @@
   {
     "id": "bakery-tour",
     "name": "The Bakery Tour",
-    "type": "ride",
+    "type": "experience",
     "description": "Outdoor signage for The Bakery Tour hosted by Boudin Bakery, located in San Fransokyo Square at Disney California Adventure Park",
     "categories": [
       "indoor",

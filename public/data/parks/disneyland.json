@@ -17,7 +17,7 @@
   {
     "id": "adventureland-treehouse",
     "name": "Adventureland Treehouse inspired by Walt Disney’s Swiss Family Robinson",
-    "type": "ride",
+    "type": "experience",
     "description": "Visit the Adventureland Treehouse, where a new family has moved in and created an oasis among the trees!",
     "categories": [
       "family",
@@ -107,7 +107,7 @@
   {
     "id": "centoonial-park",
     "name": "CenTOONial Park",
-    "type": "ride",
+    "type": "experience",
     "description": "A tree with lanterns hanging from the branches at Centoonial Park in Mickey’s Toontown",
     "categories": [
       "family"
@@ -140,7 +140,7 @@
   {
     "id": "visa-card-star-wars-character-experience",
     "name": "Disney® Visa® Cardmember Star Wars Photo Opportunity",
-    "type": "show",
+    "type": "character",
     "description": "Experience Disney® Visa® Cardmember Star Wars Photo Opportunity",
     "categories": [],
     "imageUrl": "/images/parks/dl/visa-card-star-wars-character-experience.jpg"
@@ -148,7 +148,7 @@
   {
     "id": "disneyland-monorail",
     "name": "Disneyland Monorail",
-    "type": "ride",
+    "type": "transportation",
     "description": "na",
     "categories": [
       "family",
@@ -159,7 +159,7 @@
   {
     "id": "disneyland-railroad",
     "name": "Disneyland Railroad",
-    "type": "ride",
+    "type": "transportation",
     "description": "Disneyland Railroad train stopped at the Main Street Station with Guests in open air passenger cars",
     "categories": [
       "family",
@@ -173,7 +173,7 @@
   {
     "id": "donalds-duck-pond",
     "name": "Donald's Duck Pond",
-    "type": "ride",
+    "type": "experience",
     "description": "Donald Duck’s Pond featuring a splash area around Donald’s Boat in Mickey’s Toontown",
     "categories": [
       "family",
@@ -197,7 +197,7 @@
   {
     "id": "fantasmic",
     "name": "Fantasmic!",
-    "type": "show",
+    "type": "character",
     "description": "Fantasmic! at Disneyland Resorts",
     "categories": [
       "kids"
@@ -207,7 +207,7 @@
   {
     "id": "fantasy-faire",
     "name": "Fantasy Faire",
-    "type": "show",
+    "type": "character",
     "description": "FantasyeFaire",
     "categories": [
       "indoor",
@@ -249,7 +249,7 @@
   {
     "id": "fortune-tellers",
     "name": "Fortune Tellers",
-    "type": "ride",
+    "type": "experience",
     "description": "A fortune telling machine features a stern looking woman in flashy clothing named Esmeralda",
     "categories": [
       "family"
@@ -270,7 +270,7 @@
   {
     "id": "goofys-how-to-play-yard",
     "name": "Goofy's How-to-Play Yard",
-    "type": "ride",
+    "type": "experience",
     "description": "Goofy’s How to Play Yard featuring a playground in Mickey’s Toontown at Disneyland Park",
     "categories": [
       "family",
@@ -354,7 +354,7 @@
   {
     "id": "key-to-disneyland",
     "name": "Key to Disneyland",
-    "type": "ride",
+    "type": "experience",
     "description": "A girl wearing a Disneyland 70th anniversary ear headband and her mother, both playing with a bubble blower near Sleeping Beauty Castle",
     "categories": [],
     "imageUrl": "/images/parks/dl/key-to-disneyland.jpg"
@@ -402,7 +402,7 @@
   {
     "id": "main-street-vehicles",
     "name": "Main Street Vehicles",
-    "type": "ride",
+    "type": "transportation",
     "description": "Main Street Vehicles",
     "categories": [
       "family",
@@ -443,7 +443,7 @@
   {
     "id": "character-meet-princesses-royal-hall",
     "name": "Meet Disney Princesses at Royal Hall",
-    "type": "show",
+    "type": "character",
     "description": "Character Meet Princesses Royal Hall",
     "categories": [
       "kids"
@@ -453,7 +453,7 @@
   {
     "id": "pixie-hollow-tinkerbell-fairy-friends",
     "name": "Meet Tinker Bell in Pixie Hollow",
-    "type": "show",
+    "type": "character",
     "description": "Tinker Bell laughing",
     "categories": [
       "kids"
@@ -504,7 +504,7 @@
   {
     "id": "minnies-house",
     "name": "Minnie's House",
-    "type": "ride",
+    "type": "experience",
     "description": "The outside of Minnie’s House in Mickey’s Toontown at Disneyland Park",
     "categories": [
       "indoor",
@@ -531,7 +531,7 @@
   {
     "id": "main-street-opera-house",
     "name": "Opera House",
-    "type": "ride",
+    "type": "experience",
     "description": "The façade and entrance of the Opera House on Main Street, USA at Disneyland Park",
     "categories": [
       "classic"
@@ -580,7 +580,7 @@
   {
     "id": "pirates-lair-on-tom-sawyer-island",
     "name": "Pirate's Lair on Tom Sawyer Island",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience Pirate's Lair on Tom Sawyer Island",
     "categories": [
       "family",
@@ -608,7 +608,7 @@
   {
     "id": "pixar-pals-playtime-party",
     "name": "Pixar Pals Playtime Party",
-    "type": "show",
+    "type": "character",
     "description": "Sadness and Joy from ′Inside Out′ posing in front of a singer performing on a stage\t",
     "categories": [],
     "imageUrl": "/images/parks/dl/pixar-pals-playtime-party.jpg"
@@ -653,7 +653,7 @@
   {
     "id": "sleeping-beauty-castle-walkthrough",
     "name": "Sleeping Beauty Castle Walkthrough",
-    "type": "ride",
+    "type": "experience",
     "description": "Surrounded by water, Sleeping Beauty Castle features a flag lined bridge leading up to its entrance",
     "categories": [
       "dark",
@@ -696,7 +696,7 @@
   {
     "id": "original-attractions-quest",
     "name": "Special MagicBand+ Interactions During the 70th Celebration",
-    "type": "ride",
+    "type": "experience",
     "description": "A Guest wearing a Disneyland Resort 70th Celebration Magic Band Plus",
     "categories": [],
     "imageUrl": "/images/parks/dl/original-attractions-quest.jpg"
@@ -718,7 +718,7 @@
   {
     "id": "star-wars-galaxys-edge-play-app",
     "name": "Star Wars: Datapad on Play Disney Parks Mobile App",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience Star Wars: Datapad on Play Disney Parks Mobile App",
     "categories": [
       "family"
@@ -756,7 +756,7 @@
   {
     "id": "storytelling-royal-theatre",
     "name": "Storytelling at Royal Theatre",
-    "type": "show",
+    "type": "character",
     "description": "Storytelling Royal Theater",
     "categories": [
       "indoor",
@@ -794,7 +794,7 @@
   {
     "id": "disney-gallery",
     "name": "The Disney Gallery",
-    "type": "ride",
+    "type": "exhibit",
     "description": "The Disney Gallery",
     "categories": [
       "indoor",
@@ -849,7 +849,7 @@
   {
     "id": "enchanted-tiki-room",
     "name": "Walt Disney's Enchanted Tiki Room",
-    "type": "ride",
+    "type": "show",
     "description": "Walt Disney's Enchanted Tiki Room",
     "categories": [
       "dark",

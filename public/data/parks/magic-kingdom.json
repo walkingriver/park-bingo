@@ -14,7 +14,7 @@
   {
     "id": "pirates-adventures",
     "name": "A Pirate's Adventure ~ Treasures of the Seven Seas",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience A Pirate's Adventure ~ Treasures of the Seven Seas",
     "categories": [
       "kids"
@@ -60,7 +60,7 @@
   {
     "id": "casey-jr-splash-n-soak-station",
     "name": "Casey Jr. Splash 'N' Soak Station",
-    "type": "ride",
+    "type": "experience",
     "description": "Casey Jr. Splash 'N' Soak Station",
     "categories": [
       "water",
@@ -81,7 +81,7 @@
   {
     "id": "cinderella-castle",
     "name": "Cinderella Castle",
-    "type": "ride",
+    "type": "experience",
     "description": "A rainbow arches over Cinderella Castle at Magic Kingdom Park",
     "categories": [
       "kids"
@@ -91,7 +91,7 @@
   {
     "id": "country-bear-jamboree",
     "name": "Country Bear Musical Jamboree",
-    "type": "ride",
+    "type": "show",
     "description": "Experience Country Bear Musical Jamboree",
     "categories": [
       "kids",
@@ -112,7 +112,7 @@
   {
     "id": "fab-50-character-collection",
     "name": "Disney Fab 50 Character Collection",
-    "type": "character",
+    "type": "experience",
     "description": "A dad takes a selfie while his kids hold lightsabers in front of a statue of Artoo Deetoo",
     "categories": [],
     "imageUrl": "/images/parks/mk/fab-50-character-collection.jpg"
@@ -130,7 +130,7 @@
   {
     "id": "starlight-dream-night-away-parade",
     "name": "Disney Starlight: Dream the Night Away – New!",
-    "type": "show",
+    "type": "character",
     "description": "Elsa on a float in the Disney Starlight, Dream the Night Away parade at Magic Kingdom park",
     "categories": [],
     "imageUrl": "/images/parks/mk/starlight-dream-night-away-parade.jpg"
@@ -151,7 +151,7 @@
   {
     "id": "enchanted-tales-with-belle",
     "name": "Enchanted Tales with Belle",
-    "type": "ride",
+    "type": "experience",
     "description": "Enchanted Tales with Belle",
     "categories": [
       "kids"
@@ -181,7 +181,7 @@
   {
     "id": "disney-animals-horses",
     "name": "Horses - Disney Animals",
-    "type": "ride",
+    "type": "exhibit",
     "description": "Horses - Disney Animals",
     "categories": [],
     "imageUrl": "/images/parks/mk/disney-animals-horses.jpg"
@@ -235,7 +235,7 @@
   {
     "id": "main-street-vehicles",
     "name": "Main Street Vehicles",
-    "type": "ride",
+    "type": "transportation",
     "description": "A jitney driving down Main Street, USA",
     "categories": [
       "family",
@@ -247,7 +247,7 @@
   {
     "id": "character-meet-ariel-grotto-fantasyland",
     "name": "Meet Ariel at Her Grotto",
-    "type": "show",
+    "type": "character",
     "description": "Meet Ariel at Her Grotto in Fantasyland",
     "categories": [
       "indoor",
@@ -258,7 +258,7 @@
   {
     "id": "character-meet-aladdin",
     "name": "Meet Characters from Aladdin in Adventureland",
-    "type": "show",
+    "type": "character",
     "description": "Meet Aladdin at The Magic Carpets of Aladdin",
     "categories": [
       "kids"
@@ -268,7 +268,7 @@
   {
     "id": "character-meet-princess-fantasyland",
     "name": "Meet Cinderella and a Visiting Princess at Princess Fairytale Hall",
-    "type": "show",
+    "type": "character",
     "description": "Cinderella stands next to a large window styled with drapes",
     "categories": [
       "indoor",
@@ -279,7 +279,7 @@
   {
     "id": "character-meet-goofy-donald",
     "name": "Meet Daring Disney Pals as Circus Stars at Pete's Silly Sideshow",
-    "type": "show",
+    "type": "character",
     "description": "Experience Meet Daring Disney Pals as Circus Stars at Pete's Silly Sideshow",
     "categories": [
       "kids"
@@ -289,7 +289,7 @@
   {
     "id": "character-meet-minnie-daisy",
     "name": "Meet Dashing Disney Pals as Circus Stars at Pete's Silly Sideshow",
-    "type": "show",
+    "type": "character",
     "description": "Experience Meet Dashing Disney Pals as Circus Stars at Pete's Silly Sideshow",
     "categories": [
       "kids"
@@ -299,7 +299,7 @@
   {
     "id": "character-meet-mickey-town-square",
     "name": "Meet Mickey at Town Square Theater",
-    "type": "show",
+    "type": "character",
     "description": "Mickey Mouse wears a cape and stands with his arms crossed in front of a large trunk and a pile of books ",
     "categories": [
       "indoor",
@@ -310,7 +310,7 @@
   {
     "id": "character-meet-mirabel",
     "name": "Meet Mirabel at Fairytale Garden",
-    "type": "show",
+    "type": "character",
     "description": "A young girl dressed like Mirabel Madrigal holding hands with Mirabel Madrigal at Fairytale Garden\t",
     "categories": [],
     "imageUrl": "/images/parks/mk/character-meet-mirabel.jpg"
@@ -318,7 +318,7 @@
   {
     "id": "character-meet-peter-pan",
     "name": "Meet Peter Pan in Fantasyland",
-    "type": "show",
+    "type": "character",
     "description": "Peter Pan in Fantasyland",
     "categories": [
       "kids"
@@ -328,7 +328,7 @@
   {
     "id": "character-meet-princess-fairytale-hall",
     "name": "Meet Princess Tiana and a Visiting Princess at Princess Fairytale Hall",
-    "type": "show",
+    "type": "character",
     "description": "Princess Tiana poses in front of a window",
     "categories": [
       "indoor",
@@ -339,7 +339,7 @@
   {
     "id": "character-meet-winnie-tigger-fantasyland",
     "name": "Meet Winnie the Pooh and Tigger at The Thotful Spot",
-    "type": "show",
+    "type": "character",
     "description": "Experience Meet Winnie the Pooh and Tigger at The Thotful Spot",
     "categories": [
       "kids"
@@ -359,7 +359,7 @@
   {
     "id": "mickeys-philharmagic",
     "name": "Mickey's PhilharMagic",
-    "type": "ride",
+    "type": "show",
     "description": "Experience Mickey's PhilharMagic",
     "categories": [
       "kids"
@@ -369,7 +369,7 @@
   {
     "id": "monsters-inc-laugh-floor",
     "name": "Monsters Inc. Laugh Floor",
-    "type": "ride",
+    "type": "show",
     "description": "Check out the funniest Monsters of Comedy, who will perform wacky improvisation—maybe even with you.",
     "categories": [
       "kids"
@@ -428,7 +428,7 @@
   {
     "id": "smellephants-on-parade",
     "name": "Smellephants on Parade",
-    "type": "show",
+    "type": "experience",
     "description": "A statue of a Pink Elephant from 'Dumbo', painted like a popcorn bucket",
     "categories": [],
     "imageUrl": "/images/parks/mk/smellephants-on-parade.jpg"
@@ -448,7 +448,7 @@
   {
     "id": "swiss-family-treehouse",
     "name": "Swiss Family Treehouse",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience Swiss Family Treehouse",
     "categories": [
       "kids",
@@ -480,7 +480,7 @@
   {
     "id": "hall-of-presidents",
     "name": "The Hall of Presidents",
-    "type": "ride",
+    "type": "experience",
     "description": "The Hall of Presidents",
     "categories": [
       "kids",
@@ -525,7 +525,7 @@
   {
     "id": "tomorrowland-speedway",
     "name": "Tomorrowland Speedway",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience Tomorrowland Speedway",
     "categories": [
       "kids",
@@ -536,7 +536,7 @@
   {
     "id": "tomorrowland-transit-authority-peoplemover",
     "name": "Tomorrowland Transit Authority PeopleMover",
-    "type": "ride",
+    "type": "transportation",
     "description": "Experience Tomorrowland Transit Authority PeopleMover",
     "categories": [
       "family",
@@ -571,7 +571,7 @@
   {
     "id": "walt-disney-world-railroad-fantasyland",
     "name": "Walt Disney World Railroad - Fantasyland",
-    "type": "ride",
+    "type": "transportation",
     "description": "The Walt Disney World Railroad at the Fantasyland station",
     "categories": [
       "family",
@@ -583,7 +583,7 @@
   {
     "id": "walt-disney-world-railroad-frontierland",
     "name": "Walt Disney World Railroad - Frontierland",
-    "type": "ride",
+    "type": "transportation",
     "description": "The Walt Disney World Railroad at the Frontierland station",
     "categories": [
       "family",
@@ -595,7 +595,7 @@
   {
     "id": "walt-disney-world-railroad",
     "name": "Walt Disney World Railroad - Main Street, U.S.A.",
-    "type": "ride",
+    "type": "transportation",
     "description": "The Walt Disney World Railroad at the Main Street, USA station",
     "categories": [
       "kids",
@@ -618,7 +618,7 @@
   {
     "id": "enchanted-tiki-room",
     "name": "Walt Disney's Enchanted Tiki Room",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience Walt Disney's Enchanted Tiki Room",
     "categories": [
       "kids",

@@ -2,7 +2,7 @@
   {
     "id": "mission-space-advanced-training-lab",
     "name": "Advanced Training Lab",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience Advanced Training Lab",
     "categories": [
       "kids"
@@ -12,7 +12,7 @@
   {
     "id": "american-heritage-gallery",
     "name": "American Heritage Gallery",
-    "type": "ride",
+    "type": "exhibit",
     "description": "Experience American Heritage Gallery",
     "categories": [
       "kids"
@@ -22,7 +22,7 @@
   {
     "id": "the-land-awesome-planet",
     "name": "Awesome Planet",
-    "type": "ride",
+    "type": "show",
     "description": "Family stands on a mountain looking at a beautiful blue and yellow night sky",
     "categories": [
       "kids"
@@ -32,7 +32,7 @@
   {
     "id": "beauty-and-the-beast-sing-along",
     "name": "Beauty and the Beast Sing-Along",
-    "type": "ride",
+    "type": "show",
     "description": "Candles and books surround a gold framed image of Beauty and the Beast's LeFou character",
     "categories": [
       "kids"
@@ -42,7 +42,7 @@
   {
     "id": "bijutsu-kan-gallery",
     "name": "Bijutsu-kan Gallery",
-    "type": "ride",
+    "type": "exhibit",
     "description": "Experience Bijutsu-kan Gallery",
     "categories": [
       "kids"
@@ -52,7 +52,7 @@
   {
     "id": "bruces-shark-world",
     "name": "Bruce's Shark World",
-    "type": "ride",
+    "type": "experience",
     "description": "Bruces Shark World",
     "categories": [
       "kids"
@@ -62,7 +62,7 @@
   {
     "id": "canada-far-and-wide",
     "name": "Canada Far and Wide in Circle-Vision 360",
-    "type": "ride",
+    "type": "show",
     "description": "Visit the theater inside the Canada Pavilion to see a Circle-Vision 360° movie, Canada Far and Wide.",
     "categories": [
       "kids",
@@ -81,7 +81,7 @@
   {
     "id": "disney-animals-coral-reefs",
     "name": "Coral Reefs - Disney Animals",
-    "type": "ride",
+    "type": "exhibit",
     "description": "Experience Coral Reefs - Disney Animals",
     "categories": [
       "kids"
@@ -91,7 +91,7 @@
   {
     "id": "disney-pixar-short-film-festival",
     "name": "Disney and Pixar Short Film Festival",
-    "type": "ride",
+    "type": "show",
     "description": "Experience Disney and Pixar Short Film Festival",
     "categories": [
       "dark",
@@ -103,7 +103,7 @@
   {
     "id": "ducktales-play-app",
     "name": "Disney’s DuckTales World Showcase Adventure",
-    "type": "ride",
+    "type": "experience",
     "description": "2 Guests hold a cellphone to make a Donald Duck figurine to appear during the DuckTales World Showcase Adventure",
     "categories": [],
     "imageUrl": "/images/parks/epcot/ducktales-play-app.jpg"
@@ -111,7 +111,7 @@
   {
     "id": "visa-card-character-experience",
     "name": "Disney® Visa® Cardmember Photo Opportunity at EPCOT",
-    "type": "show",
+    "type": "character",
     "description": "A Guest posing for a picture with Pluto and Mickey Mouse in the Disney Visa photo spot at Epcot",
     "categories": [],
     "imageUrl": "/images/parks/epcot/visa-card-character-experience.jpg"
@@ -119,7 +119,7 @@
   {
     "id": "dreamers-point",
     "name": "Dreamers Point",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience Dreamers Point",
     "categories": [
       "kids"
@@ -161,7 +161,7 @@
   {
     "id": "frozen",
     "name": "Frozen at Walt Disney World Resort",
-    "type": "ride",
+    "type": "experience",
     "description": "Anna and Elsa smile at each other at Royal Sommerhus in EPCOT",
     "categories": [
       "kids"
@@ -183,7 +183,7 @@
   {
     "id": "gallery-arts-and-history",
     "name": "Gallery of Arts and History",
-    "type": "ride",
+    "type": "exhibit",
     "description": "Experience Gallery of Arts and History",
     "categories": [
       "kids"
@@ -216,7 +216,7 @@
   {
     "id": "house-of-the-whispering-willows-gallery",
     "name": "House of the Whispering Willows",
-    "type": "ride",
+    "type": "experience",
     "description": "The interior of House of Whispering Willows at Shanghai Disney Resort featuring display cases with Disney artwork and 4 mannequins in vintage costumes",
     "categories": [
       "kids"
@@ -226,7 +226,7 @@
   {
     "id": "imageworks",
     "name": "ImageWorks - The \"What If\" Labs",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience ImageWorks - The \"What If\" Labs",
     "categories": [
       "kids"
@@ -236,7 +236,7 @@
   {
     "id": "impressions-de-france",
     "name": "Impressions de France",
-    "type": "ride",
+    "type": "experience",
     "description": "Watch Impressions de France, an 18-minute film about France at the France Pavilion.",
     "categories": [
       "kids"
@@ -267,7 +267,7 @@
   {
     "id": "journey-of-water",
     "name": "Journey of Water, Inspired by Moana",
-    "type": "ride",
+    "type": "experience",
     "description": "A small waterfall over a rock formation that features the Heart of Te Fiti symbol on the Journey of Water, Inspired by Moana trail",
     "categories": [
       "kids"
@@ -277,7 +277,7 @@
   {
     "id": "kidcot-fun-stops",
     "name": "Kidcot Fun Stops",
-    "type": "ride",
+    "type": "experience",
     "description": "A sign that reads Kidcot Fun Stop",
     "categories": [
       "kids"
@@ -287,7 +287,7 @@
   {
     "id": "leave-a-legacy",
     "name": "Leave A Legacy",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience Leave A Legacy",
     "categories": [],
     "imageUrl": "/images/parks/epcot/leave-a-legacy.jpg"
@@ -329,7 +329,7 @@
   {
     "id": "disney-animals-manatees",
     "name": "Manatees - Disney Animals",
-    "type": "ride",
+    "type": "exhibit",
     "description": "A manatee eats lettuce underwater",
     "categories": [],
     "imageUrl": "/images/parks/epcot/disney-animals-manatees.jpg"
@@ -353,7 +353,7 @@
   {
     "id": "character-meet-winnie-the-pooh",
     "name": "Meet a Friend from the Hundred Acre Wood in the United Kingdom",
-    "type": "show",
+    "type": "character",
     "description": "Winnie the Pooh standing in the middle of a bedroom with many toys, books and pillows",
     "categories": [
       "kids"
@@ -363,7 +363,7 @@
   {
     "id": "character-meet-alice-in-wonderland-uk",
     "name": "Meet Alice in the United Kingdom",
-    "type": "show",
+    "type": "character",
     "description": "Alice strikes a pose in a garden",
     "categories": [
       "kids"
@@ -373,7 +373,7 @@
   {
     "id": "character-meet-anna-elsa-royal-sommerhus",
     "name": "Meet Anna and Elsa at Royal Sommerhus",
-    "type": "show",
+    "type": "character",
     "description": "Anna smiles at Elsa as they stand in the Norway Pavilion in EPCOT",
     "categories": [
       "indoor",
@@ -384,7 +384,7 @@
   {
     "id": "character-meet-asha",
     "name": "Meet Asha Near World Showcase Plaza",
-    "type": "show",
+    "type": "character",
     "description": "Asha poses in front of a brick wall surrounded by plants and lanterns",
     "categories": [
       "kids"
@@ -394,7 +394,7 @@
   {
     "id": "character-meet-belle",
     "name": "Meet Belle in France",
-    "type": "show",
+    "type": "character",
     "description": "Belle, wearing her village dress, clasps her hands to her chest",
     "categories": [],
     "imageUrl": "/images/parks/epcot/character-meet-belle.jpg"
@@ -402,7 +402,7 @@
   {
     "id": "character-meet-disney-pals-communicore-hall",
     "name": "Meet Beloved Disney Pals at Mickey & Friends",
-    "type": "show",
+    "type": "character",
     "description": "Experience Meet Beloved Disney Pals at Mickey & Friends",
     "categories": [],
     "imageUrl": "/images/parks/epcot/character-meet-disney-pals-communicore-hall.jpg"
@@ -410,7 +410,7 @@
   {
     "id": "character-meet-donald-duck-mexico",
     "name": "Meet Donald Duck in Mexico",
-    "type": "show",
+    "type": "character",
     "description": "Experience Meet Donald Duck in Mexico",
     "categories": [
       "kids"
@@ -420,7 +420,7 @@
   {
     "id": "character-meet-figment",
     "name": "Meet Figment Inside ImageWorks",
-    "type": "show",
+    "type": "character",
     "description": "Figment the dragon gives high fives to 2 young children while their father watches them and smiles",
     "categories": [],
     "imageUrl": "/images/parks/epcot/character-meet-figment.jpg"
@@ -428,7 +428,7 @@
   {
     "id": "character-meet-mulan",
     "name": "Meet Mulan in China",
-    "type": "show",
+    "type": "character",
     "description": "Meet Mulan in China Pavilion",
     "categories": [
       "kids"
@@ -438,7 +438,7 @@
   {
     "id": "character-meet-disney-pals-main-entrance",
     "name": "Meet Pluto Near EPCOT Main Entrance",
-    "type": "show",
+    "type": "character",
     "description": "Pluto posing and pulling his ears at the Main Entrance of Epcot",
     "categories": [
       "kids"
@@ -448,7 +448,7 @@
   {
     "id": "character-meet-aurora-france",
     "name": "Meet Princess Aurora in France",
-    "type": "show",
+    "type": "character",
     "description": "Meet Aurora in the Gardens of France",
     "categories": [
       "kids"
@@ -458,7 +458,7 @@
   {
     "id": "character-meet-jasmine",
     "name": "Meet Princess Jasmine in Morocco",
-    "type": "show",
+    "type": "character",
     "description": "Meet Princess Jasmine in Morocco",
     "categories": [
       "kids"
@@ -468,7 +468,7 @@
   {
     "id": "character-meet-snow-white",
     "name": "Meet Snow White in Germany",
-    "type": "show",
+    "type": "character",
     "description": "Experience Meet Snow White in Germany",
     "categories": [
       "kids"
@@ -478,7 +478,7 @@
   {
     "id": "character-meet-star-lord",
     "name": "Meet Star-Lord near Guardians of the Galaxy: Cosmic Rewind",
-    "type": "show",
+    "type": "character",
     "description": "Star Lord standing in front of Guardians of the Galaxy Cosmic Rewind at Epcot",
     "categories": [],
     "imageUrl": "/images/parks/epcot/character-meet-star-lord.jpg"
@@ -486,7 +486,7 @@
   {
     "id": "mexican-folk-art-gallery",
     "name": "Mexico Folk Art Gallery",
-    "type": "ride",
+    "type": "exhibit",
     "description": "Celebrate the traditions of Día de Muertos at the Mexican Pavilion in Epcot.",
     "categories": [
       "kids"
@@ -517,7 +517,7 @@
   {
     "id": "project-tomorrow-inventing-the-wonders-of-the-future",
     "name": "Project Tomorrow: Inventing the Wonders of the Future",
-    "type": "ride",
+    "type": "experience",
     "description": "A father holding his smiling young daughter in his arms as he walks towards Spaceship Earth at Epcot",
     "categories": [
       "kids"
@@ -527,7 +527,7 @@
   {
     "id": "disney-animals-reef-fish",
     "name": "Reef Fish - Disney Animals",
-    "type": "ride",
+    "type": "exhibit",
     "description": "Experience Reef Fish - Disney Animals",
     "categories": [],
     "imageUrl": "/images/parks/epcot/disney-animals-reef-fish.jpg"
@@ -535,7 +535,7 @@
   {
     "id": "reflections-of-china",
     "name": "Reflections of China",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience Reflections of China",
     "categories": [
       "kids",
@@ -546,7 +546,7 @@
   {
     "id": "remys-ratatouille-adventure",
     "name": "Remy's Ratatouille Adventure",
-    "type": "ride",
+    "type": "experience",
     "description": "Get whisked away on an exciting culinary caper at Remy’s Ratatouille Adventure, located in the France Pavilion at Epcot.",
     "categories": [],
     "imageUrl": "/images/parks/epcot/remys-ratatouille-adventure.jpg"
@@ -564,7 +564,7 @@
   {
     "id": "disney-animals-sea-turtles",
     "name": "Sea Turtles - Disney Animals",
-    "type": "ride",
+    "type": "exhibit",
     "description": "Experience Sea Turtles - Disney Animals",
     "categories": [
       "kids"
@@ -574,7 +574,7 @@
   {
     "id": "sea-base-aquarium",
     "name": "SeaBase Aquarium",
-    "type": "ride",
+    "type": "exhibit",
     "description": "Get up close and personal with various fish at The Seas with Nemo & Friends Pavilion at Epcot.",
     "categories": [
       "kids"
@@ -594,7 +594,7 @@
   {
     "id": "disney-animals-sharks-and-rays",
     "name": "Sharks and Rays - Disney Animals",
-    "type": "ride",
+    "type": "exhibit",
     "description": "Experience Sharks and Rays - Disney Animals",
     "categories": [
       "kids"
@@ -627,7 +627,7 @@
   {
     "id": "stave-church-gallery",
     "name": "Stave Church Gallery",
-    "type": "ride",
+    "type": "exhibit",
     "description": "Experience Stave Church Gallery",
     "categories": [
       "kids"
@@ -649,7 +649,7 @@
   {
     "id": "american-adventure",
     "name": "The American Adventure",
-    "type": "ride",
+    "type": "experience",
     "description": "Experience The American Adventure",
     "categories": [
       "kids",
@@ -671,7 +671,7 @@
   {
     "id": "turtle-talk-with-crush",
     "name": "Turtle Talk With Crush",
-    "type": "ride",
+    "type": "experience",
     "description": "Say hello to Crush, who waves to you with an enthusiastic welcome at Turtle Talk with Crush at Epcot.",
     "categories": [
       "kids"

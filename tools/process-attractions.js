@@ -82,39 +82,99 @@ function mapCategories(facets) {
   return Array.from(categories);
 }
 
-// Determine attraction type from facets and name
+// Determine attraction type from entityType, facets, and name
 function determineType(attraction) {
+  const entityType = attraction.entityType;
   const facets = attraction.facets || {};
   const interests = facets.interests || [];
+  const entertainmentType = facets.entertainmentType || [];
+  const thrillFactor = facets.thrillFactor || [];
   const name = attraction.name.toLowerCase();
   const url = (attraction.url || '').toLowerCase();
   
-  // Shows, parades, fireworks
-  if (interests.includes('shows') || interests.includes('live-entertainment')) {
-    return 'show';
-  }
-  if (name.includes('firework') || name.includes('parade') || name.includes('cavalcade') ||
-      name.includes('ceremony') || name.includes('lighting') || name.includes('world of color') ||
-      name.includes('fantasmic') || name.includes('harmonious') || name.includes('luminous')) {
-    return 'show';
-  }
-  if (url.includes('/entertainment/')) {
+  // Entertainment entity types
+  if (entityType === 'Entertainment') {
+    // Character meet and greets
+    if (entertainmentType.includes('character-experiences') ||
+        name.includes('meet ') || name.includes('character ')) {
+      return 'character';
+    }
+    // Everything else is a show
     return 'show';
   }
   
-  // Characters
-  if (interests.includes('character-experience') || name.includes('meet ') || 
-      name.includes('character ') || url.includes('character')) {
-    return 'character';
+  // Attraction entity types
+  if (entityType === 'Attraction') {
+    // Check if it's actually a ride (has thrillFactor with ride indicators)
+    const rideIndicators = ['slow-rides', 'thrill-rides', 'water-rides', 'spinning', 
+                           'big-drops', 'small-drops', 'dark', 'loud', 'scary'];
+    const isRide = thrillFactor.some(t => rideIndicators.includes(t));
+    
+    // Transportation (monorails, trains, boats that take you places)
+    // Be specific to avoid catching "Big Thunder Mountain Railroad"
+    const transportationNames = [
+      'disneyland railroad', 'disneyland monorail',
+      'walt disney world railroad', 'disney skyliner',
+      'tomorrowland transit authority peoplemover',
+      'wildlife express train', 'main street vehicles'
+    ];
+    if (transportationNames.some(t => name.includes(t))) {
+      return 'transportation';
+    }
+    
+    // Animal exhibits and galleries
+    if (interests.includes('animal-encounters-attractions') ||
+        interests.includes('animal-encounters-events') ||
+        name.includes('disney animals') || name.includes('exhibit') ||
+        name.includes('gallery') || name.includes('trail') ||
+        name.includes('trek') || name.includes('aquarium')) {
+      return 'exhibit';
+    }
+    
+    // Shows within attractions (sing-alongs, films, theaters)
+    if (name.includes('sing-along') || name.includes('sing along') ||
+        name.includes('film festival') || name.includes('philharmagic') ||
+        name.includes('circle-vision') || name.includes('theater') ||
+        name.includes('theatre') || name.includes('awesome planet') ||
+        interests.includes('stage-shows')) {
+      return 'show';
+    }
+    
+    // Interactive experiences and play areas
+    if (interests.includes('play-areas') || 
+        name.includes('playground') || name.includes('play yard') ||
+        name.includes('play area') || name.includes('splash pad') ||
+        name.includes('splash n soak') || name.includes('training lab') ||
+        name.includes('workshop')) {
+      return 'experience';
+    }
+    
+    // Walkthroughs and exploration (but not ride names with similar words)
+    if (name.includes('walkthrough') || name.includes('walk-through') ||
+        name.includes('treehouse') || name.includes('exploration trail') ||
+        name.includes('discovery trail')) {
+      return 'experience';
+    }
+    
+    // If it has ride indicators, it's a ride
+    if (isRide) {
+      return 'ride';
+    }
+    
+    // URL-based fallback
+    if (url.includes('/attractions/')) {
+      // Default non-ride attractions to experience
+      return 'experience';
+    }
   }
   
-  // Food/dining
+  // Food/dining (shouldn't appear in attractions but just in case)
   if (url.includes('/dining/') || url.includes('/restaurants/')) {
     return 'food';
   }
   
-  // Default to ride
-  return 'ride';
+  // Default to experience for unknown items
+  return 'experience';
 }
 
 // Get image URL - use local bundled images

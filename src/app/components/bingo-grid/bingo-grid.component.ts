@@ -33,6 +33,8 @@ export class BingoGridComponent {
       ride: '🎢',
       show: '🎭',
       character: '👤',
+      exhibit: '🦁',
+      experience: '✨',
       food: '🍽️',
       transportation: '🚂',
       detail: '📍',

@@ -385,6 +385,8 @@ export class AttractionsPage {
       ride: '🎢',
       show: '🎭',
       character: '👤',
+      exhibit: '🦁',
+      experience: '✨',
       food: '🍽️',
       transportation: '🚂',
       detail: '📍',
