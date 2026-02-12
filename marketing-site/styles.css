@@ -234,7 +234,7 @@ body {
 .preview-cell {
   background: #e0e7ff;
   border-radius: 6px;
-  aspect-ratio: 1;
+  /* aspect-ratio: 1; */
 }
 
 .preview-cell.completed {
