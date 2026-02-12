@@ -354,7 +354,7 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
         align-items: center;
         justify-content: center;
         font-size: 1.5rem;
-        background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+        background: var(--ion-color-light-shade, #e0e0e0);
         border-radius: 4px;
       }
 
@@ -364,7 +364,7 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
         text-align: center;
         line-height: 1.1;
         margin-top: 2px;
-        color: var(--ion-text-color);
+        color: var(--ion-color-light-contrast, #333);
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
@@ -444,6 +444,25 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
         font-family: monospace;
         padding: 8px;
       }
+
+      /* Dark mode adjustments */
+      @media (prefers-color-scheme: dark) {
+        .bingo-square {
+          background: var(--ion-color-step-100, #1e1e1e);
+        }
+
+        .square-name {
+          color: var(--ion-text-color, #fff);
+        }
+
+        .placeholder-icon {
+          background: var(--ion-color-step-150, #2d2d2d);
+        }
+
+        .status-badge {
+          background: rgba(30, 30, 30, 0.95);
+        }
+      }
     `,
   ],
 })
@@ -515,7 +534,7 @@ export class PlayPage {
 
   async cycleStatus(row: number, col: number) {
     const square = this.card()?.squares?.[row]?.[col];
-    if (!square || square.id === 'free') return;
+    if (!square) return;
 
     const statuses: Array<BingoSquare['status']> = [
       'unmarked',

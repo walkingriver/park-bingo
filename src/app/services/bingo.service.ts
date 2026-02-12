@@ -51,9 +51,9 @@ export class BingoService {
       throw new Error('Park not found');
     }
 
-    // Check if park has enough items
-    if (park.items.length < 24) {
-      throw new Error(`Park ${park.name} doesn't have enough items to generate a bingo card`);
+    // Check if park has enough items (need 25 for full board)
+    if (park.items.length < 25) {
+      throw new Error(`Park ${park.name} doesn't have enough items to generate a bingo card (needs 25, has ${park.items.length})`);
     }
 
     // Generate a random seed for this card
@@ -62,12 +62,12 @@ export class BingoService {
     // Create a deterministic random number generator based on the seed
     const random = this.createSeededRandom(seed);
 
-    // Get random items from the park (excluding the free space item)
+    // Get random items from the park
     const availableItems = [...park.items];
     const selectedItems: ParkItem[] = [];
 
-    // We need 24 unique items (25 squares - 1 free space)
-    while (selectedItems.length < 24 && availableItems.length > 0) {
+    // We need 25 unique items for all squares
+    while (selectedItems.length < 25 && availableItems.length > 0) {
       const randomIndex = Math.floor(random() * availableItems.length);
       selectedItems.push(availableItems.splice(randomIndex, 1)[0]);
     }
@@ -80,27 +80,12 @@ export class BingoService {
       const row: BingoSquare[] = [];
 
       for (let j = 0; j < 5; j++) {
-        // Center square is the free space
-        if (i === 2 && j === 2) {
-          row.push({
-            id: 'free',
-            parkItem: {
-              id: 'free',
-              name: park.freeSpace,
-              type: 'detail',
-              description: 'Free space!',
-              categories: ['free'],
-            },
-            status: 'completed',
-          });
-        } else {
-          const item = selectedItems[itemIndex++];
-          row.push({
-            id: `square-${i}-${j}`,
-            parkItem: item,
-            status: 'unmarked',
-          });
-        }
+        const item = selectedItems[itemIndex++];
+        row.push({
+          id: `square-${i}-${j}`,
+          parkItem: item,
+          status: 'unmarked',
+        });
       }
 
       squares.push(row);

@@ -33,6 +33,7 @@ import {
   volumeHigh,
   refresh,
   cart,
+  images,
 } from 'ionicons/icons';
 
 @Component({
@@ -107,6 +108,13 @@ import {
           <ion-item-divider>
             <ion-label>Data</ion-label>
           </ion-item-divider>
+          <ion-item button routerLink="/attractions" detail>
+            <ion-icon name="images" slot="start" color="secondary"></ion-icon>
+            <ion-label>
+              <h2>Attractions Browser</h2>
+              <p>View all attractions and images</p>
+            </ion-label>
+          </ion-item>
           <ion-item button (click)="refreshParksData()">
             <ion-icon name="refresh" slot="start" color="primary"></ion-icon>
             <ion-label>
@@ -218,6 +226,7 @@ export class SettingsPage {
       volumeHigh,
       cart,
       refresh,
+      images,
     });
   }
 

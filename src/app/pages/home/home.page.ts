@@ -97,7 +97,13 @@ import { playCircle, settings, helpCircle, cloudOffline } from 'ionicons/icons';
                   button
                 >
                   <ion-card-header>
-                    <div class="park-icon">{{ getParkIcon(park.icon) }}</div>
+                    <div class="park-icon">
+                      @if (getParkImage(park.id)) {
+                        <img [src]="getParkImage(park.id)" [alt]="park.name" class="park-image" />
+                      } @else {
+                        <span class="park-emoji">{{ getParkIcon(park.icon) }}</span>
+                      }
+                    </div>
                     <ion-card-title>{{ park.shortName || park.name }}</ion-card-title>
                   </ion-card-header>
                   <ion-card-content>
@@ -188,8 +194,25 @@ import { playCircle, settings, helpCircle, cloudOffline } from 'ionicons/icons';
       }
 
       .park-icon {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 12px;
+      }
+
+      .park-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+      }
+
+      .park-emoji {
         font-size: 3rem;
-        margin-bottom: 8px;
       }
 
       .item-count {
@@ -256,6 +279,19 @@ export class HomePage {
 
   getParkIcon(icon: string): string {
     return this.iconMap[icon] || icon;
+  }
+
+  getParkImage(parkId: string): string | null {
+    // Map park IDs to their iconic images
+    const parkImages: Record<string, string> = {
+      'mk': '/images/parks/mk/cinderella-castle.jpg',
+      'epcot': '/images/parks/epcot/spaceship-earth.jpg',
+      'hs': '/images/parks/hs/tower-terror.jpg',
+      'ak': '/images/parks/ak/tree-of-life.jpg',
+      'dl': '/images/parks/dl/matterhorn.jpg',  // Using Matterhorn as iconic DL image
+      'dca': '/images/parks/dca/pixar-pier.jpg', // Using Pixar Pier as iconic DCA image
+    };
+    return parkImages[parkId] || null;
   }
 
   hasCardForPark(parkId: string): boolean {

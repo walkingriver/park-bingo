@@ -95,7 +95,7 @@ import { CommonModule, DatePipe } from '@angular/common';
       .park-title {
         text-align: center;
         margin-bottom: 0.75rem;
-        color: #333;
+        color: var(--ion-text-color, #333);
       }
 
       .grid {
@@ -112,14 +112,14 @@ import { CommonModule, DatePipe } from '@angular/common';
 
       .square {
         flex: 1;
-        border: 1px solid #ddd;
+        border: 1px solid var(--ion-border-color, #ddd);
         border-radius: 4px;
         padding: 0.25rem;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        background: white;
+        background: var(--ion-card-background, white);
         cursor: pointer;
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         position: relative;
@@ -132,19 +132,19 @@ import { CommonModule, DatePipe } from '@angular/common';
         }
 
         &.completed {
-          background-color: #e8f5e9;
-          border-color: #a5d6a7;
+          background-color: rgba(var(--ion-color-success-rgb, 76, 175, 80), 0.15);
+          border-color: var(--ion-color-success, #4caf50);
         }
 
         &.skipped {
-          background-color: #ffebee;
-          border-color: #ef9a9a;
+          background-color: rgba(var(--ion-color-danger-rgb, 244, 67, 54), 0.15);
+          border-color: var(--ion-color-danger, #f44336);
           opacity: 0.7;
         }
 
         &.in-progress {
-          background-color: #fff8e1;
-          border-color: #ffe082;
+          background-color: rgba(var(--ion-color-warning-rgb, 255, 152, 0), 0.15);
+          border-color: var(--ion-color-warning, #ff9800);
         }
       }
 
@@ -165,10 +165,9 @@ import { CommonModule, DatePipe } from '@angular/common';
         line-height: 1.1;
         text-align: center;
         font-weight: 600;
-        color: #333;
+        color: var(--ion-text-color, #333);
         position: relative;
         z-index: 2;
-        text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
       }
 
       .image-container {
@@ -177,7 +176,7 @@ import { CommonModule, DatePipe } from '@angular/common';
         height: 70px;
         border-radius: 4px;
         overflow: hidden;
-        background: #f5f5f5;
+        background: var(--ion-color-light, #f5f5f5);
       }
 
       .square-image {
@@ -317,8 +316,40 @@ import { CommonModule, DatePipe } from '@angular/common';
       .stats {
         margin-top: 0.75rem;
         text-align: center;
-        color: #666;
+        color: var(--ion-color-medium, #666);
         font-size: 0.9rem;
+      }
+
+      /* Dark mode adjustments */
+      @media (prefers-color-scheme: dark) {
+        .square {
+          background: var(--ion-color-step-100, #1e1e1e);
+          border-color: var(--ion-color-step-150, #2d2d2d);
+        }
+
+        .square-text {
+          color: var(--ion-text-color, #fff);
+        }
+
+        .placeholder-image {
+          background: var(--ion-color-step-150, #2d2d2d);
+
+          &[data-type='ride'],
+          &[data-type='show'],
+          &[data-type='character'],
+          &[data-type='food'],
+          &[data-type='transportation'] {
+            background: var(--ion-color-step-150, #2d2d2d);
+          }
+        }
+
+        .image-container {
+          background: var(--ion-color-step-100, #1e1e1e);
+        }
+
+        .status-icon {
+          background: rgba(30, 30, 30, 0.95);
+        }
       }
     `,
   ],

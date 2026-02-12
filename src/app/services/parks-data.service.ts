@@ -230,6 +230,13 @@ export class ParksDataService {
   }
 
   private mapParkMetadataToFull(metadata: ParkMetadata, items: ParkItem[]): Park {
+    // Log items without images
+    const missingImages = items.filter(item => !item.imageUrl);
+    if (missingImages.length > 0) {
+      console.log(`📷 ${metadata.name}: ${missingImages.length} attractions without images:`);
+      missingImages.forEach(item => console.log(`  - ${item.id}: ${item.name}`));
+    }
+    
     return {
       id: metadata.id,
       name: metadata.name,
