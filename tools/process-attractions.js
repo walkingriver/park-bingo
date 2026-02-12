@@ -94,10 +94,15 @@ function determineType(attraction) {
   
   // Entertainment entity types
   if (entityType === 'Entertainment') {
-    // Character meet and greets
+    // Character meet and greets - prioritize this even if also tagged as parade/show
     if (entertainmentType.includes('character-experiences') ||
         name.includes('meet ') || name.includes('character ')) {
       return 'character';
+    }
+    // Parades and cavalcades
+    if (entertainmentType.includes('parades') || 
+        name.includes('parade') || name.includes('cavalcade')) {
+      return 'show';
     }
     // Everything else is a show
     return 'show';
@@ -105,6 +110,12 @@ function determineType(attraction) {
   
   // Attraction entity types
   if (entityType === 'Attraction') {
+    // Some Attractions are actually character experiences (e.g., Enchanted Tales with Belle)
+    if (entertainmentType.includes('character-experiences') ||
+        name.includes('meet ') || name.includes('character ')) {
+      return 'character';
+    }
+    
     // Check if it's actually a ride (has thrillFactor with ride indicators)
     const rideIndicators = ['slow-rides', 'thrill-rides', 'water-rides', 'spinning', 
                            'big-drops', 'small-drops', 'dark', 'loud', 'scary'];
@@ -280,8 +291,16 @@ function toTitleCase(str) {
 // Get a human-readable description from the attraction data
 function getDescription(attraction) {
   const facets = attraction.facets || {};
+  const media = attraction.media || {};
   
-  // Best source: type.facets has human-readable labels like "Thrill Rides, Big Drops"
+  // Best source: media title often has great descriptions
+  // e.g., "Prepare to face the might of the Galactic Empire when you find Darth Vader..."
+  const mediaTitle = media.finderStandardThumb?.title;
+  if (mediaTitle && mediaTitle.length > 10 && mediaTitle.length < 200) {
+    return mediaTitle;
+  }
+  
+  // Second best: type.facets has human-readable labels like "Thrill Rides, Big Drops"
   if (attraction.type?.facets) {
     return attraction.type.facets;
   }

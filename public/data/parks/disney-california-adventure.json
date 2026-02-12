@@ -77,7 +77,7 @@
     "id": "visa-card-super-hero-character-experience",
     "name": "Disney® Visa® Cardmember Heroic Encounter",
     "type": "character",
-    "description": "Character Experiences",
+    "description": "The Disney Visa card comes with great photo opportunities to meet your favorite heroes!",
     "categories": [],
     "imageUrl": "/images/parks/dca/visa-card-super-hero-character-experience.jpg"
   },
@@ -85,7 +85,7 @@
     "id": "visa-card-character-experience",
     "name": "Disney® Visa® Cardmember Photo Opportunity",
     "type": "character",
-    "description": "Character Experiences",
+    "description": "Hang out with your favorite little monster and take advantage of the exclusive Disney Visa photo spot",
     "categories": [],
     "imageUrl": "/images/parks/dca/visa-card-character-experience.jpg"
   },
@@ -93,7 +93,7 @@
     "id": "five-and-dime",
     "name": "Five & Dime",
     "type": "show",
-    "description": "Live Entertainment",
+    "description": "Five & Dime",
     "categories": [
       "kids"
     ],
@@ -114,7 +114,7 @@
     "id": "golden-zephyr",
     "name": "Golden Zephyr",
     "type": "ride",
-    "description": "Spinning",
+    "description": "Golden Zephyr",
     "categories": [
       "spin",
       "family",
@@ -126,7 +126,7 @@
     "id": "goofys-sky-school",
     "name": "Goofy's Sky School",
     "type": "ride",
-    "description": "Loud, Small Drops, Thrill Rides",
+    "description": "Goofy's Sky School",
     "categories": [
       "family",
       "thrill",
@@ -138,7 +138,7 @@
     "id": "grizzly-river-run",
     "name": "Grizzly River Run",
     "type": "ride",
-    "description": "Small Drops, Spinning, Thrill Rides",
+    "description": "Grizzly River Run",
     "categories": [
       "family",
       "thrill",
@@ -151,7 +151,7 @@
     "id": "guardians-galaxy-mission-breakout",
     "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
     "type": "ride",
-    "description": "Big Drops, Dark, Loud",
+    "description": "Guardians of the Galaxy Mission: BREAKOUT!",
     "categories": [
       "thrill",
       "dark",
@@ -166,7 +166,7 @@
     "id": "guardians-galaxy-dance",
     "name": "Guardians of the Galaxy: Awesome Dance Off!",
     "type": "character",
-    "description": "Character Experiences, Character Experiences, Live Entertainment",
+    "description": "A girl dances with Star Lord, Gamora and other characters from Guardians of the Galaxy",
     "categories": [],
     "imageUrl": "/images/parks/dca/guardians-galaxy-dance.jpg"
   },
@@ -174,7 +174,7 @@
     "id": "incredicoaster",
     "name": "Incredicoaster",
     "type": "ride",
-    "description": "Big Drops, Loud, Thrill Rides",
+    "description": "Excited Guests ride Incredicoaster",
     "categories": [
       "thrill",
       "loud",
@@ -186,7 +186,7 @@
     "id": "emotional-whirlwind",
     "name": "Inside Out Emotional Whirlwind",
     "type": "ride",
-    "description": "Spinning",
+    "description": "All ages are welcome to explore Riley's emotions for a fun and colorful adventure!",
     "categories": [
       "spin",
       "family"
@@ -209,7 +209,7 @@
     "id": "jumpin-jellyfish",
     "name": "Jumpin' Jellyfish",
     "type": "ride",
-    "description": "Small Drops",
+    "description": "Jumpin Jellyfish",
     "categories": [
       "family",
       "kids"
@@ -220,7 +220,7 @@
     "id": "luigis-joy-whirl",
     "name": "Luigi's Joy to the Whirl",
     "type": "ride",
-    "description": "Loud, Spinning, Thrill Rides",
+    "description": "Luigi's Joy to the Whirl",
     "categories": [
       "thrill",
       "spin",
@@ -233,7 +233,7 @@
     "id": "luigis-rollickin-roadsters",
     "name": "Luigi's Rollickin' Roadsters",
     "type": "ride",
-    "description": "Loud, Spinning, Thrill Rides",
+    "description": "A neon sign identifies Luigi's Casa Della Tires",
     "categories": [
       "thrill",
       "spin",
@@ -258,7 +258,7 @@
     "id": "maters-junkyard-jamboree",
     "name": "Mater's Junkyard Jamboree",
     "type": "ride",
-    "description": "Thrill Rides",
+    "description": "Maters Junkyard Jamboree",
     "categories": [
       "thrill",
       "family",
@@ -298,7 +298,7 @@
     "id": "meet-mulan-and-mushu",
     "name": "Meet Mulan and Mushu",
     "type": "character",
-    "description": "Character Experiences, Live Entertainment",
+    "description": "Mulan's New Year Procession with Mulan, costumed performers and a Chinese dragon puppet.",
     "categories": [],
     "imageUrl": "/images/parks/dca/meet-mulan-and-mushu.jpg"
   },
@@ -334,7 +334,7 @@
     "id": "mickeys-philharmagic",
     "name": "Mickey's PhilharMagic",
     "type": "show",
-    "description": "Rider Switch",
+    "description": "Mickey Mouse casts a spell that sends Donald Duck flying with an array of musical instruments",
     "categories": [
       "family"
     ],
@@ -352,7 +352,7 @@
     "id": "monsters-inc",
     "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
     "type": "ride",
-    "description": "Dark, Loud, Slow Rides",
+    "description": "Monsters Inc",
     "categories": [
       "family",
       "dark",
@@ -427,7 +427,7 @@
     "id": "pixar-pal-a-round-non-swinging",
     "name": "Pixar Pal-A-Round – Non-Swinging",
     "type": "ride",
-    "description": "Slow Rides",
+    "description": "Hop on the Pixar Pal-A-Round attraction for breathtaking views and a ride you'll never forget.",
     "categories": [
       "family"
     ],
@@ -437,7 +437,7 @@
     "id": "radiator-springs-racers",
     "name": "Radiator Springs Racers",
     "type": "ride",
-    "description": "Dark, Loud, Small Drops",
+    "description": "Radiator Springs Racers",
     "categories": [
       "family",
       "thrill",
@@ -451,7 +451,7 @@
     "id": "redwood-creek-challenge-trail",
     "name": "Redwood Creek Challenge Trail",
     "type": "exhibit",
-    "description": "Interactive, Discovery, Rider Switch",
+    "description": "Redwood Creek Challenge Trail",
     "categories": [
       "family",
       "kids"
@@ -462,7 +462,7 @@
     "id": "silly-symphony-swings",
     "name": "Silly Symphony Swings",
     "type": "ride",
-    "description": "Spinning",
+    "description": "Smiling kids ride the Silly Symphony Swings at Disney California Adventure Park",
     "categories": [
       "spin",
       "family"
@@ -473,7 +473,7 @@
     "id": "soarin",
     "name": "Soarin' Around the World",
     "type": "ride",
-    "description": "Dark, Loud, Slow Rides",
+    "description": "Soarin' Around the World",
     "categories": [
       "family",
       "dark",
@@ -486,7 +486,7 @@
     "id": "soarin-over-california",
     "name": "Soarin' Over California",
     "type": "ride",
-    "description": "Dark, Loud, Small Drops",
+    "description": "Soarin' Over California",
     "categories": [
       "family",
       "dark",
@@ -499,7 +499,7 @@
     "id": "sorcerers-workshop",
     "name": "Sorcerer's Workshop",
     "type": "experience",
-    "description": "Dark",
+    "description": "Sorcerers Workshop",
     "categories": [
       "dark",
       "indoor",
@@ -523,7 +523,7 @@
     "id": "little-mermaid-ariels-undersea-adventure",
     "name": "The Little Mermaid - Ariel's Undersea Adventure",
     "type": "ride",
-    "description": "Dark, Loud, Slow Rides",
+    "description": "The Little Mermaid ~ Ariel's Undersea Adventure",
     "categories": [
       "family",
       "dark",
@@ -545,7 +545,7 @@
     "id": "toy-story-mania",
     "name": "Toy Story Midway Mania!",
     "type": "ride",
-    "description": "Dark, Loud",
+    "description": "Grab a spring-action launcher and aim for a high score in a fast-paced, spinning adventure through Andy's room.",
     "categories": [
       "dark",
       "loud",
@@ -587,7 +587,7 @@
     "id": "world-of-color-season-of-light",
     "name": "World of Color - Season of Light",
     "type": "show",
-    "description": "Nighttime Spectaculars, Seasonal",
+    "description": "The fountains, lasers and projections at the World of Color nighttime spectacular light up the night sky",
     "categories": [
       "kids",
       "classic"

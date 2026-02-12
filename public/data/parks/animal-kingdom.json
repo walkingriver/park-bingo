@@ -3,7 +3,7 @@
     "id": "affection-section",
     "name": "Affection Section",
     "type": "experience",
-    "description": "Interactive",
+    "description": "Affection Section",
     "categories": [
       "kids"
     ],
@@ -31,7 +31,7 @@
     "id": "disney-animals-african-hogs",
     "name": "African Hogs - Disney Animals",
     "type": "exhibit",
-    "description": "Animal Encounters Attractions",
+    "description": "When you see our warthogs in person at Walt Disney World Resort, you’re sure to love them, warts and all.",
     "categories": [],
     "imageUrl": "/images/parks/ak/disney-animals-african-hogs.jpg"
   },
@@ -57,7 +57,7 @@
     "id": "disney-animals-ankole",
     "name": "Ankole Cattle - Disney Animals",
     "type": "exhibit",
-    "description": "Animal Encounters Attractions",
+    "description": "Ankole cattle horns help the animals cool down as blood circulates—like having an internal air conditioner!",
     "categories": [],
     "imageUrl": "/images/parks/ak/disney-animals-ankole.jpg"
   },
@@ -89,7 +89,7 @@
     "id": "avatar-flight-of-passage",
     "name": "Avatar Flight of Passage",
     "type": "ride",
-    "description": "Thrill Rides",
+    "description": "Avatar - Flight of Passage",
     "categories": [
       "thrill"
     ],
@@ -126,7 +126,7 @@
     "id": "conservation-station",
     "name": "Conservation Station",
     "type": "exhibit",
-    "description": "Interactive, Animal Encounters Attractions, Play Disney Parks",
+    "description": "Conservation Station",
     "categories": [
       "kids"
     ],
@@ -177,7 +177,7 @@
     "id": "feathered-friends",
     "name": "Feathered Friends in Flight!",
     "type": "show",
-    "description": "Live Entertainment",
+    "description": "Feathered Friends in Flight!",
     "categories": [],
     "imageUrl": "/images/parks/ak/feathered-friends.jpg"
   },
@@ -207,7 +207,7 @@
     "id": "disney-animals-flamingos",
     "name": "Flamingos at Discovery Island - Disney Animals",
     "type": "exhibit",
-    "description": "Animal Encounters Events, Animal Encounters Attractions",
+    "description": "Flamingos - Disney Animals",
     "categories": [],
     "imageUrl": "/images/parks/ak/disney-animals-flamingos.jpg"
   },
@@ -215,7 +215,7 @@
     "id": "disney-animals-gibbons",
     "name": "Gibbons - Disney Animals",
     "type": "exhibit",
-    "description": "Animal Encounters Events, Animal Encounters Attractions",
+    "description": "Gibbons - Disney Animals",
     "categories": [],
     "imageUrl": "/images/parks/ak/disney-animals-gibbons.jpg"
   },
@@ -223,7 +223,7 @@
     "id": "disney-animals-giraffes",
     "name": "Giraffes - Disney Animals",
     "type": "exhibit",
-    "description": "Animal Encounters Events, Animal Encounters Attractions",
+    "description": "3 giraffes standing in a grassy field",
     "categories": [],
     "imageUrl": "/images/parks/ak/disney-animals-giraffes.jpg"
   },
@@ -261,7 +261,7 @@
     "id": "disney-animals-hippos",
     "name": "Hippopotamuses - Disney Animals",
     "type": "exhibit",
-    "description": "Animal Encounters Events, Animal Encounters Attractions",
+    "description": "Hippos - Disney Animals",
     "categories": [],
     "imageUrl": "/images/parks/ak/disney-animals-hippos.jpg"
   },
@@ -269,7 +269,7 @@
     "id": "disney-animals-invertebrates",
     "name": "Invertebrates - Disney Animals",
     "type": "exhibit",
-    "description": "Animal Encounters Events, Animal Encounters Attractions",
+    "description": "Invertebrates - Disney Animals",
     "categories": [],
     "imageUrl": "/images/parks/ak/disney-animals-invertebrates.jpg"
   },
@@ -277,7 +277,7 @@
     "id": "kali-river-rapids",
     "name": "Kali River Rapids",
     "type": "ride",
-    "description": "Small Drops, Spinning, Thrill Rides",
+    "description": "Kali River Rapids",
     "categories": [
       "thrill",
       "water",
@@ -391,7 +391,7 @@
     "id": "disney-animals-okapis",
     "name": "Okapis - Disney Animals",
     "type": "exhibit",
-    "description": "Animal Encounters Events, Animal Encounters Attractions",
+    "description": "Okapis - Disney Animals",
     "categories": [],
     "imageUrl": "/images/parks/ak/disney-animals-okapis.jpg"
   },
@@ -399,7 +399,7 @@
     "id": "disney-animals-white-black-rhinos",
     "name": "Rhinos - Disney Animals",
     "type": "exhibit",
-    "description": "Animal Encounters Attractions",
+    "description": "Rhinos - Disney Animals",
     "categories": [
       "kids"
     ],
@@ -419,7 +419,7 @@
     "id": "animation-experience",
     "name": "The Animation Experience at Conservation Station",
     "type": "experience",
-    "description": "Attraction",
+    "description": "Walt Disney drew inspiration for some of his most beloved characters from real animals.",
     "categories": [],
     "imageUrl": "/images/parks/ak/animation-experience.jpg"
   },
@@ -457,7 +457,7 @@
     "id": "tree-of-life-nighttime-awakenings",
     "name": "Tree of Life Awakenings",
     "type": "show",
-    "description": "Live Entertainment",
+    "description": "A group of people, some in Mickey Mouse ears, watch as animal images are projected onto the Tree of Life at night",
     "categories": [],
     "imageUrl": "/images/parks/ak/tree-of-life-nighttime-awakenings.jpg"
   },
@@ -465,7 +465,7 @@
     "id": "viva-gaia-street-band",
     "name": "Viva Gaia Street Band!",
     "type": "show",
-    "description": "Streetmosphere",
+    "description": "6 male performers from Viva Gaia Street Band posing for a photo on a stage at Disney's Animal Kingdom theme park",
     "categories": [
       "kids"
     ],
@@ -475,7 +475,7 @@
     "id": "disney-animals-vultures",
     "name": "Vultures - Disney Animals",
     "type": "exhibit",
-    "description": "Animal Encounters Events, Animal Encounters Attractions",
+    "description": "Vultures at Tree of Life - Disney Animals",
     "categories": [],
     "imageUrl": "/images/parks/ak/disney-animals-vultures.jpg"
   },
@@ -483,7 +483,7 @@
     "id": "wilderness-explorers",
     "name": "Wilderness Explorers",
     "type": "experience",
-    "description": "Interactive",
+    "description": "Join the Wilderness Explorers and follow in the footsteps of Russell and Dug at Disney’s Animal Kingdom theme park.",
     "categories": [
       "kids"
     ],
@@ -504,7 +504,7 @@
     "id": "disney-animals-zebras",
     "name": "Zebras - Disney Animals",
     "type": "exhibit",
-    "description": "Animal Encounters Events, Animal Encounters Attractions",
+    "description": "Zebras - Disney Animals",
     "categories": [],
     "imageUrl": "/images/parks/ak/disney-animals-zebras.jpg"
   },

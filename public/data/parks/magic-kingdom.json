@@ -61,7 +61,7 @@
     "id": "casey-jr-splash-n-soak-station",
     "name": "Casey Jr. Splash 'N' Soak Station",
     "type": "experience",
-    "description": "Water Rides",
+    "description": "Casey Jr. Splash 'N' Soak Station",
     "categories": [
       "water",
       "kids"
@@ -72,7 +72,7 @@
     "id": "caseys-corner-pianist",
     "name": "Casey's Corner Pianist",
     "type": "show",
-    "description": "Live Entertainment, Streetmosphere",
+    "description": "Casey's Corner Pianist",
     "categories": [
       "kids"
     ],
@@ -112,7 +112,7 @@
   {
     "id": "fab-50-character-collection",
     "name": "Disney Fab 50 Character Collection",
-    "type": "experience",
+    "type": "character",
     "description": "Interactive",
     "categories": [],
     "imageUrl": "/images/parks/mk/fab-50-character-collection.jpg"
@@ -139,7 +139,7 @@
     "id": "dumbo-the-flying-elephant",
     "name": "Dumbo the Flying Elephant",
     "type": "ride",
-    "description": "Slow Rides, Spinning",
+    "description": "Dumbo the Flying Elephant",
     "categories": [
       "family",
       "spin",
@@ -151,8 +151,8 @@
   {
     "id": "enchanted-tales-with-belle",
     "name": "Enchanted Tales with Belle",
-    "type": "experience",
-    "description": "Character Experiences",
+    "type": "character",
+    "description": "Enchanted Tales with Belle",
     "categories": [
       "kids"
     ],
@@ -182,7 +182,7 @@
     "id": "disney-animals-horses",
     "name": "Horses - Disney Animals",
     "type": "exhibit",
-    "description": "Animal Encounters Events, Animal Encounters Attractions",
+    "description": "Horses - Disney Animals",
     "categories": [],
     "imageUrl": "/images/parks/mk/disney-animals-horses.jpg"
   },
@@ -248,7 +248,7 @@
     "id": "character-meet-ariel-grotto-fantasyland",
     "name": "Meet Ariel at Her Grotto",
     "type": "character",
-    "description": "Character Experiences, Indoor",
+    "description": "Meet Ariel at Her Grotto in Fantasyland",
     "categories": [
       "indoor",
       "kids"
@@ -259,7 +259,7 @@
     "id": "character-meet-aladdin",
     "name": "Meet Characters from Aladdin in Adventureland",
     "type": "character",
-    "description": "Character Experiences",
+    "description": "Meet Aladdin at The Magic Carpets of Aladdin",
     "categories": [
       "kids"
     ],
@@ -370,7 +370,7 @@
     "id": "monsters-inc-laugh-floor",
     "name": "Monsters Inc. Laugh Floor",
     "type": "show",
-    "description": "Stage Shows",
+    "description": "Check out the funniest Monsters of Comedy, who will perform wacky improvisation—maybe even with you.",
     "categories": [
       "kids"
     ],
@@ -404,7 +404,7 @@
     "id": "prince-charming-regal-carrousel",
     "name": "Prince Charming Regal Carrousel",
     "type": "ride",
-    "description": "Slow Rides, Spinning",
+    "description": "Prince Charming Regal Carrousel",
     "categories": [
       "family",
       "spin",
@@ -437,7 +437,7 @@
     "id": "space-mountain",
     "name": "Space Mountain",
     "type": "ride",
-    "description": "Big Drops, Dark, Thrill Rides",
+    "description": "Space Mountain",
     "categories": [
       "thrill",
       "dark",
@@ -460,7 +460,7 @@
     "id": "barnstormer-starring-great-goofini",
     "name": "The Barnstormer",
     "type": "ride",
-    "description": "Small Drops",
+    "description": "Barnstormer Starring The Great Goofini",
     "categories": [
       "family",
       "kids"
@@ -481,7 +481,7 @@
     "id": "hall-of-presidents",
     "name": "The Hall of Presidents",
     "type": "experience",
-    "description": "Classic",
+    "description": "The Hall of Presidents",
     "categories": [
       "kids",
       "classic"
@@ -492,7 +492,7 @@
     "id": "magic-carpets-of-aladdin",
     "name": "The Magic Carpets of Aladdin",
     "type": "ride",
-    "description": "Slow Rides, Spinning",
+    "description": "The Magic Carpets of Aladdin",
     "categories": [
       "family",
       "spin",
@@ -607,7 +607,7 @@
     "id": "walt-disney-carousel-of-progress",
     "name": "Walt Disney's Carousel of Progress",
     "type": "ride",
-    "description": "Slow Rides",
+    "description": "Walt Disney's Carousel of Progress",
     "categories": [
       "family",
       "kids",

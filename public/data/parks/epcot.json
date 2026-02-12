@@ -53,7 +53,7 @@
     "id": "bruces-shark-world",
     "name": "Bruce's Shark World",
     "type": "experience",
-    "description": "Pixar Pals Entertainments",
+    "description": "Bruces Shark World",
     "categories": [
       "kids"
     ],
@@ -63,7 +63,7 @@
     "id": "canada-far-and-wide",
     "name": "Canada Far and Wide in Circle-Vision 360",
     "type": "show",
-    "description": "Attraction",
+    "description": "Visit the theater inside the Canada Pavilion to see a Circle-Vision 360° movie, Canada Far and Wide.",
     "categories": [
       "kids",
       "classic"
@@ -130,7 +130,7 @@
     "id": "canada-pavilion-entertainment",
     "name": "Entertainment at Canada Mill Stage",
     "type": "show",
-    "description": "Live Entertainment",
+    "description": "Catch lively performances from Les Raftsmen—a Canadian folk band performing at Canada Mill Stage in EPCOT.",
     "categories": [],
     "imageUrl": "/images/parks/epcot/canada-pavilion-entertainment.jpg"
   },
@@ -172,7 +172,7 @@
     "id": "frozen-ever-after",
     "name": "Frozen Ever After",
     "type": "ride",
-    "description": "Dark, Slow Rides, Small Drops",
+    "description": "Wave hello to Elsa, Anna and Olaf as you journey through a frozen willow forest.",
     "categories": [
       "family",
       "dark",
@@ -205,7 +205,7 @@
     "id": "guardians-of-the-galaxy-cosmic-rewind",
     "name": "Guardians of the Galaxy: Cosmic Rewind",
     "type": "ride",
-    "description": "Dark, Thrill Rides",
+    "description": "Guardians of the Galaxy: Cosmic Rewind Attraction Photos",
     "categories": [
       "dark",
       "thrill"
@@ -237,7 +237,7 @@
     "id": "impressions-de-france",
     "name": "Impressions de France",
     "type": "experience",
-    "description": "Attraction",
+    "description": "Watch Impressions de France, an 18-minute film about France at the France Pavilion.",
     "categories": [
       "kids"
     ],
@@ -255,7 +255,7 @@
     "id": "journey-into-imagination-with-figment",
     "name": "Journey Into Imagination With Figment",
     "type": "ride",
-    "description": "Dark, Slow Rides",
+    "description": "Journey Into Imagination With Figment",
     "categories": [
       "family",
       "dark",
@@ -429,7 +429,7 @@
     "id": "character-meet-mulan",
     "name": "Meet Mulan in China",
     "type": "character",
-    "description": "Character Experiences",
+    "description": "Meet Mulan in China Pavilion",
     "categories": [
       "kids"
     ],
@@ -449,7 +449,7 @@
     "id": "character-meet-aurora-france",
     "name": "Meet Princess Aurora in France",
     "type": "character",
-    "description": "Character Experiences",
+    "description": "Meet Aurora in the Gardens of France",
     "categories": [
       "kids"
     ],
@@ -459,7 +459,7 @@
     "id": "character-meet-jasmine",
     "name": "Meet Princess Jasmine in Morocco",
     "type": "character",
-    "description": "Character Experiences",
+    "description": "Meet Princess Jasmine in Morocco",
     "categories": [
       "kids"
     ],
@@ -487,7 +487,7 @@
     "id": "mexican-folk-art-gallery",
     "name": "Mexico Folk Art Gallery",
     "type": "exhibit",
-    "description": "Attraction",
+    "description": "Celebrate the traditions of Día de Muertos at the Mexican Pavilion in Epcot.",
     "categories": [
       "kids"
     ],
@@ -547,7 +547,7 @@
     "id": "remys-ratatouille-adventure",
     "name": "Remy's Ratatouille Adventure",
     "type": "experience",
-    "description": "Pixar Pals Entertainments, Single Rider Line Wdw",
+    "description": "Get whisked away on an exciting culinary caper at Remy’s Ratatouille Adventure, located in the France Pavilion at Epcot.",
     "categories": [],
     "imageUrl": "/images/parks/epcot/remys-ratatouille-adventure.jpg"
   },
@@ -575,7 +575,7 @@
     "id": "sea-base-aquarium",
     "name": "SeaBase Aquarium",
     "type": "exhibit",
-    "description": "Interactive, Animal Encounters Attractions",
+    "description": "Get up close and personal with various fish at The Seas with Nemo & Friends Pavilion at Epcot.",
     "categories": [
       "kids"
     ],
@@ -605,7 +605,7 @@
     "id": "soarin-around-world",
     "name": "Soarin' Around the World",
     "type": "ride",
-    "description": "Slow Rides, Small Drops",
+    "description": "Take a journey above stunning international wonders at Soarin’ Around the World.",
     "categories": [
       "family"
     ],
@@ -638,7 +638,7 @@
     "id": "test-track",
     "name": "Test Track",
     "type": "ride",
-    "description": "Small Drops, Thrill Rides",
+    "description": "Buckle up and get ready for high speeds and exhilarating bends while riding Test Track!",
     "categories": [
       "thrill",
       "family",
@@ -661,7 +661,7 @@
     "id": "seas-with-nemo-and-friends",
     "name": "The Seas with Nemo & Friends",
     "type": "ride",
-    "description": "Slow Rides",
+    "description": "Journey into the ocean in a “clamobile” and explore The Seas with Nemo & Friends.",
     "categories": [
       "family",
       "kids"
@@ -672,7 +672,7 @@
     "id": "turtle-talk-with-crush",
     "name": "Turtle Talk With Crush",
     "type": "experience",
-    "description": "Pixar Pals Entertainments",
+    "description": "Say hello to Crush, who waves to you with an enthusiastic welcome at Turtle Talk with Crush at Epcot.",
     "categories": [
       "kids"
     ],
