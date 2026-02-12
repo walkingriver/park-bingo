@@ -85,24 +85,25 @@ import { HelpModalComponent } from '../../components/help-modal/help-modal.compo
               <ion-icon name="trophy" slot="icon-only"></ion-icon>
             </ion-button>
           }
-          <ion-button (click)="newCard()">
-            <ion-icon name="refresh" slot="icon-only"></ion-icon>
-          </ion-button>
           <ion-button id="more-options">
             <ion-icon name="ellipsis-vertical" slot="icon-only"></ion-icon>
           </ion-button>
           <ion-popover trigger="more-options" [dismissOnSelect]="true">
             <ng-template>
               <ion-list>
-                <ion-item button (click)="shareCard()">
+                <ion-item button [detail]="false" (click)="newCard()">
+                  <ion-icon name="refresh" slot="start"></ion-icon>
+                  <ion-label>New Card</ion-label>
+                </ion-item>
+                <ion-item button [detail]="false" (click)="shareCard()">
                   <ion-icon name="share" slot="start"></ion-icon>
                   <ion-label>Share</ion-label>
                 </ion-item>
-                <ion-item button (click)="showHelp.set(true)">
+                <ion-item button [detail]="false" (click)="showHelp.set(true)">
                   <ion-icon name="help-circle" slot="start"></ion-icon>
                   <ion-label>Help</ion-label>
                 </ion-item>
-                <ion-item button lines="none">
+                <ion-item [detail]="false" lines="none">
                   <ion-icon name="finger-print" slot="start"></ion-icon>
                   <ion-label>
                     <p>Game: {{ gameCode() }}</p>
