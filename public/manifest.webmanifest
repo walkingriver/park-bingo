@@ -1,6 +1,6 @@
 {
-  "name": "park-bingo",
-  "short_name": "park-bingo",
+  "name": "Park Pursuit Bingo",
+  "short_name": "Park Pursuit",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",

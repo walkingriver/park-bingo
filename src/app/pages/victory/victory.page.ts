@@ -118,7 +118,7 @@ import confetti from 'canvas-confetti';
           <ion-text color="medium" class="affiliate-disclosure">
             <p>
               As an Amazon Associate, we earn from qualifying purchases.
-              Thank you for supporting Park Bingo!
+              Thank you for supporting Park Pursuit Bingo!
             </p>
           </ion-text>
         </div>
@@ -341,13 +341,13 @@ export class VictoryPage implements OnInit {
 ✅ ${completed}/25 squares completed
 📋 Game Code: ${gameCode}
 
-Download Park Bingo to play your own game! #ParkBingo #Disney`;
+Download Park Pursuit Bingo to play your own game! #ParkPursuitBingo #Disney`;
 
     try {
       await Share.share({
-        title: 'My Park Bingo Victory!',
+        title: 'My Park Pursuit Bingo Victory!',
         text,
-        dialogTitle: 'Share your Park Bingo victory',
+        dialogTitle: 'Share your Park Pursuit Bingo victory',
       });
     } catch (error) {
       console.log('Share cancelled or failed:', error);

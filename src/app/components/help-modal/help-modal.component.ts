@@ -43,7 +43,7 @@ import { closeCircle, checkmarkCircle, close, time, helpCircle } from 'ionicons/
 
         <ion-content class="ion-padding">
           <div class="help-section">
-            <h2>Welcome to Park Bingo!</h2>
+            <h2>Welcome to Park Pursuit Bingo!</h2>
             <p>
               Turn your Disney park visit into an exciting scavenger hunt.
               Complete 5 squares in a row to get BINGO!
@@ -165,7 +165,7 @@ import { closeCircle, checkmarkCircle, close, time, helpCircle } from 'ionicons/
 
           <div class="help-section disclaimer">
             <p>
-              <strong>Note:</strong> Park Bingo is not affiliated with The Walt Disney Company.
+              <strong>Note:</strong> Park Pursuit Bingo is not affiliated with The Walt Disney Company.
               Attraction availability may vary.
             </p>
           </div>

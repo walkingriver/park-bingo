@@ -133,7 +133,7 @@ import { signal } from '@angular/core';
         <ion-text color="medium" class="affiliate-disclosure">
           <p>
             As an Amazon Associate, we earn from qualifying purchases.
-            Thank you for supporting Park Bingo!
+            Thank you for supporting Park Pursuit Bingo!
           </p>
         </ion-text>
       }

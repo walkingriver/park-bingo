@@ -139,7 +139,7 @@ import {
               color="primary"
             ></ion-icon>
             <ion-label>
-              <h2>Park Bingo</h2>
+              <h2>Park Pursuit Bingo</h2>
               <p>Version 1.0.0</p>
             </ion-label>
           </ion-item>
@@ -157,7 +157,7 @@ import {
       <div class="disclaimer-section">
         <ion-note>
           <p class="disclaimer">
-            <strong>Disclaimer:</strong> Park Bingo is not affiliated with,
+            <strong>Disclaimer:</strong> Park Pursuit Bingo is not affiliated with,
             endorsed by, or sponsored by The Walt Disney Company or its
             subsidiaries. All park names, attraction names, and related content
             are used for informational purposes only.
@@ -279,7 +279,7 @@ export class SettingsPage {
   async rateApp() {
     // Will link to app stores when published
     const alert = await this.alertController.create({
-      header: 'Rate Park Bingo',
+      header: 'Rate Park Pursuit Bingo',
       message: 'App store links will be available after launch!',
       buttons: ['OK'],
     });

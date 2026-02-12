@@ -528,9 +528,9 @@ export class PlayPage {
 
   readonly parkName = computed(() => {
     const parkId = this.card()?.parkId;
-    if (!parkId) return 'Park Bingo';
+    if (!parkId) return 'Park Pursuit Bingo';
     const park = this.bingoService.parks().find((p) => p.id === parkId);
-    return park?.name || 'Park Bingo';
+    return park?.name || 'Park Pursuit Bingo';
   });
 
   readonly completedCount = computed(() => {
@@ -708,13 +708,13 @@ export class PlayPage {
     const bingos = card.bingos;
     const completed = this.completedCount();
 
-    const text = `🎯 Park Bingo at ${parkName}!\n\n🏆 ${bingos} BINGOs achieved\n✅ ${completed}/25 squares completed\n\n📋 Game Code: ${gameCode}\n\nDownload Park Bingo to play!`;
+    const text = `🎯 Park Pursuit Bingo at ${parkName}!\n\n🏆 ${bingos} BINGOs achieved\n✅ ${completed}/25 squares completed\n\n📋 Game Code: ${gameCode}\n\nDownload Park Pursuit Bingo to play!`;
 
     try {
       await Share.share({
-        title: 'My Park Bingo Card',
+        title: 'My Park Pursuit Bingo Card',
         text,
-        dialogTitle: 'Share your Park Bingo progress',
+        dialogTitle: 'Share your Park Pursuit Bingo progress',
       });
     } catch (error) {
       // User cancelled or share failed

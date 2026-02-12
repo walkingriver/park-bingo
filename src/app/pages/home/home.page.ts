@@ -51,7 +51,7 @@ import { playCircle, settings, helpCircle, cloudOffline } from 'ionicons/icons';
     <ion-header>
       <ion-toolbar>
         <ion-title>
-          <span class="app-title">Park Bingo</span>
+          <span class="app-title">Park Pursuit Bingo</span>
         </ion-title>
         <ion-buttons slot="end">
           <ion-button (click)="showHelp.set(true)" aria-label="Help">
