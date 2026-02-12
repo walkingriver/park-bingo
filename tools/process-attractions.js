@@ -272,6 +272,69 @@ function shouldExclude(attraction) {
   return false;
 }
 
+// Convert kebab-case to Title Case
+function toTitleCase(str) {
+  return str.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+}
+
+// Get a human-readable description from the attraction data
+function getDescription(attraction) {
+  const facets = attraction.facets || {};
+  
+  // Best source: type.facets has human-readable labels like "Thrill Rides, Big Drops"
+  if (attraction.type?.facets) {
+    return attraction.type.facets;
+  }
+  
+  // For entertainment, build from entertainmentType
+  const entertainmentType = facets.entertainmentType || [];
+  if (entertainmentType.length > 0) {
+    return entertainmentType.map(toTitleCase).join(', ');
+  }
+  
+  // Build description from interests (filter out generic ones)
+  const interests = facets.interests || [];
+  const meaningfulInterests = interests.filter(i => 
+    !i.includes('-rec') && 
+    !i.includes('wdw-') && 
+    !i.includes('dlr-') &&
+    i !== 'indoor-attractions' &&
+    i !== 'indoor'
+  );
+  if (meaningfulInterests.length > 0) {
+    return meaningfulInterests.map(toTitleCase).join(', ');
+  }
+  
+  // Build from thrillFactor for rides
+  const thrillFactor = facets.thrillFactor || [];
+  if (thrillFactor.length > 0) {
+    return thrillFactor.map(toTitleCase).join(', ');
+  }
+  
+  // For animal exhibits
+  if (interests.includes('animal-encounters-attractions') || 
+      interests.includes('animal-encounters-events')) {
+    return 'Animal Exhibit';
+  }
+  
+  // Type-based defaults
+  const entityType = attraction.entityType;
+  if (entityType === 'Entertainment') {
+    return 'Live Entertainment';
+  }
+  
+  // Check URL for hints
+  const url = (attraction.url || '').toLowerCase();
+  if (url.includes('/attractions/')) {
+    return 'Attraction';
+  }
+  if (url.includes('/entertainment/')) {
+    return 'Entertainment';
+  }
+  
+  return 'Experience';
+}
+
 // Transform a single attraction
 function transformAttraction(attraction, parkSlug) {
   const facets = attraction.facets || {};
@@ -280,9 +343,7 @@ function transformAttraction(attraction, parkSlug) {
     id: attraction.urlFriendlyId,
     name: attraction.name,
     type: determineType(attraction),
-    description: attraction.media?.finderStandardThumb?.title || 
-                 attraction.media?.finderStandardThumb?.alt || 
-                 `Experience ${attraction.name}`,
+    description: getDescription(attraction),
     categories: mapCategories(facets),
     imageUrl: getImageUrl(attraction.media, parkSlug, attraction.urlFriendlyId),
   };

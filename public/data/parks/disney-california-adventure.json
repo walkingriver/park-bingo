@@ -3,7 +3,7 @@
     "id": "ancient-sanctum",
     "name": "Ancient Sanctum",
     "type": "character",
-    "description": "Experience Ancient Sanctum",
+    "description": "Character Experiences, Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/ancient-sanctum.jpg"
   },
@@ -11,7 +11,7 @@
     "id": "animation-academy",
     "name": "Animation Academy",
     "type": "experience",
-    "description": "Experience Animation Academy",
+    "description": "Character Experiences",
     "categories": [
       "indoor",
       "family",
@@ -23,7 +23,7 @@
     "id": "character-meet-anna-and-elsa-frozen",
     "name": "Anna & Elsa's Royal Welcome",
     "type": "character",
-    "description": "Anna crouches to hug a child as Elsa smiles at them",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -33,7 +33,7 @@
     "id": "avengers-headquarters",
     "name": "Avengers Headquarters",
     "type": "character",
-    "description": "Experience Avengers Headquarters",
+    "description": "Character Experiences, Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/avengers-headquarters.jpg"
   },
@@ -41,7 +41,7 @@
     "id": "better-together",
     "name": "Better Together: A Pixar Pals Celebration!",
     "type": "show",
-    "description": "Jessie, Buzz Lightyear, Miguel and Dante on a float in Better Together, A Pixar Pals Celebration",
+    "description": "Parades",
     "categories": [],
     "imageUrl": "/images/parks/dca/better-together.jpg"
   },
@@ -49,7 +49,7 @@
     "id": "cookin-with-jammin-chefs",
     "name": "Cookin' with the Jammin’ Chefs",
     "type": "show",
-    "description": "Clarabelle Cow, Daisy Duck and Chip and Dale with the Jammin’ Chefs at the Disneyland Resort",
+    "description": "Park Atmosphere Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/cookin-with-jammin-chefs.jpg"
   },
@@ -57,7 +57,7 @@
     "id": "viva-navidad-street-party",
     "name": "Disney ¡Viva Navidad! Street Party",
     "type": "show",
-    "description": "Mariachi musicians playing in front of a parade float carrying Minnie Mouse, Donald Duck and Mickey Mouse",
+    "description": "Live Entertainment",
     "categories": [
       "kids"
     ],
@@ -67,7 +67,7 @@
     "id": "disney-jr-mickey-mouse-clubhouse-live",
     "name": "Disney Jr. Mickey Mouse Clubhouse Live!",
     "type": "show",
-    "description": "Mickey Mouse and Minnie Mouse dancing onstage during Disney Junior Mickey Mouse Clubhouse Live",
+    "description": "Live Entertainment",
     "categories": [
       "kids"
     ],
@@ -77,7 +77,7 @@
     "id": "visa-card-super-hero-character-experience",
     "name": "Disney® Visa® Cardmember Heroic Encounter",
     "type": "character",
-    "description": "The Disney Visa card comes with great photo opportunities to meet your favorite heroes!",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/dca/visa-card-super-hero-character-experience.jpg"
   },
@@ -85,7 +85,7 @@
     "id": "visa-card-character-experience",
     "name": "Disney® Visa® Cardmember Photo Opportunity",
     "type": "character",
-    "description": "Hang out with your favorite little monster and take advantage of the exclusive Disney Visa photo spot",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/dca/visa-card-character-experience.jpg"
   },
@@ -93,7 +93,7 @@
     "id": "five-and-dime",
     "name": "Five & Dime",
     "type": "show",
-    "description": "Five & Dime",
+    "description": "Live Entertainment",
     "categories": [
       "kids"
     ],
@@ -103,7 +103,7 @@
     "id": "games-pixar-pier",
     "name": "Games of Pixar Pier",
     "type": "experience",
-    "description": "Experience Games of Pixar Pier",
+    "description": "Interactive, Rider Switch",
     "categories": [
       "family",
       "kids"
@@ -114,7 +114,7 @@
     "id": "golden-zephyr",
     "name": "Golden Zephyr",
     "type": "ride",
-    "description": "Golden Zephyr",
+    "description": "Spinning",
     "categories": [
       "spin",
       "family",
@@ -126,7 +126,7 @@
     "id": "goofys-sky-school",
     "name": "Goofy's Sky School",
     "type": "ride",
-    "description": "Goofy's Sky School",
+    "description": "Loud, Small Drops, Thrill Rides",
     "categories": [
       "family",
       "thrill",
@@ -138,7 +138,7 @@
     "id": "grizzly-river-run",
     "name": "Grizzly River Run",
     "type": "ride",
-    "description": "Grizzly River Run",
+    "description": "Small Drops, Spinning, Thrill Rides",
     "categories": [
       "family",
       "thrill",
@@ -151,7 +151,7 @@
     "id": "guardians-galaxy-mission-breakout",
     "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
     "type": "ride",
-    "description": "Guardians of the Galaxy Mission: BREAKOUT!",
+    "description": "Big Drops, Dark, Loud",
     "categories": [
       "thrill",
       "dark",
@@ -166,7 +166,7 @@
     "id": "guardians-galaxy-dance",
     "name": "Guardians of the Galaxy: Awesome Dance Off!",
     "type": "character",
-    "description": "A girl dances with Star Lord, Gamora and other characters from Guardians of the Galaxy",
+    "description": "Character Experiences, Character Experiences, Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/guardians-galaxy-dance.jpg"
   },
@@ -174,7 +174,7 @@
     "id": "incredicoaster",
     "name": "Incredicoaster",
     "type": "ride",
-    "description": "Excited Guests ride Incredicoaster",
+    "description": "Big Drops, Loud, Thrill Rides",
     "categories": [
       "thrill",
       "loud",
@@ -186,7 +186,7 @@
     "id": "emotional-whirlwind",
     "name": "Inside Out Emotional Whirlwind",
     "type": "ride",
-    "description": "All ages are welcome to explore Riley's emotions for a fun and colorful adventure!",
+    "description": "Spinning",
     "categories": [
       "spin",
       "family"
@@ -197,7 +197,7 @@
     "id": "jessies-critter-carousel",
     "name": "Jessie's Critter Carousel",
     "type": "ride",
-    "description": "A mother and her kids approach Jessie's Critter Carousel",
+    "description": "Slow Rides, Spinning",
     "categories": [
       "family",
       "spin",
@@ -209,7 +209,7 @@
     "id": "jumpin-jellyfish",
     "name": "Jumpin' Jellyfish",
     "type": "ride",
-    "description": "Jumpin Jellyfish",
+    "description": "Small Drops",
     "categories": [
       "family",
       "kids"
@@ -220,7 +220,7 @@
     "id": "luigis-joy-whirl",
     "name": "Luigi's Joy to the Whirl",
     "type": "ride",
-    "description": "Luigi's Joy to the Whirl",
+    "description": "Loud, Spinning, Thrill Rides",
     "categories": [
       "thrill",
       "spin",
@@ -233,7 +233,7 @@
     "id": "luigis-rollickin-roadsters",
     "name": "Luigi's Rollickin' Roadsters",
     "type": "ride",
-    "description": "A neon sign identifies Luigi's Casa Della Tires",
+    "description": "Loud, Spinning, Thrill Rides",
     "categories": [
       "thrill",
       "spin",
@@ -246,7 +246,7 @@
     "id": "maters-jingle-jamboree",
     "name": "Mater's Jingle Jamboree",
     "type": "ride",
-    "description": "Cars Land during the holidays at Disney California Adventure Park",
+    "description": "Spinning",
     "categories": [
       "spin",
       "family",
@@ -258,7 +258,7 @@
     "id": "maters-junkyard-jamboree",
     "name": "Mater's Junkyard Jamboree",
     "type": "ride",
-    "description": "Maters Junkyard Jamboree",
+    "description": "Thrill Rides",
     "categories": [
       "thrill",
       "family",
@@ -270,7 +270,7 @@
     "id": "meet-chef-goofy",
     "name": "Meet Chef Goofy",
     "type": "character",
-    "description": "Experience Meet Chef Goofy",
+    "description": "Character Experiences, Live Entertainment",
     "categories": [
       "kids"
     ],
@@ -280,7 +280,7 @@
     "id": "disney-pals-on-buena-vista-street",
     "name": "Meet Disney Pals on Buena Vista Street",
     "type": "character",
-    "description": "Experience Meet Disney Pals on Buena Vista Street",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -290,7 +290,7 @@
     "id": "meet-mickey-mouse-and-disney-friends",
     "name": "Meet Mickey Mouse and Disney Friends",
     "type": "character",
-    "description": "Mickey Mouse and Minnie Mouse in festive costumes, welcoming Guests to a Lunar New Year celebration",
+    "description": "Character Experiences, Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/meet-mickey-mouse-and-disney-friends.jpg"
   },
@@ -298,7 +298,7 @@
     "id": "meet-mulan-and-mushu",
     "name": "Meet Mulan and Mushu",
     "type": "character",
-    "description": "Mulan's New Year Procession with Mulan, costumed performers and a Chinese dragon puppet.",
+    "description": "Character Experiences, Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/meet-mulan-and-mushu.jpg"
   },
@@ -306,7 +306,7 @@
     "id": "character-meet-pixar-pals-pixar-pier",
     "name": "Meet Pixar Pals at Pixar Pier",
     "type": "character",
-    "description": "A family takes photos with the characters Joy and Sadness from the Disney and Pixar film Inside Out",
+    "description": "Character Experiences, Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/character-meet-pixar-pals-pixar-pier.jpg"
   },
@@ -314,7 +314,7 @@
     "id": "character-meet-and-greet-turning-red",
     "name": "Meet Red Panda Mei from Turning Red",
     "type": "character",
-    "description": "Experience Meet Red Panda Mei from Turning Red",
+    "description": "Character Experiences, Live Entertainment",
     "categories": [
       "kids"
     ],
@@ -324,7 +324,7 @@
     "id": "character-meet-mater-mcqueen-cozy-cone-motel",
     "name": "Meet the Residents of Radiator Springs in Cars Land",
     "type": "character",
-    "description": "Experience Meet the Residents of Radiator Springs in Cars Land",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -334,7 +334,7 @@
     "id": "mickeys-philharmagic",
     "name": "Mickey's PhilharMagic",
     "type": "show",
-    "description": "Mickey Mouse casts a spell that sends Donald Duck flying with an array of musical instruments",
+    "description": "Rider Switch",
     "categories": [
       "family"
     ],
@@ -344,7 +344,7 @@
     "id": "mirabels-gifts-of-the-season-show",
     "name": "Mirabel's Gifts of the Season",
     "type": "show",
-    "description": "Experience Mirabel's Gifts of the Season",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/mirabels-gifts-of-the-season-show.jpg"
   },
@@ -352,7 +352,7 @@
     "id": "monsters-inc",
     "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
     "type": "ride",
-    "description": "Monsters Inc",
+    "description": "Dark, Loud, Slow Rides",
     "categories": [
       "family",
       "dark",
@@ -366,7 +366,7 @@
     "id": "parades",
     "name": "Parades at the Disneyland Resort",
     "type": "show",
-    "description": "Mack illuminated near Main Street, USA at the Paint the Night Parade",
+    "description": "Parades",
     "categories": [],
     "imageUrl": "/images/parks/dca/parades.jpg"
   },
@@ -374,7 +374,7 @@
     "id": "paradise-garden-bandstand",
     "name": "Paradise Garden Bandstand",
     "type": "show",
-    "description": "The Paradise Garden Bandstand at Disney California Adventure Park",
+    "description": "Live Entertainment",
     "categories": [
       "kids"
     ],
@@ -384,7 +384,7 @@
     "id": "fortunes",
     "name": "Paradise Garden Bandstand Presents Fortunes",
     "type": "show",
-    "description": "Experience Paradise Garden Bandstand Presents Fortunes",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/fortunes.jpg"
   },
@@ -392,7 +392,7 @@
     "id": "paradise-garden-bandstand-presents-jie-ma",
     "name": "Paradise Garden Bandstand Presents Jie Ma",
     "type": "show",
-    "description": "Experience Paradise Garden Bandstand Presents Jie Ma",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/paradise-garden-bandstand-presents-jie-ma.jpg"
   },
@@ -400,7 +400,7 @@
     "id": "lac-hong-performing-arts-group",
     "name": "Paradise Garden Bandstand Presents Lạc Hồng Performing Arts Group",
     "type": "show",
-    "description": "Experience Paradise Garden Bandstand Presents Lạc Hồng Performing Arts Group",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/lac-hong-performing-arts-group.jpg"
   },
@@ -408,7 +408,7 @@
     "id": "vocal-seoul",
     "name": "Paradise Garden Bandstand Presents Vocal Seoul",
     "type": "show",
-    "description": "The singing group Vocal Seoul",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/vocal-seoul.jpg"
   },
@@ -416,7 +416,7 @@
     "id": "pixar-pal-a-round-swinging",
     "name": "Pixar Pal-A-Round - Swinging",
     "type": "ride",
-    "description": "Experience Pixar Pal-A-Round - Swinging",
+    "description": "Small Drops",
     "categories": [
       "family",
       "kids"
@@ -427,7 +427,7 @@
     "id": "pixar-pal-a-round-non-swinging",
     "name": "Pixar Pal-A-Round – Non-Swinging",
     "type": "ride",
-    "description": "Hop on the Pixar Pal-A-Round attraction for breathtaking views and a ride you'll never forget.",
+    "description": "Slow Rides",
     "categories": [
       "family"
     ],
@@ -437,7 +437,7 @@
     "id": "radiator-springs-racers",
     "name": "Radiator Springs Racers",
     "type": "ride",
-    "description": "Radiator Springs Racers",
+    "description": "Dark, Loud, Small Drops",
     "categories": [
       "family",
       "thrill",
@@ -451,7 +451,7 @@
     "id": "redwood-creek-challenge-trail",
     "name": "Redwood Creek Challenge Trail",
     "type": "exhibit",
-    "description": "Redwood Creek Challenge Trail",
+    "description": "Interactive, Discovery, Rider Switch",
     "categories": [
       "family",
       "kids"
@@ -462,7 +462,7 @@
     "id": "silly-symphony-swings",
     "name": "Silly Symphony Swings",
     "type": "ride",
-    "description": "Smiling kids ride the Silly Symphony Swings at Disney California Adventure Park",
+    "description": "Spinning",
     "categories": [
       "spin",
       "family"
@@ -473,7 +473,7 @@
     "id": "soarin",
     "name": "Soarin' Around the World",
     "type": "ride",
-    "description": "Soarin' Around the World",
+    "description": "Dark, Loud, Slow Rides",
     "categories": [
       "family",
       "dark",
@@ -486,7 +486,7 @@
     "id": "soarin-over-california",
     "name": "Soarin' Over California",
     "type": "ride",
-    "description": "Soarin' Over California",
+    "description": "Dark, Loud, Small Drops",
     "categories": [
       "family",
       "dark",
@@ -499,7 +499,7 @@
     "id": "sorcerers-workshop",
     "name": "Sorcerer's Workshop",
     "type": "experience",
-    "description": "Sorcerers Workshop",
+    "description": "Dark",
     "categories": [
       "dark",
       "indoor",
@@ -512,7 +512,7 @@
     "id": "bakery-tour",
     "name": "The Bakery Tour",
     "type": "experience",
-    "description": "Outdoor signage for The Bakery Tour hosted by Boudin Bakery, located in San Fransokyo Square at Disney California Adventure Park",
+    "description": "Discovery, Rider Switch",
     "categories": [
       "indoor",
       "family"
@@ -523,7 +523,7 @@
     "id": "little-mermaid-ariels-undersea-adventure",
     "name": "The Little Mermaid - Ariel's Undersea Adventure",
     "type": "ride",
-    "description": "The Little Mermaid ~ Ariel's Undersea Adventure",
+    "description": "Dark, Loud, Slow Rides",
     "categories": [
       "family",
       "dark",
@@ -537,7 +537,7 @@
     "id": "a-musical-celebration-of-coco",
     "name": "The Storytellers of Plaza de la Familia Celebrate The Musical World of Coco!",
     "type": "show",
-    "description": "People performing in The Storytellers of Plaza de la Familia Celebrate The Musical World of Coco! show",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dca/a-musical-celebration-of-coco.jpg"
   },
@@ -545,7 +545,7 @@
     "id": "toy-story-mania",
     "name": "Toy Story Midway Mania!",
     "type": "ride",
-    "description": "Grab a spring-action launcher and aim for a high score in a fast-paced, spinning adventure through Andy's room.",
+    "description": "Dark, Loud",
     "categories": [
       "dark",
       "loud",
@@ -559,7 +559,7 @@
     "id": "turtle-talk-with-crush",
     "name": "Turtle Talk with Crush",
     "type": "ride",
-    "description": "Young Guests and the turtle from the Disney Pixar film Finding Nemo enjoy a conversation",
+    "description": "Character Experiences, Dark",
     "categories": [
       "dark",
       "indoor",
@@ -572,7 +572,7 @@
     "id": "web-slingers-spider-man-adventure",
     "name": "WEB SLINGERS: A Spider-Man Adventure",
     "type": "ride",
-    "description": "The exterior of WEB SLINGERS A Spider Man Adventure at night",
+    "description": "Dark, Loud, Spinning",
     "categories": [
       "spin",
       "dark",
@@ -587,7 +587,7 @@
     "id": "world-of-color-season-of-light",
     "name": "World of Color - Season of Light",
     "type": "show",
-    "description": "The fountains, lasers and projections at the World of Color nighttime spectacular light up the night sky",
+    "description": "Nighttime Spectaculars, Seasonal",
     "categories": [
       "kids",
       "classic"
@@ -598,7 +598,7 @@
     "id": "world-of-color-happiness",
     "name": "World of Color Happiness!",
     "type": "show",
-    "description": "Joy from Inside Out illuminated on the spray from fountains during the World of Color Happiness nighttime show",
+    "description": "Nighttime Spectaculars",
     "categories": [],
     "imageUrl": "/images/parks/dca/world-of-color-happiness.jpg"
   }

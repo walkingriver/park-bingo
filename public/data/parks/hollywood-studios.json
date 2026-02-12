@@ -3,7 +3,7 @@
     "id": "alien-swirling-saucers",
     "name": "Alien Swirling Saucers",
     "type": "ride",
-    "description": "Experience Alien Swirling Saucers",
+    "description": "Spinning",
     "categories": [
       "spin"
     ],
@@ -13,7 +13,7 @@
     "id": "beauty-and-the-beast-live-on-stage",
     "name": "Beauty and the Beast – Live on Stage",
     "type": "show",
-    "description": "Beauty and the Beast - Live on Stage",
+    "description": "Stage Shows",
     "categories": [
       "kids"
     ],
@@ -23,7 +23,7 @@
     "id": "disney-jr-mickey-mouse-clubhouse-live",
     "name": "Disney Jr. Mickey Mouse Clubhouse Live!",
     "type": "show",
-    "description": "Mickey Mouse and Minnie Mouse dancing in Disney Junior Mickey Mouse Clubhouse Live",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/hs/disney-jr-mickey-mouse-clubhouse-live.jpg"
   },
@@ -31,7 +31,7 @@
     "id": "disney-movie-magic",
     "name": "Disney Movie Magic",
     "type": "show",
-    "description": "Disney Movie Magic",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/hs/disney-movie-magic.jpg"
   },
@@ -39,7 +39,7 @@
     "id": "disney-villains-unfairly-ever-after",
     "name": "Disney Villains: Unfairly Ever After – New!",
     "type": "character",
-    "description": "Watch Maleficent cast her spell during Disney Villains: Unfairly Ever After at Disney’s Hollywood Studios.",
+    "description": "Character Experiences, Live Entertainment, Stage Shows",
     "categories": [],
     "imageUrl": "/images/parks/hs/disney-villains-unfairly-ever-after.jpg"
   },
@@ -47,7 +47,7 @@
     "id": "character-meet-darth-vader",
     "name": "Encounter Darth Vader",
     "type": "show",
-    "description": "Prepare to face the might of the Galactic Empire when you find Darth Vader near the Star Tours entrance in Disney’s Hollywood Studios",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/hs/character-meet-darth-vader.jpg"
   },
@@ -55,7 +55,7 @@
     "id": "fantasmic",
     "name": "Fantasmic!",
     "type": "show",
-    "description": "Mickey Mouse stands on a stage near water jets",
+    "description": "Fireworks",
     "categories": [],
     "imageUrl": "/images/parks/hs/fantasmic.jpg"
   },
@@ -63,7 +63,7 @@
     "id": "first-order-searches-for-the-resistance",
     "name": "First Order Searches for the Resistance",
     "type": "character",
-    "description": "Kylo Ren poses on a stage with 2 stormtroopers ",
+    "description": "Character Experiences, Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/hs/first-order-searches-for-the-resistance.jpg"
   },
@@ -71,7 +71,7 @@
     "id": "frozen-sing-along-celebration",
     "name": "For the First Time in Forever: A Frozen Sing-Along Celebration",
     "type": "character",
-    "description": "Frozen Sing-Along Celebration",
+    "description": "Character Experiences, Live Entertainment, Stage Shows",
     "categories": [],
     "imageUrl": "/images/parks/hs/frozen-sing-along-celebration.jpg"
   },
@@ -79,7 +79,7 @@
     "id": "green-army-drum-corps",
     "name": "Green Army Drum Corps",
     "type": "character",
-    "description": "The Green Army Man Drum Corps stand, ready to play, in front of Woody and the Toy Story Land sign",
+    "description": "Character Experiences, Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/hs/green-army-drum-corps.jpg"
   },
@@ -87,7 +87,7 @@
     "id": "hollygroove-swingin",
     "name": "Hollygroove Swingin’",
     "type": "show",
-    "description": "Get ready to tap your feet to the beat of The HollyGroove Swinging Band as they perform at Disney’s Hollywood Studios.",
+    "description": "Streetmosphere",
     "categories": [],
     "imageUrl": "/images/parks/hs/hollygroove-swingin.jpg"
   },
@@ -95,7 +95,7 @@
     "id": "indiana-jones-epic-stunt-spectacular",
     "name": "Indiana Jones™ Epic Stunt Spectacular!",
     "type": "show",
-    "description": "Experience Indiana Jones™ Epic Stunt Spectacular!",
+    "description": "Action & Adventure, Stage Shows",
     "categories": [],
     "imageUrl": "/images/parks/hs/indiana-jones-epic-stunt-spectacular.jpg"
   },
@@ -103,7 +103,7 @@
     "id": "character-meet-ariel-walt-disney-presents",
     "name": "Meet Ariel at Walt Disney Presents",
     "type": "character",
-    "description": "Ariel smiles while standing on a balcony over a body of water",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/hs/character-meet-ariel-walt-disney-presents.jpg"
   },
@@ -111,7 +111,7 @@
     "id": "character-meet-mickey-minnie-red-carpet",
     "name": "Meet Disney Stars at Red Carpet Dreams",
     "type": "character",
-    "description": "Experience Meet Disney Stars at Red Carpet Dreams",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -121,7 +121,7 @@
     "id": "character-meet-edna-mode-experience",
     "name": "Meet Edna Mode at the Edna Mode Experience",
     "type": "character",
-    "description": "Edna Mode poses for a photo ",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/hs/character-meet-edna-mode-experience.jpg"
   },
@@ -129,7 +129,7 @@
     "id": "character-meet-joy",
     "name": "Meet Joy at Pixar Plaza",
     "type": "character",
-    "description": "Joy from the Pixar movie Inside Out skipping at Pixar Plaza",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/hs/character-meet-joy.jpg"
   },
@@ -137,7 +137,7 @@
     "id": "character-meet-olaf-frozen",
     "name": "Meet Olaf at Celebrity Spotlight",
     "type": "character",
-    "description": "Character Meet Olaf",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -147,7 +147,7 @@
     "id": "visa-card-character-experiences",
     "name": "Meet Olaf at Celebrity Spotlight — Disney® Visa® Cardmember Exclusive",
     "type": "character",
-    "description": "Character Meet Olaf",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -157,7 +157,7 @@
     "id": "character-meet-pixar-pals",
     "name": "Meet Pixar Pals at Pixar Plaza",
     "type": "character",
-    "description": "Mister and Missus Incredible strike Super Hero poses ",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/hs/character-meet-pixar-pals.jpg"
   },
@@ -165,7 +165,7 @@
     "id": "character-meet-woody-jessie-buzz-lightyear",
     "name": "Meet the Toys in Toy Story Land",
     "type": "character",
-    "description": "Experience Meet the Toys in Toy Story Land",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/hs/character-meet-woody-jessie-buzz-lightyear.jpg"
   },
@@ -173,7 +173,7 @@
     "id": "mickey-minnies-runaway-railway",
     "name": "Mickey & Minnie's Runaway Railway",
     "type": "experience",
-    "description": "People ride a train underwater surrounded by swimming friends including Mickey, Minnie and Pluto",
+    "description": "Classic",
     "categories": [
       "kids"
     ],
@@ -183,7 +183,7 @@
     "id": "millennium-falcon-smugglers-run",
     "name": "Millennium Falcon: Smugglers Run",
     "type": "ride",
-    "description": "The cockpit of the Millennium Falcon",
+    "description": "Dark, Loud, Small Drops",
     "categories": [
       "thrill",
       "family",
@@ -196,7 +196,7 @@
     "id": "rock-and-roller-coaster-starring-aerosmith",
     "name": "Rock 'n' Roller Coaster Starring Aerosmith",
     "type": "ride",
-    "description": "Experience Rock 'n' Roller Coaster Starring Aerosmith",
+    "description": "Big Drops, Loud, Thrill Rides",
     "categories": [
       "thrill",
       "loud",
@@ -208,7 +208,7 @@
     "id": "slinky-dog-dash",
     "name": "Slinky Dog Dash",
     "type": "ride",
-    "description": "Slinky Dog Dash",
+    "description": "Small Drops, Thrill Rides",
     "categories": [
       "thrill",
       "family"
@@ -219,7 +219,7 @@
     "id": "star-tours",
     "name": "Star Tours – The Adventures Continue",
     "type": "ride",
-    "description": "Experience Star Tours – The Adventures Continue",
+    "description": "Small Drops",
     "categories": [
       "family"
     ],
@@ -229,7 +229,7 @@
     "id": "star-wars-rise-of-the-resistance",
     "name": "Star Wars: Rise of the Resistance",
     "type": "ride",
-    "description": "People in a transport vehicle inside a hanger bay look up at 2 towering AT-AT walkers",
+    "description": "Dark, Loud, Small Drops",
     "categories": [
       "thrill",
       "family",
@@ -243,7 +243,7 @@
     "id": "star-wars-wdw",
     "name": "Star Wars™ at Walt Disney World Resort",
     "type": "experience",
-    "description": "Experience Star Wars™ at Walt Disney World Resort",
+    "description": "Star Wars Attractions",
     "categories": [],
     "imageUrl": "/images/parks/hs/star-wars-wdw.jpg"
   },
@@ -251,7 +251,7 @@
     "id": "little-mermaid-musical-adventure",
     "name": "The Little Mermaid – A Musical Adventure – New!",
     "type": "character",
-    "description": "Marvel at the watery wonders of Ariel’s grotto in The Little Mermaid – A Musical Adventure",
+    "description": "Character Experiences, Live Entertainment, Stage Shows",
     "categories": [],
     "imageUrl": "/images/parks/hs/little-mermaid-musical-adventure.jpg"
   },
@@ -259,7 +259,7 @@
     "id": "the-record-setters",
     "name": "The Record Setters",
     "type": "show",
-    "description": "Watch The Record Setters perform amazing stunts, topping all challengers—and themselves!",
+    "description": "Streetmosphere",
     "categories": [],
     "imageUrl": "/images/parks/hs/the-record-setters.jpg"
   },
@@ -267,7 +267,7 @@
     "id": "twilight-zone-tower-of-terror",
     "name": "The Twilight Zone Tower of Terror™",
     "type": "ride",
-    "description": "Experience The Twilight Zone Tower of Terror™",
+    "description": "Big Drops, Dark, Scary",
     "categories": [
       "thrill",
       "dark",
@@ -280,7 +280,7 @@
     "id": "toy-story-mania",
     "name": "Toy Story Mania!",
     "type": "ride",
-    "description": "Experience Toy Story Mania!",
+    "description": "Spinning",
     "categories": [
       "spin"
     ],
@@ -290,7 +290,7 @@
     "id": "vacation-fun",
     "name": "Vacation Fun - An Original Animated Short with Mickey & Minnie",
     "type": "experience",
-    "description": "An empty theater with a film featuring Mickey and Minnie Mouse projected on the movie screen",
+    "description": "Classic Characters Entertainments",
     "categories": [],
     "imageUrl": "/images/parks/hs/vacation-fun.jpg"
   },
@@ -298,7 +298,7 @@
     "id": "walt-disney-presents",
     "name": "Walt Disney Presents",
     "type": "experience",
-    "description": "See one-of-a-kind sketches, photos, models, costumes, artwork and more from the Disney archives.",
+    "description": "Attraction",
     "categories": [
       "kids",
       "classic"
@@ -309,7 +309,7 @@
     "id": "wonderful-world-of-animation",
     "name": "Wonderful World of Animation",
     "type": "show",
-    "description": "Mickey Mouse in the spotlight in front of a recreation of Grauman's Chinese Theater",
+    "description": "Nighttime Spectaculars",
     "categories": [],
     "imageUrl": "/images/parks/hs/wonderful-world-of-animation.jpg"
   }

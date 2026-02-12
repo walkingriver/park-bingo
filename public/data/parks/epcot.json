@@ -3,7 +3,7 @@
     "id": "mission-space-advanced-training-lab",
     "name": "Advanced Training Lab",
     "type": "experience",
-    "description": "Experience Advanced Training Lab",
+    "description": "Interactive, Play Areas",
     "categories": [
       "kids"
     ],
@@ -13,7 +13,7 @@
     "id": "american-heritage-gallery",
     "name": "American Heritage Gallery",
     "type": "exhibit",
-    "description": "Experience American Heritage Gallery",
+    "description": "Attraction",
     "categories": [
       "kids"
     ],
@@ -23,7 +23,7 @@
     "id": "the-land-awesome-planet",
     "name": "Awesome Planet",
     "type": "show",
-    "description": "Family stands on a mountain looking at a beautiful blue and yellow night sky",
+    "description": "Attraction",
     "categories": [
       "kids"
     ],
@@ -33,7 +33,7 @@
     "id": "beauty-and-the-beast-sing-along",
     "name": "Beauty and the Beast Sing-Along",
     "type": "show",
-    "description": "Candles and books surround a gold framed image of Beauty and the Beast's LeFou character",
+    "description": "Disney Princesses Attractions",
     "categories": [
       "kids"
     ],
@@ -43,7 +43,7 @@
     "id": "bijutsu-kan-gallery",
     "name": "Bijutsu-kan Gallery",
     "type": "exhibit",
-    "description": "Experience Bijutsu-kan Gallery",
+    "description": "Attraction",
     "categories": [
       "kids"
     ],
@@ -53,7 +53,7 @@
     "id": "bruces-shark-world",
     "name": "Bruce's Shark World",
     "type": "experience",
-    "description": "Bruces Shark World",
+    "description": "Pixar Pals Entertainments",
     "categories": [
       "kids"
     ],
@@ -63,7 +63,7 @@
     "id": "canada-far-and-wide",
     "name": "Canada Far and Wide in Circle-Vision 360",
     "type": "show",
-    "description": "Visit the theater inside the Canada Pavilion to see a Circle-Vision 360° movie, Canada Far and Wide.",
+    "description": "Attraction",
     "categories": [
       "kids",
       "classic"
@@ -74,7 +74,7 @@
     "id": "command-performance",
     "name": "Command Performance",
     "type": "show",
-    "description": "4 musicians from The Hooligans, a British rock band, standing by the United Kingdom gazebo at EPCOT",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/epcot/command-performance.jpg"
   },
@@ -82,7 +82,7 @@
     "id": "disney-animals-coral-reefs",
     "name": "Coral Reefs - Disney Animals",
     "type": "exhibit",
-    "description": "Experience Coral Reefs - Disney Animals",
+    "description": "Animal Encounters Attractions",
     "categories": [
       "kids"
     ],
@@ -92,7 +92,7 @@
     "id": "disney-pixar-short-film-festival",
     "name": "Disney and Pixar Short Film Festival",
     "type": "show",
-    "description": "Experience Disney and Pixar Short Film Festival",
+    "description": "Dark, Indoor",
     "categories": [
       "dark",
       "indoor",
@@ -104,7 +104,7 @@
     "id": "ducktales-play-app",
     "name": "Disney’s DuckTales World Showcase Adventure",
     "type": "experience",
-    "description": "2 Guests hold a cellphone to make a Donald Duck figurine to appear during the DuckTales World Showcase Adventure",
+    "description": "Interactive, Play Disney Parks",
     "categories": [],
     "imageUrl": "/images/parks/epcot/ducktales-play-app.jpg"
   },
@@ -112,7 +112,7 @@
     "id": "visa-card-character-experience",
     "name": "Disney® Visa® Cardmember Photo Opportunity at EPCOT",
     "type": "character",
-    "description": "A Guest posing for a picture with Pluto and Mickey Mouse in the Disney Visa photo spot at Epcot",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/epcot/visa-card-character-experience.jpg"
   },
@@ -120,7 +120,7 @@
     "id": "dreamers-point",
     "name": "Dreamers Point",
     "type": "experience",
-    "description": "Experience Dreamers Point",
+    "description": "Attraction",
     "categories": [
       "kids"
     ],
@@ -130,7 +130,7 @@
     "id": "canada-pavilion-entertainment",
     "name": "Entertainment at Canada Mill Stage",
     "type": "show",
-    "description": "Catch lively performances from Les Raftsmen—a Canadian folk band performing at Canada Mill Stage in EPCOT.",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/epcot/canada-pavilion-entertainment.jpg"
   },
@@ -138,7 +138,7 @@
     "id": "communicore-plaza-stage",
     "name": "Entertainment at CommuniCore Plaza Stage",
     "type": "show",
-    "description": "The band La Calle performing on the CommuniCore Plaza Stage at Epcot",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/epcot/communicore-plaza-stage.jpg"
   },
@@ -146,7 +146,7 @@
     "id": "germany-pavilion-entertainment",
     "name": "Entertainment at Germany Gazebo",
     "type": "show",
-    "description": "A trio of musicians performing with a guitar, fiddle and upright bass on a cozy stage in the Germany Pavilion at EPCOT",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/epcot/germany-pavilion-entertainment.jpg"
   },
@@ -154,7 +154,7 @@
     "id": "broadway-concert-series",
     "name": "EPCOT International Festival of the Arts: DISNEY ON BROADWAY Concert Series",
     "type": "show",
-    "description": "A seated family and a projector on stage with the words, ‘Disney on Broadway’",
+    "description": "Stage Shows",
     "categories": [],
     "imageUrl": "/images/parks/epcot/broadway-concert-series.jpg"
   },
@@ -162,7 +162,7 @@
     "id": "frozen",
     "name": "Frozen at Walt Disney World Resort",
     "type": "experience",
-    "description": "Anna and Elsa smile at each other at Royal Sommerhus in EPCOT",
+    "description": "Interactive, Classic, New, Frozen Attractions",
     "categories": [
       "kids"
     ],
@@ -172,7 +172,7 @@
     "id": "frozen-ever-after",
     "name": "Frozen Ever After",
     "type": "ride",
-    "description": "Wave hello to Elsa, Anna and Olaf as you journey through a frozen willow forest.",
+    "description": "Dark, Slow Rides, Small Drops",
     "categories": [
       "family",
       "dark",
@@ -184,7 +184,7 @@
     "id": "gallery-arts-and-history",
     "name": "Gallery of Arts and History",
     "type": "exhibit",
-    "description": "Experience Gallery of Arts and History",
+    "description": "Attraction",
     "categories": [
       "kids"
     ],
@@ -194,7 +194,7 @@
     "id": "gran-fiesta-tour-starring-three-caballeros",
     "name": "Gran Fiesta Tour Starring The Three Caballeros",
     "type": "ride",
-    "description": "Experience Gran Fiesta Tour Starring The Three Caballeros",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids"
@@ -205,7 +205,7 @@
     "id": "guardians-of-the-galaxy-cosmic-rewind",
     "name": "Guardians of the Galaxy: Cosmic Rewind",
     "type": "ride",
-    "description": "Guardians of the Galaxy: Cosmic Rewind Attraction Photos",
+    "description": "Dark, Thrill Rides",
     "categories": [
       "dark",
       "thrill"
@@ -217,7 +217,7 @@
     "id": "house-of-the-whispering-willows-gallery",
     "name": "House of the Whispering Willows",
     "type": "experience",
-    "description": "The interior of House of Whispering Willows at Shanghai Disney Resort featuring display cases with Disney artwork and 4 mannequins in vintage costumes",
+    "description": "Attraction",
     "categories": [
       "kids"
     ],
@@ -227,7 +227,7 @@
     "id": "imageworks",
     "name": "ImageWorks - The \"What If\" Labs",
     "type": "experience",
-    "description": "Experience ImageWorks - The \"What If\" Labs",
+    "description": "Interactive",
     "categories": [
       "kids"
     ],
@@ -237,7 +237,7 @@
     "id": "impressions-de-france",
     "name": "Impressions de France",
     "type": "experience",
-    "description": "Watch Impressions de France, an 18-minute film about France at the France Pavilion.",
+    "description": "Attraction",
     "categories": [
       "kids"
     ],
@@ -247,7 +247,7 @@
     "id": "jammitors",
     "name": "JAMMitors",
     "type": "show",
-    "description": "Percussion ensemble The Jammitors using stainless steel trash cans to perform music at Epcot",
+    "description": "Live Entertainment, Streetmosphere",
     "categories": [],
     "imageUrl": "/images/parks/epcot/jammitors.jpg"
   },
@@ -255,7 +255,7 @@
     "id": "journey-into-imagination-with-figment",
     "name": "Journey Into Imagination With Figment",
     "type": "ride",
-    "description": "Journey Into Imagination With Figment",
+    "description": "Dark, Slow Rides",
     "categories": [
       "family",
       "dark",
@@ -268,7 +268,7 @@
     "id": "journey-of-water",
     "name": "Journey of Water, Inspired by Moana",
     "type": "experience",
-    "description": "A small waterfall over a rock formation that features the Heart of Te Fiti symbol on the Journey of Water, Inspired by Moana trail",
+    "description": "Interactive, New",
     "categories": [
       "kids"
     ],
@@ -278,7 +278,7 @@
     "id": "kidcot-fun-stops",
     "name": "Kidcot Fun Stops",
     "type": "experience",
-    "description": "A sign that reads Kidcot Fun Stop",
+    "description": "Attraction",
     "categories": [
       "kids"
     ],
@@ -288,7 +288,7 @@
     "id": "leave-a-legacy",
     "name": "Leave A Legacy",
     "type": "experience",
-    "description": "Experience Leave A Legacy",
+    "description": "Attraction",
     "categories": [],
     "imageUrl": "/images/parks/epcot/leave-a-legacy.jpg"
   },
@@ -296,7 +296,7 @@
     "id": "living-with-the-land",
     "name": "Living with the Land",
     "type": "ride",
-    "description": "Experience Living with the Land",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids",
@@ -308,7 +308,7 @@
     "id": "glimmering-greenhouses",
     "name": "Living with the Land – Glimmering Greenhouses",
     "type": "ride",
-    "description": "Trees decorated with Christmas lights and 3 snowmen inside the Living with the Land attraction",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids",
@@ -320,7 +320,7 @@
     "id": "luminous-the-symphony-us",
     "name": "Luminous The Symphony of Us",
     "type": "show",
-    "description": "Two parents hold their young daughter as they watch a fireworks show over Epcot",
+    "description": "Fireworks",
     "categories": [
       "kids"
     ],
@@ -330,7 +330,7 @@
     "id": "disney-animals-manatees",
     "name": "Manatees - Disney Animals",
     "type": "exhibit",
-    "description": "A manatee eats lettuce underwater",
+    "description": "Animal Encounters Attractions",
     "categories": [],
     "imageUrl": "/images/parks/epcot/disney-animals-manatees.jpg"
   },
@@ -338,7 +338,7 @@
     "id": "matsuriza",
     "name": "Matsuriza",
     "type": "show",
-    "description": "Experience Matsuriza",
+    "description": "Live Entertainment, Stage Shows",
     "categories": [],
     "imageUrl": "/images/parks/epcot/matsuriza.jpg"
   },
@@ -346,7 +346,7 @@
     "id": "max-and-aydar",
     "name": "Max & Aydar",
     "type": "show",
-    "description": "Variety performers Max & Aydar holding horns and standing next to a podium and touring tricycle at Epcot\t",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/epcot/max-and-aydar.jpg"
   },
@@ -354,7 +354,7 @@
     "id": "character-meet-winnie-the-pooh",
     "name": "Meet a Friend from the Hundred Acre Wood in the United Kingdom",
     "type": "character",
-    "description": "Winnie the Pooh standing in the middle of a bedroom with many toys, books and pillows",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -364,7 +364,7 @@
     "id": "character-meet-alice-in-wonderland-uk",
     "name": "Meet Alice in the United Kingdom",
     "type": "character",
-    "description": "Alice strikes a pose in a garden",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -374,7 +374,7 @@
     "id": "character-meet-anna-elsa-royal-sommerhus",
     "name": "Meet Anna and Elsa at Royal Sommerhus",
     "type": "character",
-    "description": "Anna smiles at Elsa as they stand in the Norway Pavilion in EPCOT",
+    "description": "Character Experiences, Indoor",
     "categories": [
       "indoor",
       "kids"
@@ -385,7 +385,7 @@
     "id": "character-meet-asha",
     "name": "Meet Asha Near World Showcase Plaza",
     "type": "character",
-    "description": "Asha poses in front of a brick wall surrounded by plants and lanterns",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -395,7 +395,7 @@
     "id": "character-meet-belle",
     "name": "Meet Belle in France",
     "type": "character",
-    "description": "Belle, wearing her village dress, clasps her hands to her chest",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/epcot/character-meet-belle.jpg"
   },
@@ -403,7 +403,7 @@
     "id": "character-meet-disney-pals-communicore-hall",
     "name": "Meet Beloved Disney Pals at Mickey & Friends",
     "type": "character",
-    "description": "Experience Meet Beloved Disney Pals at Mickey & Friends",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/epcot/character-meet-disney-pals-communicore-hall.jpg"
   },
@@ -411,7 +411,7 @@
     "id": "character-meet-donald-duck-mexico",
     "name": "Meet Donald Duck in Mexico",
     "type": "character",
-    "description": "Experience Meet Donald Duck in Mexico",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -421,7 +421,7 @@
     "id": "character-meet-figment",
     "name": "Meet Figment Inside ImageWorks",
     "type": "character",
-    "description": "Figment the dragon gives high fives to 2 young children while their father watches them and smiles",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/epcot/character-meet-figment.jpg"
   },
@@ -429,7 +429,7 @@
     "id": "character-meet-mulan",
     "name": "Meet Mulan in China",
     "type": "character",
-    "description": "Meet Mulan in China Pavilion",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -439,7 +439,7 @@
     "id": "character-meet-disney-pals-main-entrance",
     "name": "Meet Pluto Near EPCOT Main Entrance",
     "type": "character",
-    "description": "Pluto posing and pulling his ears at the Main Entrance of Epcot",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -449,7 +449,7 @@
     "id": "character-meet-aurora-france",
     "name": "Meet Princess Aurora in France",
     "type": "character",
-    "description": "Meet Aurora in the Gardens of France",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -459,7 +459,7 @@
     "id": "character-meet-jasmine",
     "name": "Meet Princess Jasmine in Morocco",
     "type": "character",
-    "description": "Meet Princess Jasmine in Morocco",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -469,7 +469,7 @@
     "id": "character-meet-snow-white",
     "name": "Meet Snow White in Germany",
     "type": "character",
-    "description": "Experience Meet Snow White in Germany",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -479,7 +479,7 @@
     "id": "character-meet-star-lord",
     "name": "Meet Star-Lord near Guardians of the Galaxy: Cosmic Rewind",
     "type": "character",
-    "description": "Star Lord standing in front of Guardians of the Galaxy Cosmic Rewind at Epcot",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/epcot/character-meet-star-lord.jpg"
   },
@@ -487,7 +487,7 @@
     "id": "mexican-folk-art-gallery",
     "name": "Mexico Folk Art Gallery",
     "type": "exhibit",
-    "description": "Celebrate the traditions of Día de Muertos at the Mexican Pavilion in Epcot.",
+    "description": "Attraction",
     "categories": [
       "kids"
     ],
@@ -497,7 +497,7 @@
     "id": "mission-space",
     "name": "Mission: SPACE",
     "type": "ride",
-    "description": "Experience Mission: SPACE",
+    "description": "Dark, Spinning, Thrill Rides",
     "categories": [
       "thrill",
       "spin",
@@ -510,7 +510,7 @@
     "id": "music-of-mexico",
     "name": "Music of Mexico",
     "type": "show",
-    "description": "A singer, violinist and 2 other musicians perform outside",
+    "description": "Live Entertainment, Streetmosphere",
     "categories": [],
     "imageUrl": "/images/parks/epcot/music-of-mexico.jpg"
   },
@@ -518,7 +518,7 @@
     "id": "project-tomorrow-inventing-the-wonders-of-the-future",
     "name": "Project Tomorrow: Inventing the Wonders of the Future",
     "type": "experience",
-    "description": "A father holding his smiling young daughter in his arms as he walks towards Spaceship Earth at Epcot",
+    "description": "Play Areas",
     "categories": [
       "kids"
     ],
@@ -528,7 +528,7 @@
     "id": "disney-animals-reef-fish",
     "name": "Reef Fish - Disney Animals",
     "type": "exhibit",
-    "description": "Experience Reef Fish - Disney Animals",
+    "description": "Animal Encounters Events, Animal Encounters Attractions",
     "categories": [],
     "imageUrl": "/images/parks/epcot/disney-animals-reef-fish.jpg"
   },
@@ -536,7 +536,7 @@
     "id": "reflections-of-china",
     "name": "Reflections of China",
     "type": "experience",
-    "description": "Experience Reflections of China",
+    "description": "Attraction",
     "categories": [
       "kids",
       "classic"
@@ -547,7 +547,7 @@
     "id": "remys-ratatouille-adventure",
     "name": "Remy's Ratatouille Adventure",
     "type": "experience",
-    "description": "Get whisked away on an exciting culinary caper at Remy’s Ratatouille Adventure, located in the France Pavilion at Epcot.",
+    "description": "Pixar Pals Entertainments, Single Rider Line Wdw",
     "categories": [],
     "imageUrl": "/images/parks/epcot/remys-ratatouille-adventure.jpg"
   },
@@ -555,7 +555,7 @@
     "id": "rose-crown-pub-music",
     "name": "Rose & Crown Pub Musician",
     "type": "show",
-    "description": "Experience Rose & Crown Pub Musician",
+    "description": "Indoor, Live Entertainment",
     "categories": [
       "indoor"
     ],
@@ -565,7 +565,7 @@
     "id": "disney-animals-sea-turtles",
     "name": "Sea Turtles - Disney Animals",
     "type": "exhibit",
-    "description": "Experience Sea Turtles - Disney Animals",
+    "description": "Animal Encounters Attractions",
     "categories": [
       "kids"
     ],
@@ -575,7 +575,7 @@
     "id": "sea-base-aquarium",
     "name": "SeaBase Aquarium",
     "type": "exhibit",
-    "description": "Get up close and personal with various fish at The Seas with Nemo & Friends Pavilion at Epcot.",
+    "description": "Interactive, Animal Encounters Attractions",
     "categories": [
       "kids"
     ],
@@ -585,7 +585,7 @@
     "id": "sergio-italian-juggler",
     "name": "Sergio",
     "type": "show",
-    "description": "A performer juggling in the Italy Pavilion in World Showcase",
+    "description": "Streetmosphere",
     "categories": [
       "kids"
     ],
@@ -595,7 +595,7 @@
     "id": "disney-animals-sharks-and-rays",
     "name": "Sharks and Rays - Disney Animals",
     "type": "exhibit",
-    "description": "Experience Sharks and Rays - Disney Animals",
+    "description": "Animal Encounters Attractions",
     "categories": [
       "kids"
     ],
@@ -605,7 +605,7 @@
     "id": "soarin-around-world",
     "name": "Soarin' Around the World",
     "type": "ride",
-    "description": "Take a journey above stunning international wonders at Soarin’ Around the World.",
+    "description": "Slow Rides, Small Drops",
     "categories": [
       "family"
     ],
@@ -615,7 +615,7 @@
     "id": "spaceship-earth",
     "name": "Spaceship Earth",
     "type": "ride",
-    "description": "The prism pylon fountain in front of an illuminated Spaceship Earth at Epcot.",
+    "description": "Dark, Slow Rides",
     "categories": [
       "family",
       "dark",
@@ -628,7 +628,7 @@
     "id": "stave-church-gallery",
     "name": "Stave Church Gallery",
     "type": "exhibit",
-    "description": "Experience Stave Church Gallery",
+    "description": "New",
     "categories": [
       "kids"
     ],
@@ -638,7 +638,7 @@
     "id": "test-track",
     "name": "Test Track",
     "type": "ride",
-    "description": "Buckle up and get ready for high speeds and exhilarating bends while riding Test Track!",
+    "description": "Small Drops, Thrill Rides",
     "categories": [
       "thrill",
       "family",
@@ -650,7 +650,7 @@
     "id": "american-adventure",
     "name": "The American Adventure",
     "type": "experience",
-    "description": "Experience The American Adventure",
+    "description": "Attraction",
     "categories": [
       "kids",
       "classic"
@@ -661,7 +661,7 @@
     "id": "seas-with-nemo-and-friends",
     "name": "The Seas with Nemo & Friends",
     "type": "ride",
-    "description": "Journey into the ocean in a “clamobile” and explore The Seas with Nemo & Friends.",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids"
@@ -672,7 +672,7 @@
     "id": "turtle-talk-with-crush",
     "name": "Turtle Talk With Crush",
     "type": "experience",
-    "description": "Say hello to Crush, who waves to you with an enthusiastic welcome at Turtle Talk with Crush at Epcot.",
+    "description": "Pixar Pals Entertainments",
     "categories": [
       "kids"
     ],
@@ -682,7 +682,7 @@
     "id": "voices-of-liberty",
     "name": "Voices of Liberty",
     "type": "show",
-    "description": "Un groupe de choristes de Dickens s'est réuni pour le Epcot’s Festival of Holidays au pavillon American Adventure",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/epcot/voices-of-liberty.jpg"
   }

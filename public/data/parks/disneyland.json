@@ -3,7 +3,7 @@
     "id": "its-a-small-world",
     "name": "\"it's a small world\"",
     "type": "ride",
-    "description": "The fanciful it’s a small world facade is full of whimsical detail",
+    "description": "Loud, Slow Rides, Water Rides",
     "categories": [
       "family",
       "water",
@@ -18,7 +18,7 @@
     "id": "adventureland-treehouse",
     "name": "Adventureland Treehouse inspired by Walt Disney’s Swiss Family Robinson",
     "type": "experience",
-    "description": "Visit the Adventureland Treehouse, where a new family has moved in and created an oasis among the trees!",
+    "description": "Discovery, Rider Switch",
     "categories": [
       "family",
       "kids",
@@ -30,7 +30,7 @@
     "id": "alice-in-wonderland",
     "name": "Alice in Wonderland",
     "type": "ride",
-    "description": "Enjoy views of Disneyland Park as you wind your way through Alice in Wonderland.",
+    "description": "Dark, Loud, Slow Rides",
     "categories": [
       "family",
       "dark",
@@ -44,7 +44,7 @@
     "id": "astro-orbitor",
     "name": "Astro Orbitor",
     "type": "ride",
-    "description": "Astro Orbitor retro rocket",
+    "description": "Spinning",
     "categories": [
       "spin",
       "family",
@@ -56,7 +56,7 @@
     "id": "autopia",
     "name": "Autopia",
     "type": "ride",
-    "description": "autopia-09",
+    "description": "Loud, Slow Rides",
     "categories": [
       "loud",
       "family",
@@ -68,7 +68,7 @@
     "id": "big-thunder-mountain-railroad",
     "name": "Big Thunder Mountain Railroad",
     "type": "ride",
-    "description": "big-thunder-mountain-railroad-00",
+    "description": "Dark, Loud, Small Drops",
     "categories": [
       "family",
       "thrill",
@@ -82,7 +82,7 @@
     "id": "buzz-lightyear-astro-blasters",
     "name": "Buzz Lightyear Astro Blasters",
     "type": "ride",
-    "description": "Buzz Lightyear Astro Blasters",
+    "description": "Dark, Loud, Slow Rides",
     "categories": [
       "family",
       "spin",
@@ -97,7 +97,7 @@
     "id": "casey-jr-circus-train",
     "name": "Casey Jr. Circus Train",
     "type": "ride",
-    "description": "Casey Jr. Circus Train",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids"
@@ -108,7 +108,7 @@
     "id": "centoonial-park",
     "name": "CenTOONial Park",
     "type": "experience",
-    "description": "A tree with lanterns hanging from the branches at Centoonial Park in Mickey’s Toontown",
+    "description": "Rider Switch",
     "categories": [
       "family"
     ],
@@ -118,7 +118,7 @@
     "id": "chip-n-dales-gadget-coaster",
     "name": "Chip 'n' Dale's GADGETcoaster",
     "type": "ride",
-    "description": "Chip and Dale’s Gadget Coaster in Mickey’s Toontown at Disneyland Park",
+    "description": "Small Drops, Thrill Rides",
     "categories": [
       "family",
       "thrill"
@@ -129,7 +129,7 @@
     "id": "davy-crocketts-explorer-canoes",
     "name": "Davy Crockett's Explorer Canoes",
     "type": "ride",
-    "description": "Davy Crockett's Explorer Canoes",
+    "description": "Water Rides",
     "categories": [
       "water",
       "family",
@@ -141,7 +141,7 @@
     "id": "visa-card-star-wars-character-experience",
     "name": "Disney® Visa® Cardmember Star Wars Photo Opportunity",
     "type": "character",
-    "description": "Experience Disney® Visa® Cardmember Star Wars Photo Opportunity",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/dl/visa-card-star-wars-character-experience.jpg"
   },
@@ -149,7 +149,7 @@
     "id": "disneyland-monorail",
     "name": "Disneyland Monorail",
     "type": "transportation",
-    "description": "na",
+    "description": "Getting Around, Rider Switch",
     "categories": [
       "family",
       "kids"
@@ -160,7 +160,7 @@
     "id": "disneyland-railroad",
     "name": "Disneyland Railroad",
     "type": "transportation",
-    "description": "Disneyland Railroad train stopped at the Main Street Station with Guests in open air passenger cars",
+    "description": "Dark, Loud, Slow Rides",
     "categories": [
       "family",
       "dark",
@@ -174,7 +174,7 @@
     "id": "donalds-duck-pond",
     "name": "Donald's Duck Pond",
     "type": "experience",
-    "description": "Donald Duck’s Pond featuring a splash area around Donald’s Boat in Mickey’s Toontown",
+    "description": "Interactive, Discovery, Rider Switch, New",
     "categories": [
       "family",
       "kids"
@@ -185,7 +185,7 @@
     "id": "dumbo-the-flying-elephant",
     "name": "Dumbo the Flying Elephant",
     "type": "ride",
-    "description": "A little boy wearing Mickey Ears rides Dumbo the Flying Elephant with his mom and sister",
+    "description": "Slow Rides, Spinning",
     "categories": [
       "family",
       "spin",
@@ -198,7 +198,7 @@
     "id": "fantasmic",
     "name": "Fantasmic!",
     "type": "character",
-    "description": "Fantasmic! at Disneyland Resorts",
+    "description": "Character Experiences, Fireworks, Live Entertainment",
     "categories": [
       "kids"
     ],
@@ -208,7 +208,7 @@
     "id": "fantasy-faire",
     "name": "Fantasy Faire",
     "type": "character",
-    "description": "FantasyeFaire",
+    "description": "Character Experiences, Live Entertainment",
     "categories": [
       "indoor",
       "kids"
@@ -219,7 +219,7 @@
     "id": "finding-nemo-submarine-voyage",
     "name": "Finding Nemo Submarine Voyage",
     "type": "ride",
-    "description": "The Argonaut, one of the Finding Nemo Submarine Voyage vehicles, floats on the water",
+    "description": "Dark, Loud, Slow Rides",
     "categories": [
       "family",
       "water",
@@ -232,7 +232,7 @@
     "id": "fire-of-the-rising-moons-fireworks",
     "name": "Fire of the Rising Moons",
     "type": "show",
-    "description": "Experience Fire of the Rising Moons",
+    "description": "Fireworks",
     "categories": [],
     "imageUrl": "/images/parks/dl/fire-of-the-rising-moons-fireworks.jpg"
   },
@@ -240,7 +240,7 @@
     "id": "fireworks",
     "name": "Fireworks at Disneyland Park",
     "type": "show",
-    "description": "Sleeping Beauty Castle illuminated at night with lighting and fireworks",
+    "description": "Fireworks",
     "categories": [
       "kids"
     ],
@@ -250,7 +250,7 @@
     "id": "fortune-tellers",
     "name": "Fortune Tellers",
     "type": "experience",
-    "description": "A fortune telling machine features a stern looking woman in flashy clothing named Esmeralda",
+    "description": "Interactive, Discovery, Play Disney Parks App, Rider Switch",
     "categories": [
       "family"
     ],
@@ -260,7 +260,7 @@
     "id": "frontierland-shootin-exposition",
     "name": "Frontierland Shootin' Exposition",
     "type": "ride",
-    "description": "na",
+    "description": "Loud",
     "categories": [
       "loud",
       "family"
@@ -271,7 +271,7 @@
     "id": "goofys-how-to-play-yard",
     "name": "Goofy's How-to-Play Yard",
     "type": "experience",
-    "description": "Goofy’s How to Play Yard featuring a playground in Mickey’s Toontown at Disneyland Park",
+    "description": "Rider Switch, New",
     "categories": [
       "family",
       "kids"
@@ -282,7 +282,7 @@
     "id": "disneyland-story",
     "name": "Great Moments with Mr. Lincoln",
     "type": "ride",
-    "description": "Disneyland Story",
+    "description": "Dark",
     "categories": [
       "dark",
       "indoor",
@@ -295,7 +295,7 @@
     "id": "haunted-mansion",
     "name": "Haunted Mansion",
     "type": "ride",
-    "description": "Enter if you dare—prepare for a grim, grinning good time with ghost hosts from another realm!",
+    "description": "Dark, Loud, Scary",
     "categories": [
       "family",
       "dark",
@@ -311,7 +311,7 @@
     "id": "hyperspace-mountain",
     "name": "Hyperspace Mountain",
     "type": "ride",
-    "description": "Hyperspace Mountain",
+    "description": "Dark, Loud, Scary",
     "categories": [
       "family",
       "thrill",
@@ -326,7 +326,7 @@
     "id": "indiana-jones-adventure",
     "name": "Indiana Jones™ Adventure",
     "type": "ride",
-    "description": "Experience Indiana Jones™ Adventure",
+    "description": "Dark, Loud, Scary",
     "categories": [
       "family",
       "thrill",
@@ -341,7 +341,7 @@
     "id": "jungle-cruise",
     "name": "Jungle Cruise",
     "type": "ride",
-    "description": "Jungle Cruise",
+    "description": "Loud, Slow Rides, Water Rides",
     "categories": [
       "family",
       "water",
@@ -355,7 +355,7 @@
     "id": "key-to-disneyland",
     "name": "Key to Disneyland",
     "type": "experience",
-    "description": "A girl wearing a Disneyland 70th anniversary ear headband and her mother, both playing with a bubble blower near Sleeping Beauty Castle",
+    "description": "Attraction",
     "categories": [],
     "imageUrl": "/images/parks/dl/key-to-disneyland.jpg"
   },
@@ -363,7 +363,7 @@
     "id": "king-arthur-carrousel",
     "name": "King Arthur Carrousel",
     "type": "ride",
-    "description": "King Arthur Carrousel",
+    "description": "Loud, Slow Rides, Spinning",
     "categories": [
       "family",
       "spin",
@@ -377,7 +377,7 @@
     "id": "mad-tea-party",
     "name": "Mad Tea Party",
     "type": "ride",
-    "description": "A dad and his 2 young daughters laugh while riding the Mad Tea Party attraction",
+    "description": "Spinning",
     "categories": [
       "spin",
       "family",
@@ -390,7 +390,7 @@
     "id": "main-street-cinema",
     "name": "Main Street Cinema",
     "type": "ride",
-    "description": "Main Street Cinema",
+    "description": "Dark",
     "categories": [
       "dark",
       "indoor",
@@ -403,7 +403,7 @@
     "id": "main-street-vehicles",
     "name": "Main Street Vehicles",
     "type": "transportation",
-    "description": "Main Street Vehicles",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids"
@@ -414,7 +414,7 @@
     "id": "mark-twain-riverboat",
     "name": "Mark Twain Riverboat",
     "type": "ride",
-    "description": "Mark Twain Rriverboat",
+    "description": "Loud, Slow Rides, Water Rides",
     "categories": [
       "family",
       "water",
@@ -428,7 +428,7 @@
     "id": "matterhorn-bobsleds",
     "name": "Matterhorn Bobsleds",
     "type": "ride",
-    "description": "Matterhorn Bobsleds",
+    "description": "Dark, Loud, Scary",
     "categories": [
       "family",
       "thrill",
@@ -444,7 +444,7 @@
     "id": "character-meet-princesses-royal-hall",
     "name": "Meet Disney Princesses at Royal Hall",
     "type": "character",
-    "description": "Character Meet Princesses Royal Hall",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -454,7 +454,7 @@
     "id": "pixie-hollow-tinkerbell-fairy-friends",
     "name": "Meet Tinker Bell in Pixie Hollow",
     "type": "character",
-    "description": "Tinker Bell laughing",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -464,7 +464,7 @@
     "id": "mickey-minnies-runaway-railway",
     "name": "Mickey & Minnie's Runaway Railway",
     "type": "ride",
-    "description": "Hop on for an unpredictable adventure through an anything-can-happen, animated world.",
+    "description": "Dark, Loud, Slow Rides",
     "categories": [
       "dark",
       "loud",
@@ -476,7 +476,7 @@
     "id": "mickeys-mix-magic",
     "name": "Mickey's Mix Magic",
     "type": "show",
-    "description": "Hearts and an image of Mickey Mouse and Minnie Mouse, projected onto Crystal Arcade",
+    "description": "Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dl/mickeys-mix-magic.jpg"
   },
@@ -484,7 +484,7 @@
     "id": "mickeys-mix-magic-with-fireworks",
     "name": "Mickey's Mix Magic with Fireworks",
     "type": "show",
-    "description": "Projected images of Mickey Mouse and Minnie Mouse on Crystal Arcade with fireworks in the background",
+    "description": "Fireworks",
     "categories": [],
     "imageUrl": "/images/parks/dl/mickeys-mix-magic-with-fireworks.jpg"
   },
@@ -492,7 +492,7 @@
     "id": "millennium-falcon-smugglers-run",
     "name": "Millennium Falcon: Smugglers Run",
     "type": "ride",
-    "description": "The cockpit of the Millennium Falcon",
+    "description": "Dark, Loud, Small Drops",
     "categories": [
       "family",
       "thrill",
@@ -505,7 +505,7 @@
     "id": "minnies-house",
     "name": "Minnie's House",
     "type": "experience",
-    "description": "The outside of Minnie’s House in Mickey’s Toontown at Disneyland Park",
+    "description": "Character Experiences",
     "categories": [
       "indoor",
       "family",
@@ -517,7 +517,7 @@
     "id": "mr-toads-wild-ride",
     "name": "Mr. Toad's Wild Ride",
     "type": "ride",
-    "description": "Mr. Toads Wild Ride",
+    "description": "Dark, Loud, Scary",
     "categories": [
       "family",
       "dark",
@@ -532,7 +532,7 @@
     "id": "main-street-opera-house",
     "name": "Opera House",
     "type": "experience",
-    "description": "The façade and entrance of the Opera House on Main Street, USA at Disneyland Park",
+    "description": "Attraction",
     "categories": [
       "classic"
     ],
@@ -542,7 +542,7 @@
     "id": "paint-the-night-parade",
     "name": "Paint the Night",
     "type": "show",
-    "description": "Mack illuminated near Main Street, USA at the Paint the Night Parade",
+    "description": "Live Entertainment, Parades",
     "categories": [],
     "imageUrl": "/images/parks/dl/paint-the-night-parade.jpg"
   },
@@ -550,7 +550,7 @@
     "id": "peter-pans-flight",
     "name": "Peter Pan's Flight",
     "type": "ride",
-    "description": "Experience Peter Pan's Flight",
+    "description": "Dark, Loud, Slow Rides",
     "categories": [
       "family",
       "dark",
@@ -565,7 +565,7 @@
     "id": "pinocchios-daring-journey",
     "name": "Pinocchio's Daring Journey",
     "type": "ride",
-    "description": "Pinocchios Daring Journey",
+    "description": "Dark, Loud, Scary",
     "categories": [
       "family",
       "dark",
@@ -581,7 +581,7 @@
     "id": "pirates-lair-on-tom-sawyer-island",
     "name": "Pirate's Lair on Tom Sawyer Island",
     "type": "experience",
-    "description": "Experience Pirate's Lair on Tom Sawyer Island",
+    "description": "Interactive, Discovery, Rider Switch",
     "categories": [
       "family",
       "classic"
@@ -592,7 +592,7 @@
     "id": "pirates-of-the-caribbean",
     "name": "Pirates of the Caribbean",
     "type": "ride",
-    "description": "Watch as crafty prisoners try to escape their cell at Pirates of the Caribbean.",
+    "description": "Dark, Loud, Scary",
     "categories": [
       "family",
       "water",
@@ -609,7 +609,7 @@
     "id": "pixar-pals-playtime-party",
     "name": "Pixar Pals Playtime Party",
     "type": "character",
-    "description": "Sadness and Joy from ′Inside Out′ posing in front of a singer performing on a stage\t",
+    "description": "Character Experiences, Live Entertainment",
     "categories": [],
     "imageUrl": "/images/parks/dl/pixar-pals-playtime-party.jpg"
   },
@@ -617,7 +617,7 @@
     "id": "roger-rabbits-car-toon-spin",
     "name": "Roger Rabbit's Car Toon Spin",
     "type": "ride",
-    "description": "Roger Rabbits Car Toon Spin",
+    "description": "Dark, Loud, Slow Rides",
     "categories": [
       "family",
       "spin",
@@ -632,7 +632,7 @@
     "id": "sailing-ship-columbia",
     "name": "Sailing Ship Columbia",
     "type": "ride",
-    "description": "Sailing Ship Columbia",
+    "description": "Loud, Slow Rides, Water Rides",
     "categories": [
       "family",
       "water",
@@ -646,7 +646,7 @@
     "id": "shadows-of-memory-skywalker-saga",
     "name": "Shadows of Memory: A Skywalker Saga",
     "type": "show",
-    "description": "The Millennium Falcon in front of the spires of Batuu in Star Wars Galaxy's Edge at the Disneyland Resort at nighttime",
+    "description": "Nighttime Spectaculars",
     "categories": [],
     "imageUrl": "/images/parks/dl/shadows-of-memory-skywalker-saga.jpg"
   },
@@ -654,7 +654,7 @@
     "id": "sleeping-beauty-castle-walkthrough",
     "name": "Sleeping Beauty Castle Walkthrough",
     "type": "experience",
-    "description": "Surrounded by water, Sleeping Beauty Castle features a flag lined bridge leading up to its entrance",
+    "description": "Dark",
     "categories": [
       "dark",
       "indoor",
@@ -668,7 +668,7 @@
     "id": "snow-whites-enchanted-wish",
     "name": "Snow White's Enchanted Wish",
     "type": "ride",
-    "description": "Dopey the Dwarf waves hello from behind a mining car filled with gems in the Snow White’s Enchanted Wish attraction at Disneyland Park in California",
+    "description": "Dark, Loud, Slow Rides",
     "categories": [
       "family",
       "dark",
@@ -681,7 +681,7 @@
     "id": "space-mountain",
     "name": "Space Mountain",
     "type": "ride",
-    "description": "Space Mountain",
+    "description": "Dark, Loud, Scary",
     "categories": [
       "family",
       "thrill",
@@ -697,7 +697,7 @@
     "id": "original-attractions-quest",
     "name": "Special MagicBand+ Interactions During the 70th Celebration",
     "type": "experience",
-    "description": "A Guest wearing a Disneyland Resort 70th Celebration Magic Band Plus",
+    "description": "Attraction",
     "categories": [],
     "imageUrl": "/images/parks/dl/original-attractions-quest.jpg"
   },
@@ -705,7 +705,7 @@
     "id": "star-tours",
     "name": "Star Tours - The Adventures Continue",
     "type": "ride",
-    "description": "Star Tours",
+    "description": "Dark, Loud, Small Drops",
     "categories": [
       "family",
       "thrill",
@@ -719,7 +719,7 @@
     "id": "star-wars-galaxys-edge-play-app",
     "name": "Star Wars: Datapad on Play Disney Parks Mobile App",
     "type": "experience",
-    "description": "Experience Star Wars: Datapad on Play Disney Parks Mobile App",
+    "description": "Discovery, Play Disney Parks App, Rider Switch",
     "categories": [
       "family"
     ],
@@ -729,7 +729,7 @@
     "id": "star-wars-rise-of-the-resistance",
     "name": "Star Wars: Rise of the Resistance",
     "type": "ride",
-    "description": "People in a transport vehicle inside a hanger bay look up at 2 towering AT-AT walkers",
+    "description": "Dark, Loud, Scary",
     "categories": [
       "family",
       "thrill",
@@ -744,7 +744,7 @@
     "id": "storybook-land-canal-boats",
     "name": "Storybook Land Canal Boats",
     "type": "ride",
-    "description": "Storybook Land Canal Boats",
+    "description": "Slow Rides, Water Rides",
     "categories": [
       "family",
       "water",
@@ -757,7 +757,7 @@
     "id": "storytelling-royal-theatre",
     "name": "Storytelling at Royal Theatre",
     "type": "character",
-    "description": "Storytelling Royal Theater",
+    "description": "Character Experiences, Live Entertainment",
     "categories": [
       "indoor",
       "kids"
@@ -768,7 +768,7 @@
     "id": "tapestry-of-happiness",
     "name": "Tapestry of Happiness",
     "type": "show",
-    "description": "Illuminations projected onto the façade of ‘it’s a small world’ during the Tapestry of Happiness nighttime show",
+    "description": "Nighttime Spectaculars",
     "categories": [],
     "imageUrl": "/images/parks/dl/tapestry-of-happiness.jpg"
   },
@@ -776,7 +776,7 @@
     "id": "celebrate-happy-cavalcade",
     "name": "The Celebrate Happy Cavalcade",
     "type": "show",
-    "description": "Mickey Mouse, Minnie Mouse, Donald Duck and Pluto on a float in the Celebrate Happy Cavalcade",
+    "description": "Live Entertainment, Parades",
     "categories": [],
     "imageUrl": "/images/parks/dl/celebrate-happy-cavalcade.jpg"
   },
@@ -784,7 +784,7 @@
     "id": "dapper-dans",
     "name": "The Dapper Dans",
     "type": "show",
-    "description": "The Dapper Dans",
+    "description": "Live Entertainment",
     "categories": [
       "kids",
       "classic"
@@ -795,7 +795,7 @@
     "id": "disney-gallery",
     "name": "The Disney Gallery",
     "type": "exhibit",
-    "description": "The Disney Gallery",
+    "description": "Discovery, Rider Switch",
     "categories": [
       "indoor",
       "family",
@@ -807,7 +807,7 @@
     "id": "many-adventures-of-winnie-the-pooh",
     "name": "The Many Adventures of Winnie the Pooh",
     "type": "ride",
-    "description": "The Many Adventures of Winnie the Pooh",
+    "description": "Dark, Loud, Slow Rides",
     "categories": [
       "family",
       "dark",
@@ -821,7 +821,7 @@
     "id": "tianas-bayou-adventure",
     "name": "Tiana's Bayou Adventure",
     "type": "ride",
-    "description": "Experience Tiana's Bayou Adventure",
+    "description": "Big Drops, Thrill Rides, Water Rides",
     "categories": [
       "thrill",
       "water"
@@ -832,7 +832,7 @@
     "id": "pixar-fest-together-forever",
     "name": "Together Forever - A Pixar Nighttime Spectacular",
     "type": "show",
-    "description": "Fireworks and a dazzling projection of Coco on Sleeping Beauty Castle during the Together Forever a Pixar Nighttime Spectacular at Disneyland",
+    "description": "Fireworks",
     "categories": [],
     "imageUrl": "/images/parks/dl/pixar-fest-together-forever.jpg"
   },
@@ -840,7 +840,7 @@
     "id": "walt-disney-a-magical-life",
     "name": "Walt Disney - A Magical Life",
     "type": "ride",
-    "description": "Walt Disney speaking to Guests from his office at Walt Disney, A Magical Life",
+    "description": "Dark",
     "categories": [
       "dark"
     ],
@@ -850,7 +850,7 @@
     "id": "enchanted-tiki-room",
     "name": "Walt Disney's Enchanted Tiki Room",
     "type": "show",
-    "description": "Walt Disney's Enchanted Tiki Room",
+    "description": "Dark, Loud, Stage Shows",
     "categories": [
       "dark",
       "loud",
@@ -865,7 +865,7 @@
     "id": "wintertime-enchantment-sleeping-beauty-castle",
     "name": "Wintertime Enchantment at Sleeping Beauty's Winter Castle",
     "type": "show",
-    "description": "The façade of Sleeping Beauty Castle decorated with icicle lights and illuminated at night",
+    "description": "Shows",
     "categories": [],
     "imageUrl": "/images/parks/dl/wintertime-enchantment-sleeping-beauty-castle.jpg"
   },
@@ -873,7 +873,7 @@
     "id": "wondrous-journeys",
     "name": "Wondrous Journeys",
     "type": "show",
-    "description": "Sleeping Beauty Castle illuminated with a projection of Peter Pan while fireworks burst above during the Wondrous Journeys nighttime show",
+    "description": "Fireworks",
     "categories": [],
     "imageUrl": "/images/parks/dl/wondrous-journeys.jpg"
   }

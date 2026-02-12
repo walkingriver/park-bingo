@@ -3,7 +3,7 @@
     "id": "its-a-small-world",
     "name": "\"it's a small world\"",
     "type": "ride",
-    "description": "Experience \"it's a small world\"",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids",
@@ -15,7 +15,7 @@
     "id": "pirates-adventures",
     "name": "A Pirate's Adventure ~ Treasures of the Seven Seas",
     "type": "experience",
-    "description": "Experience A Pirate's Adventure ~ Treasures of the Seven Seas",
+    "description": "Interactive, New",
     "categories": [
       "kids"
     ],
@@ -25,7 +25,7 @@
     "id": "astro-orbiter",
     "name": "Astro Orbiter",
     "type": "ride",
-    "description": "Experience Astro Orbiter",
+    "description": "Slow Rides, Spinning",
     "categories": [
       "family",
       "spin",
@@ -37,7 +37,7 @@
     "id": "big-thunder-mountain-railroad",
     "name": "Big Thunder Mountain Railroad",
     "type": "ride",
-    "description": "Experience Big Thunder Mountain Railroad",
+    "description": "Small Drops, Thrill Rides",
     "categories": [
       "thrill",
       "family",
@@ -49,7 +49,7 @@
     "id": "buzz-lightyear-space-ranger-spin",
     "name": "Buzz Lightyear's Space Ranger Spin",
     "type": "ride",
-    "description": "Riders on Buzz Lightyear’s Space Ranger Spin aiming blasters at targets on a space robot",
+    "description": "Slow Rides, Spinning",
     "categories": [
       "family",
       "spin",
@@ -61,7 +61,7 @@
     "id": "casey-jr-splash-n-soak-station",
     "name": "Casey Jr. Splash 'N' Soak Station",
     "type": "experience",
-    "description": "Casey Jr. Splash 'N' Soak Station",
+    "description": "Water Rides",
     "categories": [
       "water",
       "kids"
@@ -72,7 +72,7 @@
     "id": "caseys-corner-pianist",
     "name": "Casey's Corner Pianist",
     "type": "show",
-    "description": "Casey's Corner Pianist",
+    "description": "Live Entertainment, Streetmosphere",
     "categories": [
       "kids"
     ],
@@ -82,7 +82,7 @@
     "id": "cinderella-castle",
     "name": "Cinderella Castle",
     "type": "experience",
-    "description": "A rainbow arches over Cinderella Castle at Magic Kingdom Park",
+    "description": "Disney Princesses Attractions",
     "categories": [
       "kids"
     ],
@@ -92,7 +92,7 @@
     "id": "country-bear-jamboree",
     "name": "Country Bear Musical Jamboree",
     "type": "show",
-    "description": "Experience Country Bear Musical Jamboree",
+    "description": "Stage Shows",
     "categories": [
       "kids",
       "classic"
@@ -103,7 +103,7 @@
     "id": "disney-adventure-friends-cavalcade",
     "name": "Disney Adventure Friends Cavalcade",
     "type": "show",
-    "description": "Miguel and Woody walking in the Disney Adventure Friends Cavalcade\t",
+    "description": "Pixar Pals Entertainments, Disney Princesses Attractions",
     "categories": [
       "kids"
     ],
@@ -113,7 +113,7 @@
     "id": "fab-50-character-collection",
     "name": "Disney Fab 50 Character Collection",
     "type": "experience",
-    "description": "A dad takes a selfie while his kids hold lightsabers in front of a statue of Artoo Deetoo",
+    "description": "Interactive",
     "categories": [],
     "imageUrl": "/images/parks/mk/fab-50-character-collection.jpg"
   },
@@ -121,7 +121,7 @@
     "id": "festival-fantasy-parade",
     "name": "Disney Festival of Fantasy Parade",
     "type": "show",
-    "description": "Mickey Mouse dressed in a band conductor outfit, standing atop a parade float \t",
+    "description": "Parades",
     "categories": [
       "kids"
     ],
@@ -131,7 +131,7 @@
     "id": "starlight-dream-night-away-parade",
     "name": "Disney Starlight: Dream the Night Away – New!",
     "type": "character",
-    "description": "Elsa on a float in the Disney Starlight, Dream the Night Away parade at Magic Kingdom park",
+    "description": "Character Experiences, Live Entertainment, Parades",
     "categories": [],
     "imageUrl": "/images/parks/mk/starlight-dream-night-away-parade.jpg"
   },
@@ -139,7 +139,7 @@
     "id": "dumbo-the-flying-elephant",
     "name": "Dumbo the Flying Elephant",
     "type": "ride",
-    "description": "Dumbo the Flying Elephant",
+    "description": "Slow Rides, Spinning",
     "categories": [
       "family",
       "spin",
@@ -152,7 +152,7 @@
     "id": "enchanted-tales-with-belle",
     "name": "Enchanted Tales with Belle",
     "type": "experience",
-    "description": "Enchanted Tales with Belle",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -162,7 +162,7 @@
     "id": "happily-ever-after-fireworks",
     "name": "Happily Ever After",
     "type": "show",
-    "description": "Fireworks burst over Cinderella Castle as lights cover it in a stained glass theme",
+    "description": "Fireworks",
     "categories": [],
     "imageUrl": "/images/parks/mk/happily-ever-after-fireworks.jpg"
   },
@@ -170,7 +170,7 @@
     "id": "haunted-mansion",
     "name": "Haunted Mansion",
     "type": "ride",
-    "description": "Experience Haunted Mansion",
+    "description": "Dark, Slow Rides",
     "categories": [
       "family",
       "dark",
@@ -182,7 +182,7 @@
     "id": "disney-animals-horses",
     "name": "Horses - Disney Animals",
     "type": "exhibit",
-    "description": "Horses - Disney Animals",
+    "description": "Animal Encounters Events, Animal Encounters Attractions",
     "categories": [],
     "imageUrl": "/images/parks/mk/disney-animals-horses.jpg"
   },
@@ -190,7 +190,7 @@
     "id": "jingle-cruise",
     "name": "Jingle Cruise",
     "type": "ride",
-    "description": "A sign that says ‘Jingle Cruise’ and another that says ‘Exotic’",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids",
@@ -202,7 +202,7 @@
     "id": "jungle-cruise",
     "name": "Jungle Cruise",
     "type": "ride",
-    "description": "Experience Jungle Cruise",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids",
@@ -214,7 +214,7 @@
     "id": "magic-kingdom-welcome",
     "name": "Let the Magic Begin",
     "type": "show",
-    "description": "Partners statue featuring Mickey Mouse with Walt Disney in front of Cinderella Castle in Magic Kingdom park",
+    "description": "Live Entertainment, Streetmosphere",
     "categories": [
       "kids"
     ],
@@ -224,7 +224,7 @@
     "id": "mad-tea-party",
     "name": "Mad Tea Party",
     "type": "ride",
-    "description": "Experience Mad Tea Party",
+    "description": "Spinning",
     "categories": [
       "spin",
       "kids",
@@ -236,7 +236,7 @@
     "id": "main-street-vehicles",
     "name": "Main Street Vehicles",
     "type": "transportation",
-    "description": "A jitney driving down Main Street, USA",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids",
@@ -248,7 +248,7 @@
     "id": "character-meet-ariel-grotto-fantasyland",
     "name": "Meet Ariel at Her Grotto",
     "type": "character",
-    "description": "Meet Ariel at Her Grotto in Fantasyland",
+    "description": "Character Experiences, Indoor",
     "categories": [
       "indoor",
       "kids"
@@ -259,7 +259,7 @@
     "id": "character-meet-aladdin",
     "name": "Meet Characters from Aladdin in Adventureland",
     "type": "character",
-    "description": "Meet Aladdin at The Magic Carpets of Aladdin",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -269,7 +269,7 @@
     "id": "character-meet-princess-fantasyland",
     "name": "Meet Cinderella and a Visiting Princess at Princess Fairytale Hall",
     "type": "character",
-    "description": "Cinderella stands next to a large window styled with drapes",
+    "description": "Character Experiences, Indoor",
     "categories": [
       "indoor",
       "kids"
@@ -280,7 +280,7 @@
     "id": "character-meet-goofy-donald",
     "name": "Meet Daring Disney Pals as Circus Stars at Pete's Silly Sideshow",
     "type": "character",
-    "description": "Experience Meet Daring Disney Pals as Circus Stars at Pete's Silly Sideshow",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -290,7 +290,7 @@
     "id": "character-meet-minnie-daisy",
     "name": "Meet Dashing Disney Pals as Circus Stars at Pete's Silly Sideshow",
     "type": "character",
-    "description": "Experience Meet Dashing Disney Pals as Circus Stars at Pete's Silly Sideshow",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -300,7 +300,7 @@
     "id": "character-meet-mickey-town-square",
     "name": "Meet Mickey at Town Square Theater",
     "type": "character",
-    "description": "Mickey Mouse wears a cape and stands with his arms crossed in front of a large trunk and a pile of books ",
+    "description": "Character Experiences, Indoor",
     "categories": [
       "indoor",
       "kids"
@@ -311,7 +311,7 @@
     "id": "character-meet-mirabel",
     "name": "Meet Mirabel at Fairytale Garden",
     "type": "character",
-    "description": "A young girl dressed like Mirabel Madrigal holding hands with Mirabel Madrigal at Fairytale Garden\t",
+    "description": "Character Experiences",
     "categories": [],
     "imageUrl": "/images/parks/mk/character-meet-mirabel.jpg"
   },
@@ -319,7 +319,7 @@
     "id": "character-meet-peter-pan",
     "name": "Meet Peter Pan in Fantasyland",
     "type": "character",
-    "description": "Peter Pan in Fantasyland",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -329,7 +329,7 @@
     "id": "character-meet-princess-fairytale-hall",
     "name": "Meet Princess Tiana and a Visiting Princess at Princess Fairytale Hall",
     "type": "character",
-    "description": "Princess Tiana poses in front of a window",
+    "description": "Character Experiences, Indoor",
     "categories": [
       "indoor",
       "kids"
@@ -340,7 +340,7 @@
     "id": "character-meet-winnie-tigger-fantasyland",
     "name": "Meet Winnie the Pooh and Tigger at The Thotful Spot",
     "type": "character",
-    "description": "Experience Meet Winnie the Pooh and Tigger at The Thotful Spot",
+    "description": "Character Experiences",
     "categories": [
       "kids"
     ],
@@ -350,7 +350,7 @@
     "id": "mickeys-magical-friendship-faire",
     "name": "Mickey's Magical Friendship Faire",
     "type": "show",
-    "description": "Mickey Mouse and other Disney Characters onstage during Mickey’s Magical Friendship Faire\t",
+    "description": "Stage Shows",
     "categories": [
       "kids"
     ],
@@ -360,7 +360,7 @@
     "id": "mickeys-philharmagic",
     "name": "Mickey's PhilharMagic",
     "type": "show",
-    "description": "Experience Mickey's PhilharMagic",
+    "description": "Stage Shows",
     "categories": [
       "kids"
     ],
@@ -370,7 +370,7 @@
     "id": "monsters-inc-laugh-floor",
     "name": "Monsters Inc. Laugh Floor",
     "type": "show",
-    "description": "Check out the funniest Monsters of Comedy, who will perform wacky improvisation—maybe even with you.",
+    "description": "Stage Shows",
     "categories": [
       "kids"
     ],
@@ -380,7 +380,7 @@
     "id": "peter-pan-flight",
     "name": "Peter Pan's Flight",
     "type": "ride",
-    "description": "Experience Peter Pan's Flight",
+    "description": "Slow Rides, Small Drops",
     "categories": [
       "family",
       "kids",
@@ -392,7 +392,7 @@
     "id": "pirates-of-the-caribbean",
     "name": "Pirates of the Caribbean",
     "type": "ride",
-    "description": "Experience Pirates of the Caribbean",
+    "description": "Dark, Slow Rides, Small Drops",
     "categories": [
       "family",
       "dark",
@@ -404,7 +404,7 @@
     "id": "prince-charming-regal-carrousel",
     "name": "Prince Charming Regal Carrousel",
     "type": "ride",
-    "description": "Prince Charming Regal Carrousel",
+    "description": "Slow Rides, Spinning",
     "categories": [
       "family",
       "spin",
@@ -417,7 +417,7 @@
     "id": "seven-dwarfs-mine-train",
     "name": "Seven Dwarfs Mine Train",
     "type": "ride",
-    "description": "Experience Seven Dwarfs Mine Train",
+    "description": "Small Drops, Thrill Rides",
     "categories": [
       "thrill",
       "family"
@@ -429,7 +429,7 @@
     "id": "smellephants-on-parade",
     "name": "Smellephants on Parade",
     "type": "experience",
-    "description": "A statue of a Pink Elephant from 'Dumbo', painted like a popcorn bucket",
+    "description": "Attraction",
     "categories": [],
     "imageUrl": "/images/parks/mk/smellephants-on-parade.jpg"
   },
@@ -437,7 +437,7 @@
     "id": "space-mountain",
     "name": "Space Mountain",
     "type": "ride",
-    "description": "Space Mountain",
+    "description": "Big Drops, Dark, Thrill Rides",
     "categories": [
       "thrill",
       "dark",
@@ -449,7 +449,7 @@
     "id": "swiss-family-treehouse",
     "name": "Swiss Family Treehouse",
     "type": "experience",
-    "description": "Experience Swiss Family Treehouse",
+    "description": "Attraction",
     "categories": [
       "kids",
       "classic"
@@ -460,7 +460,7 @@
     "id": "barnstormer-starring-great-goofini",
     "name": "The Barnstormer",
     "type": "ride",
-    "description": "Barnstormer Starring The Great Goofini",
+    "description": "Small Drops",
     "categories": [
       "family",
       "kids"
@@ -471,7 +471,7 @@
     "id": "dapper-dans",
     "name": "The Dapper Dans",
     "type": "show",
-    "description": "The Dapper Dans, a 4 man barbershop quartet, singing near the Emporium in Magic Kingdom park",
+    "description": "Live Entertainment, Streetmosphere",
     "categories": [
       "classic"
     ],
@@ -481,7 +481,7 @@
     "id": "hall-of-presidents",
     "name": "The Hall of Presidents",
     "type": "experience",
-    "description": "The Hall of Presidents",
+    "description": "Classic",
     "categories": [
       "kids",
       "classic"
@@ -492,7 +492,7 @@
     "id": "magic-carpets-of-aladdin",
     "name": "The Magic Carpets of Aladdin",
     "type": "ride",
-    "description": "The Magic Carpets of Aladdin",
+    "description": "Slow Rides, Spinning",
     "categories": [
       "family",
       "spin",
@@ -504,7 +504,7 @@
     "id": "many-adventures-of-winnie-the-pooh",
     "name": "The Many Adventures of Winnie the Pooh",
     "type": "ride",
-    "description": "Experience The Many Adventures of Winnie the Pooh",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids"
@@ -515,7 +515,7 @@
     "id": "tianas-bayou-adventure",
     "name": "Tiana's Bayou Adventure",
     "type": "ride",
-    "description": "Princess Tiana holding a lantern and Luis the Alligator with a trumpet watch 3 critters from Tiana’s Bayou Adventure splash down a waterfall ",
+    "description": "Action & Adventure, Big Drops, Thrill Rides",
     "categories": [
       "water",
       "thrill"
@@ -526,7 +526,7 @@
     "id": "tomorrowland-speedway",
     "name": "Tomorrowland Speedway",
     "type": "experience",
-    "description": "Experience Tomorrowland Speedway",
+    "description": "Attraction",
     "categories": [
       "kids",
       "classic"
@@ -537,7 +537,7 @@
     "id": "tomorrowland-transit-authority-peoplemover",
     "name": "Tomorrowland Transit Authority PeopleMover",
     "type": "transportation",
-    "description": "Experience Tomorrowland Transit Authority PeopleMover",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids",
@@ -549,7 +549,7 @@
     "id": "tron-lightcycle-run",
     "name": "TRON Lightcycle / Run",
     "type": "ride",
-    "description": "Two people racing on Lightcycles inspired by the world of Tron",
+    "description": "Big Drops, Dark, Thrill Rides",
     "categories": [
       "thrill",
       "dark"
@@ -561,7 +561,7 @@
     "id": "under-the-sea-journey-of-the-little-mermaid",
     "name": "Under the Sea - Journey of The Little Mermaid",
     "type": "ride",
-    "description": "Experience Under the Sea - Journey of The Little Mermaid",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids"
@@ -572,7 +572,7 @@
     "id": "walt-disney-world-railroad-fantasyland",
     "name": "Walt Disney World Railroad - Fantasyland",
     "type": "transportation",
-    "description": "The Walt Disney World Railroad at the Fantasyland station",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids",
@@ -584,7 +584,7 @@
     "id": "walt-disney-world-railroad-frontierland",
     "name": "Walt Disney World Railroad - Frontierland",
     "type": "transportation",
-    "description": "The Walt Disney World Railroad at the Frontierland station",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids",
@@ -596,7 +596,7 @@
     "id": "walt-disney-world-railroad",
     "name": "Walt Disney World Railroad - Main Street, U.S.A.",
     "type": "transportation",
-    "description": "The Walt Disney World Railroad at the Main Street, USA station",
+    "description": "Attraction",
     "categories": [
       "kids",
       "classic"
@@ -607,7 +607,7 @@
     "id": "walt-disney-carousel-of-progress",
     "name": "Walt Disney's Carousel of Progress",
     "type": "ride",
-    "description": "Walt Disney's Carousel of Progress",
+    "description": "Slow Rides",
     "categories": [
       "family",
       "kids",
@@ -619,7 +619,7 @@
     "id": "enchanted-tiki-room",
     "name": "Walt Disney's Enchanted Tiki Room",
     "type": "experience",
-    "description": "Experience Walt Disney's Enchanted Tiki Room",
+    "description": "Classic",
     "categories": [
       "kids",
       "classic"
