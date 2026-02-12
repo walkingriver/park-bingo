@@ -1,0 +1,14 @@
+{
+  "name": "asin-grabber",
+  "version": "1.0.0",
+  "description": "Chrome extension and tools to extract Amazon product images for Park Bingo",
+  "type": "module",
+  "scripts": {
+    "convert": "node convert-images.js",
+    "convert:watch": "node convert-images.js --watch"
+  },
+  "dependencies": {
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {}
+}
