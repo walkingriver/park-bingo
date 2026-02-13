@@ -8,6 +8,7 @@ import {
   IonCard,
   IonCardHeader,
   IonCardTitle,
+  IonCardSubtitle,
   IonCardContent,
   IonButton,
   IonIcon,
@@ -22,7 +23,7 @@ import { BingoService } from '../../services/bingo.service';
 import { OnboardingService } from '../../services/onboarding.service';
 import { HelpModalComponent } from '../../components/help-modal/help-modal.component';
 import { addIcons } from 'ionicons';
-import { playCircle, settings, helpCircle, cloudOffline } from 'ionicons/icons';
+import { playCircle, play, addCircle, settings, helpCircle, cloudOffline } from 'ionicons/icons';
 
 @Component({
   selector: 'app-home',
@@ -36,6 +37,7 @@ import { playCircle, settings, helpCircle, cloudOffline } from 'ionicons/icons';
     IonCard,
     IonCardHeader,
     IonCardTitle,
+    IonCardSubtitle,
     IonCardContent,
     IonButton,
     IonIcon,
@@ -96,25 +98,26 @@ import { playCircle, settings, helpCircle, cloudOffline } from 'ionicons/icons';
                   (click)="selectPark(park.id)"
                   button
                 >
-                  <ion-card-header>
-                    <div class="park-icon">
-                      @if (getParkImage(park.id)) {
-                        <img [src]="getParkImage(park.id)" [alt]="park.name" class="park-image" />
-                      } @else {
-                        <span class="park-emoji">{{ getParkIcon(park.icon) }}</span>
-                      }
+                  @if (getParkImage(park.id)) {
+                    <img [src]="getParkImage(park.id)" [alt]="park.name" class="card-banner" />
+                  } @else {
+                    <div class="card-banner-placeholder">
+                      <span class="park-emoji">{{ getParkIcon(park.icon) }}</span>
                     </div>
+                  }
+                  <ion-card-header>
                     <ion-card-title>{{ park.shortName || park.name }}</ion-card-title>
+                    <ion-card-subtitle>{{ park.items.length }} attractions</ion-card-subtitle>
                   </ion-card-header>
                   <ion-card-content>
-                    <p class="item-count">{{ park.items.length }} attractions</p>
                     @if (hasCardForPark(park.id)) {
-                      <ion-button fill="clear" size="small" color="success">
+                      <ion-button expand="block" fill="solid" color="success" size="small">
+                        <ion-icon name="play" slot="start"></ion-icon>
                         Continue Game
                       </ion-button>
                     } @else {
-                      <ion-button fill="clear" size="small">
-                        <ion-icon name="play-circle" slot="start"></ion-icon>
+                      <ion-button expand="block" fill="outline" color="primary" size="small">
+                        <ion-icon name="add-circle" slot="start"></ion-icon>
                         New Game
                       </ion-button>
                     }
@@ -172,7 +175,8 @@ import { playCircle, settings, helpCircle, cloudOffline } from 'ionicons/icons';
       .park-card {
         cursor: pointer;
         transition: transform 0.2s, box-shadow 0.2s;
-        text-align: center;
+        overflow: hidden;
+        margin: 8px;
 
         &:hover {
           transform: translateY(-4px);
@@ -184,41 +188,42 @@ import { playCircle, settings, helpCircle, cloudOffline } from 'ionicons/icons';
         }
 
         ion-card-header {
-          padding-bottom: 8px;
+          padding: 12px 16px 8px;
         }
 
         ion-card-title {
-          font-size: 1rem;
+          font-size: 1.1rem;
           font-weight: 600;
+        }
+
+        ion-card-subtitle {
+          font-size: 0.85rem;
+          margin-top: 4px;
+        }
+
+        ion-card-content {
+          padding: 8px 16px 16px;
         }
       }
 
-      .park-icon {
-        width: 80px;
-        height: 80px;
-        margin: 0 auto 8px;
+      .card-banner {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        display: block;
+      }
+
+      .card-banner-placeholder {
+        width: 100%;
+        height: 140px;
         display: flex;
         align-items: center;
         justify-content: center;
-        overflow: hidden;
-        border-radius: 12px;
-      }
-
-      .park-image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 12px;
+        background: var(--ion-color-light);
       }
 
       .park-emoji {
-        font-size: 3rem;
-      }
-
-      .item-count {
-        font-size: 0.85rem;
-        color: var(--ion-color-medium);
-        margin-bottom: 8px;
+        font-size: 4rem;
       }
 
       .footer-toolbar {
@@ -267,7 +272,7 @@ export class HomePage {
   };
 
   constructor() {
-    addIcons({ playCircle, settings, helpCircle, cloudOffline });
+    addIcons({ playCircle, play, addCircle, settings, helpCircle, cloudOffline });
 
     // Auto-show help on first launch
     effect(() => {
