@@ -282,14 +282,14 @@ export class HomePage {
   }
 
   getParkImage(parkId: string): string | null {
-    // Map park IDs to their iconic images
+    // Map park IDs to their iconic attraction images
     const parkImages: Record<string, string> = {
       'mk': '/images/parks/mk/cinderella-castle.jpg',
       'epcot': '/images/parks/epcot/spaceship-earth.jpg',
-      'hs': '/images/parks/hs/tower-terror.jpg',
-      'ak': '/images/parks/ak/tree-of-life.jpg',
-      'dl': '/images/parks/dl/matterhorn.jpg',  // Using Matterhorn as iconic DL image
-      'dca': '/images/parks/dca/pixar-pier.jpg', // Using Pixar Pier as iconic DCA image
+      'hs': '/images/parks/hs/twilight-zone-tower-of-terror.jpg',
+      'ak': '/images/parks/ak/expedition-everest.jpg',
+      'dl': '/images/parks/dl/sleeping-beauty-castle-walkthrough.jpg',
+      'dca': '/images/parks/dca/radiator-springs-racers.jpg',
     };
     return parkImages[parkId] || null;
   }
