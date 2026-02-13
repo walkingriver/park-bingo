@@ -89,7 +89,7 @@ import { playCircle, settings, helpCircle, cloudOffline } from 'ionicons/icons';
         <ion-grid>
           <ion-row>
             @for (park of bingoService.parks(); track park.id) {
-              <ion-col size="6" size-md="4">
+              <ion-col size="12" size-sm="6" size-md="4">
                 <ion-card
                   class="park-card"
                   [class.has-active-card]="hasCardForPark(park.id)"
