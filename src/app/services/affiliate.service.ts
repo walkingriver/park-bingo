@@ -29,10 +29,10 @@ export interface AffiliateConfig {
 export class AffiliateService {
   private http = inject(HttpClient);
 
-  // Remote gist URL - replace with your actual gist raw URL
-  // Format: https://gist.githubusercontent.com/{user}/{gist_id}/raw/affiliate-products.json
+  // Remote gist URL for affiliate products config
+  // Edit at: https://gist.github.com/walkingriver/c2afc9315f3c4456daaa4133b53d1230
   private readonly REMOTE_CONFIG_URL =
-    'https://gist.githubusercontent.com/walkingriver/REPLACE_WITH_GIST_ID/raw/affiliate-products.json';
+    'https://gist.githubusercontent.com/walkingriver/c2afc9315f3c4456daaa4133b53d1230/raw/affiliate-products.json';
 
   // Timeout for remote fetch (5 seconds)
   private readonly FETCH_TIMEOUT_MS = 5000;
