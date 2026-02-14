@@ -38,13 +38,42 @@ These are the items that require your action or decision:
 
 ### 3. Amazon Affiliate Product Images (Optional)
 The current affiliate products work but show placeholder icons instead of real images.
-To add real images, you need to manually copy image URLs from Amazon product pages.
+To add real images, you need to add `imageUrl` to each product.
+
+**Affiliate Products Configuration (Remote Gist):**
+The app fetches product config from a GitHub Gist that can be edited without redeploying:
+
+| Item | URL |
+|------|-----|
+| **View/Edit Gist** | https://gist.github.com/walkingriver/c2afc9315f3c4456daaa4133b53d1230 |
+| **Raw JSON URL** | https://gist.githubusercontent.com/walkingriver/c2afc9315f3c4456daaa4133b53d1230/raw/affiliate-products.json |
+
+**To update products:**
+1. Go to the gist URL above
+2. Click "Edit" button
+3. Modify the JSON (add products, change `imageUrl`, toggle `enabled`, etc.)
+4. Click "Update public gist"
+5. Changes are live immediately - no app redeploy needed!
+
+**To disable all ads:** Set `"enabled": false` in the gist.
 
 **How to get image URLs:**
+
+*Option 1: Use the scraper tool (recommended)*
+```bash
+cd tools
+npm install
+npx playwright install chromium
+npm run scrape-images
+```
+This will output JSON with `imageUrl` added to each product. Copy the URLs to the gist.
+See `tools/README.md` for more options.
+
+*Option 2: Manual*
 1. Go to the Amazon product page
 2. Right-click the main product image
 3. Select "Copy image address"
-4. Add `imageUrl` to the product in `public/data/affiliate-products.json`
+4. Add `imageUrl` to the product in the gist
 
 Example:
 ```json
@@ -54,6 +83,9 @@ Example:
   "imageUrl": "https://m.media-amazon.com/images/I/ACTUAL_IMAGE_ID.jpg"
 }
 ```
+
+**Note:** A local copy of the config also exists at `public/data/affiliate-products.json` 
+for reference, but the app uses the remote gist.
 
 ### 4. Testing
 | Task | Status |

@@ -1,0 +1,15 @@
+{
+  "name": "park-bingo-tools",
+  "version": "1.0.0",
+  "description": "Development tools for Park Pursuit Bingo",
+  "private": true,
+  "scripts": {
+    "scrape-images": "node scrape-amazon-images.js",
+    "scrape-images:save": "node scrape-amazon-images.js --output ./data/affiliate-products-with-images.json",
+    "scrape-images:urls-only": "node scrape-amazon-images.js --skip-download",
+    "scrape-from-asins": "node scrape-amazon-images.js --asins ./asins.txt --output ../public/data/affiliate-products.json"
+  },
+  "dependencies": {
+    "playwright": "^1.41.0"
+  }
+}

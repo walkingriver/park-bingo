@@ -5,88 +5,1699 @@
   "bannerRotationSeconds": 60,
   "products": [
     {
-      "asin": "1628091533",
-      "name": "The Unofficial Guide to Walt Disney World 2025",
-      "description": "The #1 best-selling guide with touring plans and insider tips",
+      "asin": "B0GHY4NGR6",
+      "name": "WALT DISNEY WORLD TRAVEL & HISTORY GUIDE (Full-Color): New Edition – Master t...",
+      "description": "WALT DISNEY WORLDTravel & History Guide 2026-2027",
       "category": "book",
-      "parks": ["mk", "epcot", "hs", "ak"]
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GHY4NGR6.jpg"
     },
     {
-      "asin": "173426523X",
-      "name": "Hidden Mickeys: A Field Guide",
-      "description": "Find every Hidden Mickey in Walt Disney World",
+      "asin": "1507212569",
+      "name": "The Hidden Magic of Walt Disney World, 3rd Edition: Over 600 Secrets of the M...",
+      "description": "The latest edition to the successful Hidden Magic series features updated information on the latest attractions at Walt ",
       "category": "book",
-      "parks": ["mk", "epcot", "hs", "ak"]
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1507212569.jpg"
     },
     {
-      "asin": "B0C5G92S2L",
-      "name": "Simple Modern Disney Mickey 32oz Water Bottle",
-      "description": "Vacuum insulated stainless steel keeps drinks cold all day",
-      "category": "accessory",
-      "parks": ["mk", "epcot", "hs", "ak", "dl", "dca"]
-    },
-    {
-      "asin": "B0BNJYH4BM",
-      "name": "Simple Modern Mickey Summit Water Bottle",
-      "description": "Leak-proof straw lid, perfect for park days",
-      "category": "accessory",
-      "parks": ["mk", "epcot", "hs", "ak", "dl", "dca"]
-    },
-    {
-      "asin": "B0DZSY6T4K",
-      "name": "BreezeBoost Portable Misting Fan",
-      "description": "USB rechargeable cooling fan for hot Florida days",
-      "category": "accessory",
-      "parks": ["mk", "epcot", "hs", "ak"]
-    },
-    {
-      "asin": "B0DYSQ3K6G",
-      "name": "TENDWARE Handheld Misting Fan",
-      "description": "180° foldable, USB rechargeable personal cooling",
-      "category": "accessory",
-      "parks": ["mk", "epcot", "hs", "ak"]
-    },
-    {
-      "asin": "B0CCHPYBFC",
-      "name": "Reusable Rain Poncho 2-Pack",
-      "description": "Perfect for Florida afternoon storms, reusable",
-      "category": "accessory",
-      "parks": ["mk", "epcot", "hs", "ak"]
-    },
-    {
-      "asin": "B07MTSHG46",
-      "name": "Disposable Rain Ponchos Bulk Pack",
-      "description": "Emergency ponchos for the whole family",
-      "category": "accessory",
-      "parks": ["mk", "epcot", "hs", "ak"]
-    },
-    {
-      "asin": "B0BH5CNQH1",
-      "name": "Disney Mickey Mouse Insulated Bottle",
-      "description": "32oz vacuum insulated, keeps drinks cold 24 hours",
-      "category": "accessory",
-      "parks": ["mk", "epcot", "hs", "ak", "dl", "dca"]
-    },
-    {
-      "asin": "B0DT4VJGVY",
-      "name": "Portable Handheld Misting Fan",
-      "description": "4-speed mister with transparent water tank",
-      "category": "accessory",
-      "parks": ["mk", "epcot", "hs", "ak", "dl", "dca"]
-    },
-    {
-      "asin": "B0C2SG41BX",
-      "name": "Magical Meanderings: Magic Kingdom Scavenger Hunt",
-      "description": "150+ photo clues to discover hidden details at Magic Kingdom",
+      "asin": "1368104983",
+      "name": "Birnbaum's 2025'2026 Walt Disney World: The Official Vacation Guide (Birnbaum...",
+      "description": "This one and only official guidebook to the Walt Disney World resort in Florida offers insider advice and reviews, coupo",
       "category": "book",
-      "parks": ["mk"]
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1368104983.jpg"
+    },
+    {
+      "asin": "1368104967",
+      "name": "Birnbaum's 2025'2026 Disneyland Resort: The Official Vacation Guide (Birnbaum...",
+      "description": "This one and only official guidebook to the Disneyland Resort in Anaheim, California, offers insider advice and reviews,",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1368104967.jpg"
+    },
+    {
+      "asin": "B0FX97NT45",
+      "name": "DISNEYLAND PARIS TRAVEL GUIDE 2025/2026: Tips, Itineraries, and Hidden Gems f...",
+      "description": "Get ready for an unforgettable trip to Disneyland Paris with this easy-to-follow guide! Written by Daniel Carter, a trav",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0FX97NT45.jpg"
+    },
+    {
+      "asin": "1368104991",
+      "name": "Birnbaum's 2025'2026 Walt Disney World for Kids: The Official Guide (Birnbaum...",
+      "description": "A fully updated, carefully researched, and brightly illustrated guidebook for children who are eager to help plan their ",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1368104991.jpg"
+    },
+    {
+      "asin": "B0G58PTTK3",
+      "name": "Walt Disney World Orlando Travel Guide 2026: The Theme Park & Resort Guide to...",
+      "description": "Are you planning a Walt Disney World vacation in 2026 and worried you’ll waste time, money, and energy trying to figure ",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0G58PTTK3.jpg"
+    },
+    {
+      "asin": "B0FWWSXFFQ",
+      "name": "Walt Disney World Vacation Guide 2026: Your Essential Companion to Parks, Hot...",
+      "description": "Dreaming of a Disney vacation in 2026? Whether it’s your very first visit or a return to the magic, this guide is design",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0FWWSXFFQ.jpg"
+    },
+    {
+      "asin": "B0GGRQXRSB",
+      "name": "WALT DISNEY WORLD VACATION GUIDE 2026: Explore Magic Kingdom, EPCOT, Hollywoo...",
+      "description": "What if you could plan the smoothest, most organized, most unforgettable Disney vacation without stress, confusion, or w",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GGRQXRSB.jpg"
+    },
+    {
+      "asin": "1630477761",
+      "name": "The Great Disneyland Scavenger Hunt: A Detailed Path throughout the Disneylan...",
+      "description": "See the enchantment of the Disneyland resort in a whole new way with \"The Great Disneyland Scavenger Hunt.\" From Main St",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1630477761.jpg"
+    },
+    {
+      "asin": "B0GGXG44F3",
+      "name": "WALT DISNEY WORLD TRAVEL GUIDE 2026 (World Careful Explorer Essential Series ...",
+      "description": "Plan Smarter. Beat the Crowds. Experience Walt Disney World Like a Pro.",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GGXG44F3.jpg"
+    },
+    {
+      "asin": "B0GGSXNCYP",
+      "name": "Florida Theme Parks 2026 - Disney World, Universal Orlando & SeaWorld Secrets...",
+      "description": "Imagine stepping into Disney World, Universal Orlando, and SeaWorld—and suddenly you’re not just another visitor. You’re",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GGSXNCYP.jpg"
+    },
+    {
+      "asin": "B0GD23TG9C",
+      "name": "ORLANDO COMPREHENSIVE TRAVEL GUIDE 2026",
+      "description": "What if your next getaway took you to a city where world-class theme parks, vibrant entertainment, and surprising local ",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GD23TG9C.jpg"
+    },
+    {
+      "asin": "1600379346",
+      "name": "Destination Disneyland Resort with Disabilities: A Guidebook and Planner for ...",
+      "description": "Destination Disneyland Resort with Disabilities is a guidebook which will assist people with disabilities to enjoy their",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1600379346.jpg"
+    },
+    {
+      "asin": "3836563487",
+      "name": "Walt Disney’s Disneyland",
+      "description": "Walt Disney dreamed for decades about opening the ultimate entertainment venue, but it wasn’t until the early 1950s that",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/3836563487.jpg"
+    },
+    {
+      "asin": "1628091703",
+      "name": "The Unofficial Guide to Walt Disney World 2026",
+      "description": "Save time and money with in-depth reviews, ratings, and details from",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1628091703.jpg"
+    },
+    {
+      "asin": "B0GHJMBG2K",
+      "name": "ORLANDO UNIVERSAL STUDIOS TRAVEL GUIDE 2026: The Complete Insider Handbook to...",
+      "description": "ORLANDO UNIVERSAL STUDIOS TRAVEL GUIDE 2026Experience Universal Orlando the Smart, Stress-Free Way",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GHJMBG2K.jpg"
+    },
+    {
+      "asin": "B0D5RJZYXN",
+      "name": "Disney Fun & Interesting Facts: The Unofficial Illustration Book to Wow You",
+      "description": "Unlock the Magic with Mind-Blowing Facts!",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0D5RJZYXN.jpg"
+    },
+    {
+      "asin": "B0DV4NSMGC",
+      "name": "Walt Disney's Trains: A Grand Circle Tour Through His Life and Legacy",
+      "description": "Walt Disney was a man of many passions; art, storytelling, family, and entrepreneurship. But not many people knew about ",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0DV4NSMGC.jpg"
+    },
+    {
+      "asin": "3985610533",
+      "name": "Awesome Facts for Disney Fans – The Unofficial Collection: The Encyclopedia o...",
+      "description": "Prepare To Be Enchanted, Disney Fan!",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/3985610533.jpg"
+    },
+    {
+      "asin": "B0GF241VBX",
+      "name": "UNIVERSAL STUDIOS ORLANDO TRAVEL GUIDE 2026–2027: Theme Parks, Rides, Volcano...",
+      "description": "🎢✨",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GF241VBX.jpg"
+    },
+    {
+      "asin": "B0FS112YZX",
+      "name": "Walt Disney World 2026: The Stress-Free Planning Guide for Families: Maximize...",
+      "description": "Walt Disney World 2026: The Stress-Free Planning Guide for Families",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0FS112YZX.jpg"
+    },
+    {
+      "asin": "B0GBY5C76K",
+      "name": "DISNEYLAND PARIS TRAVEL GUIDE 2026: Fairy-Tale Lands, Enchanted Attractions, ...",
+      "description": "This full-color travel guide offers an engaging and informative introduction to Disneyland Paris, helping visitors of al",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GBY5C76K.jpg"
+    },
+    {
+      "asin": "3436018910",
+      "name": "Florida Theme Parks 2026 - Disney World, Universal Orlando & SeaWorld Secrets...",
+      "description": "Imagine stepping into Disney World, Universal Orlando, and SeaWorld—and suddenly you’re not just another visitor. You’re",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/3436018910.jpg"
+    },
+    {
+      "asin": "B0GHHS9BSG",
+      "name": "UNIVERSAL EPIC UNIVERSE ORLANDO TRAVEL GUIDE 2026–2027: Theme Parks, Rides, M...",
+      "description": "UNIVERSAL EPIC UNIVERSE ORLANDO TRAVEL GUIDE 2026–2027by Wanderson Tourson",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GHHS9BSG.jpg"
+    },
+    {
+      "asin": "B0G392PBNM",
+      "name": "Epic Universe Orlando Travel Guide 2026: A Thematic Tour To Celestial Park, T...",
+      "description": "Epic Universe Orlando Travel Guide 2026",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0G392PBNM.jpg"
+    },
+    {
+      "asin": "B0GHP1KGLY",
+      "name": "WALT DISNEY WORLD TRAVEL GUIDE 2026: Insider Handbook to Magic Kingdom, EPCOT...",
+      "description": "Plan Smarter. Beat the Crowds. Experience Walt Disney World Like a Pro.",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GHP1KGLY.jpg"
+    },
+    {
+      "asin": "B0G49CGTKR",
+      "name": "BUDGET TRAVEL TO ORLANDO 2026-2027: Discover Orlando’s Best Attractions Theme...",
+      "description": "Budget Travel to Orlando 2026–2027",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0G49CGTKR.jpg"
+    },
+    {
+      "asin": "B0CQSR79TP",
+      "name": "DISCOVER ORLANDO, FLORIDA: YOUR ULTIMATE TRAVEL & VACATION GUIDE",
+      "description": "When you think about a holiday in Orlando, Florida, you probably immediately think about the theme parks.",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0CQSR79TP.jpg"
+    },
+    {
+      "asin": "B0GL8HB3LN",
+      "name": "Universal Studios Hollywood 2026: The Complete Guide to Timed Entry Tips, Rid...",
+      "description": "Step into Universal Studios Hollywood like you’ve lived next door your whole life. This",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GL8HB3LN.jpg"
+    },
+    {
+      "asin": "1835444210",
+      "name": "Disney Princess: Explore the Castles Activity Book: With Over 500 Stickers",
+      "description": "Embark on a magical journey through the enchanting worlds of your favorite Disney Princesses with the",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1835444210.jpg"
+    },
+    {
+      "asin": "B0GHK7WX73",
+      "name": "ORLANDO UNIVERSAL STUDIOS TRAVEL GUIDE 2026: The Complete Insider Handbook to...",
+      "description": "ORLANDO UNIVERSAL STUDIOS TRAVEL GUIDE 2026Experience Universal Orlando the Smart, Stress-Free Way",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GHK7WX73.jpg"
+    },
+    {
+      "asin": "B0FPXTNJF9",
+      "name": "Universal Orlando Resort Travel Guide: Your Essential Companion to Universal ...",
+      "description": "What’s the first thing that comes to mind when you think of Universal Orlando Resort?",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0FPXTNJF9.jpg"
+    },
+    {
+      "asin": "B0F9LDMB7W",
+      "name": "Disney Cruise Line Travel Guide 2025: The Complete Travel Companion for Your ...",
+      "description": "Unlock the Magic of Disney Cruise Line with the Most Comprehensive Guide to 2025 Voyages",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0F9LDMB7W.jpg"
+    },
+    {
+      "asin": "B0DNWCBZ5N",
+      "name": "Introvert's Disneyland Travel for Crowd Haters: How to Avoid Crowds While Tra...",
+      "description": "This Disneyland Travel book is your guide to experiencing the enchantment of the park without the stress of overwhelming",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0DNWCBZ5N.jpg"
+    },
+    {
+      "asin": "3836595133",
+      "name": "Walt Disney’s Disneyland",
+      "description": "Walt Disney",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/3836595133.jpg"
+    },
+    {
+      "asin": "1628090146",
+      "name": "Universal versus Disney: The Unofficial Guide to American Theme Parks' Greate...",
+      "description": "Universal Studios never really wanted to get into the theme park business. They wanted to be the anti-Disney. But when f",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1628090146.jpg"
+    },
+    {
+      "asin": "B0GD76SLHK",
+      "name": "Disney World Resort 2026: A Complete Guide to Magic Kingdom, EPCOT, Hollywood...",
+      "description": "Plan Smarter. Move Faster. Experience More at Walt Disney World.",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GD76SLHK.jpg"
+    },
+    {
+      "asin": "1628091681",
+      "name": "The Unofficial Guide to Universal Orlando 2026",
+      "description": "Save time and money with in-depth reviews, ratings, and details from",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1628091681.jpg"
+    },
+    {
+      "asin": "B0B8RC4KTT",
+      "name": "The Happiest Trivia on Earth: Fun Trivia Questions on All Your Favorite Disne...",
+      "description": "Are you a Disney Fan? Disney Master? Official Disnerd?",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0B8RC4KTT.jpg"
+    },
+    {
+      "asin": "B0DGMCKH4P",
+      "name": "Tokyo Disneyland Travel Guide: “The Insider’s Guide to Japan’s Disney Resort”...",
+      "description": "Ready to explore the magic of Tokyo Disneyland? This essential guide is your perfect companion for a magical trip! Wheth",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0DGMCKH4P.jpg"
+    },
+    {
+      "asin": "B0GC56D1DD",
+      "name": "WALT DISNEY WORLD TRAVEL GUIDE 2026-2027 (Full-Color): Complete Walt Disney W...",
+      "description": "Walt Disney World is a place where magic comes alive—the laughter of families, the excitement in children's eyes, and th",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GC56D1DD.jpg"
+    },
+    {
+      "asin": "1628091665",
+      "name": "The Unofficial Guide to Disneyland 2026",
+      "description": "Save time and money with in-depth reviews, ratings, and details from",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1628091665.jpg"
+    },
+    {
+      "asin": "B0F9KVFMZ2",
+      "name": "Disney Cruise Line Travel Guide 2025: The Complete Travel Companion for Your ...",
+      "description": "Unlock the Magic of Disney Cruise Line with the Most Comprehensive Guide to 2025 Voyages",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0F9KVFMZ2.jpg"
+    },
+    {
+      "asin": "1628090952",
+      "name": "Disneyland Story: The Unofficial Guide to the Evolution of Walt Disney's Dream",
+      "description": "From the publisher of",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1628090952.jpg"
+    },
+    {
+      "asin": "B0G39NV1K2",
+      "name": "Universal Studios Orlando Travel Guide 2026: Your Tourist Journey To Epic Uni...",
+      "description": "Your Ultimate Universal Studios Orlando Adventure Starts Here!",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0G39NV1K2.jpg"
+    },
+    {
+      "asin": "B0G3BB724Q",
+      "name": "Universal Studios Orlando Travel Guide 2026: Your Tourist Guide To Epic Unive...",
+      "description": "Your Ultimate Universal Studios Orlando Adventure Starts Here!",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0G3BB724Q.jpg"
+    },
+    {
+      "asin": "B0FQBWFVT4",
+      "name": "UNIVERSAL ORLANDO RESORT VACATION GUIDE 2025-2026: Orlando Theme Park Travel ...",
+      "description": "✨",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0FQBWFVT4.jpg"
+    },
+    {
+      "asin": "1738435229",
+      "name": "The Independent Guide to Disneyland Paris 2025",
+      "description": "Prepare for your trip to Disneyland Paris with our fully updated guide for 2025.",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1738435229.jpg"
+    },
+    {
+      "asin": "B0F6DCTFC2",
+      "name": "Orlando and Disney World Travel Guide 2025: The Ultimate Trip Book to Theme P...",
+      "description": "Imagine the Florida sun warming your skin, your children wide-eyed with amazement, and your heart full of excitement—bec",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0F6DCTFC2.jpg"
+    },
+    {
+      "asin": "B0F9YCM55Q",
+      "name": "Disneyland Paris Guide: Your Ultimate Roadmap to Magic, Adventure, and Unforg...",
+      "description": "Disneyland Paris 2025: The Complete Insider’s Guide",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0F9YCM55Q.jpg"
+    },
+    {
+      "asin": "1476689393",
+      "name": "Forgotten Disney: Essays on the Lesser-Known Productions",
+      "description": "This work demonstrates that not everything that Disney touched turned to gold. In its first 100 years, the company had m",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1476689393.jpg"
+    },
+    {
+      "asin": "B0G395R9JQ",
+      "name": "Epic Universe Orlando Travel Guide 2026: A Thematic Tour To Celestial Park, T...",
+      "description": "Epic Universe Orlando Travel Guide 2026",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0G395R9JQ.jpg"
+    },
+    {
+      "asin": "1628091649",
+      "name": "The Unofficial Guide to Disney Cruise Line 2026",
+      "description": "Save time and money with in-depth reviews, ratings, and details from",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1628091649.jpg"
+    },
+    {
+      "asin": "B0GDSCMKR7",
+      "name": "UNIVERSAL STUDIOS ORLANDO TRAVEL GUIDE 2026–2027: Theme Parks, Rides, Volcano...",
+      "description": "🎢✨",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GDSCMKR7.jpg"
+    },
+    {
+      "asin": "B0DNTRNZQB",
+      "name": "Introvert's Disneyland Travel for Crowd Haters: How to Avoid Crowds While Tra...",
+      "description": "This Disneyland Travel book is your guide to experiencing the enchantment of the park without the stress of overwhelming",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0DNTRNZQB.jpg"
+    },
+    {
+      "asin": "B0FVSVBW5V",
+      "name": "Universal Orlando Travel Guide: Complete family vacation planner with all par...",
+      "description": "The Complete & Up-To-Date Park Guide To Fun!",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0FVSVBW5V.jpg"
+    },
+    {
+      "asin": "B0FLVRFRR1",
+      "name": "Universal Studios Hollywood Travel Guide 2026: Your Ultimate Adventure Throug...",
+      "description": "If you're planning a trip to Universal Studios Hollywood, this guidebook is all you need to make the most of every momen",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0FLVRFRR1.jpg"
+    },
+    {
+      "asin": "B0FHG63NG3",
+      "name": "Universal Orlando Resort Travel Guide 2025-2026 (Full Colour): Insider Tips, ...",
+      "description": "Ready to turn your dream Universal Orlando vacation into a reality—without the stress, crowds, or confusion",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0FHG63NG3.jpg"
+    },
+    {
+      "asin": "B0FLCH12MW",
+      "name": "Universal Studios Hollywood Travel Guide 2026: Your Ultimate Adventure Throug...",
+      "description": "If you're planning a trip to Universal Studios Hollywood, this guidebook is all you need to make the most of every momen",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0FLCH12MW.jpg"
+    },
+    {
+      "asin": "B0F5F82BKJ",
+      "name": "Disneyland Paris for Explorers: A Complete Travel Companion",
+      "description": "You don’t just visit Disneyland Paris—you experience it. But will you be fully prepared when that moment comes?",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0F5F82BKJ.jpg"
+    },
+    {
+      "asin": "1640978496",
+      "name": "Fodor's Los Angeles: with Disneyland & Orange County (Full-color Travel Guide)",
+      "description": "Whether you want to",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1640978496.jpg"
+    },
+    {
+      "asin": "B0C975ZQ7W",
+      "name": "Forgotten Disney: Essays on the Lesser-Known Productions",
+      "description": "This work demonstrates that not everything that Disney touched turned to gold. In its first 100 years, the company had m",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0C975ZQ7W.jpg"
+    },
+    {
+      "asin": "1476686254",
+      "name": "From Hollywood to Disneyland: Walt Disney's Dream Park and the Influence of A...",
+      "description": "From its beginnings, Disneyland was destined to be something entirely different from the standard mid-century amusement ",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1476686254.jpg"
+    },
+    {
+      "asin": "B0GF2CCR75",
+      "name": "UNIVERSAL STUDIOS ORLANDO TRAVEL GUIDE 2026–2027: Theme Parks, Rides, Volcano...",
+      "description": "🎢✨",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GF2CCR75.jpg"
+    },
+    {
+      "asin": "B0DRG7CDMP",
+      "name": "Disneyland Paris Guide: The Ultimate Guide to Disneyland Paris: Must-See Attr...",
+      "description": "The Ultimate Guide to Disneyland Paris: Must-See Attractions and Insider Tips for 2025",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0DRG7CDMP.jpg"
+    },
+    {
+      "asin": "B0GHJXGPC9",
+      "name": "UNIVERSAL EPIC UNIVERSE ORLANDO TRAVEL GUIDE 2026–2027: Theme Parks, Rides, M...",
+      "description": "UNIVERSAL EPIC UNIVERSE ORLANDO TRAVEL GUIDE 2026–2027by Wanderson Tourson",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GHJXGPC9.jpg"
+    },
+    {
+      "asin": "B0FXWF3BWQ",
+      "name": "Florida Bucket List: Your Complete Travel Guide to 125+ Essential Stops – Mia...",
+      "description": "WHAT IF YOUR NEXT FLORIDA TRIP COULD UNLOCK A STATE FULL OF SUNSHINE, SECRETS, AND UNFORGETTABLE ADVENTURES — AND ALL YO",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0FXWF3BWQ.jpg"
+    },
+    {
+      "asin": "B0F69B4CJ4",
+      "name": "Orlando and Disney World Travel Guide 2025: The Ultimate Trip Book to Theme P...",
+      "description": "Imagine the Florida sun warming your skin, your children wide-eyed with amazement, and your heart full of excitement—bec",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0F69B4CJ4.jpg"
+    },
+    {
+      "asin": "B0GHKPHH1V",
+      "name": "UNIVERSAL EPIC UNIVERSE ORLANDO TRAVEL GUIDE 2026–2027: Theme Parks, Rides, M...",
+      "description": "UNIVERSAL EPIC UNIVERSE ORLANDO TRAVEL GUIDE 2026–2027by Wanderson Tourson",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GHKPHH1V.jpg"
+    },
+    {
+      "asin": "B0F5HW1X73",
+      "name": "Disneyland Paris for Explorers: A Complete Travel Companion",
+      "description": "You don’t just visit Disneyland Paris—you experience it. But will you be fully prepared when that moment comes?",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0F5HW1X73.jpg"
+    },
+    {
+      "asin": "B0F53MQCMG",
+      "name": "UNIVERSAL ORLANDO TRAVEL GUIDE 2025: Explore Like an Insider: Theme Parks, At...",
+      "description": "Discover the Real Magic of Universal Orlando",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0F53MQCMG.jpg"
+    },
+    {
+      "asin": "B0CW1GTKRN",
+      "name": "DISNEYLAND PARIS TRAVEL GUIDE 2025/2026: Tips, Itineraries, and Hidden Gems f...",
+      "description": "Get ready for an unforgettable trip to Disneyland Paris with this easy-to-follow guide! Written by Daniel Carter, a trav",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0CW1GTKRN.jpg"
+    },
+    {
+      "asin": "B0G35LFR9G",
+      "name": "Universal Orlando Travel Guide 2026: Explore Orlando's Theme Parks Like a Loc...",
+      "description": "Discover Universal Orlando Like Never Before",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0G35LFR9G.jpg"
+    },
+    {
+      "asin": "B0FPLSPK2L",
+      "name": "Universal Orlando Travel Guide 2026: Complete Guide to Universal Studios, Isl...",
+      "description": "Universal Orlando Guide 2026. Written with clarity and detail, this book helps you plan every stage of your trip with co",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0FPLSPK2L.jpg"
+    },
+    {
+      "asin": "B0GHRCFMJ6",
+      "name": "Disneyland Travel Guide 2026: A Modern Touring Blueprint for Families, Couple...",
+      "description": "Step into Disneyland Resort in 2026 with a plan that keeps the magic high and the stress low.",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0GHRCFMJ6.jpg"
+    },
+    {
+      "asin": "1426374704",
+      "name": "Weird But True! Disney: 300 Wonderful Facts to Celebrate the Magic of Disney",
+      "description": "Combine the beloved, super-powered Disney brand with Nat Geo Kids’ most popular book series Weird But True! and you have",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1426374704.jpg"
+    },
+    {
+      "asin": "1507223951",
+      "name": "I Love Disney's Magic Kingdom: 100+ Surprising Facts, Magical Quizzes, Fan-Fa...",
+      "description": "Celebrate your love of the Magic Kingdom with a must-have handbook that features everything from its stunning history to",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1507223951.jpg"
     },
     {
       "asin": "B0DH8HMDC8",
-      "name": "Wildlife Wanderings: Animal Kingdom Scavenger Hunt",
-      "description": "Photographic scavenger hunt through Disney's Animal Kingdom",
+      "name": "Wildlife Wanderings: A Photographic Scavenger Hunt and Guide through Disney's...",
+      "description": "Embark on a Wild Adventure at Disney's Animal Kingdom!",
       "category": "book",
-      "parks": ["ak"]
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0DH8HMDC8.jpg"
+    },
+    {
+      "asin": "136806194X",
+      "name": "The Story of Disney: 100 Years of Wonder",
+      "description": "The ultimate coffee table book for every Disney fan’s collection! Dive into the enchanting world of Disney and relive th",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/136806194X.jpg"
+    },
+    {
+      "asin": "1484727789",
+      "name": "Hidden Mickeys of Walt Disney World, The",
+      "description": "Great for your Disney park visit",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1484727789.jpg"
+    },
+    {
+      "asin": "1797227483",
+      "name": "Disney Parks Mazes",
+      "description": "A unique interactive celebration of the colorful fun of the Disney Parks experience for fans and families, and for anyon",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1797227483.jpg"
+    },
+    {
+      "asin": "1787418375",
+      "name": "The Disney Book of Maps: A Guide to the Magical Worlds of Disney and Pixar",
+      "description": "Dive into your favourite Disney worlds with this beautiful atlas of 25 official maps.",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1787418375.jpg"
+    },
+    {
+      "asin": "136809483X",
+      "name": "Birnbaum's 2025 Walt Disney World for Kids: The Official Guide (Birnbaum Guides)",
+      "description": "Middle grade readers who what to help plan their family’s next vacation to the Walt Disney World Resort need this fully ",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/136809483X.jpg"
+    },
+    {
+      "asin": "1368052843",
+      "name": "A Portrait of Walt Disney World: 50 Years of The Most Magical Place on Earth ...",
+      "description": "This must-have coffee table book paints a robust portrait of the Walt Disney World Resort through more than 100 vibrant ",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1368052843.jpg"
+    },
+    {
+      "asin": "1668069210",
+      "name": "Disney Adults: Exploring (And Falling In Love With) A Magical Subculture",
+      "description": "INSTANT",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1668069210.jpg"
+    },
+    {
+      "asin": "1440587809",
+      "name": "The Hidden Magic of Walt Disney World: Over 600 Secrets of the Magic Kingdom,...",
+      "description": "Discover the secrets and magic of Walt Disney World. This book will be your guide to Disney’s hidden treasures—including",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1440587809.jpg"
+    },
+    {
+      "asin": "1368094813",
+      "name": "Birnbaum's 2025 Walt Disney World: The Official Vacation Guide (Birnbaum Guides)",
+      "description": "For everyone planning their next vacation to the Walt Disney World Resort in Florida—this is the only",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1368094813.jpg"
+    },
+    {
+      "asin": "1837717524",
+      "name": "Disneyland Parks Sticker and Activity Book: with Over 500 Stickers",
+      "description": "Step into the Magic of Disneyland Resort with the Disneyland Parks Sticker and Activity Book!",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1837717524.jpg"
+    },
+    {
+      "asin": "1797233610",
+      "name": "Disney One Wish a Day: A Three-Year Memory Book",
+      "description": "The bestselling",
+      "category": "accessory",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1797233610.jpg"
+    },
+    {
+      "asin": "1368057829",
+      "name": "Disney Who's Who (Revised & Updated): An A to Z of Disney Characters",
+      "description": "Get to know Disney's characters, from the famous to the obscure, in this comprehensive guidebook!",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1368057829.jpg"
+    },
+    {
+      "asin": "1467156183",
+      "name": "Hidden History of Walt Disney World",
+      "description": "Author Foxx Nolte gives readers a glimpse behind the curtain of the most magical place on earth. Millions of people a ye",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1467156183.jpg"
+    },
+    {
+      "asin": "1648220304",
+      "name": "The Great Walt Disney World Scavenger Hunt Second Edition: A Detailed Path Th...",
+      "description": "See the Walt Disney World resort in a whole new way! Whether you are walking down Main Street at Magic Kingdom, going on",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1648220304.jpg"
+    },
+    {
+      "asin": "1507221959",
+      "name": "Walt Disney World Hacks, 2nd Edition: 350+ Park Secrets for Making the Most o...",
+      "description": "Hack your next Disney vacation to make the most magical place on earth the absolute",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1507221959.jpg"
+    },
+    {
+      "asin": "1507224974",
+      "name": "I Love EPCOT: 100+ Magical Facts, Quizzes, Fan-Favorite Trivia, and More abou...",
+      "description": "Celebrate your love of EPCOT with this must-have handbook that features everything from its stunning history to its icon",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1507224974.jpg"
+    },
+    {
+      "asin": "150373935X",
+      "name": "Disney - Where's Mickey Mouse - A Look and Find Book Activity Book - PI Kids",
+      "description": "Join Mickey and friends on a series of incredible adventures as they travel through space and time, across the globe, an",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/150373935X.jpg"
+    },
+    {
+      "asin": "B0C7P859H2",
+      "name": "Disneyland: Pop-Up Park Tour (Reinhart Pop-Up Studio)",
+      "description": "Visit The Happiest Place on Earth with this stunningly detailed pop-up book of the Disneyland Resort.",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0C7P859H2.jpg"
+    },
+    {
+      "asin": "136809029X",
+      "name": "The Official Disney Parks Cookbook: 101 Magical Recipes from the Delicious Di...",
+      "description": "The official cookbook from the Disney parks, collecting 101 of the most special recipes from the Delicious Disney recipe",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/136809029X.jpg"
+    },
+    {
+      "asin": "1368052150",
+      "name": "Walt's Disneyland: A Walk in the Park with Walt Disney",
+      "description": "A immersive guide to the attractions and landmarks Walt helped create in his original Magic Kingdom!",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1368052150.jpg"
+    },
+    {
+      "asin": "B0C1J1Y8BZ",
+      "name": "Photo and Autograph Book: My Vacation Adventure. Collect Signatures and Pictu...",
+      "description": "Save cherished autographs and photographs from your vacation in one timeless book!",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0C1J1Y8BZ.jpg"
+    },
+    {
+      "asin": "1734265256",
+      "name": "Walt Disney World's Hidden Mickeys and Hidden Surprises: A Field Guide to Wal...",
+      "description": "Hidden Mickeys are partial or complete images of Mickey Mouse (or other Disney Characters) that are cleverly concealed b",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1734265256.jpg"
+    },
+    {
+      "asin": "1426326734",
+      "name": "Walt Disney (National Geographic Kids Readers, Level 3)",
+      "description": "Fans of Disneyland, Disney World, and all things Disney are sure to enjoy learning all about the fascinating founder, Wa",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1426326734.jpg"
+    },
+    {
+      "asin": "1524896756",
+      "name": "Disney Dreams by Thomas Kinkade Studios 17-Month 2025-2026 Family Wall Calendar",
+      "description": "Schedule the whole family's daring deeds and celebrations with this fun and functional 17-month calendar featuring image",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1524896756.jpg"
+    },
+    {
+      "asin": "045153400X",
+      "name": "Mickey Mouse Mad Libs: World's Greatest Word Game",
+      "description": "Mad Libs is the world’s greatest word game and the perfect gift or activity for anyone who likes to laugh! Write in the ",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/045153400X.jpg"
+    },
+    {
+      "asin": "1484715470",
+      "name": "Maps of the Disney Parks: Charting 60 Years from California to Shanghai (Disn...",
+      "description": "This deluxe Disney atlas is bursting with gorgeous park maps from around the work and across the six decades!",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1484715470.jpg"
+    },
+    {
+      "asin": "B0D9ZJ12BK",
+      "name": "The Magical World of Disney Trivia Games – Board Games for Family Night, Mult...",
+      "description": "The Ultimate Trivia Experience: The Magical World of Disney Trivia is perfect for superfans to casual viewers with 1,...",
+      "category": "toy",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0D9ZJ12BK.jpg"
+    },
+    {
+      "asin": "1452122296",
+      "name": "The Art of Disney: The Golden Age (1937-1961)",
+      "description": "This box of postcards collects a treasure trove of concept art—many pieces never before published— and final frames from",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1452122296.jpg"
+    },
+    {
+      "asin": "1507220944",
+      "name": "The Unofficial Disney Parks Cookbooks Boxed Set: The Unofficial Disney Parks ...",
+      "description": "Enjoy all the magic of Disney cooking in one complete set containing",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1507220944.jpg"
+    },
+    {
+      "asin": "B0D2B5KQ56",
+      "name": "Castle Autograph Book for Girls: Small Scrapbook for Kids. Save Signatures an...",
+      "description": "Save cherished autographs and photographs in one beautiful book!",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B0D2B5KQ56.jpg"
+    },
+    {
+      "asin": "1368083706",
+      "name": "Art of Coloring: Disney 100 Years of Wonder: 100 Images to Inspire Creativity",
+      "description": "The Walt Disney Company honors its 100th anniversary in 2023",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1368083706.jpg"
+    },
+    {
+      "asin": "1440568944",
+      "name": "The Hidden Magic of Walt Disney World Trivia: A Ride-by-Ride Exploration of t...",
+      "description": "Test your knowledge of Disney's little-known facts and history!",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/1440568944.jpg"
+    },
+    {
+      "asin": "B088NPM3R1",
+      "name": "Disney Mickey Mouse Do the Impossible Framed Wood Wall Decor",
+      "description": "Disney licensed product: Let the Mouse inspire you with this wall décor! Featuring Mickey himself, this adorable sign...",
+      "category": "accessory",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/B088NPM3R1.jpg"
+    },
+    {
+      "asin": "3985610657",
+      "name": "Awesome Facts for Disney Fans: The Unofficial Advent Calendar: A Wonderful Co...",
+      "description": "The Advent Calendar for the Whole Family",
+      "category": "book",
+      "parks": [
+        "mk",
+        "epcot",
+        "hs",
+        "ak",
+        "dl",
+        "dca"
+      ],
+      "imageUrl": "/images/products/3985610657.jpg"
     }
   ]
 }
