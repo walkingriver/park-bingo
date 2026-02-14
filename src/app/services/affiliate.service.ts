@@ -1,7 +1,7 @@
 import { Injectable, inject, signal, computed } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Browser } from '@capacitor/browser';
-import { catchError, of, tap } from 'rxjs';
+import { catchError, of, tap, timeout } from 'rxjs';
 
 export interface AffiliateProduct {
   asin: string;
@@ -29,9 +29,15 @@ export interface AffiliateConfig {
 export class AffiliateService {
   private http = inject(HttpClient);
 
-  private readonly CONFIG_URL = 'data/affiliate-products.json';
+  // Remote gist URL - replace with your actual gist raw URL
+  // Format: https://gist.githubusercontent.com/{user}/{gist_id}/raw/affiliate-products.json
+  private readonly REMOTE_CONFIG_URL =
+    'https://gist.githubusercontent.com/walkingriver/REPLACE_WITH_GIST_ID/raw/affiliate-products.json';
 
-  // Default config if JSON fails to load or is empty
+  // Timeout for remote fetch (5 seconds)
+  private readonly FETCH_TIMEOUT_MS = 5000;
+
+  // Default config - ads disabled (used when remote fetch fails or offline)
   private readonly DEFAULT_CONFIG: AffiliateConfig = {
     associatesTag: '',
     enabled: false,
@@ -41,8 +47,10 @@ export class AffiliateService {
   };
 
   private configSignal = signal<AffiliateConfig>(this.DEFAULT_CONFIG);
+  private loadingSignal = signal<boolean>(true);
 
   readonly config = this.configSignal.asReadonly();
+  readonly isLoading = this.loadingSignal.asReadonly();
   readonly isEnabled = computed(() => {
     const cfg = this.config();
     return cfg.enabled && cfg.associatesTag && cfg.associatesTag !== 'REPLACE_WITH_YOUR_TAG';
@@ -55,11 +63,19 @@ export class AffiliateService {
   }
 
   private loadConfig() {
+    // Check if we're offline first
+    if (!navigator.onLine) {
+      console.log('Offline - affiliate ads disabled');
+      this.loadingSignal.set(false);
+      return;
+    }
+
     this.http
-      .get<AffiliateConfig>(this.CONFIG_URL)
+      .get<AffiliateConfig>(this.REMOTE_CONFIG_URL)
       .pipe(
+        timeout(this.FETCH_TIMEOUT_MS),
         tap((config) => {
-          console.log('Affiliate config loaded:', config);
+          console.log('Affiliate config loaded from remote:', config);
           // Validate and enrich products
           if (config && config.products) {
             config.products = config.products
@@ -67,10 +83,13 @@ export class AffiliateService {
               .map((p) => this.enrichProduct(p, config.associatesTag));
           }
           this.configSignal.set(config);
+          this.loadingSignal.set(false);
           console.log('Affiliate enabled:', this.isEnabled(), 'showBanner:', this.showBanner());
         }),
         catchError((error) => {
-          console.warn('Failed to load affiliate config:', error);
+          // If remote fetch fails for any reason, just disable ads silently
+          console.log('Remote affiliate config unavailable - ads disabled:', error.message || error);
+          this.loadingSignal.set(false);
           return of(this.DEFAULT_CONFIG);
         })
       )

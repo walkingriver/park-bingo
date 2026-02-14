@@ -34,6 +34,10 @@
   border: 2px solid transparent;
   min-height: 0;
   container-type: size;
+  touch-action: manipulation; // Prevent zoom/scroll during interactions
+  user-select: none; // Prevent text selection on long press
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; // Prevent iOS callout
 
   &:active {
     transform: scale(0.95);

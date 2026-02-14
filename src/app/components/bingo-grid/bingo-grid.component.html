@@ -7,7 +7,11 @@
         [class.skipped]="square.status === 'skipped'"
         [class.in-progress]="square.status === 'in-progress'"
         (click)="onSquareClick(rowIdx, colIdx)"
-        (press)="onSquarePress(square)"
+        (pointerdown)="onPointerDown($event, square)"
+        (pointerup)="onPointerUp()"
+        (pointermove)="onPointerMove($event)"
+        (pointercancel)="onPointerCancel()"
+        (pointerleave)="onPointerCancel()"
       >
         @if (square.parkItem.imageUrl) {
           <div class="image-wrapper">
