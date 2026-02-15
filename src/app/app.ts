@@ -3,13 +3,15 @@ import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
 import { StatusBar, Style } from '@capacitor/status-bar';
 import { SplashScreen } from '@capacitor/splash-screen';
 import { Capacitor } from '@capacitor/core';
+import { RotateDeviceComponent } from './components/rotate-device/rotate-device.component';
 
 @Component({
   selector: 'app-root',
-  imports: [IonApp, IonRouterOutlet],
+  imports: [IonApp, IonRouterOutlet, RotateDeviceComponent],
   template: `
     <ion-app>
       <ion-router-outlet></ion-router-outlet>
+      <app-rotate-device />
     </ion-app>
   `,
 })
