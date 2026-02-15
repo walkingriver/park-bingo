@@ -192,12 +192,16 @@ export class VictoryPage implements OnInit {
 ✅ ${completed}/25 squares completed
 📋 Game Code: ${gameCode}
 
-Download Park Pursuit Bingo to play your own game! #ParkPursuitBingo #Disney`;
+Download Park Pursuit Bingo to play your own game!
+https://park-bingo.pages.dev
+
+#ParkPursuitBingo #Disney`;
 
     try {
       await Share.share({
         title: 'My Park Pursuit Bingo Victory!',
         text,
+        url: 'https://park-bingo.pages.dev',
         dialogTitle: 'Share your Park Pursuit Bingo victory',
       });
     } catch (error) {

@@ -260,12 +260,13 @@ export class PlayPage {
     const bingos = card.bingos;
     const completed = this.completedCount();
 
-    const text = `🎯 Park Pursuit Bingo at ${parkName}!\n\n🏆 ${bingos} BINGOs achieved\n✅ ${completed}/25 squares completed\n\n📋 Game Code: ${gameCode}\n\nDownload Park Pursuit Bingo to play!`;
+    const text = `🎯 Park Pursuit Bingo at ${parkName}!\n\n🏆 ${bingos} BINGOs achieved\n✅ ${completed}/25 squares completed\n\n📋 Game Code: ${gameCode}\n\nDownload Park Pursuit Bingo to play!\nhttps://park-bingo.pages.dev`;
 
     try {
       await Share.share({
         title: 'My Park Pursuit Bingo Card',
         text,
+        url: 'https://park-bingo.pages.dev',
         dialogTitle: 'Share your Park Pursuit Bingo progress',
       });
     } catch (error) {
