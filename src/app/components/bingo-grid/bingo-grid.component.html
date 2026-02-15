@@ -23,13 +23,15 @@
               sizes="20vw"
               (error)="onImageError($event)"
             />
+            <div class="scrim"></div>
+            <span class="square-name">{{ square.parkItem.name }}</span>
           </div>
         } @else {
           <div class="placeholder-icon">
             {{ getTypeIcon(square.parkItem.type) }}
           </div>
+          <span class="square-name no-image">{{ square.parkItem.name }}</span>
         }
-        <span class="square-name">{{ square.parkItem.name }}</span>
         @if (square.status !== 'unmarked') {
           <div class="status-badge">
             @switch (square.status) {
