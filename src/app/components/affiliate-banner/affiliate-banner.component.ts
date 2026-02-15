@@ -9,7 +9,7 @@ import {
 import { IonIcon } from '@ionic/angular/standalone';
 import { AffiliateService, AffiliateProduct } from '../../services/affiliate.service';
 import { addIcons } from 'ionicons';
-import { cart, closeCircle } from 'ionicons/icons';
+import { cart } from 'ionicons/icons';
 
 @Component({
   selector: 'app-affiliate-banner',
@@ -18,9 +18,6 @@ import { cart, closeCircle } from 'ionicons/icons';
   template: `
     @if (affiliateService.showBanner() && currentProduct()) {
       <div class="affiliate-banner" [class.visible]="isVisible()">
-        <button class="close-btn" (click)="dismiss()" aria-label="Close ad">
-          <ion-icon name="close-circle"></ion-icon>
-        </button>
         <div class="banner-content" (click)="openProduct()">
           <div class="product-image-container">
             @if (currentProduct()?.imageUrl) {
@@ -55,13 +52,16 @@ import { cart, closeCircle } from 'ionicons/icons';
         position: relative;
         background: var(--ion-card-background, #fff);
         border-radius: 12px;
-        padding: 12px;
-        margin: 16px 0;
+        padding: 0;
+        margin: 4px 0 2px 0; /* Minimal margin: 4px top, 2px bottom */
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         opacity: 0;
         transform: translateY(10px);
         transition: opacity 0.3s ease, transform 0.3s ease;
         border: 1px solid var(--ion-color-light);
+        overflow: hidden;
+        /* Constrain banner height to 12% of viewport */
+        max-height: 12vh;
       }
 
       .affiliate-banner.visible {
@@ -69,57 +69,36 @@ import { cart, closeCircle } from 'ionicons/icons';
         transform: translateY(0);
       }
 
-      .close-btn {
-        position: absolute;
-        top: -8px;
-        right: -8px;
-        background: var(--ion-background-color);
-        border: none;
-        border-radius: 50%;
-        width: 24px;
-        height: 24px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        z-index: 1;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-
-        ion-icon {
-          font-size: 20px;
-          color: var(--ion-color-medium);
-        }
-      }
 
       .banner-content {
         display: flex;
-        align-items: center;
-        gap: 12px;
+        align-items: stretch;
         cursor: pointer;
+        height: 12vh;
+        max-height: 12vh;
       }
 
       .product-image-container {
-        width: 60px;
-        height: 60px;
+        width: 20%;
         flex-shrink: 0;
-      }
-
-      .product-image {
-        width: 60px;
-        height: 60px;
-        object-fit: contain;
-        border-radius: 8px;
         background: #f8f9fa;
       }
 
+      .product-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top; /* Anchor to top for book covers */
+        display: block;
+      }
+
       .product-placeholder {
-        width: 60px;
-        height: 60px;
+        width: 100%;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        border-radius: 8px;
         font-size: 1.5rem;
       }
 
@@ -127,37 +106,44 @@ import { cart, closeCircle } from 'ionicons/icons';
         flex: 1;
         display: flex;
         flex-direction: column;
-        gap: 4px;
+        justify-content: center;
+        gap: 2px;
         min-width: 0;
+        padding: 6px 8px 14px 10px; /* Tighter padding, more room for text */
+        overflow: hidden;
       }
 
       .product-name {
         font-weight: 600;
-        font-size: 0.85rem;
+        font-size: 0.8rem;
+        line-height: 1.2;
         color: var(--ion-text-color);
+        /* Allow 2 lines before ellipsis */
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
-        white-space: nowrap;
       }
 
       .product-cta {
         display: flex;
         align-items: center;
         gap: 4px;
-        font-size: 0.75rem;
+        font-size: 0.7rem;
         color: var(--ion-color-warning);
         font-weight: 600;
 
         ion-icon {
-          font-size: 14px;
+          font-size: 12px;
         }
       }
 
       .sponsored-label {
         position: absolute;
-        bottom: 4px;
+        bottom: 2px;
         right: 8px;
-        font-size: 0.6rem;
+        font-size: 0.55rem;
         color: var(--ion-color-medium);
         text-transform: uppercase;
         letter-spacing: 0.5px;
@@ -175,7 +161,7 @@ export class AffiliateBannerComponent implements OnInit, OnDestroy {
   private dismissed = false;
 
   constructor() {
-    addIcons({ cart, closeCircle });
+    addIcons({ cart });
   }
 
   ngOnInit() {
