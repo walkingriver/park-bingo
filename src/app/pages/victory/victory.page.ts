@@ -1,5 +1,5 @@
 import { Component, inject, computed, ChangeDetectionStrategy, OnInit } from '@angular/core';
-import { Router, RouterLink } from '@angular/router';
+import { RouterLink } from '@angular/router';
 import {
   IonHeader,
   IonToolbar,
@@ -7,20 +7,11 @@ import {
   IonContent,
   IonButton,
   IonIcon,
-  IonCard,
-  IonCardHeader,
-  IonCardTitle,
-  IonCardContent,
-  IonGrid,
-  IonRow,
-  IonCol,
-  IonText,
   IonFooter,
 } from '@ionic/angular/standalone';
 import { BingoService } from '../../services/bingo.service';
-import { AffiliateService, AffiliateProduct } from '../../services/affiliate.service';
 import { addIcons } from 'ionicons';
-import { trophy, share, home, arrowForward, cart, star } from 'ionicons/icons';
+import { trophy, share, home, arrowForward } from 'ionicons/icons';
 import confetti from 'canvas-confetti';
 
 @Component({
@@ -34,14 +25,6 @@ import confetti from 'canvas-confetti';
     IonContent,
     IonButton,
     IonIcon,
-    IonCard,
-    IonCardHeader,
-    IonCardTitle,
-    IonCardContent,
-    IonGrid,
-    IonRow,
-    IonCol,
-    IonText,
     IonFooter,
   ],
   template: `
@@ -77,52 +60,6 @@ import confetti from 'canvas-confetti';
         </ion-button>
       </div>
 
-      @if (affiliateService.isEnabled() && recommendedProducts.length > 0) {
-        <div class="affiliate-section">
-          <h2>Enhance Your Next Trip</h2>
-          <p class="affiliate-subtitle">
-            Recommended gear for Disney park adventurers
-          </p>
-
-          <ion-grid>
-            <ion-row>
-              @for (product of recommendedProducts; track product.asin) {
-                <ion-col size="6">
-                  <ion-card class="product-card" button (click)="openProduct(product)">
-                    <div class="product-image-container">
-                      <img
-                        [src]="product.imageUrl"
-                        [alt]="product.name"
-                        class="product-image"
-                        (error)="onImageError($event)"
-                      />
-                    </div>
-                    <ion-card-header>
-                      <ion-card-title class="product-title">
-                        {{ product.name }}
-                      </ion-card-title>
-                    </ion-card-header>
-                    <ion-card-content>
-                      <p class="product-description">{{ product.description }}</p>
-                      <ion-button fill="clear" size="small" color="warning">
-                        <ion-icon name="cart" slot="start"></ion-icon>
-                        View on Amazon
-                      </ion-button>
-                    </ion-card-content>
-                  </ion-card>
-                </ion-col>
-              }
-            </ion-row>
-          </ion-grid>
-
-          <ion-text color="medium" class="affiliate-disclosure">
-            <p>
-              As an Amazon Associate, we earn from qualifying purchases.
-              Thank you for supporting Park Pursuit Bingo!
-            </p>
-          </ion-text>
-        </div>
-      }
     </ion-content>
 
     <ion-footer>
@@ -180,93 +117,11 @@ import confetti from 'canvas-confetti';
         }
       }
 
-      .affiliate-section {
-        padding: 0 16px;
-
-        h2 {
-          font-size: 1.3rem;
-          font-weight: 700;
-          color: var(--ion-text-color);
-          margin-bottom: 4px;
-        }
-
-        .affiliate-subtitle {
-          color: var(--ion-color-medium);
-          font-size: 0.9rem;
-          margin-bottom: 16px;
-        }
-      }
-
-      .product-card {
-        height: 100%;
-
-        .product-image-container {
-          padding: 12px;
-          background: #f8f9fa;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 100px;
-        }
-
-        .product-image {
-          max-width: 80px;
-          max-height: 80px;
-          object-fit: contain;
-        }
-
-        ion-card-header {
-          padding: 8px 12px 4px;
-        }
-
-        .product-title {
-          font-size: 0.8rem;
-          font-weight: 600;
-          line-height: 1.2;
-          display: -webkit-box;
-          -webkit-line-clamp: 2;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-        }
-
-        ion-card-content {
-          padding: 4px 12px 12px;
-        }
-
-        .product-description {
-          font-size: 0.7rem;
-          color: var(--ion-color-medium);
-          margin-bottom: 4px;
-          display: -webkit-box;
-          -webkit-line-clamp: 2;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-        }
-
-        .product-price {
-          font-size: 0.9rem;
-          font-weight: 700;
-          color: var(--ion-color-success);
-          margin-bottom: 4px;
-        }
-      }
-
-      .affiliate-disclosure {
-        display: block;
-        text-align: center;
-        font-size: 0.7rem;
-        padding: 16px;
-        margin-top: 16px;
-      }
     `,
   ],
 })
 export class VictoryPage implements OnInit {
-  private router = inject(Router);
   private bingoService = inject(BingoService);
-  affiliateService = inject(AffiliateService);
-
-  recommendedProducts: AffiliateProduct[] = [];
 
   readonly card = this.bingoService.currentCard;
 
@@ -286,14 +141,10 @@ export class VictoryPage implements OnInit {
   });
 
   constructor() {
-    addIcons({ trophy, share, home, arrowForward, cart, star });
+    addIcons({ trophy, share, home, arrowForward });
   }
 
   ngOnInit() {
-    // Load recommended products based on park
-    const parkId = this.card()?.parkId || '';
-    this.recommendedProducts = this.affiliateService.getProductsForPark(parkId, 4);
-
     // Celebration confetti
     this.launchConfetti();
   }
@@ -354,13 +205,4 @@ Download Park Pursuit Bingo to play your own game! #ParkPursuitBingo #Disney`;
     }
   }
 
-  openProduct(product: AffiliateProduct) {
-    this.affiliateService.openProductLink(product);
-  }
-
-  onImageError(event: Event) {
-    const img = event.target as HTMLImageElement;
-    // Hide broken image
-    img.style.display = 'none';
-  }
 }
