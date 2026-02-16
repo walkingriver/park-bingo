@@ -43,7 +43,6 @@ import {
   trophy,
   helpCircle,
   ellipsisVertical,
-  fingerPrint,
 } from 'ionicons/icons';
 import confetti from 'canvas-confetti';
 import { AffiliateBannerComponent } from '../../components/affiliate-banner/affiliate-banner.component';
@@ -103,11 +102,6 @@ export class PlayPage {
     return card.squares.flat().filter((s) => s.status === 'completed').length;
   });
 
-  readonly gameCode = computed(() => {
-    const seed = this.card()?.seed;
-    return seed ? seed.substring(0, 8).toUpperCase() : '';
-  });
-
   constructor() {
     addIcons({
       home,
@@ -120,7 +114,6 @@ export class PlayPage {
       trophy,
       helpCircle,
       ellipsisVertical,
-      fingerPrint,
     });
 
     // Watch for new bingos
@@ -256,17 +249,15 @@ export class PlayPage {
     if (!card) return;
 
     const parkName = this.parkName();
-    const gameCode = card.seed.substring(0, 8).toUpperCase();
     const bingos = card.bingos;
     const completed = this.completedCount();
 
-    const text = `🎯 Park Pursuit Bingo at ${parkName}!\n\n🏆 ${bingos} BINGOs achieved\n✅ ${completed}/25 squares completed\n\n📋 Game Code: ${gameCode}\n\nDownload Park Pursuit Bingo to play!\nhttps://park-bingo.pages.dev`;
+    const text = `🎯 Park Pursuit Bingo at ${parkName}!\n\n🏆 ${bingos} BINGOs achieved\n✅ ${completed}/25 squares completed\n\nDownload Park Pursuit Bingo to play!\nhttps://park-bingo.pages.dev`;
 
     try {
       await Share.share({
         title: 'My Park Pursuit Bingo Card',
         text,
-        url: 'https://park-bingo.pages.dev',
         dialogTitle: 'Share your Park Pursuit Bingo progress',
       });
     } catch (error) {

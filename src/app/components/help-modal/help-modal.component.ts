@@ -120,7 +120,6 @@ import { closeCircle, checkmarkCircle, close, time, helpCircle } from 'ionicons/
             <h3>Tips</h3>
             <ul>
               <li><strong>Long-press</strong> any square to see attraction details</li>
-              <li>The <strong>game code</strong> lets you recreate the same card</li>
               <li>Works <strong>offline</strong> - no Wi-Fi needed in the park!</li>
               <li><strong>Share</strong> your victories using the share button</li>
             </ul>

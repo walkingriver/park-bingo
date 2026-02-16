@@ -183,14 +183,12 @@ export class VictoryPage implements OnInit {
     if (!card) return;
 
     const parkName = this.parkName();
-    const gameCode = card.seed.substring(0, 8).toUpperCase();
     const bingos = card.bingos;
     const completed = this.completedCount();
 
     const text = `🎯 I got ${bingos} BINGO${bingos > 1 ? 's' : ''} at ${parkName}!
 
 ✅ ${completed}/25 squares completed
-📋 Game Code: ${gameCode}
 
 Download Park Pursuit Bingo to play your own game!
 https://park-bingo.pages.dev
@@ -201,7 +199,6 @@ https://park-bingo.pages.dev
       await Share.share({
         title: 'My Park Pursuit Bingo Victory!',
         text,
-        url: 'https://park-bingo.pages.dev',
         dialogTitle: 'Share your Park Pursuit Bingo victory',
       });
     } catch (error) {
