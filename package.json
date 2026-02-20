@@ -8,7 +8,13 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "fetch-images": "node scripts/fetch-images.js",
-    "deploy": "ng build && wrangler pages deploy dist/park-bingo/browser --project-name=park-bingo --branch=main"
+    "deploy": "ng build && wrangler pages deploy dist/park-bingo/browser --project-name=park-bingo --branch=main",
+    "android:sync": "ng build && npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:build": "ng build && npx cap sync android && cd android && ./gradlew assembleRelease",
+    "android:bundle": "ng build && npx cap sync android && cd android && ./gradlew bundleRelease",
+    "ios:sync": "ng build && npx cap sync ios",
+    "ios:open": "npx cap open ios"
   },
   "prettier": {
     "printWidth": 100,

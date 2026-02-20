@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.walkingriver.parkpursuit.bingo',
+  appId: 'com.walkingriver.parkbingo',
   appName: 'Park Pursuit Bingo',
   webDir: 'dist/park-bingo/browser',
   plugins: {

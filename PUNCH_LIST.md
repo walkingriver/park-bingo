@@ -19,9 +19,9 @@ These are the items that require your action or decision:
 |------|----------|---------------|
 | App Icon source | `resources/icon.png` | 1024x1024 PNG (already exists, verify it's final) |
 | Splash source | `resources/splash.png` | 2732x2732 PNG (already exists, verify it's final) |
-| Favicon | `marketing-site/images/` | 32x32 or 64x64 PNG |
-| Apple touch icon | `marketing-site/images/` | 180x180 PNG |
-| OG social image | `marketing-site/images/` | 1200x630 PNG for social sharing |
+| Favicon | `docs/images/` | 32x32 or 64x64 PNG |
+| Apple touch icon | `docs/images/` | 180x180 PNG |
+| OG social image | `docs/images/` | 1200x630 PNG for social sharing |
 | Store screenshots | Manual | Take screenshots on real devices (see sizes below) |
 | Feature graphic | Play Store | 1024x500 PNG promotional banner |
 
@@ -136,7 +136,7 @@ for reference, but the app uses the remote gist.
 | File | What Was Updated |
 |------|------------------|
 | `public/data/affiliate-products.json` | 12 real ASINs, walkingriver-20 tag |
-| `marketing-site/*.html` | Michael D. Callaghan, emails |
+| `docs/*.html` | Michael D. Callaghan, emails |
 | `store-assets/*.md` | Developer name |
 | `src/app/pages/settings/` | Copyright, email, products link |
 | `src/app/pages/victory/` | RouterLink fix for "Back to Parks" |

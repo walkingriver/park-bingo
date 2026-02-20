@@ -49,3 +49,8 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+
+# Android signing
+android/keystore.properties
+*.keystore
+*.jks
