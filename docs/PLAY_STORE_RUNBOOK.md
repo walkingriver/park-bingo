@@ -195,6 +195,34 @@ grep "versionCode" android/app/build.gradle
 | `docs/privacy.html` | Privacy policy (GitHub Pages) |
 | `docs/terms.html` | Terms of service (GitHub Pages) |
 
+## Generating Store Assets
+
+Screenshots and promotional graphics can be generated automatically using Playwright.
+
+### Prerequisites
+```bash
+npm install -D @playwright/test
+npx playwright install chromium
+```
+
+### Generate Assets
+```bash
+# Start dev server in one terminal
+npm start
+
+# In another terminal, generate assets
+npm run store:assets
+```
+
+This generates in `store-assets/`:
+- `screenshot-01-home.png` - Home page screenshot
+- `screenshot-02-play.png` - Play screen screenshot  
+- `screenshot-03-victory.png` - Victory screen screenshot
+- `feature-graphic.png` - 1024x500 promotional banner
+- `play-store-icon.png` - 512x512 store listing icon
+
+To capture different screens, edit `scripts/generate-store-assets.mjs`.
+
 ## Quick Reference Commands
 
 ```bash
@@ -212,6 +240,9 @@ keytool -list -keystore android/park-pursuit-bingo.keystore
 
 # Verify AAB signature
 jarsigner -verify android/app/build/outputs/bundle/release/app-release.aab
+
+# Generate store screenshots and graphics
+npm run store:assets
 ```
 
 ## Links

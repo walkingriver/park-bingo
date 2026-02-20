@@ -14,7 +14,8 @@
     "android:build": "ng build && npx cap sync android && cd android && ./gradlew assembleRelease",
     "android:bundle": "ng build && npx cap sync android && cd android && ./gradlew bundleRelease",
     "ios:sync": "ng build && npx cap sync ios",
-    "ios:open": "npx cap open ios"
+    "ios:open": "npx cap open ios",
+    "store:assets": "node scripts/generate-store-assets.mjs"
   },
   "prettier": {
     "printWidth": 100,
@@ -69,6 +70,7 @@
     "@angular/compiler-cli": "^21.0.0",
     "@capacitor/assets": "^3.0.5",
     "@capacitor/cli": "latest",
+    "@playwright/test": "^1.58.2",
     "jsdom": "^27.1.0",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8",
