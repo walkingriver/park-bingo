@@ -271,16 +271,23 @@ body {
 }
 
 .park-card {
+  display: block;
+  text-decoration: none;
   background: white;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   transition: transform 0.2s, box-shadow 0.2s;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .park-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+
+.park-card:hover .park-info h3 {
+  color: var(--color-primary);
 }
 
 .park-image {
@@ -288,11 +295,21 @@ body {
   height: 160px;
   object-fit: cover;
   display: block;
+  transition: transform 0.3s;
+}
+
+.park-card:hover .park-image {
+  transform: scale(1.05);
 }
 
 .park-info {
   padding: 16px;
   text-align: center;
+  position: relative;
+}
+
+.park-info h3 {
+  transition: color 0.2s;
 }
 
 .park-card h3 {

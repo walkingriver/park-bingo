@@ -20,7 +20,7 @@ Turn your Disney trip into an adventure! Generate unique BINGO cards for 6 parks
 
 ## Description (4000 characters max)
 
-🎯 PARK BINGO - Your Theme Park Adventure Companion
+🎯 PARK PURSUIT BINGO - Your Theme Park Adventure Companion
 
 Transform your next Disney park visit into an exciting BINGO scavenger hunt! Park Bingo generates unique 5x5 BINGO cards filled with attractions, shows, food, and hidden gems from your favorite Disney parks.
 

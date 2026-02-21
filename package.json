@@ -15,7 +15,8 @@
     "android:bundle": "ng build && npx cap sync android && cd android && ./gradlew bundleRelease",
     "ios:sync": "ng build && npx cap sync ios",
     "ios:open": "npx cap open ios",
-    "store:assets": "node scripts/generate-store-assets.mjs"
+    "store:assets": "node scripts/generate-store-assets.mjs",
+    "store:resize": "cd store-assets && sips -z 1920 1080 screenshot-*.png && sips -z 500 1024 feature-graphic.png && sips -z 512 512 play-store-icon.png"
   },
   "prettier": {
     "printWidth": 100,
@@ -73,7 +74,7 @@
     "@playwright/test": "^1.58.2",
     "jsdom": "^27.1.0",
     "typescript": "~5.9.2",
-    "vitest": "^4.0.8",
+    "vitest": "^4.0.18",
     "wrangler": "^4.65.0"
   }
 }

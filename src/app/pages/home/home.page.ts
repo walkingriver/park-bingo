@@ -1,5 +1,5 @@
-import { Component, inject, ChangeDetectionStrategy, signal, effect } from '@angular/core';
-import { Router, RouterLink } from '@angular/router';
+import { Component, inject, ChangeDetectionStrategy, signal, effect, OnInit } from '@angular/core';
+import { Router, RouterLink, ActivatedRoute } from '@angular/router';
 import {
   IonHeader,
   IonToolbar,
@@ -255,12 +255,16 @@ import { playCircle, play, addCircle, settings, helpCircle, cloudOffline } from 
     `,
   ],
 })
-export class HomePage {
+export class HomePage implements OnInit {
   private router = inject(Router);
+  private route = inject(ActivatedRoute);
   bingoService = inject(BingoService);
   private onboardingService = inject(OnboardingService);
 
   readonly showHelp = signal(false);
+
+  // Valid park IDs for query parameter validation
+  private readonly validParkIds = ['mk', 'epcot', 'hs', 'ak', 'dl', 'dca'];
 
   // Icon mapping from string to emoji
   private readonly iconMap: Record<string, string> = {
@@ -278,6 +282,30 @@ export class HomePage {
     effect(() => {
       if (this.onboardingService.showOnboarding()) {
         this.showHelp.set(true);
+      }
+    });
+  }
+
+  ngOnInit() {
+    // Check for park query parameter to auto-start a game
+    // Usage: https://park-bingo.pages.dev/?park=mk
+    this.route.queryParams.subscribe((params) => {
+      const parkId = params['park'];
+      if (parkId && this.validParkIds.includes(parkId)) {
+        // Wait for parks to load, then auto-select the park
+        const checkParks = () => {
+          if (!this.bingoService.isLoading() && this.bingoService.parks().length > 0) {
+            // Mark onboarding complete to skip modal
+            this.onboardingService.completeOnboarding();
+            // Generate new card and navigate to play
+            this.bingoService.generateCard(parkId);
+            this.router.navigate(['/play'], { replaceUrl: true });
+          } else {
+            // Parks still loading, check again shortly
+            setTimeout(checkParks, 100);
+          }
+        };
+        checkParks();
       }
     });
   }
