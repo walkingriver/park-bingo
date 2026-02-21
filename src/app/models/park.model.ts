@@ -19,6 +19,7 @@ export interface ParkItem {
   bestTime?: string;
   imageUrl?: string;
   categories: string[];
+  isActive?: boolean;
 }
 
 export interface BingoCard {

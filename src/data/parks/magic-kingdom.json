@@ -196,7 +196,8 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/events/holiday/attraction/jingle-cruise-16x9.jpg?2022-10-17T18:49:58+00:00"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/events/holiday/attraction/jingle-cruise-16x9.jpg?2022-10-17T18:49:58+00:00",
+    "isActive": false
   },
   {
     "id": "jungle-cruise",

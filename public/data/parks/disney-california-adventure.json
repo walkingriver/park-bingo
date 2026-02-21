@@ -227,7 +227,8 @@
       "loud",
       "family"
     ],
-    "imageUrl": "/images/parks/dca/luigis-joy-whirl.jpg"
+    "imageUrl": "/images/parks/dca/luigis-joy-whirl.jpg",
+    "isActive": false
   },
   {
     "id": "luigis-rollickin-roadsters",
@@ -252,7 +253,8 @@
       "family",
       "kids"
     ],
-    "imageUrl": "/images/parks/dca/maters-jingle-jamboree.jpg"
+    "imageUrl": "/images/parks/dca/maters-jingle-jamboree.jpg",
+    "isActive": false
   },
   {
     "id": "maters-junkyard-jamboree",
@@ -493,7 +495,8 @@
       "loud",
       "indoor"
     ],
-    "imageUrl": "/images/parks/dca/soarin-over-california.jpg"
+    "imageUrl": "/images/parks/dca/soarin-over-california.jpg",
+    "isActive": false
   },
   {
     "id": "sorcerers-workshop",
@@ -592,7 +595,8 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "/images/parks/dca/world-of-color-season-of-light.jpg"
+    "imageUrl": "/images/parks/dca/world-of-color-season-of-light.jpg",
+    "isActive": false
   },
   {
     "id": "world-of-color-happiness",

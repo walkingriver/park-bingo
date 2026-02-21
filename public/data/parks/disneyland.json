@@ -320,7 +320,8 @@
       "scary",
       "indoor"
     ],
-    "imageUrl": "/images/parks/dl/hyperspace-mountain.jpg"
+    "imageUrl": "/images/parks/dl/hyperspace-mountain.jpg",
+    "isActive": false
   },
   {
     "id": "indiana-jones-adventure",
@@ -486,7 +487,8 @@
     "type": "show",
     "description": "Projected images of Mickey Mouse and Minnie Mouse on Crystal Arcade with fireworks in the background",
     "categories": [],
-    "imageUrl": "/images/parks/dl/mickeys-mix-magic-with-fireworks.jpg"
+    "imageUrl": "/images/parks/dl/mickeys-mix-magic-with-fireworks.jpg",
+    "isActive": false
   },
   {
     "id": "millennium-falcon-smugglers-run",

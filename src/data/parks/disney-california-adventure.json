@@ -227,7 +227,8 @@
       "loud",
       "family"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disney-california-adventure/luigis-joy-whirl/radiator-spring-street-16x9.jpg?1767856439223"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disney-california-adventure/luigis-joy-whirl/radiator-spring-street-16x9.jpg?1767856439223",
+    "isActive": false
   },
   {
     "id": "luigis-rollickin-roadsters",
@@ -252,7 +253,8 @@
       "family",
       "kids"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/events/festival-of-holidays/entertainment/mater-tow-father-son-16x9-16x9.jpg?2024-08-29T15:22:56+00:00"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disneyland/events/festival-of-holidays/entertainment/mater-tow-father-son-16x9-16x9.jpg?2024-08-29T15:22:56+00:00",
+    "isActive": false
   },
   {
     "id": "maters-junkyard-jamboree",
@@ -493,7 +495,8 @@
       "loud",
       "indoor"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disney-california-adventure/soarin/soarin-over-california-00.jpg?1770390033552"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disney-california-adventure/soarin/soarin-over-california-00.jpg?1770390033552",
+    "isActive": false
   },
   {
     "id": "sorcerers-workshop",
@@ -592,7 +595,8 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/entertainment/disney-california-adventure/world-of-color-season-of-light/holidays-8-hr-duratex-16x9.jpg?1756992222059"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/entertainment/disney-california-adventure/world-of-color-season-of-light/holidays-8-hr-duratex-16x9.jpg?1756992222059",
+    "isActive": false
   },
   {
     "id": "world-of-color-happiness",

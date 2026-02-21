@@ -320,7 +320,8 @@
       "scary",
       "indoor"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/hyperspace-mountain/hyperspace-mountain-02.jpg?1747061489094"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/wdpro-assets/dlr/parks-and-tickets/attractions/disneyland/hyperspace-mountain/hyperspace-mountain-02.jpg?1747061489094",
+    "isActive": false
   },
   {
     "id": "indiana-jones-adventure",
@@ -486,7 +487,8 @@
     "type": "show",
     "description": "Projected images of Mickey Mouse and Minnie Mouse on Crystal Arcade with fireworks in the background",
     "categories": [],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/entertainment/disneyland/mickeys-mix-magic/mix-magic-mainstreet-16x9.jpg?1747401171355"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/dam/disneyland/entertainment/disneyland/mickeys-mix-magic/mix-magic-mainstreet-16x9.jpg?1747401171355",
+    "isActive": false
   },
   {
     "id": "millennium-falcon-smugglers-run",

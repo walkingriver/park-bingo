@@ -314,7 +314,8 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "/images/parks/epcot/glimmering-greenhouses.jpg"
+    "imageUrl": "/images/parks/epcot/glimmering-greenhouses.jpg",
+    "isActive": false
   },
   {
     "id": "luminous-the-symphony-us",

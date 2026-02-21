@@ -314,7 +314,8 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/events/festival-of-the-holidays/entertainment/1201ZO_2865AFN-16x9.jpg?2023-09-15T21:41:45+00:00"
+    "imageUrl": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/400/300/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/events/festival-of-the-holidays/entertainment/1201ZO_2865AFN-16x9.jpg?2023-09-15T21:41:45+00:00",
+    "isActive": false
   },
   {
     "id": "luminous-the-symphony-us",

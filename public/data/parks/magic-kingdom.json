@@ -196,7 +196,8 @@
       "kids",
       "classic"
     ],
-    "imageUrl": "/images/parks/mk/jingle-cruise.jpg"
+    "imageUrl": "/images/parks/mk/jingle-cruise.jpg",
+    "isActive": false
   },
   {
     "id": "jungle-cruise",

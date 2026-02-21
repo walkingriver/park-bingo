@@ -230,8 +230,11 @@ export class ParksDataService {
   }
 
   private mapParkMetadataToFull(metadata: ParkMetadata, items: ParkItem[]): Park {
+    // Filter out inactive items (seasonal variants)
+    const activeItems = items.filter(item => item.isActive !== false);
+    
     // Log items without images
-    const missingImages = items.filter(item => !item.imageUrl);
+    const missingImages = activeItems.filter(item => !item.imageUrl);
     if (missingImages.length > 0) {
       console.log(`📷 ${metadata.name}: ${missingImages.length} attractions without images:`);
       missingImages.forEach(item => console.log(`  - ${item.id}: ${item.name}`));
@@ -244,7 +247,7 @@ export class ParksDataService {
       description: metadata.description,
       freeSpace: metadata.freeSpace,
       icon: metadata.icon,
-      items: items,
+      items: activeItems,
     };
   }
 
